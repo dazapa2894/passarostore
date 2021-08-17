@@ -3,12 +3,6 @@
     "image_banner": {
       "type": "image-banner",
       "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Test"
-          }
-        },
         "button": {
           "type": "buttons",
           "settings": {
@@ -19,7 +13,6 @@
         }
       },
       "block_order": [
-        "heading",
         "button"
       ],
       "settings": {

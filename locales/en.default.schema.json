@@ -675,6 +675,9 @@
           "options__5": {
             "label": "Inverse"
           },
+          "options__6": {
+            "label": "No Background"
+          },
           "label": "Color scheme"
         },
         "stack_images_on_mobile": {

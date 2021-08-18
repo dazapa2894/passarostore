@@ -188,7 +188,7 @@
   }
   .banner__box > .banner__buttons:only-child .button--primary {
     background-color: #ffbccb;
-    border-color: #ffbccb;
+    box-shadow: none;
   }
 }
 

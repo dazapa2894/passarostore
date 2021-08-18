@@ -184,11 +184,11 @@
 
   .banner__box > .banner__buttons:only-child .button {
     margin-top: 0;
-    padding: 0px 20px;
     border-radius: 20px 0px;
   }
   .banner__box > .banner__buttons:only-child .button--primary {
     background-color: #ffbccb;
+    border-color: #ffbccb;
   }
 }
 

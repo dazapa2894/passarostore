@@ -691,6 +691,10 @@
         "enable_sticky_header": {
           "label": "Activar encabezado fijo",
           "info": "El encabezado se muestra en la pantalla mientras los clientes se desplazan hacia arriba."
+        },
+        "enable_header_search": {
+          "label": "Activar buscador del encabezado",
+          "info": "Se muestra el icono de buscar en el encabezado."
         }
       }
     },

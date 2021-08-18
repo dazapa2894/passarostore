@@ -6,7 +6,7 @@
   height: 800px;
 }
 .mas-arribita{
-bottom: -20px;
+  bottom: -20px;
 }
 {% endstylesheet %}
 
@@ -32,7 +32,7 @@ bottom: -20px;
         {% endif %}
       </div>
 
-      {% if mas_arribita != true %}
+      {% if mas_arribita == false %}
         {% assign mas_arribita = true %}
       {%else%}
         {% assign mas_arribita = false %}

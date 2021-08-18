@@ -17,7 +17,7 @@
   font-weight: 400;
 }
 @font-face {
-  font-family: "montserrat";
+  font-family: "montserrat-italic";
   src: url("montserrat-v18-latin-italic.woff") format("woff");
   font-weight: 400;
   font-style: italic;
@@ -28,7 +28,7 @@
   font-weight: 600;
 }
 @font-face {
-  font-family: "montserrat-600";
+  font-family: "montserrat-600-italic";
   src: url("montserrat-v18-latin-600italic") format("woff");
   font-weight: 600;
 }
@@ -39,7 +39,7 @@
   font-style: italic;
 }
 @font-face {
-  font-family: "montserrat-800";
+  font-family: "montserrat-800-italic";
   src: url("montserrat-v18-latin-800italic") format("woff");
   font-weight: 800;
 }

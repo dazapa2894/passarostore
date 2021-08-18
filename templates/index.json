@@ -6,12 +6,6 @@
         "desktop_text_box_position": "flex-end"
       },
       "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand"
-          }
-        },
         "button": {
           "type": "buttons",
           "settings": {
@@ -22,7 +16,6 @@
         }
       },
       "block_order": [
-        "heading",
         "button"
       ]
     },

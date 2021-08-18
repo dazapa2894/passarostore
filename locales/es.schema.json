@@ -698,6 +698,9 @@
           "options__5": {
             "label": "Invertir"
           },
+          "options__6": {
+            "label": "Sin fondo"
+          },
           "label": "Esquema de colores"
         },
         "stack_images_on_mobile": {

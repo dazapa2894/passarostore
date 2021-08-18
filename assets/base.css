@@ -2,33 +2,33 @@
 
 @font-face {
   font-family: "vanitas";
-  src: url("vanitas-regular-webfont.woff") format("woff");
+  src: url('{{ "vanitas-regular-webfont.woff" | asset_url }}') format("woff");
   font-weight: 400;
 }
 @font-face {
   font-family: "vanitas";
-  src: url("vanitas-bold-webfont.woff") format("woff");
+  src: url('{{ "vanitas-bold-webfont.woff" | asset_url }}') format("woff");
   font-weight: 600;
 }
 
 @font-face {
   font-family: "montserrat";
-  src: url("montserrat-v18-latin-regular.woff") format("woff");
+  src: url('{{ "montserrat-v18-latin-regular.woff" | asset_url }}') format("woff");
   font-weight: 400;
 }
 @font-face {
   font-family: "montserrat-bold";
-  src: url("montserrat-v18-latin-600.woff") format("woff");
+  src: url('{{ "montserrat-v18-latin-600.woff" | asset_url }}') format("woff");
   font-weight: 600;
 }
 @font-face {
   font-family: "montserrat-bolder";
-  src: url("montserrat-v18-latin-800.woff") format("woff");
+  src: url('{{ "montserrat-v18-latin-800.woff" | asset_url }}') format("woff");
   font-weight: 800;
 }
 @font-face {
   font-family: "montserrat-italic";
-  src: url("montserrat-v18-latin-italic.woff") format("woff");
+  src: url('{{ "montserrat-v18-latin-italic.woff" | asset_url }}') format("woff");
   font-weight: 400;
   font-style: italic;
 }

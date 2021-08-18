@@ -5,6 +5,9 @@
 .swiper-container {
   height: 800px;
 }
+.mas-arribita{
+top: -20px;
+}
 {% endstylesheet %}
 
 
@@ -16,13 +19,13 @@
   <div class="swiper-wrapper">
 
     <!-- Slides -->
+    {% assign mas_arribita = false %}
     {% for collection in collections %}
       <!-- collection info -->
-      <div class="swiper-slide">
+      <div class="swiper-slide {% if mas_arribita %}mas-arribita{% endif %}" >
         
         <a {% if collection.all_products_count > 0 %} href="{{ collection.url }}"{% endif %}  class=""> {{ collection.title }} </a>
         
-
         {% if collection.image %}
           {{ collection.image | img_url: '450x450' | img_tag: collection.image.alt }}
         {% else %}
@@ -34,7 +37,12 @@
       
       </div>
 
-
+      {{mas_arribita}}
+      {% if mas_arribita %}
+        {% assign mas_arribita = false %}
+      {%else%}
+        {% assign mas_arribita = false %}
+      {% endif %}
     {% endfor %}
     
 

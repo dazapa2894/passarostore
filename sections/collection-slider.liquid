@@ -1,1 +1,14 @@
 {{ 'section-collection.slider.css' | asset_url | stylesheet_tag }}
+
+{% for collection in collections %}
+  <!-- collection info -->
+
+  <!-- collection image fallback -->
+  {% if collection.image %}
+    {{ collection.image | img_url: '450x450' | img_tag: collection.image.alt }}
+  {% else %}
+    {% assign alt = collection.title | escape %}
+    {{ collection.products.first.image | img_url: '450x450' | img_tag: alt }}
+  {% endif %}
+
+{% endfor %}

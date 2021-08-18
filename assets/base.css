@@ -35,6 +35,40 @@
 
 
 :root,
+
+.color-dark-blue{
+  --color-foreground: var(--color-base-text);
+  --color-background: var(--color-dark-blue);
+}
+.color-pink{
+  --color-foreground: var(--color-base-text);
+  --color-background: var(--color-pink);
+}
+.color-pink-light{
+  --color-foreground: var(--color-base-text);
+  --color-background: var(--color-pink-light);
+}
+.color-pink-dark{
+  --color-foreground: var(--color-base-text);
+  --color-background: var(--color-pink-dark);
+}
+.color-gray{
+  --color-foreground: var(--color-base-text);
+  --color-background: var(--color-gray);
+}
+.color-gray-light{
+  --color-foreground: var(--color-base-text);
+  --color-background: var(--color-gray-light);
+}
+.color-ocean-green{
+  --color-foreground: var(--color-base-text);
+  --color-background: var(--color-ocean-green);
+}
+.color-white{
+  --color-foreground: var(--color-base-text);
+  --color-background: var(--color-white);
+}
+
 .color-background-1 {
   --color-foreground: var(--color-base-text);
   --color-background: var(--color-base-background-1);

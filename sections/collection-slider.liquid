@@ -25,10 +25,10 @@ bottom: -20px;
       <!-- collection info -->
       <div class="swiper-slide {% if mas_arribita %}mas-arribita{% endif %}" >
         {% if collection.image %}
-          {{ collection.image | img_url: '650x650' | img_tag: collection.image.alt }}
+          {{ collection.image | img_url: '500x500' | img_tag: collection.image.alt }}
         {% else %}
           {% assign alt = collection.title | escape %}
-          {{ collection.products.first.image | img_url: '650x650' | img_tag: alt }}
+          {{ collection.products.first.image | img_url: '500x500' | img_tag: alt }}
         {% endif %}
       </div>
 

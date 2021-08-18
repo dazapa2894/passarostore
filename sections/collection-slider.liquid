@@ -24,7 +24,7 @@ top: -20px;
       <!-- collection info -->
       <div class="swiper-slide {% if mas_arribita %}mas-arribita{% endif %}" >
         
-        <a {% if collection.all_products_count > 0 %} href="{{ collection.url }}"{% endif %}  class=""> {{ collection.title }} </a>
+        
         
         {% if collection.image %}
           {{ collection.image | img_url: '450x450' | img_tag: collection.image.alt }}

@@ -2,34 +2,34 @@
 
 @font-face {
   font-family: "vanitas";
-  src: url("assets/fonts/vanitas-woff/vanitas-regular-webfont.woff") format("woff");
+  src: url("vanitas-regular-webfont.woff") format("woff");
   font-weight: 400;
 }
 @font-face {
   font-family: "vanitas";
-  src: url("assets/fonts/vanitas-woff/vanitas-bold-webfont.woff") format("woff");
+  src: url("vanitas-bold-webfont.woff") format("woff");
   font-weight: 600;
 }
 
 @font-face {
   font-family: "montserrat";
-  src: url("assets/fonts/montserrat-woff/montserrat-v18-latin-regular.woff") format("woff");
+  src: url("montserrat-v18-latin-regular.woff") format("woff");
   font-weight: 400;
 }
 @font-face {
   font-family: "montserrat";
-  src: url("assets/fonts/montserrat-woff/montserrat-v18-latin-600.woff") format("woff");
+  src: url("montserrat-v18-latin-600.woff") format("woff");
   font-weight: 600;
 }
 @font-face {
   font-family: "montserrat";
-  src: url("assets/fonts/montserrat-woff/montserrat-v18-latin-italic.woff") format("woff");
+  src: url("montserrat-v18-latin-italic.woff") format("woff");
   font-weight: 400;
   font-style: italic;
 }
 @font-face {
   font-family: "montserrat";
-  src: url("assets/fonts/montserrat-woff/montserrat-v18-latin-600italic") format("woff");
+  src: url("montserrat-v18-latin-600italic") format("woff");
   font-weight: 600;
 }
 

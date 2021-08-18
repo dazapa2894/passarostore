@@ -41,6 +41,62 @@
         "label": "t:settings_schema.colors.settings.transparent.label"
       },
       {
+        "type": "color",
+        "id": "dark_blue",
+        "default": "#001840",
+        "label": "t:settings_schema.colors.settings.dark_blue.label",
+        "info": "t:settings_schema.colors.settings.dark_blue.info"
+      },
+      {
+        "type": "color",
+        "id": "pink",
+        "default": "#fbaebf",
+        "label": "t:settings_schema.colors.settings.pink.label",
+        "info": "t:settings_schema.colors.settings.pink.info"
+      },
+      {
+        "type": "color",
+        "id": "pink_light",
+        "default": "#ffbccb",
+        "label": "t:settings_schema.colors.settings.pink_light.label",
+        "info": "t:settings_schema.colors.settings.pink_light.info"
+      },
+      {
+        "type": "color",
+        "id": "pink_dark",
+        "default": "#ff849f",
+        "label": "t:settings_schema.colors.settings.pink_dark.label",
+        "info": "t:settings_schema.colors.settings.pink_dark.info"
+      },
+      {
+        "type": "color",
+        "id": "gray",
+        "default": "#8b8d8d",
+        "label": "t:settings_schema.colors.settings.gray.label",
+        "info": "t:settings_schema.colors.settings.gray.info"
+      },
+      {
+        "type": "color",
+        "id": "gray_light",
+        "default": "#dbdbdb",
+        "label": "t:settings_schema.colors.settings.gray_light.label",
+        "info": "t:settings_schema.colors.settings.gray_light.info"
+      },
+      {
+        "type": "color",
+        "id": "ocean_green",
+        "default": "#54cabf",
+        "label": "t:settings_schema.colors.settings.ocean_green.label",
+        "info": "t:settings_schema.colors.settings.ocean_green.info"
+      },
+      {
+        "type": "color",
+        "id": "white",
+        "default": "#ffffff",
+        "label": "t:settings_schema.colors.settings.white.label",
+        "info": "t:settings_schema.colors.settings.white.info"
+      },
+      {
         "type": "header",
         "content": "t:settings_schema.colors.settings.header__2.content"
       },

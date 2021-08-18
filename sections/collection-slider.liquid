@@ -8,6 +8,12 @@
 .mas-arribita{
   bottom: -20px;
 }
+.swiper-slide{
+  position: relative;
+}
+.swiper-slide img{
+  position: absolute;
+}
 {% endstylesheet %}
 
 
@@ -24,12 +30,18 @@
 
       <!-- collection info -->
       <div class="swiper-slide {% if mas_arribita %}mas-arribita{% endif %}" >
+
+        <div class="title-container">
+          {{collection.title}}
+        </div>
+
         {% if collection.image %}
           {{ collection.image | img_url: '600x600' | img_tag: collection.image.alt }}
         {% else %}
           {% assign alt = collection.title | escape %}
           {{ collection.products.first.image | img_url: '600x600' | img_tag: alt }}
         {% endif %}
+
       </div>
 
       {% if mas_arribita == false %}

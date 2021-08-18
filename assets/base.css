@@ -14,19 +14,22 @@
 @font-face {
   font-family: "Montserrat";
   src:  url("montserrat-v18-latin-regular.woff") format("woff"),
-        url('montserrat-v18-latin-regular.woff2') format('woff2');
+        url('montserrat-v18-latin-regular.woff2') format('woff2'),
+        url('montserrat-v18-latin-regular.ttf') format('truetype');
   font-weight: 400;
 }
 @font-face {
   font-family: "Montserrat";
   src:  url("montserrat-v18-latin-600.woff") format("woff"),
-        url("montserrat-v18-latin-600.woff2") format("woff2");
+        url("montserrat-v18-latin-600.woff2") format("woff2"),
+        url("montserrat-v18-latin-600.ttf") format("truetype");
   font-weight: 600;
 }
 @font-face {
   font-family: "Montserrat";
   src:  url("montserrat-v18-latin-italic.woff") format("woff"),
-        url("montserrat-v18-latin-italic.woff2") format("woff2");
+        url("montserrat-v18-latin-italic.woff2") format("woff2"),
+        url("montserrat-v18-latin-italic.ttf") format("truetype");
   font-weight: 400;
   font-style: italic;
 }

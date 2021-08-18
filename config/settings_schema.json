@@ -24,7 +24,7 @@
       {
         "type": "color",
         "id": "colors_accent_1",
-        "default": "#ffbccb",
+        "default": "#445958",
         "label": "t:settings_schema.colors.settings.colors_accent_1.label",
         "info": "t:settings_schema.colors.settings.colors_accent_1.info"
       },
@@ -36,21 +36,9 @@
       },
       {
         "type": "color",
-        "id": "colors_transparent",
-        "default": "#ffffff00",
-        "label": "t:settings_schema.colors.settings.colors_transparent.label"
-      },
-      {
-        "type": "color",
-        "id": "button_pink",
-        "default": "#ffbccb",
-        "label": "t:settings_schema.colors.settings.button_pink.label"
-      },
-      {
-        "type": "color",
-        "id": "button_dark_green",
-        "default": "#08262c",
-        "label": "t:settings_schema.colors.settings.button_dark_green.label"
+        "id": "transparent",
+        "default": "#ffffff",
+        "label": "t:settings_schema.colors.settings.transparent.label"
       },
       {
         "type": "header",
@@ -66,7 +54,7 @@
       {
         "type": "color",
         "id": "colors_outline_button_labels",
-        "default": "#ffbccb",
+        "default": "#445958",
         "label": "t:settings_schema.colors.settings.colors_outline_button_labels.label",
         "info": "t:settings_schema.colors.settings.colors_outline_button_labels.info"
       },
@@ -94,7 +82,7 @@
       {
         "type": "font_picker",
         "id": "type_header_font",
-        "default": "vanitas",
+        "default": "sans-serif",
         "label": "t:settings_schema.typography.settings.type_header_font.label",
         "info": "t:settings_schema.typography.settings.type_header_font.info"
       },
@@ -105,7 +93,7 @@
       {
         "type": "font_picker",
         "id": "type_body_font",
-        "default": "montserrat",
+        "default": "sans-serif",
         "label": "t:settings_schema.typography.settings.type_body_font.label",
         "info": "t:settings_schema.typography.settings.type_body_font.info"
       }

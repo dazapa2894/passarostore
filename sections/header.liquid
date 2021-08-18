@@ -350,6 +350,7 @@
     {%- endif -%}
 
     <div class="header__icons">
+
       <details-modal class="header__search">
         <details>
           <summary class="header__icon header__icon--search header__icon--summary link link--text focus-inset modal__toggle" aria-haspopup="dialog" aria-label="{{ 'general.search.search' | t }}">
@@ -598,6 +599,13 @@
       "default": true,
       "label": "t:sections.header.settings.enable_sticky_header.label",
       "info": "t:sections.header.settings.enable_sticky_header.info"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_header_search",
+      "default": true,
+      "label": "t:sections.header.settings.enable_header_search.label",
+      "info": "t:sections.header.settings.enable_header_search.info"
     }
   ]
 }

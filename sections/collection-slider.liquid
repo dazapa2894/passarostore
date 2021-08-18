@@ -10,10 +10,10 @@
 <!-- Slider main container -->
 <div class="swiper-container">
   <!-- Additional required wrapper -->
-  <div class="swiper-wrapper">
+  {% for collection in collections %}
+    <div class="swiper-wrapper">
 
     <!-- Slides -->
-    {% for collection in collections %}
       <!-- collection info -->
       <div class="swiper-slide">
         
@@ -32,11 +32,11 @@
       </div>
 
 
-    {% endfor %}
     
 
     
-  </div>
+    </div>
+  {% endfor %}
   <!-- If we need pagination -->
   <div class="swiper-pagination"></div>
 

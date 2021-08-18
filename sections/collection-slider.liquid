@@ -6,7 +6,7 @@
   height: 800px;
 }
 .mas-arribita{
-top: -20px;
+bottom: -20px;
 }
 {% endstylesheet %}
 
@@ -21,16 +21,15 @@ top: -20px;
     <!-- Slides -->
     {% assign mas_arribita = false %}
     {% for collection in collections %}
+
       <!-- collection info -->
       <div class="swiper-slide {% if mas_arribita %}mas-arribita{% endif %}" >
-                
         {% if collection.image %}
           {{ collection.image | img_url: '650x650' | img_tag: collection.image.alt }}
         {% else %}
           {% assign alt = collection.title | escape %}
           {{ collection.products.first.image | img_url: '650x650' | img_tag: alt }}
         {% endif %}
-
       </div>
 
       {% if mas_arribita != true %}
@@ -83,11 +82,7 @@ const swiper = new Swiper('.swiper-container',
       slidesPerGroup: 3,
       spaceBetween: 30,
     },
-    1430: {
-      slidesPerView: 4,
-      slidesPerGroup: 4,
-      spaceBetween: 30,
-    },
+
   },
 });
 {% endjavascript %}

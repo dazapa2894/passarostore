@@ -189,7 +189,7 @@
   .banner__box > .banner__buttons:only-child .button--primary {
     background-color: #ffbccb;
     box-shadow: none;
-    font-family: montserrat;
+    font-family: "Montserrat" !important;
     color: black;
     letter-spacing: 3px;
     font-weight: 600;

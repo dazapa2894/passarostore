@@ -1,14 +1,48 @@
+
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
 {{ 'section-collection.slider.css' | asset_url | stylesheet_tag }}
 
-{% for collection in collections %}
-  <!-- collection info -->
+{% stylesheet %}
+{% endstylesheet %}
 
-  <!-- collection image fallback -->
-  {% if collection.image %}
-    {{ collection.image | img_url: '450x450' | img_tag: collection.image.alt }}
-  {% else %}
-    {% assign alt = collection.title | escape %}
-    {{ collection.products.first.image | img_url: '450x450' | img_tag: alt }}
-  {% endif %}
+{% javascript %}
+{% endjavascript %}
 
-{% endfor %}
+
+
+<!-- Slider main container -->
+<div class="swiper-container">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+
+    <!-- Slides -->
+    {% for collection in collections %}
+      <!-- collection info -->
+      <div class="swiper-slide">
+        <a {% if collection.all_products_count > 0 %} href="{{ collection.url }}"{% endif %}  class="">
+        
+      
+      </div>
+
+
+    {% endfor %}
+    
+
+    
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
+
+</div>

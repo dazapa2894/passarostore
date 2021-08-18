@@ -19,7 +19,7 @@
       <!-- collection info -->
       <div class="swiper-slide">
         
-        
+        <a {% if collection.all_products_count > 0 %} href="{{ collection.url }}"{% endif %}  class=""> {% echo collection.title %} </a>
         
 
         {% if collection.image %}

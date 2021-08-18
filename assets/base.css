@@ -1727,6 +1727,7 @@ input[type='checkbox'] {
   margin: 0;
   letter-spacing: 0.1rem;
   color: rgb(var(--color-white));
+  font-size: 9px;
 }
 
 /* section-header */

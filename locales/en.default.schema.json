@@ -33,6 +33,30 @@
         },
         "colors_background_2": {
           "label": "Background 2"
+        },
+        "dark_blue": {
+          "label": "Dark blue"
+        },
+        "pink": {
+          "label": "Pink"
+        },
+        "pink_light": {
+          "label": "Pink light"
+        },
+        "pink_dark": {
+          "label": "Pink dark"
+        },
+        "gray": {
+          "label": "Gray"
+        },
+        "gray_light": {
+          "label": "Gray light"
+        },
+        "ocean_green": {
+          "label": "Ocean green"
+        },
+        "white": {
+          "label": "White"
         }
       }
     },

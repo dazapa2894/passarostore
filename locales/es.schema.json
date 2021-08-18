@@ -33,6 +33,30 @@
         },
         "colors_background_2": {
           "label": "Fondo 2"
+        },
+        "dark_blue": {
+          "label": "Azul oscuro"
+        },
+        "pink": {
+          "label": "Rosa"
+        },
+        "pink_light": {
+          "label": "Rosa claro"
+        },
+        "pink_dark": {
+          "label": "Rosa oscuro"
+        },
+        "gray": {
+          "label": "Gris"
+        },
+        "gray_light": {
+          "label": "Gris claro"
+        },
+        "ocean_green": {
+          "label": "Agua marina"
+        },
+        "white": {
+          "label": "Blanco"
         }
       }
     },

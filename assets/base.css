@@ -60,7 +60,7 @@
 }
 
 .color-no-background {
-  --color-foreground: var(--color-button-pink);
+  --color-foreground: var(--color-pink);
   --color-background: var(--color-no-background);
 }
 

@@ -13,22 +13,20 @@
 
 @font-face {
   font-family: "Montserrat";
-  src: url("montserrat-v18-latin-regular.woff") format("woff");
+  src:  url("montserrat-v18-latin-regular.woff") format("woff"),
+        url('montserrat-v18-latin-regular.woff2') format('woff2');
   font-weight: 400;
 }
 @font-face {
   font-family: "Montserrat";
-  src: url("montserrat-v18-latin-600.woff") format("woff");
+  src:  url("montserrat-v18-latin-600.woff") format("woff"),
+        url("montserrat-v18-latin-600.woff2") format("woff2");
   font-weight: 600;
 }
 @font-face {
   font-family: "Montserrat";
-  src: url("montserrat-v18-latin-800.woff") format("woff");
-  font-weight: 800;
-}
-@font-face {
-  font-family: "Montserrat";
-  src: url("montserrat-v18-latin-italic.woff") format("woff");
+  src:  url("montserrat-v18-latin-italic.woff") format("woff"),
+        url("montserrat-v18-latin-italic.woff2") format("woff2");
   font-weight: 400;
   font-style: italic;
 }

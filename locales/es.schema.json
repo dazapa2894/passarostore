@@ -232,19 +232,28 @@
             "color_scheme": {
               "label": "Esquema de colores",
               "options__1": {
-                "label": "Fondo 1"
+                "label": "Dark blue"
               },
               "options__2": {
-                "label": "Fondo 2"
+                "label": "Pink"
               },
               "options__3": {
-                "label": "Invertir"
+                "label": "Pink light"
               },
               "options__4": {
-                "label": "Acento 1"
+                "label": "Pink dark"
               },
               "options__5": {
-                "label": "Acento 2"
+                "label": "Gray"
+              },
+              "options__6": {
+                "label": "Gray light"
+              },
+              "options__7": {
+                "label": "Ocean green"
+              },
+              "options__8": {
+                "label": "White"
               }
             },
             "link": {

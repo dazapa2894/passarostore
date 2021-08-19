@@ -97,6 +97,13 @@
         "info": "t:settings_schema.colors.settings.white.info"
       },
       {
+        "type": "color",
+        "id": "black",
+        "default": "#111111",
+        "label": "t:settings_schema.colors.settings.black.label",
+        "info": "t:settings_schema.colors.settings.black.info"
+      },
+      {
         "type": "header",
         "content": "t:settings_schema.colors.settings.header__2.content"
       },

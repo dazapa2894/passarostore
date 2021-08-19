@@ -27,10 +27,10 @@
         </div>
 
         {% if collection.image %}
-          {{ collection.image | img_url: '600x600' | img_tag: collection.image.alt }}
+          {{ collection.image | img_url: '400x600' | img_tag: collection.image.alt }}
         {% else %}
           {% assign alt = collection.title | escape %}
-          {{ collection.products.first.image | img_url: '600x600' | img_tag: alt }}
+          {{ collection.products.first.image | img_url: '400x600' | img_tag: alt }}
         {% endif %}
 
       </div>

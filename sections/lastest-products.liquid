@@ -10,6 +10,7 @@
 
   <h2 class="title{% if section.settings.title == blank %} title--no-heading{% endif %}">{{ section.settings.title | escape }}</h2>
   
+
 </section>
 
 {% javascript %}
@@ -21,7 +22,18 @@
   "name": "t:sections.lastest-products.name",
   "class": "lastest-products",
   "settings": [
-    
+    {
+      "type": "text",
+      "id": "title",
+      "label": "t:sections.lastest-products.settings.title.label",
+      "default": "Ultimas colecciones"
+    },
+    {
+      "type": "number",
+      "id": "max_products",
+      "label": "Products showed",
+      "default": 6
+    }
   ]
 }
 {% endschema %}

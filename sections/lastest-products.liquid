@@ -43,8 +43,6 @@
             src="{{product.featured_image | img_url: '375x' }}"
             loading="lazy"
             alt="{{product.featured_image.alt | escape }}"
-            width="{{product.featured_image.width }}"
-            height="{{product.featured_image.width | divided_by:product.featured_image.aspect_ratio }}"
           >
         
         <div class="product-title">{{product.title}}</div>

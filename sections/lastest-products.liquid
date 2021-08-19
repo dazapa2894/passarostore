@@ -1,0 +1,9 @@
+{{ 'section-lastest-products.css' | asset_url | stylesheet_tag }}
+
+{% stylesheet %}
+
+
+{% endstylesheet %}
+
+
+<h2 class="title{% if section.settings.title == blank %} title--no-heading{% endif %}">{{ section.settings.title | escape }}</h2>

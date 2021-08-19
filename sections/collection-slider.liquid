@@ -6,51 +6,50 @@
 {% endstylesheet %}
 
 
+<section id="collection-slider">
+  <!-- Slider main container -->
+  <div class="swiper-container">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      {% assign mas_abajito = false %}
+      {% assign collection_to_show = 3 %}
+      {% for collection in collections %}
 
-<!-- Slider main container -->
-<div class="swiper-container">
-  <!-- Additional required wrapper -->
-  <div class="swiper-wrapper">
-    <!-- Slides -->
-    {% assign mas_abajito = false %}
-    {% assign collection_to_show = 3 %}
-    {% for collection in collections %}
+        <!-- collection info -->
+        <div class="swiper-slide {% if mas_abajito == false %}mas-abajito{% endif %}" >
 
-      <!-- collection info -->
-      <div class="swiper-slide {% if mas_abajito == false %}mas-abajito{% endif %}" >
-
-        <div class="title-container">
-          <div class="titulo">
-            {{collection.title}}
+          <div class="title-container">
+            <div class="titulo">
+              {{collection.title}}
+            </div>
+            <a href="#">COMPRAR</a>
           </div>
-          <a href="#">COMPRAR</a>
+
+          {% if collection.image %}
+            {{ collection.image | img_url: '400x600' | img_tag: collection.image.alt }}
+          {% else %}
+            {% assign alt = collection.title | escape %}
+            {{ collection.products.first.image | img_url: '400x600' | img_tag: alt }}
+          {% endif %}
+
         </div>
 
-        {% if collection.image %}
-          {{ collection.image | img_url: '400x600' | img_tag: collection.image.alt }}
-        {% else %}
-          {% assign alt = collection.title | escape %}
-          {{ collection.products.first.image | img_url: '400x600' | img_tag: alt }}
+        {% if mas_abajito == false %}
+          {% assign mas_abajito = true %}
+        {%else%}
+          {% assign mas_abajito = false %}
         {% endif %}
 
-      </div>
+      {% endfor %}   
+    </div>
 
-      {% if mas_abajito == false %}
-        {% assign mas_abajito = true %}
-      {%else%}
-        {% assign mas_abajito = false %}
-      {% endif %}
-
-    {% endfor %}   
   </div>
 
-</div>
-
-<!-- If we need navigation buttons -->
-<div class="swiper-button-prev"></div>
-<div class="swiper-button-next"></div>
-
-
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+</section>
 
 {% javascript %}
 const swiper = new Swiper('.swiper-container', 

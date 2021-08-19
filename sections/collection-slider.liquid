@@ -15,7 +15,7 @@
       {% assign mas_abajito = false %}
       {% assign collection_to_show = 3 %}
       {% for collection in collections %}
-
+        {{collection | json}}
         <!-- collection info -->
         <div class="swiper-slide {% if mas_abajito == false %}mas-abajito{% endif %}" >
 

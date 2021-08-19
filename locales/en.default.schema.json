@@ -395,8 +395,8 @@
     "collection-slider": {
       "name": "Collections"
     },
-    "lastest-products": {
-      "name": "Lastest collections"
+    "new-collection": {
+      "name": "New collection"
     },
     "collection-list": {
       "name": "Collection list",

@@ -24,6 +24,11 @@
       "settings": {
       }
     },
+    "lastest_products": {
+      "type": "collection-slider",
+      "settings": {
+      }
+    },
     "featured_products": {
       "type": "featured-collection",
       "settings": {
@@ -95,6 +100,7 @@
   "order": [
     "image_banner",
     "collection_slider",
+    "lastest_products",
     "featured_products",
     "collage",
     "video",

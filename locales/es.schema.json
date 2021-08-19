@@ -390,6 +390,12 @@
         "name": "Collage"
       }
     },
+    "collection-slider": {
+      "name": "Collections"
+    },
+    "lastest-products": {
+      "name": "Lastest collections"
+    },
     "collection-list": {
       "name": "Lista de colecciones",
       "settings": {

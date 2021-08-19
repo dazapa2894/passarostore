@@ -22,8 +22,9 @@
   
 
   {% for product in collections.all.products %}
-    ID = {{ product.id }}
-    halde = {{ product.handle }}
+    <pre>
+    {{product | json}}
+    </pre>
   {% endfor %}
 
   <p>asdd asd  </p>

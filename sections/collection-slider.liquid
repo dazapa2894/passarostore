@@ -45,7 +45,7 @@
 {% endstylesheet %}
 
 
-<h2>{{section.settings.title}}</h2>
+<h2 class="title{% if section.settings.title == blank %} title--no-heading{% endif %}">{{ section.settings.title | escape }}</h2>
 
 <!-- Slider main container -->
 <div class="swiper-container">

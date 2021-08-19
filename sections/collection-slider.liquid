@@ -23,7 +23,7 @@
   height: 80px;
   width: 200px;
   background: white;
-  padding: 10px 20px 0px 20px;
+  padding: 5px 20px 0px 20px;
 }
 .swiper-slide .title-container .titulo{
     font-family: var(--font-heading-family);
@@ -104,22 +104,25 @@ const swiper = new Swiper('.swiper-container',
   loop: true,
   slidesPerView: 1,
   slidesPerGroup: 1,
-  
+  spaceBetween: 30,
+
+  centeredSlides: true,
   loopFillGroupWithBlank: true,
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
+  
   breakpoints: {
     750: {
       slidesPerView: 2,
       slidesPerGroup: 2,
-      
+      spaceBetween: 30,
     },
     1024: {
       slidesPerView: 3,
       slidesPerGroup: 3,
-      
+      spaceBetween: 30,
     },
 
   },

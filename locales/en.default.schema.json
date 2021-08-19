@@ -57,6 +57,9 @@
         },
         "white": {
           "label": "White"
+        },
+        "black": {
+          "label": "Black"
         }
       }
     },
@@ -239,6 +242,9 @@
               },
               "options__8": {
                 "label": "White"
+              },
+              "options__9": {
+                "label": "Black"
               }
             },
             "link": {

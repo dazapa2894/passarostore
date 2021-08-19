@@ -1,10 +1,15 @@
 {{ 'section-lastest-products.css' | asset_url | stylesheet_tag }}
 
 {% stylesheet %}
-#lastest-products .titulo{
+#lastest-products .titulo-con-divicion{
   font-family: var(--font-heading-family);
   color: rgb(var(--color-black));
-
+}
+#lastest-products .titulo-con-divicion:after{
+  content: "";
+  width: 50px;
+  height: 1px;
+  border: 1px solid black;
 }
 
 {% endstylesheet %}
@@ -12,7 +17,7 @@
 
 <section id="lastest-products">
 
-  <h2 class="titulo{% if section.settings.title == blank %} title--no-heading{% endif %}">{{ section.settings.title | escape }}</h2>
+  <h2 class="titulo-con-divicion{% if section.settings.title == blank %} title--no-heading{% endif %}">{{ section.settings.title | escape }}</h2>
   
   
 

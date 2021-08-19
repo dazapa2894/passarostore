@@ -27,6 +27,7 @@
     "lastest_products": {
       "type": "lastest-products",
       "settings": {
+        "title": "Ultimas colecciones"
       }
     },
     "featured_products": {

@@ -391,10 +391,10 @@
       }
     },
     "collection-slider": {
-      "name": "Collections"
+      "name": "Categorías"
     },
     "lastest-products": {
-      "name": "Lastest collections"
+      "name": "Ultimas colecciones"
     },
     "collection-list": {
       "name": "Lista de colecciones",

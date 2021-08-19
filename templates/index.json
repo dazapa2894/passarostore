@@ -25,7 +25,7 @@
       }
     },
     "lastest_products": {
-      "type": "collection-slider",
+      "type": "lastest-products",
       "settings": {
       }
     },

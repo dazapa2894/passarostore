@@ -15,31 +15,32 @@
       {% assign mas_abajito = false %}
       {% assign collection_to_show = 3 %}
       {% for collection in collections %}
-        {{collection | json}}
-        <!-- collection info -->
-        <div class="swiper-slide {% if mas_abajito == false %}mas-abajito{% endif %}" >
+        {% unless collection.handle == 'nueva-coleccion' %}
+          <!-- collection info -->
+          <div class="swiper-slide {% if mas_abajito == false %}mas-abajito{% endif %}" >
 
-          <div class="title-container">
-            <div class="titulo">
-              {{collection.title}}
+            <div class="title-container">
+              <div class="titulo">
+                {{collection.title}}
+              </div>
+              <a href="{{collection.url}}">COMPRAR</a>
             </div>
-            <a href="{{collection.url}}">COMPRAR</a>
+
+            {% if collection.image %}
+              {{ collection.image | img_url: '400x600' | img_tag: collection.image.alt }}
+            {% else %}
+              {% assign alt = collection.title | escape %}
+              {{ collection.products.first.image | img_url: '400x600' | img_tag: alt }}
+            {% endif %}
+
           </div>
 
-          {% if collection.image %}
-            {{ collection.image | img_url: '400x600' | img_tag: collection.image.alt }}
-          {% else %}
-            {% assign alt = collection.title | escape %}
-            {{ collection.products.first.image | img_url: '400x600' | img_tag: alt }}
+          {% if mas_abajito == false %}
+            {% assign mas_abajito = true %}
+          {%else%}
+            {% assign mas_abajito = false %}
           {% endif %}
-
-        </div>
-
-        {% if mas_abajito == false %}
-          {% assign mas_abajito = true %}
-        {%else%}
-          {% assign mas_abajito = false %}
-        {% endif %}
+        {% endunless %}
 
       {% endfor %}   
     </div>

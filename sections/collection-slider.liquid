@@ -13,11 +13,11 @@
   <div class="swiper-wrapper">
 
     <!-- Slides -->
-    {% assign mas_arribita = false %}
+    {% assign mas_abajito = false %}
     {% for collection in collections %}
 
       <!-- collection info -->
-      <div class="swiper-slide {% if mas_arribita == false %}mas-arribita{% endif %}" >
+      <div class="swiper-slide {% if mas_abajito == false %}mas-abajito{% endif %}" >
 
         <div class="title-container">
           <div class="titulo">
@@ -35,10 +35,10 @@
 
       </div>
 
-      {% if mas_arribita == false %}
-        {% assign mas_arribita = true %}
+      {% if mas_abajito == false %}
+        {% assign mas_abajito = true %}
       {%else%}
-        {% assign mas_arribita = false %}
+        {% assign mas_abajito = false %}
       {% endif %}
 
     {% endfor %}

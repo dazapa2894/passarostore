@@ -26,9 +26,13 @@
   padding: 5px 20px 0px 20px;
 }
 .swiper-slide .title-container .titulo{
-    font-family: var(--font-heading-family);
-    font-size: 30px;
-    color: var(--color-gray);
+  font-family: var(--font-heading-family);
+  font-size: 30px;
+  color: var(--color-gray);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
 }
 .swiper-slide .title-container a{
   font-family: var(--font-body-family);
@@ -112,7 +116,7 @@ const swiper = new Swiper('.swiper-container',
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
-  
+
   breakpoints: {
     750: {
       slidesPerView: 2,

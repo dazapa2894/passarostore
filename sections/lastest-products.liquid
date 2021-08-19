@@ -1,16 +1,25 @@
 {{ 'section-lastest-products.css' | asset_url | stylesheet_tag }}
 
 {% stylesheet %}
+#lastest-products .titulo{
+  font-family: var(--font-heading-family);
+  color: rgb(var(--color-black));
 
+}
 
 {% endstylesheet %}
 
 
 <section id="lastest-products">
 
-  <h2 class="title{% if section.settings.title == blank %} title--no-heading{% endif %}">{{ section.settings.title | escape }}</h2>
+  <h2 class="titulo{% if section.settings.title == blank %} title--no-heading{% endif %}">{{ section.settings.title | escape }}</h2>
   
+  {% for product in collections.all.products %}
+    ID = {{ product.id }}
+    halde = {{ product.handle }}
+  {% endfor %}
 
+  
 </section>
 
 {% javascript %}

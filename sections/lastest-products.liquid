@@ -21,7 +21,7 @@
           >
         
         <div class="product-title">{{ product.title }}</div>
-        <div class="product-price">{{ product.price | money_with_currency }}</div>
+        <div class="product-price">{{ product.price | money_without_trailing_zeros }}</div>
         
         
       </div>

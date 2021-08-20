@@ -33,7 +33,8 @@
   
 }
 #products-wrapper .product-wrapper .product-price{
-  
+  font-style:bold;
+  font-size:20px;
 }
 
 {% endstylesheet %}
@@ -55,8 +56,8 @@
             alt="{{product.featured_image.alt | escape }}"
           >
         
-        <div class="product-title">{{product.title}}</div>
-        <div class="product-price">{{product.price}}</div>
+        <div class="product-title">{{ product.title }}</div>
+        <div class="product-price">{{ product.price | money_with_currency }}</div>
         
         
       </div>

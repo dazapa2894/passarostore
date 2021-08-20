@@ -1,0 +1,35 @@
+#lastest-products .titulo-con-divicion{
+  font-family: var(--font-heading-family);
+  color: rgb(var(--color-black));
+  margin-bottom: 60px;
+}
+
+#lastest-products .titulo-con-divicion div{
+  content: "";
+  height: 2px;
+  width: 73px;
+  background: rgb(var(--color-gray));
+  position: absolute;
+  bottom: -15px;
+}
+
+#products-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#products-wrapper .product-wrapper{
+  width: 400px;
+}
+
+#products-wrapper .product-wrapper .product-img{
+
+}
+#products-wrapper .product-wrapper .product-title{
+  
+}
+#products-wrapper .product-wrapper .product-price{
+  font-style:bold;
+  font-size:20px;
+}

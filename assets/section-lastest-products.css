@@ -2,9 +2,9 @@
   font-family: var(--font-heading-family);
   color: rgb(var(--color-black));
   display: flex;
-    justify-content: center;
-    position: relative;
-    margin-bottom: 60px;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 60px;
 }
 
 #lastest-products .titulo-con-divicion div{
@@ -23,14 +23,18 @@
 }
 
 #products-wrapper .product-wrapper{
-  width: 400px;
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 #products-wrapper .product-wrapper .product-img{
-
+  width: 100%;
 }
 #products-wrapper .product-wrapper .product-title{
-  
+  font-size: 28px;
 }
 #products-wrapper .product-wrapper .product-price{
   font-weight: bold;

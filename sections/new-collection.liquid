@@ -13,7 +13,7 @@
   {% assign product_num = 1 %}
   <div id="products-wrapper" class="row">
     {% for product in collections.all.products %}
-      {% increment product_num %}
+      
       {{section.settings.max_products}}
       {% if product_num < settings.max_products %}
       <div class="product-wrapper col m4 4 l4 s6 xs12 m-0">

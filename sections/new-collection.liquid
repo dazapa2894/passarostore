@@ -21,12 +21,7 @@
               loading="lazy"
               alt="{{product.featured_image.alt | escape }}"
             >
-          <form action="/cart/add" method="post" id="product-form-{{ product.id }}">
-            <input type="hidden" name="id" value="{{ product.variants.first.id }}">
-            <div>
-              <button type="submit" name="peo" class="agregar">+</button>
-            </div>
-          </form>
+          <div class="agregar" value="{{ product.variants.first.id }}">+</div>
         </div>
         
         <div class="product-title">{{ product.title }}</div>
@@ -38,7 +33,7 @@
 </section>
 
 {% javascript %}
-
+console.log("la puta");
 {% endjavascript %}
 
 {% schema %}
@@ -75,4 +70,3 @@
   ]
 }
 {% endschema %}
-

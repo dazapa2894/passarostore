@@ -398,6 +398,9 @@
     "new-collection": {
       "name": "New collection",
       "settings": {
+        "title": {
+          "label": "New collection"
+        },
         "max_products": {
           "label": "Max products"
         }

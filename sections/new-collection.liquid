@@ -23,7 +23,9 @@
             >
           <form action="/cart/add" method="post" id="product-form-{{ product.id }}">
             <input type="hidden" name="id" value="{{ product.variants.first.id }}">
-            <div class="agregar_al_carrito">+</div>
+            <div>
+              <button type="submit" name="peo" class="agregar">+</button>
+            </div>
           </form>
         </div>
         
@@ -36,11 +38,7 @@
 </section>
 
 {% javascript %}
-console.log("si funca");
 
-$(".agregar_al_carrito").click( ()=>{
-  console.log($(this));
-});
 {% endjavascript %}
 
 {% schema %}

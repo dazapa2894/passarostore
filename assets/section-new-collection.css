@@ -14,11 +14,6 @@
   position: absolute;
   bottom: -15px;
 }
-#products-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
 #products-wrapper .product-wrapper {
   max-width: 400px;
   display: flex;

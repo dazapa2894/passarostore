@@ -21,10 +21,13 @@
 #products-wrapper .product-wrapper {
   margin-bottom: 40px;
 }
-#products-wrapper .product-wrapper .product-img {
+#products-wrapper .product-wrapper .img-wrapper {
+  position: relative;
+}
+#products-wrapper .product-wrapper .img-wrapper .product-img {
   width: 100%;
 }
-#products-wrapper .product-wrapper .product-img .agregar {
+#products-wrapper .product-wrapper .img-wrapper .agregar {
   position: absolute;
   border-radius: 12px 0;
   background: rgb(var(--color-dark-blue));

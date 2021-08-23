@@ -11,9 +11,9 @@
   </h2>
   
   
-  <div id="products-wrapper">
+  <div id="products-wrapper" class="row">
     {% for product in collections.all.products %}
-      <div class="product-wrapper">
+      <div class="product-wrapper col m4 4 l4 s6 xs12">
         <img class="product-img"
             src="{{product.featured_image | img_url: '375x' }}"
             loading="lazy"

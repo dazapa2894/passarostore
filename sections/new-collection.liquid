@@ -14,9 +14,8 @@
   <div id="products-wrapper" class="row">
     {% for product in collections.all.products %}
       {% increment product_num %}
-      {{product_num}}
       {{section.settings.max_products}}
-      {% unless product_num >= settings.max_products %}
+      {% if product_num < settings.max_products %}
       <div class="product-wrapper col m4 4 l4 s6 xs12 m-0">
         <div class="img-wrapper">
           <img class="product-img"
@@ -29,7 +28,9 @@
         <div class="product-title">{{ product.title }}</div>
         <div class="product-price">{{ product.price | money_without_trailing_zeros }}</div>
       </div>
-      {% endunless %}
+      {% else %}
+        {% break %}
+      {% endif %}
     {% endfor %}
   </div>
 </section>

@@ -25,7 +25,7 @@
           <form action="/cart/add" method="post" id="product-form- {{ product.id }}">
             <input type="hidden" name="id" value="{{ product.variants.first.id }}">
             <div>
-              <button name="add" class="agregar">+</button>
+              <button type="submit" name="add" class="agregar">+</button>
             </div>
           </form>
         </a>
@@ -40,6 +40,13 @@
 
 {% javascript %}
 console.log("la puta");
+querySelectorAll('form[action="/cart/add"]').addEventListener('submit', function(e){
+  e.preventDefault();
+
+  console.log();
+  
+  return false;
+});
 {% endjavascript %}
 
 {% schema %}

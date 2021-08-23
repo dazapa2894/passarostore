@@ -14,21 +14,19 @@
   <div id="products-wrapper" class="row">
     {% for product in collections.all.products %}
       <div class="product-wrapper col m4 4 l4 s6 xs12">
-        <img class="product-img"
-            src="{{product.featured_image | img_url: '375x' }}"
-            loading="lazy"
-            alt="{{product.featured_image.alt | escape }}"
-          >
+        <div class="img-wrapper">
+          <img class="product-img"
+              src="{{product.featured_image | img_url: '375x' }}"
+              loading="lazy"
+              alt="{{product.featured_image.alt | escape }}"
+            >
+        </div>
         
         <div class="product-title">{{ product.title }}</div>
         <div class="product-price">{{ product.price | money_without_trailing_zeros }}</div>
-        
-        
       </div>
     {% endfor %}
   </div>
-
-
 </section>
 
 {% javascript %}

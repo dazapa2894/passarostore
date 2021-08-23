@@ -15,7 +15,7 @@
     {% for product in collections.all.products %}
       {% increment product_num %}
       {{product_num}}
-      {{settings.max_products}}
+      {{section.settings.max_products}}
       {% unless product_num >= settings.max_products %}
       <div class="product-wrapper col m4 4 l4 s6 xs12 m-0">
         <div class="img-wrapper">

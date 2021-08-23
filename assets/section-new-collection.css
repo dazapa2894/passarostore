@@ -29,7 +29,7 @@
 }
 #products-wrapper .product-wrapper .img-wrapper .agregar {
   position: absolute;
-  border-radius: 12px 0;
+  border-radius: 10px 0;
   background: rgb(var(--color-dark-blue));
   width: 30px;
   color: #fff;
@@ -43,8 +43,10 @@
 }
 #products-wrapper .product-wrapper .product-title {
   font-size: 28px;
+  color: rgb(var(--color-dark-blue));
 }
 #products-wrapper .product-wrapper .product-price {
   font-weight: bold;
   font-size: 20px;
+  color: rgb(var(--color-dark-blue));
 }

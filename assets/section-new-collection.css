@@ -1,4 +1,4 @@
-#lastest-products .titulo-con-divicion {
+#new-collection .titulo-con-divicion {
   font-family: var(--font-heading-family);
   color: rgb(var(--color-black));
   display: flex;
@@ -6,7 +6,7 @@
   position: relative;
   margin-bottom: 60px;
 }
-#lastest-products .titulo-con-divicion div {
+#new-collection .titulo-con-divicion div {
   content: "";
   height: 2px;
   width: 73px;

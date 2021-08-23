@@ -394,7 +394,12 @@
       "name": "Categorías"
     },
     "new-collection": {
-      "name": "Nueva colección"
+      "name": "Nueva colección",
+      "settings": {
+        "max_products": {
+          "label": "Numero maximo de productos"
+        }
+      }
     },
     "collection-list": {
       "name": "Lista de colecciones",

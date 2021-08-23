@@ -396,7 +396,12 @@
       "name": "Collections"
     },
     "new-collection": {
-      "name": "New collection"
+      "name": "New collection",
+      "settings": {
+        "max_products": {
+          "label": "Max products"
+        }
+      }
     },
     "collection-list": {
       "name": "Collection list",

@@ -12,7 +12,7 @@
   
   <div id="products-wrapper" class="row">
     {% for product in collections.all.products %}
-      <div class="product-wrapper col m4 4 l4 s6 xs12">
+      <div class="product-wrapper col m4 4 l4 s6 xs12 m-0">
         <div class="img-wrapper">
           <img class="product-img"
               src="{{product.featured_image | img_url: '375x' }}"

@@ -14,13 +14,12 @@
   position: absolute;
   bottom: -15px;
 }
+#products-wrapper {
+  margin: 0 auto;
+  text-align: center;
+}
 #products-wrapper .product-wrapper {
-  max-width: 400px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  margin: 0 0 40px 0 !important;
+  margin-bottom: 40px;
 }
 #products-wrapper .product-wrapper .product-img {
   width: 100%;

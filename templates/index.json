@@ -24,8 +24,8 @@
       "settings": {
       }
     },
-    "lastest_products": {
-      "type": "lastest-products",
+    "new_collection": {
+      "type": "new-collection",
       "settings": {
         "title": "Ultimas colecciones"
       }
@@ -101,7 +101,7 @@
   "order": [
     "image_banner",
     "collection_slider",
-    "lastest_products",
+    "new_collection",
     "featured_products",
     "collage",
     "video",

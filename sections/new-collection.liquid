@@ -1,0 +1,72 @@
+{{ 'section-new-collection.css' | asset_url | stylesheet_tag }}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+
+<section id="new-collection" class="container-fluid">
+  <h2 class="titulo-con-divicion{% if section.settings.title == blank %} title--no-heading{% endif %}">{{ section.settings.title | escape }}
+    <div></div>
+  </h2>
+  
+  
+  <div id="products-wrapper" class="row">
+    {% assign product_num = 0 %}
+    {{settings.max_products}}
+    {% for product in collections.all.products %}
+      {% increment product_num %}
+      {% unless product_num > settings.max_products %}
+      <div class="product-wrapper col m4 4 l4 s6 xs12 m-0">
+        <div class="img-wrapper">
+          <img class="product-img"
+              src="{{product.featured_image | img_url: '375x' }}"
+              loading="lazy"
+              alt="{{product.featured_image.alt | escape }}"
+            >
+        </div>
+        
+        <div class="product-title">{{ product.title }}</div>
+        <div class="product-price">{{ product.price | money_without_trailing_zeros }}</div>
+      </div>
+      {% endunless %}
+    {% endfor %}
+  </div>
+</section>
+
+{% javascript %}
+{% endjavascript %}
+
+{% schema %}
+{
+  "name": "t:sections.new-collection.name",
+  "class": "new-collection",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "t:sections.new-collection.settings.title.label",
+      "default": "Nueva colección"
+    },
+    {
+      "type": "select",
+      "id": "max_products",
+      "options": [
+        {
+          "value": "3",
+          "label": "3"
+        },
+        {
+          "value": "6",
+          "label": "6"
+        },
+        {
+          "value": "9",
+          "label": "9"
+        }
+      ],
+      "default": "6",
+      "label": "t:sections.new-collection.settings.background_style.label"
+    }
+  ]
+}
+{% endschema %}

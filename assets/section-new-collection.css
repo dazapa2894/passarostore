@@ -24,6 +24,17 @@
 #products-wrapper .product-wrapper .product-img {
   width: 100%;
 }
+#products-wrapper .product-wrapper .product-img .agregar {
+  position: absolute;
+  border-radius: 12px 0;
+  background: rgb(var(--color-dark-blue));
+  width: 30px;
+  color: white;
+  font-size: 25px;
+  height: 30px;
+  font-weight: bold;
+  line-height: 1;
+}
 #products-wrapper .product-wrapper .product-title {
   font-size: 28px;
 }

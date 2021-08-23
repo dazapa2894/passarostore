@@ -22,6 +22,12 @@
               alt="{{product.featured_image.alt | escape }}"
             >
           <div class="agregar">+</div>
+          <form action="/cart/add" method="post" id="product-form- {{ product.id }}">
+            <input type="hidden" name="id" value="{{ product.variants.first.id }}">
+            <div>
+              <button type="submit" name="add" class="agregar">Add to cart</button>
+            </div>
+          </form>
         </div>
         
         <div class="product-title">{{ product.title }}</div>

@@ -10,8 +10,8 @@
   </h2>
   
   
+  {% assign product_num = 1 %}
   <div id="products-wrapper" class="row">
-    {% assign product_num = 0 %}
     {% for product in collections.all.products %}
       {% increment product_num %}
       {{product_num}}

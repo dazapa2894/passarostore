@@ -25,7 +25,7 @@
           <form action="/cart/add" method="post" id="product-form- {{ product.id }}">
             <input type="hidden" name="id" value="{{ product.variants.first.id }}">
             <div>
-              <button type="submit" name="add" class="agregar">+</button>
+              <button type="button" name="add" class="agregar" id="product-form- {{ product.id }}" value="{{ product.variants.first.id }}">+</button>
             </div>
           </form>
         </a>
@@ -39,13 +39,27 @@
 </section>
 
 {% javascript %}
-console.log("la puta");
-Jquery('[action="/cart/add"]').on('submit', function(e){
-  e.preventDefault();
+console.log("la puta 2");
+jQuery(".agregar").click( function(){
 
-  console.log(this);
+  console.log("mostrame algo care nalga");
 
-  return false;
+  console.log("value = "+$(this).attr(value));
+  console.log("id = "+$(this).attr(id));
+
+  fetch('/cart/add.js', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(formData)
+  })
+  .then(response => {
+    return response.json();
+  })
+  .catch((error) => {
+    console.error('Error:', error);
+  });
 });
 {% endjavascript %}
 

@@ -40,11 +40,11 @@
 
 {% javascript %}
 console.log("la puta");
-querySelectorAll('form[action="/cart/add"]').addEventListener('submit', function(e){
+Jquery('[action="/cart/add"]').on('submit', function(e){
   e.preventDefault();
 
-  console.log();
-  
+  console.log(this);
+
   return false;
 });
 {% endjavascript %}

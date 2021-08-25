@@ -1,11 +1,23 @@
 {{ 'section-call-to-action-1.css' | asset_url | stylesheet_tag }}
 
 {% stylesheet %}
+.promo-banner-section{
+
+}
 {% endstylesheet %}
 
-<section>
-img
+<section class="promo-banner-section">
 
+  <div> 
+
+  </div>
+  
+{{section.settings.banner_img | img_url: '375x'}}
+{{section.settings.promo_theme}}
+{{section.settings.promo_title}}
+{{section.settings.promo_text}}
+{{section.settings.button_label}}
+{{section.settings.button_url}}
 </section>
 
 {% javascript %}
@@ -42,7 +54,8 @@ img
     {
       "id": "button_label",
       "type": "text",
-      "label": "t:sections.call-to-action.settings.button_label.label"
+      "label": "t:sections.call-to-action.settings.button_label.label",
+      "default": "descubrir"
     },
     {
       "id": "button_url",

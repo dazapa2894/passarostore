@@ -413,14 +413,23 @@
     "call-to-action": {
       "name": "Llamada a la acción",
       "settings": {
+        "banner_img": {
+          "label": "Imagen del banner"
+        },
+        "promo_theme": {
+          "label": "nombre de la tematica"
+        },
+        "promo_title": {
+          "label": "Titulo de la promoción"
+        },
+        "promo_text": {
+          "label": "Descripción de la promoción"
+        },
         "button_label": {
           "label": "Texto del boton"
         },
         "button_url": {
           "label": "URL del boton"
-        },
-        "banner_img": {
-          "label": "Imagen del banner"
         }
       }
     },

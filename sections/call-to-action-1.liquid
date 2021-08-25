@@ -1,18 +1,28 @@
 {{ 'section-call-to-action-1.css' | asset_url | stylesheet_tag }}
 
 {% stylesheet %}
-background-image: url("{{section.settings.banner_img | img_url: '375x'}}") !important;
+background-image: url("{{section.settings.banner_img | img_url: '375x'}}";
 {% endstylesheet %}
 
 <section class="promo-banner-section">
 
   <div class="promo-wrapper"> 
+    <img class="product-img"
+                src="{{section.settings.banner_img | img_url: '375x'}}"
+                loading="lazy"
+                alt="banner img"
+              >
     <div class="promo-theme">{{section.settings.promo_theme}}</div>
     <div class="promo-title">{{section.settings.promo_title}}</div>
     <div class="promo-text">{{section.settings.promo_text}}</div>
     <a   class="promo-button" href="{{section.settings.button_url}}">{{section.settings.button_label}}</a>
   </div>
   
+
+
+
+
+
 </section>
 
 {% javascript %}

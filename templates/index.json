@@ -8,10 +8,7 @@
           "settings": {
             "button_label_1": "DESCUBRIR",
             "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_label_2": ""
           }
         }
       },
@@ -19,10 +16,7 @@
         "button"
       ],
       "settings": {
-        "desktop_text_box_position": "flex-end",
-        "color_scheme": "no-background",
-        "stack_images_on_mobile": true,
-        "adapt_height_first_image": false
+        "desktop_text_box_position": "flex-end"
       }
     },
     "collection_slider": {
@@ -33,21 +27,12 @@
     "new_collection": {
       "type": "new-collection",
       "settings": {
-        "title": "Ultimas colecciones",
-        "max_products": "6",
-        "final_button_label": "ver el catálogo",
-        "final_button_url": ""
+        "title": "Ultimas colecciones"
       }
     },
     "call_to_action": {
       "type": "call-to-action-1",
       "settings": {
-        "banner_img": "shopify:\/\/shop_images\/banner-promo.jpg",
-        "promo_theme": "trending",
-        "promo_title": "lunes multicolor",
-        "promo_text": "Vestibulum feugiat libero est, ut ultrices diam accumsan et. Cras eleifend nec nisl sed bibendum. Sed vel velit lacus. Nulla varius purus id tortor gravida varius. Sed iaculis interdum nisi, nec faucibus metus iaculis id.",
-        "button_label": "descubrir",
-        "button_url": "shopify:\/\/collections"
       }
     }
   },

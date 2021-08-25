@@ -1,7 +1,7 @@
 {{ 'section-call-to-action-1.css' | asset_url | stylesheet_tag }}
 
 {% stylesheet %}
-background-image: url("{{section.settings.banner_img | img_url: '375x'}}");
+background-image: url("{{section.settings.banner_img | img_url: '375x'}}") !important;
 {% endstylesheet %}
 
 <section class="promo-banner-section">
@@ -13,11 +13,6 @@ background-image: url("{{section.settings.banner_img | img_url: '375x'}}");
     <a   class="promo-button" href="{{section.settings.button_url}}">{{section.settings.button_label}}</a>
   </div>
   
-
-
-
-
-
 </section>
 
 {% javascript %}

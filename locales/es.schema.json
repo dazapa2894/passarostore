@@ -410,6 +410,20 @@
         }
       }
     },
+    "call-to-action": {
+      "name": "Llamada a la acción",
+      "settings": {
+        "button_label": {
+          "label": "Texto del boton"
+        },
+        "button_url": {
+          "label": "URL del boton"
+        },
+        "banner_img": {
+          "label": "Imagen del banner"
+        }
+      }
+    },
     "collection-list": {
       "name": "Lista de colecciones",
       "settings": {

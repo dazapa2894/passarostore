@@ -401,6 +401,12 @@
         },
         "max_products": {
           "label": "Numero maximo de productos"
+        },
+        "final_button_label": {
+          "label": "Texto del botón"
+        },
+        "final_button_url": {
+          "label": "URL del botón"
         }
       }
     },

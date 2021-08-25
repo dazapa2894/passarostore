@@ -36,6 +36,8 @@
 
     {% endfor %}
   </div>
+
+  <a href="{{section.settings.final_button_url}}">{{section.settings.final_button_label}}</a>
 </section>
 
 {% javascript %}
@@ -99,6 +101,17 @@ jQuery(".agregar").click( function(){
       ],
       "default": "6",
       "label": "t:sections.new-collection.settings.max_products.label"
+    },
+    {
+      "type": "text",
+      "id": "final_button_label",
+      "label": "t:sections.new-collection.settings.final_button_label.label",
+      "default": "ver catalogo"
+    },
+    {
+      "type": "url",
+      "id": "final_button_url",
+      "label": "t:sections.new-collection.settings.final_button_url.label"
     }
   ]
 }

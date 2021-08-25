@@ -1,0 +1,36 @@
+{{ 'section-call-to-action-1.css' | asset_url | stylesheet_tag }}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+<section>
+img
+
+</section>
+
+{% javascript %}
+{% endjavascript %}
+
+{% schema %}
+{
+  "name": "t:sections.call-to-action.name",
+  "class": "spaced-section spaced-section--full-width",
+  "settings": [
+    {
+      "id": "button_label",
+      "type": "text",
+      "label": "t:sections.call-to-action.settings.button_label.label"
+    },
+    {
+      "id": "button_url",
+      "type": "url",
+      "label": "t:sections.call-to-action.settings.button_url.label"
+    },
+    {
+      "id": "banner_img",
+      "type": "image_picker",
+      "label": "t:sections.call-to-action.settings.banner_img.label"
+    }
+  ]
+}
+{% endschema %}

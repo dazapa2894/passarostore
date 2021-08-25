@@ -44,11 +44,13 @@
 #products-wrapper .product-wrapper .product-title {
   font-size: 28px;
   color: rgb(var(--color-dark-blue));
+  font-family: Vanitas;
 }
 #products-wrapper .product-wrapper .product-price {
   font-weight: bold;
   font-size: 20px;
   color: rgb(var(--color-dark-blue));
+  font-family: montserrat;
 }
 #btn-ver-catalogo {
   display: flex;

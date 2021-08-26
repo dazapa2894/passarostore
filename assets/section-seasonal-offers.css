@@ -1,0 +1,16 @@
+#sesional-offers .titulo-con-division {
+  font-family: var(--font-heading-family);
+  color: rgb(var(--color-black));
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 60px;
+}
+#sesional-offers .titulo-con-division div {
+  content: "";
+  height: 2px;
+  width: 73px;
+  background: rgb(var(--color-gray));
+  position: absolute;
+  bottom: -15px;
+}

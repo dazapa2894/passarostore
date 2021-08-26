@@ -51,34 +51,13 @@ const swiper = new Swiper('.swiper-container',
 {
   // Optional parameters
   loop: true,
-  slidesPerView: 1,
-  slidesPerGroup: 1,
-  spaceBetween: 50,
+  spaceBetween: 30,
   loopFillGroupWithBlank: true,
   centeredSlides: true,
+  grabCursor: true,
+  freeMode: true,
   
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-  scrollbar: {
-    el: ".swiper-scrollbar",
-    hide: true,
-  },
-
   breakpoints: {
-    870: {
-      slidesPerView: 2,
-      slidesPerGroup: 2,
-      spaceBetween: 10,
-      centeredSlides: false,
-    },
-    1235: {
-      slidesPerView: 3,
-      slidesPerGroup: 3,
-      spaceBetween: 50,
-      centeredSlides: false,
-    },
 
   },
 });

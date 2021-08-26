@@ -2,10 +2,6 @@
   position: relative;
   margin: 40px 0px;
 }
-#collection-slider .swiper-button-next,
-#collection-slider .swiper-button-prev {
-  color: rgb(var(--color-gray));
-}
 #collection-slider .swiper-container {
   width: 1200px;
   height: 600px;
@@ -45,4 +41,8 @@
   top: -15px;
   position: relative;
   color: var(--color-gray-light);
+}
+#collection-slider .swiper-button-next,
+#collection-slider .swiper-button-prev {
+  color: rgb(var(--color-gray));
 }

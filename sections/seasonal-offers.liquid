@@ -16,7 +16,7 @@
       <!-- Slides -->
       {% assign mas_abajito = false %}
       {% assign collection_to_show = 3 %}
-      <pre>{{collections | json}}</pre>
+      <pre>{{collections.descuentos-de-temporada | json}}</pre>
       {% for collection in collections %}
         {% if collection.handle == 'descuentos-de-temporada' %}
 

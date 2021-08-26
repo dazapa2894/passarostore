@@ -3,12 +3,11 @@
   padding: 100px 20px;
   min-height: 100px;
 }
-.promo-wrapper .promo-img-wrapper {
-  position: absolute;
-  height: 100%;
+.promo-wrapper .promo-img-wrapper img {
+  width: 100%;
 }
-.promo-wrapper .promo-img-wrapper .placeholder-svg {
-  height: 100%;
+.promo-wrapper .promo-img-wrapper svg {
+  width: 100%;
 }
 .promo-wrapper .promo-text-wrapper {
   position: absolute;

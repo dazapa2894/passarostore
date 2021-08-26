@@ -12,6 +12,9 @@
 #collection-slider .swiper-slide {
   position: relative;
 }
+#collection-slider .swiper-slide .product-img {
+  width: 100%;
+}
 #collection-slider .swiper-slide img {
   position: absolute;
   margin: 0px 15px;

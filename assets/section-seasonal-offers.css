@@ -28,11 +28,13 @@
   font-size: 18px;
   font-weight: 400;
   text-align: center;
+  text-transform: uppercase;
   font-family: Vanitas;
 }
 #sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .product-price {
   font-size: 18px;
   font-weight: 700;
   text-align: center;
+  text-transform: uppercase;
   font-family: Montserat;
 }

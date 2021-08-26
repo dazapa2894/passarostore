@@ -1,27 +1,26 @@
-#collection-slider{
-  position: relative;  
+#collection-slider {
+  position: relative;
   margin: 40px 0px;
 }
-
-#collection-slider .swiper-button-next, #collection-slider .swiper-button-prev{
+#collection-slider .swiper-button-next,
+#collection-slider .swiper-button-prev {
   color: rgb(var(--color-gray));
 }
-
 #collection-slider .swiper-container {
   width: 1200px;
   height: 600px;
 }
-#collection-slider .mas-abajito{
+#collection-slider .mas-abajito {
   bottom: -30px;
 }
-#collection-slider .swiper-slide{
+#collection-slider .swiper-slide {
   position: relative;
 }
-#collection-slider .swiper-slide img{
+#collection-slider .swiper-slide img {
   position: absolute;
   margin: 0px 15px;
 }
-#collection-slider .swiper-slide .title-container{
+#collection-slider .swiper-slide .title-container {
   position: absolute;
   z-index: 2;
   top: 420px;
@@ -31,7 +30,7 @@
   background: white;
   padding: 5px 20px 0px 20px;
 }
-#collection-slider .swiper-slide .title-container .titulo{
+#collection-slider .swiper-slide .title-container .titulo {
   font-family: var(--font-heading-family);
   font-size: 30px;
   color: var(--color-gray);
@@ -40,7 +39,7 @@
   text-overflow: ellipsis;
   max-width: 200px;
 }
-#collection-slider .swiper-slide .title-container a{
+#collection-slider .swiper-slide .title-container a {
   font-family: var(--font-body-family);
   font-size: 10px;
   top: -15px;

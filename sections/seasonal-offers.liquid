@@ -8,7 +8,7 @@
     <div></div>
   </h2>
 
-  <pre>{{collections.descuentos-de-temporada | json}}</pre>
+  <pre>{{collections.descuentos-de-temporada.products | json}}</pre>
   
   <!-- Slider main container -->
   <div class="swiper-container">
@@ -17,24 +17,24 @@
       <!-- Slides -->
       {% assign mas_abajito = false %}
       {% assign collection_to_show = 3 %}
-      {% for collection in collections %}
-        {% if collection.handle == 'descuentos-de-temporada' %}
+      {% for product in collections.descuentos-de-temporada.products %}
+        {% if product.handle == 'descuentos-de-temporada' %}
 
-          <!-- collection info -->
+          <!-- product info -->
           <div class="swiper-slide" >
 
             <div class="title-container">
               <div class="titulo">
-                {{collection.title}}
+                {{product.title}}
               </div>
-              <a href="{{collection.url}}">COMPRAR</a>
+              <a href="{{product.url}}">COMPRAR</a>
             </div>
 
-            {% if collection.image %}
-              {{ collection.image | img_url: '400x600' | img_tag: collection.image.alt }}
+            {% if product.image %}
+              {{ product.image | img_url: '400x600' | img_tag: product.image.alt }}
             {% else %}
-              {% assign alt = collection.title | escape %}
-              {{ collection.products.first.image | img_url: '400x600' | img_tag: alt }}
+              {% assign alt = product.title | escape %}
+              {{ product.products.first.image | img_url: '400x600' | img_tag: alt }}
             {% endif %}
 
           </div>

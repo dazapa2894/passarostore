@@ -27,9 +27,12 @@
 #sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .product-title {
   font-size: 18px;
   font-weight: 400;
-  font-family: Montserat;
+  text-align: center;
+  font-family: Vanitas;
 }
 #sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .product-price {
   font-size: 18px;
   font-weight: 700;
+  text-align: center;
+  font-family: Montserat;
 }

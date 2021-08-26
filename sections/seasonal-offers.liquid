@@ -17,7 +17,7 @@
       {% assign mas_abajito = false %}
       {% assign collection_to_show = 3 %}
       {% for collection in collections %}
-        {% unless collection.handle == 'nueva-coleccion' %}
+        {% if collection.handle == 'descuentos-de-temporada' %}
           <!-- collection info -->
           <div class="swiper-slide" >
 
@@ -37,7 +37,7 @@
 
           </div>
 
-        {% endunless %}
+        {% endif %}
 
       {% endfor %}   
     </div>

@@ -27,11 +27,14 @@
               <a href="{{product.url}}">COMPRAR</a>
             </div>
 
-            {% if product.image %}
-              {{ product.image | img_url: '400x600' | img_tag: product.image.alt }}
+            {% if product.featured_image != blank %}
+              <img class="product-img"
+                src="{{product.featured_image | img_url: '375x' }}"
+                loading="lazy"
+                alt="{{product.featured_image.alt | escape }}"
+              >
             {% else %}
-              {% assign alt = product.title | escape %}
-              {{ product.products.first.image | img_url: '400x600' | img_tag: alt }}
+              {{ 'product-1' | placeholder_svg_tag}}
             {% endif %}
 
           </div>

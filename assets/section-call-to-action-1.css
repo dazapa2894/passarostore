@@ -1,13 +1,13 @@
-.promo-wrapper {
+#call-to-action-1 .promo-wrapper {
   position: relative;
 }
-.promo-wrapper .promo-img-wrapper img {
+#call-to-action-1 .promo-wrapper .promo-img-wrapper img {
   width: 100%;
 }
-.promo-wrapper .promo-img-wrapper svg {
+#call-to-action-1 .promo-wrapper .promo-img-wrapper svg {
   width: 100%;
 }
-.promo-wrapper .promo-text-wrapper {
+#call-to-action-1 .promo-wrapper .promo-text-wrapper {
   position: absolute;
   height: 100%;
   display: flex;
@@ -21,7 +21,7 @@
   right: 0;
   color: rgb(var(--color-white));
 }
-.promo-wrapper .promo-text-wrapper a {
+#call-to-action-1 .promo-wrapper .promo-text-wrapper a {
   background: rgb(var(--color-white));
   padding: 12px 50px;
   margin: 20px auto;

@@ -4,12 +4,11 @@
 {% endstylesheet %}
 
 <section id="">
-  {{section.settings.banner_img}}
-  {{section.settings.promo_theme}}
-  {{section.settings.promo_title}}
-  {{section.settings.promo_text}}
-  {{section.settings.button_label}}
-  {{section.settings.button_url}}
+  <h2 class="titulo-con-divicion{% if section.settings.title == blank %} title--no-heading{% endif %}">{{ section.settings.title | escape }}
+    <div></div>
+  </h2>
+  
+  
 </section>
 
 {% javascript %}

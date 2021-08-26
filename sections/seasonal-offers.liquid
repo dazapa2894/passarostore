@@ -7,7 +7,42 @@
   <h2 class="titulo-con-division{% if section.settings.title == blank %} title--no-heading{% endif %}">{{ section.settings.title | escape }}
     <div></div>
   </h2>
+
   
+  <!-- Slider main container -->
+  <div class="swiper-container">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      {% assign mas_abajito = false %}
+      {% assign collection_to_show = 3 %}
+      {% for collection in collections %}
+        {% unless collection.handle == 'nueva-coleccion' %}
+          <!-- collection info -->
+          <div class="swiper-slide" >
+
+            <div class="title-container">
+              <div class="titulo">
+                {{collection.title}}
+              </div>
+              <a href="{{collection.url}}">COMPRAR</a>
+            </div>
+
+            {% if collection.image %}
+              {{ collection.image | img_url: '400x600' | img_tag: collection.image.alt }}
+            {% else %}
+              {% assign alt = collection.title | escape %}
+              {{ collection.products.first.image | img_url: '400x600' | img_tag: alt }}
+            {% endif %}
+
+          </div>
+
+        {% endunless %}
+
+      {% endfor %}   
+    </div>
+
+  </div> 
   
 </section>
 

@@ -1,11 +1,11 @@
 #sesional-offers .titulo-con-division {
   font-family: var(--font-heading-family);
-  color: rgb(var(--color-black));
+  color: rgb(var(--color-gray));
   display: flex;
   justify-content: center;
   position: relative;
   margin-bottom: 60px;
-  font-family: vanitas;
+  font-family: "vanitas-bold";
 }
 #sesional-offers .titulo-con-division div {
   content: "";
@@ -30,7 +30,7 @@
   font-weight: 400;
   text-align: center;
   text-transform: uppercase;
-  font-family: vanitas;
+  font-family: "vanitas-bold";
 }
 #sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .product-price {
   font-size: 18px;

@@ -1,11 +1,11 @@
 #new-collection .titulo-con-division {
   font-family: var(--font-heading-family);
-  color: rgb(var(--color-black));
+  color: rgb(var(--color-gray));
   display: flex;
   justify-content: center;
   position: relative;
   margin-bottom: 60px;
-  font-family: vanitas;
+  font-family: "vanitas-regular";
 }
 #new-collection .titulo-con-division div {
   content: "";
@@ -45,7 +45,7 @@
 #new-collection #products-wrapper .product-wrapper .product-title {
   font-size: 28px;
   color: rgb(var(--color-dark-blue));
-  font-family: vanitas;
+  font-family: "vanitas-regular";
 }
 #new-collection #products-wrapper .product-wrapper .product-price {
   font-weight: bold;

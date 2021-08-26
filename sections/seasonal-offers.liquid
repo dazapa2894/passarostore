@@ -7,8 +7,6 @@
   <h2 class="titulo-con-division{% if section.settings.title == blank %} title--no-heading{% endif %}">{{ section.settings.title | escape }}
     <div></div>
   </h2>
-
-  <pre>{{collections.descuentos-de-temporada.products | json}}</pre>
   
   <!-- Slider main container -->
   <div class="swiper-container">
@@ -18,7 +16,6 @@
       {% assign mas_abajito = false %}
       {% assign collection_to_show = 3 %}
       {% for product in collections.descuentos-de-temporada.products %}
-        {% if product.handle == 'descuentos-de-temporada' %}
 
           <!-- product info -->
           <div class="swiper-slide" >
@@ -38,8 +35,6 @@
             {% endif %}
 
           </div>
-
-        {% endif %}
 
       {% endfor %}   
     </div>

@@ -7,19 +7,19 @@
 
   <div class="promo-wrapper">
     <div class="promo-img-wrapper">
-      {%- if section.settings.banner_img != blank -%}
+      {% if section.settings.banner_img != blank %}
         <img class="product-img"
                   src="{{section.settings.banner_img | img_url: '375x'}}"
                   loading="lazy"
                   alt="banner img"
                 >
-      {%- else -%}
+      {% else %}
         <img class="product-img"
                   src="{{ 'image' | placeholder_svg_tag }}"
                   loading="lazy"
                   alt="banner img"
                 >
-      {%- endif -%}
+      {% endif %}
     </div>
     <div class="promo-text-wrapper">
       <div class="promo-theme">{{section.settings.promo_theme}}</div>

@@ -14,11 +14,7 @@
                   alt="banner img"
                 >
       {% else %}
-        <img class="product-img"
-                  src="{{ 'image' | placeholder_svg_tag }}"
-                  loading="lazy"
-                  alt="banner img"
-                >
+        {{ 'image' | placeholder_svg_tag }}
       {% endif %}
     </div>
     <div class="promo-text-wrapper">

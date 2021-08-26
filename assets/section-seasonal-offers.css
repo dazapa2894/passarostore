@@ -14,13 +14,22 @@
   position: absolute;
   bottom: -15px;
 }
-#sesional-offers .collection-swiper-container {
+#sesional-offers .seasonal-swiper-container {
   width: 1200px;
   height: 600px;
 }
-#sesional-offers .collection-swiper-container .swiper-slide {
+#sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide {
   position: relative;
 }
-#sesional-offers .collection-swiper-container .swiper-slide .product-img {
+#sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .product-img {
   width: 100%;
+}
+#sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .product-title {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: Montserat;
+}
+#sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .product-price {
+  font-size: 18px;
+  font-weight: 700;
 }

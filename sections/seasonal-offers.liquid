@@ -20,13 +20,6 @@
           <!-- product info -->
           <div class="swiper-slide" >
 
-            <div class="title-container">
-              <div class="titulo">
-                {{product.title}}
-              </div>
-              <a href="{{product.url}}">COMPRAR</a>
-            </div>
-
             {% if product.featured_image != blank %}
               <img class="product-img"
                 src="{{product.featured_image | img_url: '375x' }}"
@@ -37,6 +30,8 @@
               {{ 'product-1' | placeholder_svg_tag}}
             {% endif %}
 
+            <div class="product-title">{{ product.title }}</div>
+            <div class="product-price">{{ product.price | money_without_trailing_zeros }}</div>
           </div>
 
       {% endfor %}   

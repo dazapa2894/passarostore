@@ -1,28 +1,34 @@
 {{ 'section-call-to-action-1.css' | asset_url | stylesheet_tag }}
 
 {% stylesheet %}
-background-image: url("{{section.settings.banner_img | img_url: '375x'}}";
 {% endstylesheet %}
 
 <section class="promo-banner-section">
 
-  <div class="promo-wrapper"> 
-    <img class="product-img"
-                src="{{section.settings.banner_img | img_url: '375x'}}"
-                loading="lazy"
-                alt="banner img"
-              >
-    <div class="promo-theme">{{section.settings.promo_theme}}</div>
-    <div class="promo-title">{{section.settings.promo_title}}</div>
-    <div class="promo-text">{{section.settings.promo_text}}</div>
-    <a   class="promo-button" href="{{section.settings.button_url}}">{{section.settings.button_label}}</a>
+  <div class="promo-wrapper">
+    <div class="promo-img-wrapper">
+      {%- if section.settings.banner_img != blank -%}
+        <img class="product-img"
+                  src="{{section.settings.banner_img | img_url: '375x'}}"
+                  loading="lazy"
+                  alt="banner img"
+                >
+      {%- else -%}
+        <img class="product-img"
+                  src="{{ 'image' | placeholder_svg_tag }}"
+                  loading="lazy"
+                  alt="banner img"
+                >
+      {%- endif -%}
+    </div>
+    <div class="promo-text-wrapper">
+      <div class="promo-theme">{{section.settings.promo_theme}}</div>
+      <div class="promo-title">{{section.settings.promo_title}}</div>
+      <div class="promo-text">{{section.settings.promo_text}}</div>
+      <a   class="promo-button" href="{{section.settings.button_url}}">{{section.settings.button_label}}</a>
+    </div>
   </div>
   
-
-
-
-
-
 </section>
 
 {% javascript %}

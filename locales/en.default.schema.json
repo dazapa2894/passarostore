@@ -429,6 +429,14 @@
         }
       }
     },
+    "seasonal-offers": {
+      "name": "Seasonal offers",
+      "settings": {
+        "title": {
+          "label": "Title"
+        }
+      }
+    },
     "collection-list": {
       "name": "Collection list",
       "settings": {

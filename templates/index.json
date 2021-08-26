@@ -34,12 +34,19 @@
       "type": "call-to-action-1",
       "settings": {
       }
+    },
+    "seasonal_offers": {
+      "type": "seasonal-offers",
+      "settings": {
+        "title": "Seasonal offers"
+      }
     }
   },
   "order": [
     "image_banner",
     "collection_slider",
     "new_collection",
-    "call_to_action"
+    "call_to_action",
+    "seasonal_offers"
   ]
 }

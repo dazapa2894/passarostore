@@ -420,16 +420,24 @@
           "label": "nombre de la tematica"
         },
         "promo_title": {
-          "label": "Titulo de la promoción"
+          "label": "Título de la promoción"
         },
         "promo_text": {
           "label": "Descripción de la promoción"
         },
         "button_label": {
-          "label": "Texto del boton"
+          "label": "Texto del botón"
         },
         "button_url": {
-          "label": "URL del boton"
+          "label": "URL del botón"
+        }
+      }
+    },
+    "seasonal-offers": {
+      "name": "Ofertas de temporada",
+      "settings": {
+        "title": {
+          "label": "Título"
         }
       }
     },

@@ -1,0 +1,65 @@
+{{ 'section-seasonal-offers.css' | asset_url | stylesheet_tag }}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+<section id="">
+  {{section.settings.banner_img}}
+  {{section.settings.promo_theme}}
+  {{section.settings.promo_title}}
+  {{section.settings.promo_text}}
+  {{section.settings.button_label}}
+  {{section.settings.button_url}}
+</section>
+
+{% javascript %}
+const swiper = new Swiper('.swiper-container', 
+{
+  // Optional parameters
+  loop: true,
+  slidesPerView: 1,
+  slidesPerGroup: 1,
+  spaceBetween: 50,
+  loopFillGroupWithBlank: true,
+  centeredSlides: true,
+  
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  scrollbar: {
+    el: ".swiper-scrollbar",
+    hide: true,
+  },
+
+  breakpoints: {
+    870: {
+      slidesPerView: 2,
+      slidesPerGroup: 2,
+      spaceBetween: 10,
+      centeredSlides: false,
+    },
+    1235: {
+      slidesPerView: 3,
+      slidesPerGroup: 3,
+      spaceBetween: 50,
+      centeredSlides: false,
+    },
+
+  },
+});
+{% endjavascript %}
+
+{% schema %}
+{
+  "name": "t:sections.seasonal-offers.name",
+  "settings": [
+    {
+      "id": "title",
+      "type": "text",
+      "label": "t:sections.seasonal-offers.settings.title.label",
+      "default": "Ofertas de temporada"
+    }
+  ]
+}
+{% endschema %}

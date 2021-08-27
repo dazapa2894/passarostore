@@ -8,7 +8,9 @@
   position: absolute;
   top: 0;
   bottom: 0;
-  z-index: -1;
+}
+.newsletter-section .background-imgplaceholder {
+  background: rgb(var(--color-gray-light));
 }
 .newsletter-section .newsletter {
   position: relative;

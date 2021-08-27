@@ -52,8 +52,9 @@
               <div class="price-wrapper">
               {% if product.compare_at_price > product.price %}
                 <div class="product-price">{{- product.price | money_without_trailing_zeros -}}</div>
-
-                <div class="product-compare-price">{{- product.compare_at_price | money_without_trailing_zeros -}}</div>
+                {% if section.settings.show_compare_price %}
+                  <div class="product-compare-price">{{- product.compare_at_price | money_without_trailing_zeros -}}</div>
+                {% endif %}
               {% else %}
                 <div class="product-price">{{- product.price | money_without_trailing_zeros -}}</div>
               {% endif %}
@@ -91,6 +92,12 @@ const swiper = new Swiper('.seasonal-swiper-container',
       "type": "text",
       "label": "t:sections.seasonal-offers.settings.title.label",
       "default": "Ofertas de temporada"
+    },
+    {
+      "id": "show_compare_price",
+      "type": "checkbox",
+      "label": "t:sections.seasonal-offers.settings.show_compare_price.label",
+      "default": false
     }
   ]
 }

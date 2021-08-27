@@ -175,18 +175,18 @@
         "options": [
           {
             "value": "pink",
-            "label": "t:settings_schema.styles.settings.sale_badge_color_scheme.options__2.label"
+            "label": "t:settings_schema.styles.settings.sale_badge_color_scheme.options__1.label"
           },
           {
             "value": "pink-light",
-            "label": "t:settings_schema.styles.settings.sale_badge_color_scheme.options__3.label"
+            "label": "t:settings_schema.styles.settings.sale_badge_color_scheme.options__2.label"
           },
           {
             "value": "pink-dark",
-            "label": "t:settings_schema.styles.settings.sale_badge_color_scheme.options__1.label"
+            "label": "t:settings_schema.styles.settings.sale_badge_color_scheme.options__3.label"
           }
         ],
-        "default": "pink",
+        "default": "pink-light",
         "label": "t:settings_schema.styles.settings.sale_badge_color_scheme.label"
       },
       {

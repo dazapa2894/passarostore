@@ -61,7 +61,7 @@
   font-weight: 400;
   text-align: center;
   text-transform: uppercase;
-  font-family: "vanitas-bold";
+  font-family: "vanitas";
 }
 #sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .info-wrapper .price-wrapper {
   display: flex;
@@ -73,7 +73,7 @@
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
-  font-family: "montserat-regular";
+  font-family: "montserrat";
 }
 #sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .info-wrapper .price-wrapper .product-compare-price {
   text-decoration: line-through;
@@ -81,5 +81,5 @@
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
-  font-family: "montserat-regular";
+  font-family: "montserrat";
 }

@@ -42,7 +42,7 @@
       }
     },
     "about_us": {
-      "type": "image-with-text",
+      "type": "image-with-text-full-width",
       "blocks": {
         "heading": {
           "type": "heading",

@@ -1,9 +1,11 @@
 {{ 'component-newsletter.css' | asset_url | stylesheet_tag }}
-{{ 'newsletter-section.css' | asset_url | stylesheet_tag }}+
-
-
+{{ 'newsletter-section.css' | asset_url | stylesheet_tag }}
 
 <section class="newsletter-section">
+  <img class="product-img"
+      src="{{section.settings.background_image}}"
+      loading="lazy"
+    >
   <div class="newsletter center{% if section.settings.full_width == false %} newsletter--narrow page-width{% endif%}">
     <div class="newsletter__wrapper color-{{ section.settings.color_scheme }}">
       {%- for block in section.blocks -%}
@@ -67,6 +69,11 @@
   "tag": "section",
   "class": "spaced-section spaced-section--full-width",
   "settings": [
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "t:sections.newsletter.settings.image_picker.label"
+    },
     {
       "type": "select",
       "id": "color_scheme",

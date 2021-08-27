@@ -76,11 +76,6 @@
           "settings": {
           }
         },
-        "paragraph": {
-          "type": "paragraph",
-          "settings": {
-          }
-        },
         "email_form": {
           "type": "email_form",
           "settings": {
@@ -89,7 +84,6 @@
       },
       "block_order": [
         "heading",
-        "paragraph",
         "email_form"
       ],
       "settings": {
@@ -99,10 +93,10 @@
   "order": [
     "image_banner",
     "collection_slider",
+    "newsletter",
     "new_collection",
     "call_to_action",
     "seasonal_offers",
-    "about_us",
-    "newsletter"
+    "about_us"
   ]
 }

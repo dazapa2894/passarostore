@@ -132,6 +132,19 @@
       ]
     },
     {
+      "type": "paragraph",
+      "name": "t:sections.newsletter.blocks.paragraph.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "paragraph",
+          "default": "<p>Be the first to know about new collections and exclusive offers.</p>",
+          "label": "t:sections.newsletter.blocks.paragraph.settings.paragraph.label"
+        }
+      ]
+    },
+    {
       "type": "email_form",
       "name": "t:sections.newsletter.blocks.email_form.name",
       "limit": 1
@@ -146,7 +159,10 @@
       "blocks": [
         {
           "type": "heading"
-        },        
+        },
+        {
+          "type": "paragraph"
+        },
         {
           "type": "email_form"
         }

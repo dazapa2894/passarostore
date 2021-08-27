@@ -10,7 +10,7 @@
   bottom: 0;
 }
 .newsletter-section .background-img.placeholder-img {
-  background: rgb(var(--color-gray-light), 0.5);
+  background: rgb(var(--color-pink), 0.5);
 }
 .newsletter-section .newsletter {
   position: relative;
@@ -25,6 +25,7 @@
   align-items: center;
   width: 100%;
   position: relative;
+  background-color: rgb(var(--color-white));
 }
 @media screen and (min-width: 750px) {
   .newsletter-form {

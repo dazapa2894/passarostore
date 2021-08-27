@@ -40,6 +40,11 @@
       "settings": {
         "title": "Seasonal offers"
       }
+    },
+    "about_us": {
+      "type": "image-with-text",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -47,6 +52,7 @@
     "collection_slider",
     "new_collection",
     "call_to_action",
-    "seasonal_offers"
+    "seasonal_offers",
+    "about_us"
   ]
 }

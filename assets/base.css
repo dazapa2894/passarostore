@@ -40,36 +40,36 @@
 :root,
 
 .color-dark-blue{
-  color: rgb(var(--color-base-text));
-  background-color: rgb(var(--color-gray-light));
+  color: rgb(var(--color-base-text)) !important;
+  background-color: rgb(var(--color-gray-light)) !important;
 }
 .color-pink{
-  color: rgb(var(--color-white));
-  background-color: rgb(var(--color-pink));
+  color: rgb(var(--color-white)) !important;
+  background-color: rgb(var(--color-pink)) !important;
 }
 .color-pink-light{
-  color: rgb(var(--color-white));
-  background-color: rgb(var(--color-pink-light));
+  color: rgb(var(--color-white)) !important;
+  background-color: rgb(var(--color-pink-light)) !important;
 }
 .color-pink-dark{
-  color: rgb(var(--color-white));
-  background-color: rgb(var(--color-pink-dark));
+  color: rgb(var(--color-white)) !important;
+  background-color: rgb(var(--color-pink-dark)) !important;
 }
 .color-gray{
-  color: rgb(var(--color-base-text));
-  background-color: rgb(var(--color-gray));
+  color: rgb(var(--color-base-text)) !important;
+  background-color: rgb(var(--color-gray)) !important;
 }
 .color-gray-light{
-  color: rgb(var(--color-base-text));
-  background-color: rgb(var(--color-gray-light));
+  color: rgb(var(--color-base-text)) !important;
+  background-color: rgb(var(--color-gray-light)) !important;
 }
 .color-ocean-green{
-  color: rgb(var(--color-base-text));
-  background-color: rgb(var(--color-ocean-green));
+  color: rgb(var(--color-base-text)) !important;
+  background-color: rgb(var(--color-ocean-green)) !important;
 }
 .color-white{
-  color: rgb(var(--color-base-text));
-  background-color: rgb(var(--color-white));
+  color: rgb(var(--color-base-text)) !important;
+  background-color: rgb(var(--color-white)) !important;
 }
 
 .color-background-1 {

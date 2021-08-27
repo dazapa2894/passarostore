@@ -3,7 +3,7 @@
 
 <section class="newsletter-section">
   <img class="product-img"
-      src="{{section.settings.background_image}}"
+      src="{{section.settings.background_image | img_url}}"
       loading="lazy"
     >
   <div class="newsletter center{% if section.settings.full_width == false %} newsletter--narrow page-width{% endif%}">

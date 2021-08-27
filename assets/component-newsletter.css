@@ -9,8 +9,8 @@
   top: 0;
   bottom: 0;
 }
-.newsletter-section .background-imgplaceholder {
-  background: rgb(var(--color-gray-light));
+.newsletter-section .background-imgplaceholder-img {
+  background: rgb(var(--color-gray-light), 0.5);
 }
 .newsletter-section .newsletter {
   position: relative;

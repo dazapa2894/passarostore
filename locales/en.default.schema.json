@@ -1527,6 +1527,9 @@
     "newsletter": {
       "name": "Email signup",
       "settings": {
+        "background_image": {
+          "label": "Background image"
+        },
         "color_scheme": {
           "label": "Color scheme",
           "options__1": {

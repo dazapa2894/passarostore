@@ -1576,6 +1576,9 @@
     "newsletter": {
       "name": "Suscriptor de correo electrónico",
       "settings": {
+        "background_image": {
+          "label": "Imagen del fondo"
+        },
         "color_scheme": {
           "label": "Esquema de colores",
           "options__1": {

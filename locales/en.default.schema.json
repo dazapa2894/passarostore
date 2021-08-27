@@ -828,7 +828,7 @@
     "image-with-text": {
       "name": "Image with text",
       "settings": {
-        "image-with-text": {
+        "full_width": {
           "label": "Section width"
         },
         "image": {

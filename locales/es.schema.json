@@ -851,7 +851,7 @@
     "image-with-text": {
       "name": "Imagen con texto",
       "settings": {
-        "image-with-text": {
+        "full_width": {
           "label": "Ancho de la sección"
         },
         "image": {

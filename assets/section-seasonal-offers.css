@@ -16,7 +16,7 @@
   bottom: -15px;
 }
 #sesional-offers .seasonal-swiper-container {
-  width: 1200px;
+  width: 95%;
   height: 400px;
 }
 #sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide {
@@ -24,6 +24,7 @@
 }
 #sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .image-wrapper {
   position: relative;
+  height: 100%;
 }
 #sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .image-wrapper .product-img {
   position: absolute;

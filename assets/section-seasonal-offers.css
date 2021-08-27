@@ -53,17 +53,20 @@
   line-height: 1;
   border: none!important;
 }
-#sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .product-title {
+#sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .info-wrapper {
+  text-align: center;
+}
+#sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .info-wrapper .product-title {
   font-size: 18px;
   font-weight: 400;
   text-align: center;
   text-transform: uppercase;
   font-family: "vanitas-bold";
 }
-#sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .product-price {
+#sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .info-wrapper .product-price {
   font-size: 18px;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
-  font-family: montserat;
+  font-family: "montserat-regular";
 }

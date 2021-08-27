@@ -16,6 +16,7 @@
       {% assign mas_abajito = false %}
       {% assign collection_to_show = 3 %}
       {% for product in collections.descuentos-de-temporada.products %}
+
           <!-- product info -->
           <a href="{{product.url}}" class="swiper-slide" >
 
@@ -36,11 +37,20 @@
                 {%- if product.available == false -%}
                   <span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}" aria-hidden="true">{{ 'products.product.sold_out' | t }}</span>
                 {%- elsif product.compare_at_price > product.price and product.available -%}
+                  <span class="badge badge--top-left pecentual-discount">{{ product.compare_at_price_max | minus: product.price | times: 100.0 | divided_by: product.compare_at_price_max | money_without_currency | times: 100 | remove: '.0'}}% off</span>
                   <span class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}" aria-hidden="true">{{ 'products.product.on_sale' | t }}</span>
                 {%- endif -%}
               </div>
               <div class="product-title">{{ product.title }}</div>
-              <div class="product-price">{{ product.price | money_without_trailing_zeros }}</div>
+              <div class="price-wrapper">
+              {% if product.compare_at_price > product.price %}
+                <div class="product-price">{{- product.price | money_without_trailing_zeros -}}</div>
+
+                <div class="product-compare-price">{{- product.compare_at_price | money_without_trailing_zeros -}}</div>
+              {% else %}
+                <div class="product-price">{{- product.price | money_without_trailing_zeros -}}</div>
+              {% endif %}
+              </div>
             </div>
 
           </a>

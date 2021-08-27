@@ -1,7 +1,7 @@
 .newsletter-section {
-  background-image: url(assets/newsletter-background.jpg);
+  background-image: url("assets/newsletter-background.jpg");
 }
-.newsletter-section .newsletter-form {
+.newsletter-form {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,40 +10,40 @@
   position: relative;
 }
 @media screen and (min-width: 750px) {
-  .newsletter-section .newsletter-form {
+  .newsletter-form {
     flex-direction: row;
     align-items: flex-start;
     margin: 0 auto;
     max-width: 36rem;
   }
 }
-.newsletter-section .newsletter-form__field-wrapper {
+.newsletter-form__field-wrapper {
   width: 100%;
 }
-.newsletter-section .newsletter-form__field-wrapper .field__input {
+.newsletter-form__field-wrapper .field__input {
   padding-right: 5rem;
 }
-.newsletter-section .newsletter-form__message {
+.newsletter-form__message {
   justify-content: center;
   margin-bottom: 0;
 }
-.newsletter-section .newsletter-form__message--success {
+.newsletter-form__message--success {
   margin-top: 2rem;
 }
 @media screen and (min-width: 750px) {
-  .newsletter-section .newsletter-form__message {
+  .newsletter-form__message {
     justify-content: flex-start;
   }
-  .newsletter-section .newsletter-form__message--success {
+  .newsletter-form__message--success {
     position: absolute;
     left: 0;
     bottom: -65%;
   }
 }
-.newsletter-section .newsletter-form__button {
+.newsletter-form__button {
   width: 4.4rem;
   margin: 0;
 }
-.newsletter-section .newsletter-form__button .icon {
+.newsletter-form__button .icon {
   width: 1.5rem;
 }

@@ -34,8 +34,8 @@
 }
 #sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .image-wrapper .card__badge {
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 0px;
+  left: 5px;
 }
 #sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .image-wrapper .add-to-cart-form-btn {
   position: absolute;

@@ -37,10 +37,7 @@
                 {%- if product.available == false -%}
                   <span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}" aria-hidden="true">{{ 'products.product.sold_out' | t }}</span>
                 {%- elsif product.compare_at_price > product.price and product.available -%}
-                  <span class="badge badge--top-left pecentual-discount">{{ product.compare_at_price_max | minus: product.price | times: 100.0 | divided_by: product.compare_at_price_max | money_without_currency | times: 100 | remove: '.0'}}% off</span>
-                  <span class="badge badge--top-left pecentual-discount">{{ product.compare_at_price_max | minus: product.price | times: 100.0 | divided_by: product.compare_at_price_max | times: 100 }}% off</span>
-                  <span class="badge badge--top-left pecentual-discount">{{ product.compare_at_price_max | minus: product.price | times: 100 | divided_by: product.compare_at_price_max }}% off</span>
-                  <span class="badge badge--top-left pecentual-discount">{{ product.compare_at_price_max | minus: product.price | times: 10000 | divided_by: product.compare_at_price_max | money_without_currency | remove: '.0' }}% off</span>
+                  <span class="badge badge--top-left color-{{ settings.sale_badge_color_scheme }} pecentual-discount" aria-hidden="true">{{ product.compare_at_price_max | minus: product.price | times: 100 | divided_by: product.compare_at_price_max }}% off</span>
                   <span class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}" aria-hidden="true">{{ 'products.product.on_sale' | t }}</span>
                 {%- endif -%}
               </div>

@@ -39,7 +39,7 @@
                 {%- endif -%}
               </div>
 
-              <form action="/cart/add" method="post" id="product-form- {{ product.id }}">
+              <form action="/cart/add" method="post" id="product-form-{{ product.id }}" class="add-to-cart-form-btn">
                 <input type="hidden" name="id" value="{{ product.variants.first.id }}">
                 <div>
                   <button type="button" name="add" class="agregar" id="product-form- {{ product.id }}" value="{{ product.variants.first.id }}">+</button>

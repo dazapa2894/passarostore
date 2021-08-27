@@ -30,13 +30,17 @@
   top: 0;
   width: 100%;
 }
-#sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .image-wrapper .bagde {
+#sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .image-wrapper .card__badge {
   position: absolute;
   top: 10px;
   left: 10px;
 }
-#sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .image-wrapper .agregar {
+#sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .image-wrapper .add-to-cart-form-btn {
   position: absolute;
+  bottom: 20px;
+  right: 15px;
+}
+#sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .image-wrapper .add-to-cart-form-btn .agregar {
   border-radius: 10px 0;
   background: rgb(var(--color-dark-blue));
   width: 30px;
@@ -45,8 +49,6 @@
   height: 30px;
   font-weight: 700;
   line-height: 1;
-  bottom: 20px;
-  right: 15px;
   border: none !important;
 }
 #sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .product-title {

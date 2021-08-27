@@ -1,8 +1,12 @@
 .newsletter-section {
+  position: relative;
   height: 300px;
 }
 .newsletter-section .background-img {
   width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
 }
 .newsletter-form {
   display: flex;

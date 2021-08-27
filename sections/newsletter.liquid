@@ -6,6 +6,7 @@
     {%- for block in section.blocks -%}
       {%- case block.type -%}
         {%- when '@app' -%}
+        app?
           {% render block %}
         {%- when 'heading' -%}
           <h2 class="h1" {{ block.shopify_attributes }}>{{ block.settings.heading | escape }}</h2>

@@ -18,7 +18,7 @@
       {% for product in collections.descuentos-de-temporada.products %}
 
           <!-- product info -->
-          <div class="swiper-slide" >
+          <a href="{{product.url}}" class="swiper-slide" >
 
             {% if product.featured_image != blank %}
               <img class="product-img"
@@ -32,7 +32,7 @@
 
             <div class="product-title">{{ product.title }}</div>
             <div class="product-price">{{ product.price | money_without_trailing_zeros }}</div>
-          </div>
+          </a>
 
       {% endfor %}   
     </div>

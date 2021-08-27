@@ -904,6 +904,19 @@
           "settings": {
             "heading": {
               "label": "Título"
+            },
+            "heading_style": {
+              "options__1": {
+                "label": "H1"
+              },
+              "options__2": {
+                "label": "H2"
+              },
+              "options__3": {
+                "label": "H3"
+              },
+              "label": "Estilo de titulo",
+              "info": "Elige el estilo del título"
             }
           }
         },

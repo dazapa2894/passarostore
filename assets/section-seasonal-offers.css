@@ -45,13 +45,13 @@
 #sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .image-wrapper .add-to-cart-form-btn .agregar {
   border-radius: 10px 0;
   background: rgb(var(--color-dark-blue));
-  width: 30px;
-  color: #fff;
+  width: 20px;
+  color: rgb(var(--color-white));
   font-size: 25px;
-  height: 30px;
-  font-weight: 700;
+  height: 25px;
+  font-weight: 300;
   line-height: 1;
-  border: none !important;
+  border: none!important;
 }
 #sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .product-title {
   font-size: 18px;

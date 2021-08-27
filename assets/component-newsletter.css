@@ -1,3 +1,6 @@
+.background-img {
+  width: 100%;
+}
 .newsletter-form {
   display: flex;
   flex-direction: column;

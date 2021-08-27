@@ -2,8 +2,8 @@
 {{ 'newsletter-section.css' | asset_url | stylesheet_tag }}
 
 <section class="newsletter-section">
-  <img class="product-img"
-      src="{{section.settings.background_image | img_url: '2000x'}}"
+  <img class="background-img"
+      src="{{section.settings.background_image | img_url: '1920x'}}"
       loading="lazy"
     >
   <div class="newsletter center{% if section.settings.full_width == false %} newsletter--narrow page-width{% endif%}">

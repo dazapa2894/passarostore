@@ -9,7 +9,7 @@
   top: 0;
   bottom: 0;
 }
-.newsletter-section .background-imgplaceholder-img {
+.newsletter-section .background-img.placeholder-img {
   background: rgb(var(--color-gray-light), 0.5);
 }
 .newsletter-section .newsletter {

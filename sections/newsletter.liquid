@@ -2,10 +2,14 @@
 {{ 'newsletter-section.css' | asset_url | stylesheet_tag }}
 
 <section class="newsletter-section">
+  {% if section.settings.background_image != blank %}
   <img class="background-img"
       src="{{section.settings.background_image | img_url: '1920x'}}"
       loading="lazy"
     >
+  {% else %}
+    {{ 'lifestyle-2' | placeholder_svg_tag: 'media placeholder' }}
+  {% endif %}
   <div class="newsletter center{% if section.settings.full_width == false %} newsletter--narrow page-width{% endif%}">
     <div class="newsletter__wrapper">
       {%- for block in section.blocks -%}

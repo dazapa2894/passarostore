@@ -63,7 +63,20 @@
   text-transform: uppercase;
   font-family: "vanitas-bold";
 }
-#sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .info-wrapper .product-price {
+#sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .info-wrapper .price-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .info-wrapper .price-wrapper .product-price {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "montserat-regular";
+}
+#sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .info-wrapper .price-wrapper .product-compare-price {
+  text-decoration: line-through;
   font-size: 18px;
   font-weight: 700;
   text-align: center;

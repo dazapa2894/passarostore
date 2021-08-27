@@ -93,13 +93,13 @@
         },
         "sale_badge_color_scheme": {
           "options__1": {
-            "label": "Background 2"
+            "label": "Pink"
           },
           "options__2": {
-            "label": "Accent 1"
+            "label": "Light pink"
           },
           "options__3": {
-            "label": "Accent 2"
+            "label": "Dark pink"
           },
           "label": "Sale badge color scheme"
         },

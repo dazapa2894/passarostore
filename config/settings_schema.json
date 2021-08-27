@@ -174,19 +174,19 @@
         "id": "sale_badge_color_scheme",
         "options": [
           {
-            "value": "accent-1",
+            "value": "pink",
             "label": "t:settings_schema.styles.settings.sale_badge_color_scheme.options__2.label"
           },
           {
-            "value": "accent-2",
+            "value": "pink-light",
             "label": "t:settings_schema.styles.settings.sale_badge_color_scheme.options__3.label"
           },
           {
-            "value": "background-2",
+            "value": "pink-dark",
             "label": "t:settings_schema.styles.settings.sale_badge_color_scheme.options__1.label"
           }
         ],
-        "default": "accent-2",
+        "default": "pink",
         "label": "t:settings_schema.styles.settings.sale_badge_color_scheme.label"
       },
       {

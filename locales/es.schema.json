@@ -84,13 +84,13 @@
       "settings": {
         "sale_badge_color_scheme": {
           "options__1": {
-            "label": "Fondo 2"
+            "label": "Rosa"
           },
           "options__2": {
-            "label": "Acento 1"
+            "label": "Rosa claro"
           },
           "options__3": {
-            "label": "Acento 2"
+            "label": "Rosa oscuro"
           },
           "label": "Esquema de color de emblema de oferta"
         },

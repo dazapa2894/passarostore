@@ -37,6 +37,20 @@
   top: 10px;
   left: 10px;
 }
+#sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .image-wrapper .agregar {
+  position: absolute;
+  border-radius: 10px 0;
+  background: rgb(var(--color-dark-blue));
+  width: 30px;
+  color: #fff;
+  font-size: 25px;
+  height: 30px;
+  font-weight: 700;
+  line-height: 1;
+  bottom: 20px;
+  right: 15px;
+  border: none !important;
+}
 #sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .product-title {
   font-size: 18px;
   font-weight: 400;

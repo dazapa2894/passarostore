@@ -30,9 +30,7 @@
               {% else %}
                 {{ 'product-1' | placeholder_svg_tag}}
               {% endif %}
-            </div>
 
-            <div class="info-wrapper">
               <div class="card__badge">
                 {%- if product.available == false -%}
                   <span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}" aria-hidden="true">{{ 'products.product.sold_out' | t }}</span>
@@ -40,6 +38,16 @@
                   <span class="badge badge--top-left color-{{ settings.sale_badge_color_scheme }} pecentual-discount" aria-hidden="true">-{{ product.compare_at_price_max | minus: product.price | times: 100 | divided_by: product.compare_at_price_max }}%</span>
                 {%- endif -%}
               </div>
+
+              <form action="/cart/add" method="post" id="product-form- {{ product.id }}">
+                <input type="hidden" name="id" value="{{ product.variants.first.id }}">
+                <div>
+                  <button type="button" name="add" class="agregar" id="product-form- {{ product.id }}" value="{{ product.variants.first.id }}">+</button>
+                </div>
+              </form>
+            </div>
+
+            <div class="info-wrapper">
               <div class="product-title">{{ product.title }}</div>
               <div class="price-wrapper">
               {% if product.compare_at_price > product.price %}

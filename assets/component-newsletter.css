@@ -10,6 +10,12 @@
   bottom: 0;
   z-index: -1;
 }
+.newsletter-section .newsletter {
+  position: relative;
+}
+.newsletter-section .newsletter .newsletter__wrapper {
+  background: transparent;
+}
 .newsletter-form {
   display: flex;
   flex-direction: column;

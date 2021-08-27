@@ -70,6 +70,26 @@
     },
     "newsletter": {
       "type": "newsletter",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+          }
+        },
+        "text": {
+          "type": "paragraph",
+          "settings": {
+          }
+        },
+        "button": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading"
+      ],
       "settings": {
       }
     }

@@ -16,7 +16,7 @@
       {% assign mas_abajito = false %}
       {% assign collection_to_show = 3 %}
       {% for product in collections.descuentos-de-temporada.products %}
-
+          {{product | json}}
           <!-- product info -->
           <a href="{{product.url}}" class="swiper-slide" >
 

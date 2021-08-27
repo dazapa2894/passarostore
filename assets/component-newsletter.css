@@ -1,4 +1,7 @@
-.background-img {
+.newsletter-section {
+  height: 300px;
+}
+.newsletter-section .background-img {
   width: 100%;
 }
 .newsletter-form {

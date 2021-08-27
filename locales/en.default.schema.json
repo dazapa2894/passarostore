@@ -828,6 +828,9 @@
     "image-with-text": {
       "name": "Image with text",
       "settings": {
+        "image-with-text": {
+          "label": "Section width"
+        },
         "image": {
           "label": "Image"
         },

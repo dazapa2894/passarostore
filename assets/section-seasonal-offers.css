@@ -22,8 +22,20 @@
 #sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide {
   position: relative;
 }
-#sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .product-img {
+#sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .image-wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+#sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .image-wrapper .product-img {
   width: 100%;
+}
+#sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .image-wrapper .bagde {
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
 #sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .product-title {
   font-size: 18px;

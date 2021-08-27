@@ -76,19 +76,21 @@
           "settings": {
           }
         },
-        "text": {
+        "paragraph": {
           "type": "paragraph",
           "settings": {
           }
         },
-        "button": {
+        "email_form": {
           "type": "email_form",
           "settings": {
           }
         }
       },
       "block_order": [
-        "heading"
+        "heading",
+        "paragraph",
+        "email_form"
       ],
       "settings": {
       }

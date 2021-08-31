@@ -9,13 +9,12 @@
   cursor: pointer;
 }
 .menu-passaro:hover .hamburger .bar-1 {
-  background-color: rgb(var(--color-pink));
+  background-color: rgb(var(--color-pink)) !important;
 }
 .menu-passaro .hamburger {
   position: relative;
   top: -5px;
   width: 30px;
-  color: seagreen;
 }
 .menu-passaro .hamburger .hamburger-bar {
   position: absolute;

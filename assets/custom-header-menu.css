@@ -1,0 +1,29 @@
+.hamburger {
+  position: relative;
+  top: -5px;
+  width: 30px;
+}
+.hamburger .hamburger-bar {
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  background: #fff;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.hamburger .hamburger-bar.bar1 {
+  right: 0;
+  width: 15px;
+  top: 0;
+}
+.hamburger .hamburger-bar.bar2 {
+  top: 7.5px;
+}
+.hamburger .hamburger-bar.bar3 {
+  top: 15px;
+  left: 0;
+  width: 15px;
+}

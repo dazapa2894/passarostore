@@ -8,13 +8,14 @@
   float: left;
   cursor: pointer;
 }
-.menu-passaro:hover {
-  color: rgb(var(--color-pink));
+.menu-passaro:hover .hamburger .hamburger-bar {
+  background-color: rgb(var(--color-pink));
 }
 .menu-passaro .hamburger {
   position: relative;
   top: -5px;
   width: 30px;
+  color: seagreen;
 }
 .menu-passaro .hamburger .hamburger-bar {
   position: absolute;

@@ -8,7 +8,7 @@
   float: left;
   cursor: pointer;
 }
-.menu-passaro:hover .hamburger .hamburger-bar #bar-1 {
+.menu-passaro:hover .hamburger #bar-1 {
   background-color: rgb(var(--color-pink)) !important;
 }
 .menu-passaro .hamburger {

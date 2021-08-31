@@ -2,7 +2,7 @@
   width: 110px;
   background: 0 0;
   text-align: right;
-  color: #fff;
+  color: rgb(var(--color-black));
   text-transform: capitalize;
   letter-spacing: 0;
   float: left;

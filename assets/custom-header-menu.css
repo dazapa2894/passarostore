@@ -37,6 +37,7 @@
   left: 0;
   width: 15px;
 }
-.menu-passaro:hover .hamburger #bar-1 {
+.menu-passaro:hover .hamburger #bar-1,
+.menu-passaro:hover .hamburger #bar-3 {
   width: 30px;
 }

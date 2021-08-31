@@ -27,3 +27,7 @@
   left: 0;
   width: 15px;
 }
+.hamburger:hover .bar1,
+.hamburger:hover .bar3 {
+  width: 30px;
+}

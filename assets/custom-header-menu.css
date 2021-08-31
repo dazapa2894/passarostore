@@ -2,15 +2,14 @@
   width: 110px;
   background: 0 0;
   text-align: right;
-  color: rgb(var(--color-pink));
+  color: rgb(var(--color-black));
   text-transform: capitalize;
   letter-spacing: 0;
   float: left;
   cursor: pointer;
 }
-.menu-passaro:hover .hamburger .bar1,
-.menu-passaro:hover .hamburger .bar3 {
-  width: 30px;
+.menu-passaro:hover {
+  color: rgb(var(--color-pink));
 }
 .menu-passaro .hamburger {
   position: relative;

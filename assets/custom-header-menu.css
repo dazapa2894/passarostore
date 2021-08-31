@@ -11,7 +11,7 @@
 .menu-passaro:hover .hamburger .hamburger-bar {
   background-color: rgb(var(--color-pink)) !important;
 }
-.menu-passaro:hover .hamburger .hamburger-bar.bar-1 {
+.menu-passaro:hover .hamburger .hamburger-bar #bar-1 {
   width: 30px;
 }
 .menu-passaro .hamburger {
@@ -30,15 +30,15 @@
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.menu-passaro .hamburger .hamburger-bar.bar1 {
+.menu-passaro .hamburger .hamburger-bar#bar-1 {
   right: 0;
   width: 15px;
   top: 0;
 }
-.menu-passaro .hamburger .hamburger-bar.bar2 {
+.menu-passaro .hamburger .hamburger-bar#bar-2 {
   top: 7.5px;
 }
-.menu-passaro .hamburger .hamburger-bar.bar3 {
+.menu-passaro .hamburger .hamburger-bar#bar-3 {
   top: 15px;
   left: 0;
   width: 15px;

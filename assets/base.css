@@ -98,7 +98,7 @@
 
 .color-no-background {
   --color-foreground: var(--color-pink);
-  --color-background: var(--color-no-background);
+  background-color: var(--color-no-background);
 }
 
 .color-foreground-outline-button {

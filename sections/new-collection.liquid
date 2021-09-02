@@ -6,6 +6,32 @@
 {{ cart.items | json }}
 </pre>
 
+{% for product in collections.all.products limit:section.settings.max_products %}
+
+  <form method="post" action="/cart/add">
+          {% if product.variants.size > 1 %}
+              {% for option in product.options %}
+            <label for="SingleOptionSelector-{{forloop.index0}}"> {{ option }} </label>
+            <select id="SingleOptionSelector-{{forloop.index0}}" class="single-option-selector single-option-selector-product-template product-form__input" data-index="option{{forloop.index}}" name="id">
+          {% capture option_index %}option{{ forloop.index }}{% endcapture %} 
+          {% assign option_values = product.variants | map: option_index | uniq %}
+                  {% for choice in option_values %}
+                  <option value="{{ choice }}"> {{ choice }} </option>
+                  {% endfor %}
+            </select>
+          
+            {% endfor %}
+            <select id="ProductSelect-product-template" class="product-form__variants no-js" name="id" data-productid="{{product.id}}">
+                  {% for option in product.variants %}
+                    <option value="{{option.id}}"> {{option.title}}</option>
+                  {% endfor %}
+            </select>
+          {% endif %}
+          
+          <input min="1" type="number" id="quantity" name="quantity" value="1"/>
+      <input type="submit" value="Add to cart" class="btn" />
+  </form>
+{% endfor %}
 
 <section id="new-collection" class="container-fluid">
   <h2 class="titulo-con-division{% if section.settings.title == blank %} title--no-heading{% endif %}">{{ section.settings.title | escape }}

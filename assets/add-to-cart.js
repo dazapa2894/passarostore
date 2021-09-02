@@ -1,10 +1,9 @@
 console.log("holi2???");
 
+document.querySelectorAll(".agregar").onclick = function(e){
+  console.log("shiii funssssioooonaaaaa!");
 
-$(".agregar").click(function () {
-
-  console.log("mostrame algo care nalga");
-
+  /*
   console.log("value = " + $(this).attr(value));
   console.log("id = " + $(this).attr(id));
 
@@ -21,4 +20,5 @@ $(".agregar").click(function () {
     .catch((error) => {
       console.error('Error:', error);
     });
-});
+  */
+}

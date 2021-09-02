@@ -30,7 +30,7 @@
           <form action="/cart/add" method="post" id="product-form-{{- product.id -}}">
             <input type="hidden" name="id" value="{{ product.variants.first.id }}">
             <div>
-              <button type="button" name="add" class="agregar" id="product-form- {{ product.id }}" value="{{ product.variants.first.id }}">+</button>
+              <button type="button" name="add" class="agregar" product-id="{{ product.id }}" product-variant-id="{{ product.variants.first.id }}">+</button>
             </div>
           </form>
         </div>

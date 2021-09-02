@@ -1,7 +1,7 @@
-console.log("holi???");
+console.log("holi2???");
 
 
-jQuery(".agregar").click(function () {
+$(".agregar").click(function () {
 
   console.log("mostrame algo care nalga");
 

@@ -40,8 +40,11 @@
   line-height: 1;
   bottom: 20px;
   right: 15px;
-  border: none !important;
+  border: none;
   cursor: pointer;
+}
+#new-collection #products-wrapper .product-wrapper .product-img-wrapper .agregar:hover {
+  background: rgb(var(--color-gray));
 }
 #new-collection #products-wrapper .product-wrapper .product-title {
   font-size: 28px;

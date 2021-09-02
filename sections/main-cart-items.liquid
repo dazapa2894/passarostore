@@ -31,6 +31,8 @@
     <div class="cart__items" id="main-cart-items" data-id="{{ section.id }}">
       <div class="js-contents">
         {%- if cart != empty -%}
+        
+
           <table class="cart-items">
             <thead>
               <tr>
@@ -43,6 +45,7 @@
 
             <tbody>
               {%- for item in cart.items -%}
+
                 <tr class="cart-item" id="CartItem-{{ item.index | plus: 1 }}">
                   <td class="cart-item__media">
                     {% if item.image %}

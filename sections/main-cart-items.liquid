@@ -7,9 +7,6 @@
 
 <script src="{{ 'cart.js' | asset_url }}" defer="defer"></script>
 
-<pre>
-{{cart | json }}
-</pre>
 
 <cart-items class="page-width{% if cart == empty %} is-empty{% endif %}">
   <div class="title-wrapper-with-link">

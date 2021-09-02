@@ -9,6 +9,7 @@
 {% for product in collections.all.products limit:section.settings.max_products %}
 
   <form method="post" action="/cart/add">
+  {{- product.title -}}
           {% if product.variants.size > 1 %}
               {% for option in product.options %}
             <label for="SingleOptionSelector-{{forloop.index0}}"> {{ option }} </label>

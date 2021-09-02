@@ -7,6 +7,10 @@
 
 <script src="{{ 'cart.js' | asset_url }}" defer="defer"></script>
 
+<pre>
+{{'cart' | json }}
+</pre>
+
 <cart-items class="page-width{% if cart == empty %} is-empty{% endif %}">
   <div class="title-wrapper-with-link">
     <h1 class="title title--primary">{{ 'sections.cart.title' | t }}</h1>
@@ -32,7 +36,7 @@
       <div class="js-contents">
         {%- if cart != empty -%}
         
-
+        
           <table class="cart-items">
             <thead>
               <tr>
@@ -45,7 +49,6 @@
 
             <tbody>
               {%- for item in cart.items -%}
-
                 <tr class="cart-item" id="CartItem-{{ item.index | plus: 1 }}">
                   <td class="cart-item__media">
                     {% if item.image %}

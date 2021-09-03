@@ -7,11 +7,6 @@
 
 
 {% for product in collections.all.products %}
-  {{- product.title -}}
-  la idea es la siguiente:
-
-  aparecen los botones con la lista de colores, al seleccionar uno...
-  sale la lista de tallas
 
   <form method="post" action="/cart/add">
     {% if product.variants.size > 1 %}
@@ -29,8 +24,7 @@
           {% endfor %}
         </select>
       {% endfor %}
-
-      ciclo de todas las variantes
+      
       <select id="ProductSelect-product-template" class="" name="id" data-productid="{{product.id}}">
         {% for option in product.variants %}
           <option value="{{option.id}}" handle="{{option.handle}}"> {{option.title}} - {{option.handle}}</option>
@@ -55,7 +49,7 @@
         {% assign product = all_products[product_handle] %}
         {% assign my_variant = product.variants | where: 'id', variant_id | first %}
 
-        {{ my_variant | json }}
+        {% comment %} {{ my_variant | json }} {% endcomment %}
 
       {% endfor %}
     </select>

@@ -106,13 +106,18 @@ fetch('/products/' + product_handle + '.js').then(function(response){ return res
           </form>
         </div>
         <div class="product-colors">
+          {% assign last_img = ''%}
           {% for option in product.variants %}
-            <div variant_id="{{option.id}}" variant_img_src="{{option.featured_media.preview_image.src}}">
-              <img class="variant-img"
-                    src="{{option.featured_media.preview_image.src | img_url: '25x' }}"
-                    loading="lazy"
-                  >
-            </div>
+            {% assign actual_img = option.featured_media.preview_image.src%}
+            {% unless last_img == actual_img %}  
+              {% assign last_img = actual_img%}
+              <div variant_id="{{option.id}}" variant_img_src="{{option.featured_media.preview_image.src}}">
+                <img class="variant-img"
+                      src="{{option.featured_media.preview_image.src | img_url: '25x' }}"
+                      loading="lazy"
+                    >
+              </div>
+            {% endunless %}
           {% endfor %}
         </div>
         <div class="product-title">{{ product.title }}</div>

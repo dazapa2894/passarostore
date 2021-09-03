@@ -115,6 +115,14 @@
   width: 100%;
   height: 100%;
 }
+#new-collection #products-wrapper .product-wrapper .variant-pickers .agregar-al-carrito {
+  border-radius: 15px 0px;
+  background-color: rgb(var(--color-dark-blue));
+  color: rgb(var(--color-white));
+  width: 250px;
+  margin: 15px auto 0 auto;
+  padding: 5px;
+}
 #new-collection #btn-ver-catalogo {
   display: flex;
   justify-content: center;

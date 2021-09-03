@@ -89,7 +89,7 @@ fetch('/products/' + product_handle + '.js').then(function(response){ return res
       </pre>
 
       <div class="product-wrapper col xs12 s12 m6 l4 xl4">
-        <div class="product-img-wrapper">
+        <div class="product-img-wrapper" variant_color="{{product.variants.first.option1}}">
           <a href="{{product.url}}" class="img-wrapper">
             <img class="product-img"
                 src="{{product.featured_image | img_url: '375x' }}"

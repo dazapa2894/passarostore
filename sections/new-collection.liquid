@@ -116,7 +116,6 @@ fetch('/products/' + product_handle + '.js').then(function(response){ return res
                 {% if first_size_counter > 1 %}
                   {% break %}
                 {% endif %}
-                {{first_size_counter}}
               {% endif %}
 
               <div variant_id="{{option.id}}"  variant_size="{{option.option2}}" >

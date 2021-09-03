@@ -45,7 +45,30 @@ show_variant.forEach(show_variant_element => {
 agregar_al_carrito.forEach(agregar_al_carrito_element => {
   // console.log(agregar_al_carrito_element);
   agregar_al_carrito_element.addEventListener("click", function () {
+    
+    
 
+    // let formData = {
+    //   'items': [{
+    //     'id': product_id,
+    //     'quantity': 1
+    //   }]
+    // };
+
+    // fetch('/cart/add.js', {
+    //     method: 'POST',
+    //     headers: {
+    //       'Content-Type': 'application/json'
+    //     },
+    //     body: JSON.stringify(formData)
+    //   })
+    //   .then(response => {
+    //     console.log(response.json());
+    //     return response.json();
+    //   })
+    //   .catch((error) => {
+    //     console.error('Error:', error);
+    //   });
   });
 });
 

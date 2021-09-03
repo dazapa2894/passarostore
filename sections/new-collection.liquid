@@ -6,25 +6,6 @@
 
 
 
-{% for product in collections.all.products %}
-
-  <form method="post" action="/cart/add">
-    {% if product.variants.size > 1 %}
-
-      <select id="ProductSelect-product-template" class="" name="id" data-productid="{{product.id}}">
-        {% for option in product.variants %}
-          <option value="{{option.id}}" handle="{{option.handle}}"> {{option.title}} - {{option.handle}}</option>
-        {% endfor %}
-      </select>
-
-    {% endif %}
-    
-    <input min="1" type="number" id="quantity" name="quantity" value="1"/>
-    <input type="submit" value="Add to cart" class="btn" />
-  </form>
-
-
-{% endfor %}
 
 <section id="new-collection" class="container-fluid">
   <h2 class="titulo-con-division{% if section.settings.title == blank %} title--no-heading{% endif %}">{{ section.settings.title | escape }}
@@ -66,8 +47,14 @@
                 </div>
               
               {% endfor %}
-            </div>            
+            </div>        
+            <select id="{{product.id}}-variant-selector" class="hidden" data-productid="{{product.id}}">
+              {% for option in product.variants %}
+                <option value="{{option.id}}" handle="{{product.handle}}"> {{option.title}} - {{product.handle}}</option>
+              {% endfor %}
+            </select>
             <div class="agregar-al-carrito">AGREGAR AL CARRITO</div>
+
           </div><!-- end variant-pickers -->
           
         </div>

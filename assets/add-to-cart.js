@@ -14,7 +14,7 @@ color_swatches.forEach(swatch_element => {
     
     console.log(swatch_element);
     console.log(swatch_element.parentElement);
-    console.log(swatch_element.parentElement.previousSibling);
+    console.log(swatch_element.parentElement.previousElementSibling);
     
     
   });

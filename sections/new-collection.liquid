@@ -88,8 +88,8 @@ fetch('/products/' + product_handle + '.js').then(function(response){ return res
         {{product | json}}
       </pre>
 
-      <div class="product-wrapper col xs12 s12 m6 l4 xl4">
-        <div class="product-img-wrapper" variant_color="{{product.variants.first.option1}}">
+      <div class="product-wrapper col xs12 s12 m6 l4 xl4" variant_color="{{product.variants.first.option1}}" variant_size="{{product.variants.first.option2}}">
+        <div class="product-img-wrapper">
           <a href="{{product.url}}" class="img-wrapper">
             <img class="product-img"
                 src="{{product.featured_image | img_url: '375x' }}"
@@ -115,7 +115,7 @@ fetch('/products/' + product_handle + '.js').then(function(response){ return res
                 {% endif %}
               {% endif %}
 
-              <div variant_id="{{option.id}}"  variant_size="{{option.option2}}" >
+              <div variant_size="{{option.option2}}" class="size-picker">
                 {{option.option2}}
               </div>
             

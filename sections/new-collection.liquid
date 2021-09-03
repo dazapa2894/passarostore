@@ -105,7 +105,7 @@ fetch('/products/' + product_handle + '.js').then(function(response){ return res
             </div>
           </form>
           <div class="product-sizes">
-            {{product.variants | json}}
+            {{product.variants[0] | json}}
             {% comment %} {% assign first_size = ''%}
             {% for option in product.variants %}
             

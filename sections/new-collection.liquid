@@ -105,21 +105,20 @@ fetch('/products/' + product_handle + '.js').then(function(response){ return res
             </div>
           </form>
           <div class="product-sizes">
-            {{product.variants[0].option2 | json}}
-            {% comment %} {% assign first_size = ''%}
+            {% assign first_size = product.variants[0].option2%}
+            {% assign actual_size = '' %}
             {% for option in product.variants %}
-            
-              {% assign actual_size = option.option2 %}
               
               {% if first_size == actual_size %}
                 {% break %}
+              {% else %}
+                {% assign actual_size = option.option2 %}
+                <div variant_id="{{option.id}}"  variant_size="{{option.option2}}" >
+                  {{option.option2}}
+                </div>
               {% endif %}
-
-              <div variant_id="{{option.id}}"  variant_size="{{option.option2}}" >
-                {{option.option2}}
-              </div>
-
-            {% endfor %} {% endcomment %}
+            
+            {% endfor %}
           </div>
         </div>
 

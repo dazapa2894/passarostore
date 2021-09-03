@@ -67,6 +67,10 @@
   width: 95%;
   max-width: 350px;
   padding: 15px;
+  transition: all 0.2s ease-in-out;
+}
+#new-collection #products-wrapper .product-wrapper .variant-pickers.hide {
+  transform: rotateX(90deg);
 }
 #new-collection #products-wrapper .product-wrapper .variant-pickers h5 {
   font-size: 13px;

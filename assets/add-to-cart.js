@@ -1,6 +1,8 @@
 const boton_agregar_al_carrito = document.querySelectorAll(".agregar");
 const color_swatches = document.querySelectorAll(".variant-color-swatch");
 const size_picker = document.querySelectorAll(".size-picker");
+const show_variant = document.querySelectorAll(".show-variant");
+const agregar_al_carrito = document.querySelectorAll(".agregar-al-carrito");
 
 color_swatches.forEach(swatch_element => {
   // console.log(swatch_element);
@@ -24,6 +26,21 @@ size_picker.forEach(size_picker_element => {
     size_picker.forEach(element => {element.classList.remove('active');});
     size_picker_element.classList.add('active');
     size_picker_element.parentElement.parentElement.parentElement.parentElement.setAttribute("variant_size", variant_size);
+  });
+});
+
+show_variant.forEach(show_variant_element => {
+  console.log(show_variant_element);
+  show_variant_element.addEventListener("click", function () {
+    show_variant_element.nextElementSibling.classList.toggle('hide');
+
+  });
+});
+
+agregar_al_carrito.forEach(agregar_al_carrito_element => {
+  // console.log(agregar_al_carrito_element);
+  agregar_al_carrito_element.addEventListener("click", function () {
+
   });
 });
 

@@ -11,9 +11,9 @@
   {{- product.title -}}
   
   {% if product.variants.size > 1 %}
-    <select id="ProductSelect-product-template" class="product-form__variants no-js" name="id" data-productid="{{product.id}}">
+    {{product.id}}
       {% for option in product.variants %}
-        <option value="{{option.id}}"> {{option.title}}</option>
+        <p>{{option.id}} - {{option.title}}</p>
       {% endfor %}
     </select>
   {% endif %}

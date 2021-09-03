@@ -2,7 +2,7 @@
 <script src="{{ 'add-to-cart.js' | asset_url }}" defer="defer"></script>
 
 
-{% for product in collections.all.products limit:section.settings.max_products %}
+{% for product in collections.all.products %}
   {{- product.title -}}
   
   {% if product.variants.size > 1 %}

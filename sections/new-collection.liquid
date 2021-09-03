@@ -109,7 +109,7 @@ fetch('/products/' + product_handle + '.js').then(function(response){ return res
           {% for option in product.variants %}
             <div variant_id="{{option.id}}" variant_img_src="{{option.featured_media.preview_image.src}}">
               <img class="variant-img"
-                    src="{{option.featured_media.preview_image.src | img_url: '375x' }}"
+                    src="{{option.featured_media.preview_image.src | img_url: '25x' }}"
                     loading="lazy"
                   >
             <div>

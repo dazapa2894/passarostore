@@ -9,6 +9,8 @@ color_swatches.forEach(swatch_element => {
     let variant_img_src = swatch_element.getAttribute("variant_img_src");
     // console.log("variant_color = " + variant_color);
     // console.log("variant_img_src = " + variant_img_src);
+    color_swatches.forEach(element => {element.classList.remove('active');});
+    swatch_element.classList.add('active');
     swatch_element.parentElement.previousElementSibling.querySelector(".product-img").setAttribute("src", variant_img_src);
     swatch_element.parentElement.parentElement.setAttribute("variant_color", variant_color);
   });

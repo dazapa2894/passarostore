@@ -95,6 +95,10 @@
   color: #fff;
   background-color: rgb(var(--color-dark-blue));
 }
+#new-collection #products-wrapper .product-wrapper .variant-pickers .product-sizes .size-picker.active {
+  color: #fff;
+  background-color: rgb(var(--color-dark-blue));
+}
 #new-collection #products-wrapper .product-wrapper .variant-pickers .agregar-al-carrito {
   border-radius: 15px 0px;
   background-color: rgb(var(--color-dark-blue));
@@ -119,6 +123,9 @@
   cursor: pointer;
 }
 #new-collection #products-wrapper .product-wrapper .product-colors .variant-color-swatch:hover {
+  border: 1px solid rgb(var(--color-dark-blue));
+}
+#new-collection #products-wrapper .product-wrapper .product-colors .variant-color-swatch.active {
   border: 1px solid rgb(var(--color-dark-blue));
 }
 #new-collection #products-wrapper .product-wrapper .product-colors .variant-color-swatch img {

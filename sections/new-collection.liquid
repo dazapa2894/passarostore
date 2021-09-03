@@ -6,7 +6,7 @@
 {{ cart.items | json }}
 </pre>
 
-{% for product in collections.all.products limit:section.settings.max_products %}
+
 
   {{- product.title -}}
   
@@ -18,7 +18,7 @@
     </select>
   {% endif %}
 
-{% endfor %}
+
 
 <section id="new-collection" class="container-fluid">
   <h2 class="titulo-con-division{% if section.settings.title == blank %} title--no-heading{% endif %}">{{ section.settings.title | escape }}

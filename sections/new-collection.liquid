@@ -115,6 +115,9 @@ fetch('/products/' + product_handle + '.js').then(function(response){ return res
               {% if first_size == actual_size %}
                 igualito
                 {% assign first_size_counter = first_size_counter | plus: 1 %}
+                {% if first_size_counter > 1 %}
+                  fin
+                {% endif %}
                 {{first_size_counter}}
               {% endif %}
 

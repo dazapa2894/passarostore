@@ -127,6 +127,7 @@
   border: 1px solid white;
   transition: all 0.2s ease-in-out;
   cursor: pointer;
+  border: 1px solid rgb(var(--color-white));
 }
 #new-collection #products-wrapper .product-wrapper .product-colors .variant-color-swatch:hover {
   border: 1px solid rgb(var(--color-dark-blue));

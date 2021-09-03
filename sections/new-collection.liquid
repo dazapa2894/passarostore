@@ -49,7 +49,7 @@
     {{product.id}}
       {% for option in product.variants %}
         {% assign variant_id = option.id %}
-        {{option | json}}
+
         <p>{{option.id}} - {{option.title}} - {{product_handle}}</p>
   
         {% assign product = all_products[product_handle] %}
@@ -61,6 +61,16 @@
     </select>
   {% endif %}
 
+
+{% comment %} 
+// Retrieve the product data using Shopify's frontend API endpoint
+fetch('/products/' + product_handle + '.js').then(function(response){ return response.json() }).then( 
+  function(product){
+    let variant = product.variants.find(function(variant){ return variant.id == variant_id })
+    // Do stuff with your product & variant objects
+  }
+)
+ {% endcomment %}
 
 {% endfor %}
 

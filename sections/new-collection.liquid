@@ -104,7 +104,20 @@ fetch('/products/' + product_handle + '.js').then(function(response){ return res
               <button type="button" name="add" class="agregar" product-id="{{ product.id }}" product-variant-id="{{ product.variants.first.id }}">+</button>
             </div>
           </form>
+          <div class="product-sizes">
+            {% assign last_size = ''%}
+            {% for option in product.variants %}
+              {% assign actual_size = option.option2 %}
+              {% unless last_size == actual_size %}  
+                {% assign last_size = actual_size%}
+                <div variant_id="{{option.id}}"  variant_size="{{option.option2}}" >
+                  {{option.option2}}
+                </div>
+              {% endunless %}
+            {% endfor %}
+          </div>
         </div>
+
         <div class="product-colors">
           {% assign last_img = ''%}
           {% for option in product.variants %}

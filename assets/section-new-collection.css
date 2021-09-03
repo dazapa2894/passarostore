@@ -73,7 +73,7 @@
 #new-collection #products-wrapper .product-wrapper .variant-pickers .product-sizes .size-picker {
   height: 40px;
   width: 40px;
-  border: 1px solid black;
+  border: 1px solid white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -89,6 +89,10 @@
   overflow: hidden;
   border-radius: 100%;
   margin: 0 5px 5px 0;
+}
+#new-collection #products-wrapper .product-wrapper .variant-pickers .product-colors .variant-color-swatch img {
+  width: 100%;
+  height: 100%;
 }
 #new-collection #btn-ver-catalogo {
   display: flex;

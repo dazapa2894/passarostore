@@ -112,7 +112,7 @@ fetch('/products/' + product_handle + '.js').then(function(response){ return res
                     src="{{option.featured_media.preview_image.src | img_url: '25x' }}"
                     loading="lazy"
                   >
-            <div>
+            </div>
           {% endfor %}
         </div>
         <div class="product-title">{{ product.title }}</div>

@@ -1,6 +1,22 @@
 console.log("holi2???");
 
 const boton_agregar_al_carrito = document.querySelectorAll(".agregar");
+const color_swatches = document.querySelectorAll(".variant-color-swatch");
+
+color_swatches.forEach(swatch_element => {
+
+  console.log(swatch_element);
+
+  swatch_element.addEventListener("click", function () {
+    console.log("clicked on my swatch");
+    console.log("variant_id = " + swatch_element.getAttribute("variant_id"));
+    console.log("variant_color = " + swatch_element.getAttribute("variant_color"));
+    console.log("variant_img_src = " + swatch_element.getAttribute("variant_img_src"));
+    
+    
+    
+  });
+});
 
 for (let i = 0; i < boton_agregar_al_carrito.length; i++) {
   boton_agregar_al_carrito[i].addEventListener("click", function () {

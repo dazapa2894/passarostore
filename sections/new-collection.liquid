@@ -70,7 +70,7 @@ fetch('/products/' + product_handle + '.js').then(function(response){ return res
     // Do stuff with your product & variant objects
   }
 )
- {% endcomment %}
+{% endcomment %}
 
 {% endfor %}
 
@@ -105,7 +105,16 @@ fetch('/products/' + product_handle + '.js').then(function(response){ return res
             </div>
           </form>
         </div>
-        <div class="product-colors"></div>
+        <div class="product-colors">
+          {% for option in product.variants %}
+            <div variant_id="{{option.id}}" variant_img_src="{{option.featured_media.preview_image.src}}">
+              <img class="variant-img"
+                    src="{{option.featured_media.preview_image.src | img_url: '375x' }}"
+                    loading="lazy"
+                  >
+            <div>
+          {% endfor %}
+        </div>
         <div class="product-title">{{ product.title }}</div>
         <div class="product-price">{{ product.price | money_without_trailing_zeros }}</div>
       </div>

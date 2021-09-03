@@ -21,12 +21,13 @@
           {% capture option_index %}option{{ forloop.index }}{% endcapture %} 
           {% assign option_values = product.variants | map: option_index | uniq %}
           {% for choice in option_values %}
-            <option value="{{option.id}}"> {{ choice }}-{{option.id}} </option>
+            <option value="{{ choice }}"> {{ choice }} </option>
           {% endfor %}
         </select>
       {% endfor %}
-    
-      <select id="ProductSelect-product-template" class="product-form__variants no-js" name="id" data-productid="{{product.id}}">
+
+      ciclo de todas las variantes
+      <select id="ProductSelect-product-template" class="" name="id" data-productid="{{product.id}}">
         {% for option in product.variants %}
           <option value="{{option.id}}"> {{option.title}}</option>
         {% endfor %}

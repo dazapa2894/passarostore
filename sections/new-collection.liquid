@@ -100,7 +100,6 @@ fetch('/products/' + product_handle + '.js').then(function(response){ return res
           
           <div class="show-variant">+</div>
           
-
           <div class="variant-pickers">
             <h5>Tallas</h5>
             <div class="product-sizes">
@@ -120,27 +119,28 @@ fetch('/products/' + product_handle + '.js').then(function(response){ return res
               
               {% endfor %}
             </div>
-            <h5>Colores</h5>
-            <div class="product-colors">
-              {% assign last_img = ''%}
-              {% for option in product.variants %}
-                {% assign actual_img = option.featured_media.preview_image.src %}
-                {% unless last_img == actual_img %}  
-                  {% assign last_img = actual_img%}
-                  <div class="variant-color-swatch" variant_color="{{option.option1}}" variant_img_src="{{actual_img | img_url: '375x' }}">
-                    <img class="variant-img"
-                          src="{{actual_img | img_url: '25x' }}"
-                          loading="lazy"
-                        >
-                  </div>
-                {% endunless %}
-              {% endfor %}
-            </div>
+            
             <div class="agregar-al-carrito">AGREGAR AL CARRITO</div>
           </div><!-- end variant-pickers -->
           
         </div>
 
+        <h5>Colores</h5>
+        <div class="product-colors">
+          {% assign last_img = ''%}
+          {% for option in product.variants %}
+            {% assign actual_img = option.featured_media.preview_image.src %}
+            {% unless last_img == actual_img %}  
+              {% assign last_img = actual_img%}
+              <div class="variant-color-swatch" variant_color="{{option.option1}}" variant_img_src="{{actual_img | img_url: '375x' }}">
+                <img class="variant-img"
+                      src="{{actual_img | img_url: '25x' }}"
+                      loading="lazy"
+                    >
+              </div>
+            {% endunless %}
+          {% endfor %}
+        </div>
         
         <div class="product-title">{{ product.title }}</div>
         <div class="product-price">{{ product.price | money_without_trailing_zeros }}</div>

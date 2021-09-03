@@ -43,14 +43,25 @@
     <input type="submit" value="Add to cart" class="btn" />
   </form>
   
+  {% assign product_handle = product.handle %}
+
   {% if product.variants.size > 1 %}
     {{product.id}}
       {% for option in product.variants %}
+        {% assign variant_id = option.id %}
         {{option | json}}
-        <p>{{option.id}} - {{option.title}} - {{option.handle}}</p>
+        <p>{{option.id}} - {{option.title}} - {{product_handle}}</p>
+  
+        {% assign product = all_products[product_handle] %}
+        {% assign my_variant = product.variants | where: 'id', variant_id | first %}
+
+        {{ my_variant | json }}
+
       {% endfor %}
     </select>
   {% endif %}
+
+
 {% endfor %}
 
 <section id="new-collection" class="container-fluid">

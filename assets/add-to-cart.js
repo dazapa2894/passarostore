@@ -8,14 +8,16 @@ color_swatches.forEach(swatch_element => {
   console.log(swatch_element);
 
   swatch_element.addEventListener("click", function () {
-    console.log("variant_id = " + swatch_element.getAttribute("variant_id"));
-    console.log("variant_color = " + swatch_element.getAttribute("variant_color"));
-    console.log("variant_img_src = " + swatch_element.getAttribute("variant_img_src"));
+    let variant_color = swatch_element.getAttribute("variant_color");
+    let variant_img_src = swatch_element.getAttribute("variant_img_src");
+    
+    console.log("variant_color = " + variant_color);
+    console.log("variant_img_src = " + variant_img_src);
     
     console.log(swatch_element);
     console.log(swatch_element.parentElement);
     console.log(swatch_element.parentElement.previousElementSibling);
-    console.log(swatch_element.parentElement.previousElementSibling.querySelector(".product-img"));
+    console.log(swatch_element.parentElement.previousElementSibling.querySelector(".product-img").setAttribute("src", variant_img_src));
     
     
   });

@@ -104,40 +104,46 @@ fetch('/products/' + product_handle + '.js').then(function(response){ return res
               <button type="button" name="add" class="agregar" product-id="{{ product.id }}" product-variant-id="{{ product.variants.first.id }}">+</button>
             </div>
           </form>
-          <div class="product-sizes">
-            {% assign first_size = product.variants[0].option2%}
-            {% assign first_size_counter = 0%}
-            {% for option in product.variants %}
-              {% if first_size == option.option2 %}
-                {% assign first_size_counter = first_size_counter | plus: 1 %}
-                {% if first_size_counter > 1 %}
-                  {% break %}
+
+          <div class="variant-pickers">
+            <div class="product-sizes">
+              {% assign first_size = product.variants[0].option2%}
+              {% assign first_size_counter = 0%}
+              {% for option in product.variants %}
+                {% if first_size == option.option2 %}
+                  {% assign first_size_counter = first_size_counter | plus: 1 %}
+                  {% if first_size_counter > 1 %}
+                    {% break %}
+                  {% endif %}
                 {% endif %}
-              {% endif %}
 
-              <div variant_size="{{option.option2}}" class="size-picker">
-                {{option.option2}}
-              </div>
+                <div variant_size="{{option.option2}}" class="size-picker">
+                  {{option.option2}}
+                </div>
+              
+              {% endfor %}
+            </div>
             
-            {% endfor %}
-          </div>
+            <div class="product-colors">
+              {% assign last_img = ''%}
+              {% for option in product.variants %}
+                {% assign actual_img = option.featured_media.preview_image.src %}
+                {% unless last_img == actual_img %}  
+                  {% assign last_img = actual_img%}
+                  <div class="variant-color-swatch" variant_color="{{option.option1}}" variant_img_src="{{actual_img | img_url: '375x' }}">
+                    <img class="variant-img"
+                          src="{{actual_img | img_url: '25x' }}"
+                          loading="lazy"
+                        >
+                  </div>
+                {% endunless %}
+              {% endfor %}
+            </div>
+          </div><!-- end variant-pickers -->
+          
         </div>
 
-        <div class="product-colors">
-          {% assign last_img = ''%}
-          {% for option in product.variants %}
-            {% assign actual_img = option.featured_media.preview_image.src %}
-            {% unless last_img == actual_img %}  
-              {% assign last_img = actual_img%}
-              <div class="variant-color-swatch" variant_color="{{option.option1}}" variant_img_src="{{actual_img | img_url: '375x' }}">
-                <img class="variant-img"
-                      src="{{actual_img | img_url: '25x' }}"
-                      loading="lazy"
-                    >
-              </div>
-            {% endunless %}
-          {% endfor %}
-        </div>
+        
         <div class="product-title">{{ product.title }}</div>
         <div class="product-price">{{ product.price | money_without_trailing_zeros }}</div>
       </div>

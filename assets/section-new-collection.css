@@ -87,6 +87,12 @@
   justify-content: center;
   margin: 0 5px 5px 0;
   font-family: montserrat;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+#new-collection #products-wrapper .product-wrapper .variant-pickers .product-sizes .size-picker:hover {
+  color: #fff;
+  background-color: rgb(var(--color-dark-blue));
 }
 #new-collection #products-wrapper .product-wrapper .variant-pickers .product-colors {
   display: flex;
@@ -98,6 +104,12 @@
   overflow: hidden;
   border-radius: 100%;
   margin: 0 5px 5px 0;
+  border: 1px solid grey;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+#new-collection #products-wrapper .product-wrapper .variant-pickers .product-colors .variant-color-swatch:hover {
+  border: 1px solid rgb(var(--color-dark-blue));
 }
 #new-collection #products-wrapper .product-wrapper .variant-pickers .product-colors .variant-color-swatch img {
   width: 100%;

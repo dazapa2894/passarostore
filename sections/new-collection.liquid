@@ -111,7 +111,7 @@ fetch('/products/' + product_handle + '.js').then(function(response){ return res
             {% assign actual_img = option.featured_media.preview_image.src%}
             {% unless last_img == actual_img %}  
               {% assign last_img = actual_img%}
-              <div variant_id="{{option.id}}" variant_img_src="{{actual_img}}">
+              <div variant_color="{{option.option1}}" variant_img_src="{{actual_img}}">
                 <img class="variant-img"
                       src="{{actual_img | img_url: '25x' }}"
                       loading="lazy"

@@ -58,7 +58,7 @@
   font-family: montserrat;
 }
 #new-collection #products-wrapper .product-wrapper .variant-pickers {
-  background-color: green;
+  background-color: white;
   position: absolute;
   bottom: 60px;
   right: 0;
@@ -79,7 +79,7 @@
 #new-collection #products-wrapper .product-wrapper .variant-pickers .product-sizes .size-picker {
   height: 40px;
   width: 40px;
-  border: 1px solid white;
+  border: 1px solid black;
   display: flex;
   align-items: center;
   justify-content: center;

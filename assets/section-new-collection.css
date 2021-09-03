@@ -86,14 +86,15 @@
   align-items: center;
   justify-content: center;
   margin: 0 5px 5px 0;
+  font-family: montserrat;
 }
 #new-collection #products-wrapper .product-wrapper .variant-pickers .product-colors {
   display: flex;
   flex-direction: row;
 }
 #new-collection #products-wrapper .product-wrapper .variant-pickers .product-colors .variant-color-swatch {
-  height: 30px;
-  width: 30px;
+  height: 25px;
+  width: 25px;
   overflow: hidden;
   border-radius: 100%;
   margin: 0 5px 5px 0;

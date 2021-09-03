@@ -97,13 +97,9 @@ fetch('/products/' + product_handle + '.js').then(function(response){ return res
                 alt="{{product.featured_image.alt | escape }}"
               >
           </a>
-          {% comment %} <div class="agregar" value="{{ product.variants.first.id }}">+</div> {% endcomment %}
-          <form action="/cart/add" method="post" id="product-form-{{- product.id -}}">
-            <input type="hidden" name="id" value="{{ product.variants.first.id }}">
-            <div>
-              <button type="button" name="add" class="agregar" product-id="{{ product.id }}" product-variant-id="{{ product.variants.first.id }}">+</button>
-            </div>
-          </form>
+          
+          <div class="show-variant">+</div>
+          
 
           <div class="variant-pickers">
             <h5>Tallas</h5>

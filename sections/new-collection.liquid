@@ -46,6 +46,7 @@
   {% if product.variants.size > 1 %}
     {{product.id}}
       {% for option in product.variants %}
+        {{option | json}}
         <p>{{option.id}} - {{option.title}} - {{option.handle}}</p>
       {% endfor %}
     </select>

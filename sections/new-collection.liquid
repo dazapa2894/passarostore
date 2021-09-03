@@ -33,7 +33,7 @@
       ciclo de todas las variantes
       <select id="ProductSelect-product-template" class="" name="id" data-productid="{{product.id}}">
         {% for option in product.variants %}
-          <option value="{{option.id}}" handle="{{option.handle}}"> {{option.title}}</option>
+          <option value="{{option.id}}" handle="{{option.handle}}"> {{option.title}} - {{option.handle}}</option>
         {% endfor %}
       </select>
 

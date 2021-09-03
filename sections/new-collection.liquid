@@ -106,6 +106,7 @@ fetch('/products/' + product_handle + '.js').then(function(response){ return res
           </form>
 
           <div class="variant-pickers">
+            <h5>Tallas</h5>
             <div class="product-sizes">
               {% assign first_size = product.variants[0].option2%}
               {% assign first_size_counter = 0%}
@@ -123,7 +124,7 @@ fetch('/products/' + product_handle + '.js').then(function(response){ return res
               
               {% endfor %}
             </div>
-            
+            <h5>Colores</h5>
             <div class="product-colors">
               {% assign last_img = ''%}
               {% for option in product.variants %}

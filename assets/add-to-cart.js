@@ -33,7 +33,12 @@ show_variant.forEach(show_variant_element => {
   console.log(show_variant_element);
   show_variant_element.addEventListener("click", function () {
     show_variant_element.nextElementSibling.classList.toggle('hide');
-
+    if (show_variant_element.innerHTML == "+") {
+      show_variant_element.innerHTML = "-";
+    } else if (show_variant_element.innerHTML == "-") {
+      show_variant_element.innerHTML = "+";
+    }
+    
   });
 });
 

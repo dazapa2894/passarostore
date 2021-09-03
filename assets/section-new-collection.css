@@ -106,6 +106,7 @@
 #new-collection #products-wrapper .product-wrapper .product-colors {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 #new-collection #products-wrapper .product-wrapper .product-colors .variant-color-swatch {
   height: 25px;

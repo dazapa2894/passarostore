@@ -68,10 +68,11 @@
   padding: 15px;
 }
 #new-collection #products-wrapper .product-wrapper .variant-pickers h5 {
-  font-size: 1rem;
+  font-size: 13px;
   text-align: left;
-  margin: 0 0 5px 0;
+  margin: 8px 0 8px 5px;
   font-family: montserrat;
+  color: rgb(var(--color-dark-blue));
 }
 #new-collection #products-wrapper .product-wrapper .variant-pickers .product-sizes {
   display: flex;
@@ -80,7 +81,7 @@
 #new-collection #products-wrapper .product-wrapper .variant-pickers .product-sizes .size-picker {
   height: 40px;
   width: 40px;
-  border: 1px solid black;
+  border: 1px solid rgb(var(--color-dark-blue));
   display: flex;
   align-items: center;
   justify-content: center;

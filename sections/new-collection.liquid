@@ -61,7 +61,7 @@
                   {% endif %}
                 {% endif %}
 
-                <div variant_size="{{option.option2}}" class="size-picker">
+                <div variant_size="{{option.option2}}" class="size-picker {% if forloop.first == true %}active{% endif %}">
                   {{option.option2}}
                 </div>
               
@@ -78,7 +78,7 @@
             {% assign actual_img = option.featured_media.preview_image.src %}
             {% unless last_img == actual_img %}  
               {% assign last_img = actual_img%}
-              <div class="variant-color-swatch" variant_color="{{option.option1}}" variant_img_src="{{actual_img | img_url: '375x' }}">
+              <div class="variant-color-swatch {% if forloop.first == true %}active{% endif %}" variant_color="{{option.option1}}" variant_img_src="{{actual_img | img_url: '375x' }}">
                 <img class="variant-img"
                       src="{{actual_img | img_url: '25x' }}"
                       loading="lazy"

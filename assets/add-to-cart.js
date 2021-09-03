@@ -21,6 +21,8 @@ size_picker.forEach(size_picker_element => {
   size_picker_element.addEventListener("click", function () {
     let variant_size = size_picker_element.getAttribute("variant_size");
     // console.log("variant_size = " + variant_size);
+    size_picker.forEach(element => {element.classList.remove('active');});
+    size_picker_element.classList.add('active');
     size_picker_element.parentElement.parentElement.parentElement.parentElement.setAttribute("variant_size", variant_size);
   });
 });

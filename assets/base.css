@@ -294,6 +294,7 @@ body,
 .color-accent-2 {
   color: rgba(var(--color-foreground), 0.75);
   background-color: rgb(var(--color-white));
+  font-size: 16px;
 }
 
 .background-secondary {

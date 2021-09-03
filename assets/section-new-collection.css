@@ -69,6 +69,8 @@
 }
 #new-collection #products-wrapper .product-wrapper .variant-pickers h5 {
   font-size: 0.9rem;
+  text-align: left;
+  margin: 0;
 }
 #new-collection #products-wrapper .product-wrapper .variant-pickers .product-sizes {
   display: flex;

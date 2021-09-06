@@ -19,6 +19,7 @@
         "button"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/banner-bw.jpg",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "no-background",
         "stack_images_on_mobile": true,
@@ -57,6 +58,7 @@
         "email_form"
       ],
       "settings": {
+        "background_image": "shopify:\/\/shop_images\/newsletter-background_799cd813-2764-47f8-8a9f-fff71d5fe38e.jpg",
         "color_scheme": "background-1",
         "full_width": true
       }
@@ -73,6 +75,7 @@
     "call_to_action": {
       "type": "call-to-action-1",
       "settings": {
+        "banner_img": "shopify:\/\/shop_images\/banner-promo.jpg",
         "promo_theme": "trending",
         "promo_title": "lunes multicolor",
         "promo_text": "Vestibulum feugiat libero est, ut ultrices diam accumsan et. Cras eleifend nec nisl sed bibendum. Sed vel velit lacus. Nulla varius purus id tortor gravida varius. Sed iaculis interdum nisi, nec faucibus metus iaculis id.",
@@ -83,7 +86,7 @@
     "seasonal_offers": {
       "type": "seasonal-offers",
       "settings": {
-        "title": "Seasonal offers",
+        "title": "Ofertas de temporada",
         "show_compare_price": false
       }
     },

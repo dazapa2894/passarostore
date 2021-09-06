@@ -67,7 +67,7 @@
       "type": "new-collection",
       "settings": {
         "title": "Ultimas colecciones",
-        "max_products": "6",
+        "max_products": "3",
         "final_button_label": "ver el catálogo",
         "final_button_url": ""
       }
@@ -109,7 +109,7 @@
         "button": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "¿Quieres conocernos más?",
             "button_link": ""
           }
         }
@@ -121,6 +121,7 @@
       ],
       "settings": {
         "full_width": true,
+        "image": "shopify:\/\/shop_images\/11.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"

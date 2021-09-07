@@ -85,6 +85,13 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
           fetch('/cart.js', {
               method: 'GET'
             })
+            .then(res => {
+              json = res.json();
+              console.log("res 1");
+              console.log(json);
+              console.log(item_count);
+              return json;
+            })
             .catch((error) => {
               console.error('Error:', error);
             }).then(response => {

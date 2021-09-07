@@ -53,13 +53,11 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
   let variant_color = data_container_element.getAttribute("variant_color");
   
   let the_select_element = agregar_al_carrito_element.parentElement.querySelector("select");
-  console.log(variant_size);
-  console.log(variant_color);
-  console.log(the_select_element);
-  console.log(the_select_element.options[the_select_element.selectedIndex].value);
-  SetSelect(the_select_element, variant_color, variant_size);
-  console.log(the_select_element.options[the_select_element.selectedIndex].value);
-
+  
+  let variant_id =  SetSelect(the_select_element, variant_color, variant_size);
+  
+  
+  console.log("variant_id = " + variant_id);
     // let formData = {
     //   'items': [{
     //     'id': product_id,
@@ -93,7 +91,7 @@ function SetSelect(selectElement, color, talla) {
   console.log(option);
   console.log(new_value);
   selectElement.value = new_value;
-
+  return new_value;
 }
 
 for (let i = 0; i < boton_agregar_al_carrito.length; i++) {

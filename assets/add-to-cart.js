@@ -87,17 +87,14 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
             })
             .then(res => {
               json = res.json();
-              console.log("res 1");
-              console.log(json);
-              console.log(json.item_count);
               return json;
             })
             .catch((error) => {
               console.error('Error:', error);
             }).then(response => {
-              console.log("res 2");
-              console.log(response);
-              console.log(response.item_count);
+              // agrego animación de notificación de item agregado al carrito
+              // console.log(response);
+              document.querySelector(".cart-count-bubble").firstElementChild.innerText = response.item_count;
             });
         } else {
           console.log('Respuesta de red OK pero respuesta HTTP no OK');

@@ -74,17 +74,18 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
         },
         body: JSON.stringify(formData)
       })
-      .then(response => {
-        let resp = response.json();
-        console.log(resp);
-        return resp;
-      })
-      .then(data => {
-        console.log(data);
-        return data;
+      .then(res => {
+        return res.json();
       })
       .catch((error) => {
         console.error('Error:', error);
+      })
+      .then(response => {
+        if (response.ok) {
+          console.log("MOSTRAR LA INFO DE LA CART CON OTRO FECTH");
+        } else {
+          console.log('Respuesta de red OK pero respuesta HTTP no OK');
+        }
       });
   });
 });

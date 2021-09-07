@@ -75,9 +75,9 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
         body: JSON.stringify(formData)
       })
       .then(response => {
-        let response = response.json();
-        console.log(response);
-        return response;
+        let resp = response.json();
+        console.log(resp);
+        return resp;
       })
       .catch((error) => {
         console.error('Error:', error);

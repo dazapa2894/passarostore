@@ -50,7 +50,7 @@
             </div>        
             <select id="{{product.id}}-variant-selector" class="hidden" data-productid="{{product.id}}">
               {% for option in product.variants %}
-                <option value="{{option.id}}" handle="{{product.handle}}"> {{option.title}} - {{product.handle}}</option>
+                <option value="{{option.id}}" handle="{{product.handle}}" variant="{{-option.title-}}">{{option.title}}</option>
               {% endfor %}
             </select>
             <div class="agregar-al-carrito">AGREGAR AL CARRITO</div>

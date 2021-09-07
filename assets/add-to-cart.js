@@ -60,14 +60,14 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
   SetSelect(the_select_element, variant_color, variant_size);
   console.log(the_select_element.options[the_select_element.selectedIndex].value);
 
-    let formData = {
-      'items': [{
-        'id': product_id,
-        'quantity': 1
-      }]
-    };
+    // let formData = {
+    //   'items': [{
+    //     'id': product_id,
+    //     'quantity': 1
+    //   }]
+    // };
 
-    console.log(formData);
+    // console.log(formData);
 
     // fetch('/cart/add.js', {
     //     method: 'POST',

@@ -89,7 +89,7 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
               json = res.json();
               console.log("res 1");
               console.log(json);
-              console.log(item_count);
+              console.log(json.item_count);
               return json;
             })
             .catch((error) => {

@@ -67,20 +67,20 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
 
     console.log(formData);
 
-    // fetch('/cart/add.js', {
-    //     method: 'POST',
-    //     headers: {
-    //       'Content-Type': 'application/json'
-    //     },
-    //     body: JSON.stringify(formData)
-    //   })
-    //   .then(response => {
-    //     console.log(response.json());
-    //     return response.json();
-    //   })
-    //   .catch((error) => {
-    //     console.error('Error:', error);
-    //   });
+    fetch('/cart/add.js', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(formData)
+      })
+      .then(response => {
+        console.log(response.json());
+        return response.json();
+      })
+      .catch((error) => {
+        console.error('Error:', error);
+      });
   });
 });
 

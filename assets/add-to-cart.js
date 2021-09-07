@@ -97,6 +97,7 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
             }).then(response => {
               console.log("res 2");
               console.log(response);
+              console.log(response.item_count);
             });
         } else {
           console.log('Respuesta de red OK pero respuesta HTTP no OK');

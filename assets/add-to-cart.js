@@ -52,8 +52,11 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
   let variant_size = data_container_element.getAttribute("variant_size");
   let variant_color = data_container_element.getAttribute("variant_color");
   
+  let the_select_element = agregar_al_carrito_element.parentElement.querySelector("select");
   console.log(variant_size);
   console.log(variant_color);
+  console.log(the_select_element);
+  console.log(the_select_element.options[select.selectedIndex].value);
 
     let formData = {
       'items': [{
@@ -61,6 +64,8 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
         'quantity': 1
       }]
     };
+
+    console.log(formData);
 
     // fetch('/cart/add.js', {
     //     method: 'POST',

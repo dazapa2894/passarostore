@@ -30,7 +30,7 @@ size_picker.forEach(size_picker_element => {
 });
 
 show_variant.forEach(show_variant_element => {
-  console.log(show_variant_element);
+  // console.log(show_variant_element);
   show_variant_element.addEventListener("click", function () {
     show_variant_element.nextElementSibling.classList.toggle('hide');
     if (show_variant_element.innerHTML == "+") {
@@ -45,14 +45,22 @@ show_variant.forEach(show_variant_element => {
 agregar_al_carrito.forEach(agregar_al_carrito_element => {
   // console.log(agregar_al_carrito_element);
   agregar_al_carrito_element.addEventListener("click", function () {
+  
+  console.log("agregar al carrito");
+  
+  let data_container_element = agregar_al_carrito_element.parentElement.parentElement.parentElement;
+  let variant_size = data_container_element.getAttribute("variant_size");
+  let variant_color = data_container_element.getAttribute("variant_color");
+  
+  console.log(variant_size);
+  console.log(variant_color);
 
-    console.log("agregar al carrito");
-    // let formData = {
-    //   'items': [{
-    //     'id': product_id,
-    //     'quantity': 1
-    //   }]
-    // };
+    let formData = {
+      'items': [{
+        'id': product_id,
+        'quantity': 1
+      }]
+    };
 
     // fetch('/cart/add.js', {
     //     method: 'POST',

@@ -82,7 +82,7 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
       })
       .then(response => {
         console.log(response);
-        if (response.ok) {
+        if (response.items.length > 0) {
           console.log("MOSTRAR LA INFO DE LA CART CON OTRO FECTH");
         } else {
           console.log('Respuesta de red OK pero respuesta HTTP no OK');

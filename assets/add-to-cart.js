@@ -46,26 +46,26 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
   // console.log(agregar_al_carrito_element);
   agregar_al_carrito_element.addEventListener("click", function () {
   
-  console.log("agregar al carrito");
-  
-  let data_container_element = agregar_al_carrito_element.parentElement.parentElement.parentElement;
-  let variant_size = data_container_element.getAttribute("variant_size");
-  let variant_color = data_container_element.getAttribute("variant_color");
-  
-  let the_select_element = agregar_al_carrito_element.parentElement.querySelector("select");
-  
-  let variant_id =  SetSelect(the_select_element, variant_color, variant_size);
-  
-  
-  console.log("variant_id = " + variant_id);
-    // let formData = {
-    //   'items': [{
-    //     'id': product_id,
-    //     'quantity': 1
-    //   }]
-    // };
+    console.log("agregar al carrito");
+    
+    let data_container_element = agregar_al_carrito_element.parentElement.parentElement.parentElement;
+    let variant_size = data_container_element.getAttribute("variant_size");
+    let variant_color = data_container_element.getAttribute("variant_color");
+    
+    let the_select_element = agregar_al_carrito_element.parentElement.querySelector("select");
+    
+    let variant_id =  SetSelect(the_select_element, variant_color, variant_size);
+    
+    
+    console.log("variant_id = " + variant_id);
+      let formData = {
+        'items': [{
+          'id': variant_id,
+          'quantity': 1
+        }]
+      };
 
-    // console.log(formData);
+    console.log(formData);
 
     // fetch('/cart/add.js', {
     //     method: 'POST',

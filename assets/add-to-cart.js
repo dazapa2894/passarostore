@@ -65,8 +65,6 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
         }]
       };
 
-    console.log(formData);
-
     fetch('/cart/add.js', {
         method: 'POST',
         headers: {
@@ -81,9 +79,22 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
         console.error('Error:', error);
       })
       .then(response => {
-        console.log(response);
+        // console.log(response);
         if (response.items.length > 0) {
           console.log("MOSTRAR LA INFO DE LA CART CON OTRO FECTH");
+          fetch('/cart.js', {
+              method: 'GET'
+            })
+            .then(res => {
+              json = res.json();
+              console.log(json);
+              return json;
+            })
+            .catch((error) => {
+              console.error('Error:', error);
+            }).then(response => {
+              console.log(response);
+            });
         } else {
           console.log('Respuesta de red OK pero respuesta HTTP no OK');
         }

@@ -81,6 +81,7 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
         console.error('Error:', error);
       })
       .then(response => {
+        console.log(response);
         if (response.ok) {
           console.log("MOSTRAR LA INFO DE LA CART CON OTRO FECTH");
         } else {

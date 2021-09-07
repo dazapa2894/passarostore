@@ -56,7 +56,7 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
   console.log(variant_size);
   console.log(variant_color);
   console.log(the_select_element);
-  console.log(the_select_element.options[select.selectedIndex].value);
+  console.log(the_select_element.options[the_select_element.selectedIndex].value);
 
     let formData = {
       'items': [{

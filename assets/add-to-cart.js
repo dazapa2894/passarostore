@@ -87,12 +87,14 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
             })
             .then(res => {
               json = res.json();
+              console.log("res 1");
               console.log(json);
               return json;
             })
             .catch((error) => {
               console.error('Error:', error);
             }).then(response => {
+              console.log("res 2");
               console.log(response);
             });
         } else {

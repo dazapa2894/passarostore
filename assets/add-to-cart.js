@@ -79,6 +79,10 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
         console.log(resp);
         return resp;
       })
+      .then(data => {
+        console.log(data);
+        return data;
+      })
       .catch((error) => {
         console.error('Error:', error);
       });

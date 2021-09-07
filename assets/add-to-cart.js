@@ -57,6 +57,8 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
   console.log(variant_color);
   console.log(the_select_element);
   console.log(the_select_element.options[the_select_element.selectedIndex].value);
+  SetSelect(the_select_element, variant_color, variant_size);
+  console.log(the_select_element.options[the_select_element.selectedIndex].value);
 
     let formData = {
       'items': [{
@@ -83,6 +85,16 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
     //   });
   });
 });
+
+function SetSelect(selectElement, color, talla) {
+  let option = selectElement.querySelector("[variant='" + color + " / " + talla + "']");
+  let new_value = option.getAttribute("value");
+  console.log("[variant='" + color + " / " + talla + "']");
+  console.log(option);
+  console.log(new_value);
+  selectElement.value = new_value;
+
+}
 
 for (let i = 0; i < boton_agregar_al_carrito.length; i++) {
   boton_agregar_al_carrito[i].addEventListener("click", function () {

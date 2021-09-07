@@ -95,7 +95,7 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
               // agrego animación de notificación de item agregado al carrito
               // console.log(response);
               document.querySelector(".cart-count-bubble").firstElementChild.innerText = response.item_count;
-              navConfirm("cart");
+              navConfirm("Articulo agregado.\n¿Deseas continuar al carrito de compras?", "cart");
             });
         } else {
           console.log('Respuesta de red OK pero respuesta HTTP no OK');
@@ -104,8 +104,8 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
   });
 });
 
-function navConfirm(loc) {
-  if (confirm('Do you want to continue to this webpage?')) {
+function navConfirm(message, loc) {
+  if (confirm(message)) {
     window.location.href = loc;
   }
   return false; // cancel the click event always

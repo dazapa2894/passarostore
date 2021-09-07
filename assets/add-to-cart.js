@@ -45,8 +45,6 @@ show_variant.forEach(show_variant_element => {
 agregar_al_carrito.forEach(agregar_al_carrito_element => {
   // console.log(agregar_al_carrito_element);
   agregar_al_carrito_element.addEventListener("click", function () {
-    
-    
 
     // let formData = {
     //   'items': [{

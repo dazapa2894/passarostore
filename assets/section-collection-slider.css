@@ -3,6 +3,7 @@
   margin: 40px 0px;
 }
 #collection-slider .collection-swiper-container {
+  height: 600px;
   overflow: hidden;
   /*.mas-abajito{
       bottom: -30px;
@@ -12,8 +13,7 @@
   position: relative;
 }
 #collection-slider .collection-swiper-container .swiper-slide img {
-  position: absolute;
-  margin: 0px 15px;
+  width: 100%;
 }
 #collection-slider .collection-swiper-container .swiper-slide .title-container {
   position: absolute;

@@ -14,6 +14,7 @@
 #collection-slider .collection-swiper-container .swiper-slide {
   position: relative;
   transform: translateY(30px);
+  transition: all 0.3s ease-in-out;
 }
 #collection-slider .collection-swiper-container .swiper-slide img {
   width: 100%;

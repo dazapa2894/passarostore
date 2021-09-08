@@ -16,13 +16,11 @@
 }
 #collection-slider .collection-swiper-container .swiper-slide .title-container {
   position: absolute;
-  z-index: 2;
-  top: 420px;
+  bottom: 70px;
   left: 25px;
-  height: 80px;
-  width: 200px;
-  background: white;
-  padding: 5px 20px 0px 20px;
+  width: 150px;
+  background: #fff;
+  padding: 10px 20px;
 }
 #collection-slider .collection-swiper-container .swiper-slide .title-container .titulo {
   font-family: var(--font-heading-family);
@@ -31,14 +29,15 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  max-width: 200px;
+  margin: 0;
+  line-height: 1;
 }
 #collection-slider .collection-swiper-container .swiper-slide .title-container a {
   font-family: var(--font-body-family);
   font-size: 10px;
-  top: -15px;
   position: relative;
   color: var(--color-gray-light);
+  line-height: 1;
 }
 #collection-slider .swiper-button-next,
 #collection-slider .swiper-button-prev {

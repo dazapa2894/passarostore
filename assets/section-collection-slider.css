@@ -10,11 +10,12 @@
 }
 #collection-slider .collection-swiper-container .swiper-slide-active {
   transform: translateY(0px) !important;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 #collection-slider .collection-swiper-container .swiper-slide {
   position: relative;
   transform: translateY(30px);
+  transition: all 0.5s ease-in-out;
 }
 #collection-slider .collection-swiper-container .swiper-slide img {
   width: 100%;

@@ -3,6 +3,7 @@
   margin: 40px 0px;
 }
 #collection-slider .collection-swiper-container {
+  height: auto;
   /*.mas-abajito{
       bottom: -30px;
     }*/

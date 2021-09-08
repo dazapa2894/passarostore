@@ -17,13 +17,13 @@
       {% for collection in collections %}
         {% unless collection.handle == 'nueva-coleccion' or collection.handle == 'descuentos-de-temporada' %}
           <!-- collection info -->
-          <div class="swiper-slide {% if mas_abajito == false %}mas-abajito{% endif %}" >
+          <a href="{{collection.url}}" class="swiper-slide" >
 
             <div class="title-container">
               <div class="titulo">
                 {{collection.title}}
               </div>
-              <a href="{{collection.url}}">COMPRAR</a>
+              <div>COMPRAR</div>
             </div>
 
             {% if collection.image %}
@@ -33,13 +33,7 @@
               {{ collection.products.first.image | img_url: '400x600' | img_tag: alt }}
             {% endif %}
 
-          </div>
-
-          {% if mas_abajito == false %}
-            {% assign mas_abajito = true %}
-          {%else%}
-            {% assign mas_abajito = false %}
-          {% endif %}
+          </a>          
         {% endunless %}
 
       {% endfor %}   
@@ -55,7 +49,7 @@ const swiper = new Swiper('.collection-swiper-container',
   loop: true,
   slidesPerView: 3,
   //slidesPerGroup: 1,
-  spaceBetween: 10,
+  spaceBetween: 8,
   //loopFillGroupWithBlank: true,
   centeredSlides: true,
   

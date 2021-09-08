@@ -9,7 +9,7 @@
     }*/
 }
 #collection-slider .collection-swiper-container .swiper-slide-active {
-  transform: translateY(30px) !important;
+  transform: translateY(0px) !important;
 }
 #collection-slider .collection-swiper-container .swiper-slide {
   position: relative;

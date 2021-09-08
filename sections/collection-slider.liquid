@@ -7,27 +7,45 @@
 
 
 <section id="collection-slider">  
-  <div class="collection-swiper-container container-new">
+   <!-- Slider main container -->
+   <div class="collection-swiper-container container-new">
+    <!-- Additional required wrapper -->
     <div class="swiper-wrapper">
-      <div class="swiper-slide">Slide 1</div>
-      <div class="swiper-slide">Slide 2</div>
-      <div class="swiper-slide">Slide 3</div>
-    </div><!-- .collection-swiper-container -->
-    <!-- If we need navigation buttons -->
-  <div class="swiper-button-prev"></div>
-  <div class="swiper-button-next"></div>
-  </div>
+      <!-- Slides -->
+      {% assign mas_abajito = false %}
+      {% assign collection_to_show = 3 %}
+      {% for collection in collections %}
+        {% unless collection.handle == 'nueva-coleccion' or collection.handle == 'descuentos-de-temporada' %}
+          <!-- collection info -->
+          <div class="swiper-slide {% if mas_abajito == false %}mas-abajito{% endif %}" >
 
+            <div class="title-container">
+              <div class="titulo">
+                {{collection.title}}
+              </div>
+              <a href="{{collection.url}}">COMPRAR</a>
+            </div>
 
+            {% if collection.image %}
+              {{ collection.image | img_url: '400x600' | img_tag: collection.image.alt }}
+            {% else %}
+              {% assign alt = collection.title | escape %}
+              {{ collection.products.first.image | img_url: '400x600' | img_tag: alt }}
+            {% endif %}
 
+          </div>
 
+          {% if mas_abajito == false %}
+            {% assign mas_abajito = true %}
+          {%else%}
+            {% assign mas_abajito = false %}
+          {% endif %}
+        {% endunless %}
 
+      {% endfor %}   
+    </div>
 
-
-  
-
-
-  
+  </div><!-- .collection-swiper-container -->
 </section>
 
 {% javascript %}

@@ -6,9 +6,9 @@
 {% endstylesheet %}
 
 
-<section id="collection-slider">  
-   <!-- Slider main container -->
-   <div class="collection-swiper-container container-new">
+<section id="collection-slider">
+  <!-- Slider main container -->
+  <div class="collection-swiper-container">
     <!-- Additional required wrapper -->
     <div class="swiper-wrapper">
       <!-- Slides -->
@@ -45,7 +45,11 @@
       {% endfor %}   
     </div>
 
-  </div><!-- .collection-swiper-container -->
+  </div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
 </section>
 
 {% javascript %}

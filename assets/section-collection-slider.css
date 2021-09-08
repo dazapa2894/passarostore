@@ -32,7 +32,7 @@
   margin: 0;
   line-height: 1;
 }
-#collection-slider .collection-swiper-container .swiper-slide .title-container a {
+#collection-slider .collection-swiper-container .swiper-slide .title-container .comprar-coleccion {
   font-family: var(--font-body-family);
   font-size: 10px;
   position: relative;

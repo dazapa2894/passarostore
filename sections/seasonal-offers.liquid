@@ -9,14 +9,11 @@
   </h2>
   
   <!-- Slider main container -->
-  <div class="seasonal-swiper-container">
+  <div class="seasonal-swiper-container container-fluid">
     <!-- Additional required wrapper -->
     <div class="swiper-wrapper">
       <!-- Slides -->
-      {% assign mas_abajito = false %}
-      {% assign collection_to_show = 3 %}
       {% for product in collections.descuentos-de-temporada.products %}
-
           <!-- product info -->
           <div class="swiper-slide" >
 
@@ -35,7 +32,7 @@
                 {%- if product.available == false -%}
                   <span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}" aria-hidden="true">{{ 'products.product.sold_out' | t }}</span>
                 {%- elsif product.compare_at_price > product.price and product.available -%}
-                  <span class="badge badge--top-left color-{{ settings.sale_badge_color_scheme }} pecentual-discount" aria-hidden="true">-{{ product.compare_at_price_max | minus: product.price | times: 100 | divided_by: product.compare_at_price_max }}%</span>
+                  <span class="badge badge--top-left color-green pecentual-discount" aria-hidden="true">-{{ product.compare_at_price_max | minus: product.price | times: 100 | divided_by: product.compare_at_price_max }}%</span>
                 {%- endif -%}
               </div>
 

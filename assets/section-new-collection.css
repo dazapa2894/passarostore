@@ -134,16 +134,15 @@
   overflow: hidden;
   border-radius: 100%;
   margin: 0 5px 5px 0;
-  border: 1px solid white;
   transition: all 0.2s ease-in-out;
   cursor: pointer;
   border: 1px solid rgb(var(--color-white));
 }
 #new-collection #products-wrapper .product-wrapper .product-colors .variant-color-swatch:hover {
-  border: 1px solid rgb(var(--color-dark-blue));
+  border: 1px solid rgb(var(--color-gray-light));
 }
 #new-collection #products-wrapper .product-wrapper .product-colors .variant-color-swatch.active {
-  border: 1px solid rgb(var(--color-dark-blue));
+  border: 1px solid rgb(var(--color-ocean_green));
 }
 #new-collection #products-wrapper .product-wrapper .product-colors .variant-color-swatch img {
   width: 100%;

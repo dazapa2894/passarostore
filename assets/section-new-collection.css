@@ -49,13 +49,14 @@
 }
 #new-collection #products-wrapper .product-wrapper .product-title {
   font-size: 28px;
-  color: rgb(var(--color-dark-blue));
+  color: rgb(var(--color-black));
   font-family: var(--font-heading-family);
+  line-height: normal;
 }
 #new-collection #products-wrapper .product-wrapper .product-price {
   font-weight: bold;
   font-size: 20px;
-  color: rgb(var(--color-dark-blue));
+  color: rgb(var(--color-black));
   font-family: montserrat;
 }
 #new-collection #products-wrapper .product-wrapper .variant-pickers {

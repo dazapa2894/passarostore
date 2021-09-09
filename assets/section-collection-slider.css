@@ -25,19 +25,30 @@
   position: absolute;
   bottom: 70px;
   left: 25px;
-  width: 180px;
+  max-width: 180px;
+  width: 60%;
   background: #fff;
   padding: 10px 20px;
 }
+@media (min-width: 768px) {
+  #collection-slider .collection-swiper-container .swiper-slide .title-container {
+    font-size: 30px;
+  }
+}
 #collection-slider .collection-swiper-container .swiper-slide .title-container .titulo {
   font-family: var(--font-heading-family);
-  font-size: 30px;
+  font-size: 25px;
   color: var(--color-gray);
   white-space: nowrap;
   overflow: hidden;
   margin: 0 0 10px 0;
   line-height: 1;
   color: rgb(var(--color-black));
+}
+@media (min-width: 768px) {
+  #collection-slider .collection-swiper-container .swiper-slide .title-container .titulo {
+    font-size: 30px;
+  }
 }
 #collection-slider .collection-swiper-container .swiper-slide .title-container .comprar-coleccion {
   font-family: var(--font-body-family);

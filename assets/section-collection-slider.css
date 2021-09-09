@@ -38,13 +38,20 @@
   text-overflow: ellipsis;
   margin: 0 0 10px 0;
   line-height: 1;
+  color: rgb(var(--color-black));
 }
 #collection-slider .collection-swiper-container .swiper-slide .title-container .comprar-coleccion {
   font-family: var(--font-body-family);
   font-size: 10px;
   position: relative;
   color: rgb(var(--color-black));
-  line-height: 1;
+  line-height: 1.5;
+  width: fit-content;
+  border-bottom: 1px solid rgb(var(--color-black));
+  transition: all 0.3s ease-in-out;
+}
+#collection-slider .collection-swiper-container .swiper-slide .title-container .comprar-coleccion:hover {
+  letter-spacing: 2px;
 }
 #collection-slider .swiper-button-next,
 #collection-slider .swiper-button-prev {

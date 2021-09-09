@@ -53,10 +53,8 @@ const swiper = new Swiper('.collection-swiper-container',
 {
   // Optional parameters
   loop: true,
-  slidesPerView: 3,
-  //slidesPerGroup: 1,
+  slidesPerView: 1,
   spaceBetween: 8,
-  //loopFillGroupWithBlank: true,
   centeredSlides: true,
   
   navigation: {
@@ -68,21 +66,11 @@ const swiper = new Swiper('.collection-swiper-container',
     hide: true,
   },
 
-  /*breakpoints: {
-    870: {
-      slidesPerView: 2,
-      slidesPerGroup: 2,
-      spaceBetween: 10,
-      centeredSlides: false,
-    },
-    1235: {
+  breakpoints: {
+    600: {
       slidesPerView: 3,
-      slidesPerGroup: 3,
-      spaceBetween: 50,
-      centeredSlides: false,
     },
-
-  },*/
+  },
 });
 {% endjavascript %}
 

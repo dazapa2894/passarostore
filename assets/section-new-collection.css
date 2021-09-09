@@ -45,7 +45,7 @@
   transition: all 0.3s ease-in-out;
 }
 #new-collection #products-wrapper .product-wrapper .product-img-wrapper .show-variant:hover {
-  background: rgb(var(--color-gray));
+  background: rgb(var(--color-dark-blue));
 }
 #new-collection #products-wrapper .product-wrapper .product-title {
   font-size: 28px;

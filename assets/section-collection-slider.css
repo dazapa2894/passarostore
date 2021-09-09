@@ -25,7 +25,7 @@
   position: absolute;
   bottom: 70px;
   left: 25px;
-  width: 150px;
+  width: 180px;
   background: #fff;
   padding: 10px 20px;
 }
@@ -35,7 +35,6 @@
   color: var(--color-gray);
   white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis;
   margin: 0 0 10px 0;
   line-height: 1;
   color: rgb(var(--color-black));

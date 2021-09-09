@@ -43,7 +43,7 @@
   font-family: var(--font-body-family);
   font-size: 10px;
   position: relative;
-  color: var(--color-gray-light);
+  color: rgb(var(--color-black));
   line-height: 1;
 }
 #collection-slider .swiper-button-next,

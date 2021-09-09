@@ -91,6 +91,13 @@
       },
       {
         "type": "color",
+        "id": "green",
+        "default": "#23631f",
+        "label": "t:settings_schema.colors.settings.green.label",
+        "info": "t:settings_schema.colors.settings.green.info"
+      },
+      {
+        "type": "color",
         "id": "white",
         "default": "#ffffff",
         "label": "t:settings_schema.colors.settings.white.label",

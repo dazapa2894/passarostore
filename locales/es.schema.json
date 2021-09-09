@@ -55,6 +55,9 @@
         "ocean_green": {
           "label": "Agua marina"
         },
+        "green": {
+          "label": "Verde"
+        },
         "white": {
           "label": "Blanco"
         }

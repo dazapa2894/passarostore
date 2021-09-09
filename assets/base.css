@@ -70,6 +70,10 @@
   color: rgb(var(--color-base-text)) !important;
   background-color: rgb(var(--color-ocean-green)) !important;
 }
+.color-green{
+  color: rgb(var(--color-white)) !important;
+  background-color: rgb(var(--color-green)) !important;
+}
 .color-white{
   color: rgb(var(--color-base-text)) !important;
   background-color: rgb(var(--color-white)) !important;

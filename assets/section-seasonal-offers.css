@@ -1,3 +1,6 @@
+#sesional-offers {
+  overflow: hidden;
+}
 #sesional-offers .titulo-con-division {
   font-family: var(--font-heading-family);
   color: rgb(var(--color-gray));

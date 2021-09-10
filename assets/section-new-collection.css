@@ -1,6 +1,6 @@
 #new-collection .titulo-con-division {
   font-family: var(--font-heading-family);
-  color: rgb(var(--color-gray));
+  color: rgb(var(--color-black));
   display: flex;
   justify-content: center;
   position: relative;
@@ -10,7 +10,7 @@
   content: "";
   height: 2px;
   width: 73px;
-  background: rgb(var(--color-gray));
+  background: rgb(var(--color-black));
   position: absolute;
   bottom: -15px;
 }

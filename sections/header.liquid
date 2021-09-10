@@ -17,6 +17,8 @@
 <noscript>{{ 'component-menu-drawer.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'component-cart-notification.css' | asset_url | stylesheet_tag }}</noscript>
 
+<script src="{{ 'header.js' | asset_url }}" defer="defer"></script>
+
 <style>
   header-drawer {
     justify-self: start;
@@ -441,20 +443,8 @@
       </a>
     </div>
 
-    <div class="side-nav-menu">
+    <div class="side-nav-menu oculto">
       <ul>
-        
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Tienda</a></li>
-        <li>
-          <a href="#" class="dropdown-trigger-nav">Dropdown</a>
-          <ul class="dropdown-list">
-            <li><a href="#">Blusas</a></li>
-            <li><a href="#">Faldas</a></li>
-            <li><a href="#">Camisas</a></li>
-          </ul>
-        </li>
-
         {%- for link in section.settings.menu.links -%}
             <li>
               {%- if link.links != blank -%}
@@ -500,6 +490,18 @@
               {%- endif -%}
             </li>
           {%- endfor -%}
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Tienda</a></li>
+        <li>
+          <a href="#" class="dropdown-trigger-nav">Dropdown</a>
+          <ul class="dropdown-list">
+            <li><a href="#">Blusas</a></li>
+            <li><a href="#">Faldas</a></li>
+            <li><a href="#">Camisas</a></li>
+          </ul>
+        </li>
+
+        
 
 
       </ul>

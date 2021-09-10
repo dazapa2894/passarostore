@@ -5,7 +5,6 @@
   justify-content: center;
   position: relative;
   margin-bottom: 60px;
-  font-family: "vanitas-regular";
 }
 #new-collection .titulo-con-division div {
   content: "";
@@ -142,7 +141,7 @@
   box-shadow: 0px 0px 5px #8b8d8d;
 }
 #new-collection #products-wrapper .product-wrapper .product-colors .variant-color-swatch.active {
-  border: 1px solid rgb(var(--color-dark-blue));
+  border: 2px solid rgb(var(--color-dark-blue));
 }
 #new-collection #products-wrapper .product-wrapper .product-colors .variant-color-swatch img {
   width: 100%;

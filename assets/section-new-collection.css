@@ -14,6 +14,22 @@
   position: absolute;
   bottom: -15px;
 }
+.blue-btn {
+  border-radius: 15px 0px;
+  background-color: rgb(var(--color-dark-blue));
+  color: rgb(var(--color-white));
+  width: 100%;
+  margin: 5px auto 0 auto;
+  padding: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  border: rgb(var(--color-dark-blue)) 2px solid;
+  transition: all 0.3s ease-in-out;
+}
+.blue-btn:hover {
+  background-color: rgb(var(--color-white));
+  color: rgb(var(--color-dark-blue));
+}
 #new-collection #products-wrapper {
   margin: 0 auto;
   text-align: center;
@@ -105,22 +121,6 @@
 #new-collection #products-wrapper .product-wrapper .variant-pickers .product-sizes .size-picker.active {
   color: #fff;
   background-color: rgb(var(--color-dark-blue));
-}
-#new-collection #products-wrapper .product-wrapper .variant-pickers .agregar-al-carrito {
-  border-radius: 15px 0px;
-  background-color: rgb(var(--color-dark-blue));
-  color: rgb(var(--color-white));
-  width: 100%;
-  margin: 5px auto 0 auto;
-  padding: 5px;
-  cursor: pointer;
-  font-weight: 600;
-  border: rgb(var(--color-dark-blue)) 2px solid;
-  transition: all 0.3s ease-in-out;
-}
-#new-collection #products-wrapper .product-wrapper .variant-pickers .agregar-al-carrito:hover {
-  background-color: rgb(var(--color-white));
-  color: rgb(var(--color-dark-blue));
 }
 #new-collection #products-wrapper .product-wrapper .product-colors {
   display: flex;

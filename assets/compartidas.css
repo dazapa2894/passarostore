@@ -52,6 +52,7 @@
 .side-nav-menu ul li a {
   text-decoration: none;
   padding: 10px 20px;
+  display: block;
   color: rgb(var(--color-dark-blue));
 }
 .side-nav-menu ul li .dropdown-trigger-nav {

@@ -57,6 +57,12 @@
   display: block;
   color: rgb(var(--color-dark-blue));
 }
+.side-nav-menu ul li a span {
+  font-size: 16px;
+}
+.side-nav-menu ul li a:hover {
+  text-decoration: none;
+}
 .side-nav-menu ul li .dropdown-list li {
   background-color: rgb(var(--color-dark-blue));
 }

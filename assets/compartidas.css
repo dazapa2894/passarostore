@@ -63,6 +63,6 @@
   color: rgb(var(--color-white)) !important;
   padding: 4px 0 4px 25px;
 }
-.side-nav-menu .oculto {
+.side-nav-menu.oculto {
   left: -400px;
 }

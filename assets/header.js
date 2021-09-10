@@ -1,7 +1,7 @@
 window.addEventListener('DOMContentLoaded', (event) => {
     console.log('DOM fully loaded and parsed');
 
-    const menu_passaro = document.querySelectorAll(".menu-passaro");
+    const menu_passaro = document.querySelectorAll(".close-menu-passaro");
 
     menu_passaro.forEach(menu_passaro_element => {
       // console.log(menu_passaro_element);

@@ -1,4 +1,4 @@
-#new-collection .titulo-con-division {
+.titulo-con-division {
   font-family: var(--font-heading-family);
   color: rgb(var(--color-black));
   display: flex;
@@ -6,7 +6,7 @@
   position: relative;
   margin-bottom: 60px;
 }
-#new-collection .titulo-con-division div {
+.titulo-con-division div {
   content: "";
   height: 2px;
   width: 73px;
@@ -54,7 +54,7 @@
 }
 #new-collection #products-wrapper .product-wrapper .product-price {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 16px;
   color: rgb(var(--color-black));
   font-family: montserrat;
 }

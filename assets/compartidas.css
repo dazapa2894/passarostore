@@ -47,10 +47,13 @@
   margin: 0;
 }
 .side-nav-menu ul li {
-  padding: 10px 20px;
   border-top: 1px solid rgb(var(--color-gray));
 }
 .side-nav-menu ul li a {
   text-decoration: none;
+  padding: 10px 20px;
   color: rgb(var(--color-dark-blue));
+}
+.side-nav-menu ul li .dropdown-trigger-nav {
+  background-color: rgb(var(--color-dark-blue));
 }

@@ -55,6 +55,7 @@
   display: block;
   color: rgb(var(--color-dark-blue));
 }
-.side-nav-menu ul li .dropdown-trigger-nav {
+.side-nav-menu ul li .dropdown-trigger-nav li a {
   background-color: rgb(var(--color-dark-blue));
+  color: rgb(var(--color-white));
 }

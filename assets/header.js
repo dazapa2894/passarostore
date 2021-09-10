@@ -7,6 +7,8 @@ window.addEventListener('DOMContentLoaded', (event) => {
       // console.log(menu_passaro_element);
       menu_passaro_element.addEventListener("click", function () {
         document.querySelector(".side-nav-menu").classList.toggle("oculto");
+        document.querySelector("#menu-latera-overlay").classList.toggle("opened");
+        opened
       });
     });
       

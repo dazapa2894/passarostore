@@ -37,6 +37,16 @@
 .shopify-section {
   z-index: 3!important;
 }
+.header-wrapper {
+  position: fixed;
+  top: 30px;
+  left: 0;
+  width: 100%;
+}
+.header-wrapper .header__heading {
+  justify-content: unset;
+  grid-area: auto;
+}
 .side-nav-menu {
   width: 300px;
   position: fixed;

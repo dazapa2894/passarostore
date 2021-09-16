@@ -6,15 +6,15 @@
 <section id="call-to-action-1" class="promo-banner-section">
 
   <div class="promo-wrapper">
-    <div class="promo-img-wrapper" style="background-image: url('{% if section.settings.banner_img != blank %}{{ section.settings.banner_img }}{% endif %}');">
+    <div class="promo-img-wrapper">
       
-      {{ section.settings.banner_img }}
+      
     </div>
     <div class="promo-text-wrapper">
       <div class="promo-theme">{{section.settings.promo_theme}}</div>
       <div class="promo-title">{{section.settings.promo_title}}</div>
       <div class="promo-text">{{section.settings.promo_text}}</div>
-      <a   class="promo-button" href="{{section.settings.button_url}}">{{section.settings.button_label}}</a>
+      <a class="white-btn" href="{{section.settings.button_url}}">{{section.settings.button_label}}</a>
     </div>
   </div>
   

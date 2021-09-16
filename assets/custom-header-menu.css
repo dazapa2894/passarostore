@@ -15,9 +15,6 @@
   width: 30px;
   height: 20px;
 }
-.menu-passaro .hamburger span {
-  margin-left: 10px;
-}
 .menu-passaro .hamburger .hamburger-bar {
   position: absolute;
   width: 30px;
@@ -41,6 +38,9 @@
   top: 15px;
   left: 0;
   width: 15px;
+}
+.menu-passaro span {
+  margin-left: 10px;
 }
 .menu-passaro:hover .hamburger #bar-1,
 .menu-passaro:hover .hamburger #bar-3 {

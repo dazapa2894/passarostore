@@ -53,6 +53,10 @@
   font-family: var(--font-heading-family);
   line-height: normal;
   text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+#sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .info-wrapper .product-title:hover {
+  background-color: rgb(var(--color-green));
 }
 #sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .info-wrapper .price-wrapper {
   display: flex;

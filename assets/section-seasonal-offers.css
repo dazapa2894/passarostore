@@ -1,23 +1,6 @@
 #sesional-offers {
   overflow: hidden;
 }
-#sesional-offers .titulo-con-division {
-  font-family: var(--font-heading-family);
-  color: rgb(var(--color-gray));
-  display: flex;
-  justify-content: center;
-  position: relative;
-  margin-bottom: 60px;
-  font-family: "vanitas-bold";
-}
-#sesional-offers .titulo-con-division div {
-  content: "";
-  height: 2px;
-  width: 73px;
-  background: rgb(var(--color-gray));
-  position: absolute;
-  bottom: -15px;
-}
 #sesional-offers .seasonal-swiper-container {
   width: 95%;
   height: 350px;
@@ -39,6 +22,9 @@
   position: absolute;
   top: 0px;
   left: 5px;
+}
+#sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .image-wrapper .card__badge .badge {
+  background-color: rgb(var(--color-green)) !important;
 }
 #sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .image-wrapper .add-to-cart-form-btn {
   position: absolute;

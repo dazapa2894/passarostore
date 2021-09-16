@@ -22,6 +22,18 @@
   right: 0;
   color: rgb(var(--color-white));
 }
+#call-to-action-1 .promo-wrapper .promo-text-wrapper .promo-theme {
+  color: red;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: montserrat;
+}
+#call-to-action-1 .promo-wrapper .promo-text-wrapper .promo-title {
+  font-size: 25px;
+  font-family: var(--font-heading-family);
+  text-transform: uppercase;
+  background: rgb(var(--color-white));
+}
 #call-to-action-1 .promo-wrapper .promo-text-wrapper a {
   background: rgb(var(--color-white));
   padding: 12px 50px;

@@ -26,6 +26,7 @@
 }
 #sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .image-wrapper .card__badge .badge {
   background-color: rgb(var(--color-green)) !important;
+  font-weight: 800;
 }
 #sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .image-wrapper .add-to-cart-form-btn {
   position: absolute;
@@ -47,11 +48,10 @@
   text-align: center;
 }
 #sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .info-wrapper .product-title {
-  font-size: 18px;
-  font-weight: 400;
-  text-align: center;
-  text-transform: uppercase;
-  font-family: "vanitas";
+  font-size: 28px;
+  color: rgb(var(--color-black));
+  font-family: var(--font-heading-family);
+  line-height: normal;
 }
 #sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .info-wrapper .price-wrapper {
   display: flex;

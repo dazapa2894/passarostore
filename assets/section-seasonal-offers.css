@@ -48,10 +48,11 @@
   text-align: center;
 }
 #sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .info-wrapper .product-title {
-  font-size: 28px;
+  font-size: 25px;
   color: rgb(var(--color-black));
   font-family: var(--font-heading-family);
   line-height: normal;
+  text-decoration: none;
 }
 #sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .info-wrapper .price-wrapper {
   display: flex;
@@ -59,7 +60,7 @@
   justify-content: space-evenly;
 }
 #sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .info-wrapper .price-wrapper .product-price {
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
@@ -67,7 +68,7 @@
 }
 #sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .info-wrapper .price-wrapper .product-compare-price {
   text-decoration: line-through;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;

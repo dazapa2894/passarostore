@@ -46,6 +46,7 @@
 .header-wrapper .header__heading {
   justify-content: unset;
   grid-area: auto;
+  justify-self: center;
 }
 .side-nav-menu {
   width: 300px;

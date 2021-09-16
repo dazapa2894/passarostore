@@ -1,5 +1,6 @@
 #call-to-action-1 .promo-wrapper {
   position: relative;
+  background-color: black;
 }
 #call-to-action-1 .promo-wrapper .promo-img-wrapper img {
   width: 100%;

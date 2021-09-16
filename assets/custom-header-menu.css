@@ -5,13 +5,17 @@
   color: rgb(var(--color-black));
   text-transform: capitalize;
   letter-spacing: 0;
-  float: left;
   cursor: pointer;
+  display: flex;
+  align-items: center;
 }
 .menu-passaro .hamburger {
   position: relative;
   top: -5px;
   width: 30px;
+}
+.menu-passaro .hamburger span {
+  margin-left: 10px;
 }
 .menu-passaro .hamburger .hamburger-bar {
   position: absolute;

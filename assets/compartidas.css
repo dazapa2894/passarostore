@@ -59,6 +59,7 @@
 }
 .side-nav-menu ul li a span {
   font-size: 16px;
+  text-decoration: none;
 }
 .side-nav-menu ul li a:hover {
   text-decoration: none;

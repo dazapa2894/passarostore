@@ -11,8 +11,9 @@
 }
 .menu-passaro .hamburger {
   position: relative;
-  top: -5px;
+  top: 0;
   width: 30px;
+  height: 20px;
 }
 .menu-passaro .hamburger span {
   margin-left: 10px;

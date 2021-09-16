@@ -6,16 +6,9 @@
 <section id="call-to-action-1" class="promo-banner-section">
 
   <div class="promo-wrapper">
-    <div class="promo-img-wrapper">
-      {% if section.settings.banner_img != blank %}
-        <img class="product-img"
-                  src=""
-                  loading="lazy"
-                  alt="banner img"
-                >
-      {% else %}
-        {{ 'lifestyle-1' | placeholder_svg_tag: 'media placeholder' }}
-      {% endif %}
+    <div class="promo-img-wrapper" style="background-image: url('{% if section.settings.banner_img != blank %}{{ section.settings.banner_img }}{% endif %}');">
+      
+      {{ section.settings.banner_img }}
     </div>
     <div class="promo-text-wrapper">
       <div class="promo-theme">{{section.settings.promo_theme}}</div>

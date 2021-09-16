@@ -63,6 +63,8 @@
 }
 .side-nav-menu ul li a:hover {
   text-decoration: none;
+  background-color: rgb(var(--color-dark-blue));
+  color: white;
 }
 .side-nav-menu ul li a:hover span {
   text-decoration: none;

@@ -1,6 +1,5 @@
 #call-to-action-1 .promo-wrapper {
   position: relative;
-  background-color: black;
 }
 #call-to-action-1 .promo-wrapper .promo-img-wrapper img {
   width: 100%;
@@ -9,30 +8,26 @@
   width: 100%;
 }
 #call-to-action-1 .promo-wrapper .promo-text-wrapper {
-  position: absolute;
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  color: rgb(var(--color-white));
 }
 #call-to-action-1 .promo-wrapper .promo-text-wrapper .promo-theme {
   color: red;
   text-transform: uppercase;
   font-size: 14px;
   font-family: montserrat;
+  line-height: normal;
 }
 #call-to-action-1 .promo-wrapper .promo-text-wrapper .promo-title {
-  font-size: 25px;
+  font-size: 40px;
   font-family: var(--font-heading-family);
   text-transform: uppercase;
   color: rgb(var(--color-white));
+  line-height: normal;
+  margin-bottom: 15px;
 }
 #call-to-action-1 .promo-wrapper .promo-text-wrapper .promo-text {
   width: 100%;

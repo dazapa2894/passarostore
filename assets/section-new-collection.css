@@ -151,10 +151,10 @@
   transition: all 0.3s ease-in-out;
 }
 #popup-producto-agregado .close i {
-  color: rgb(var(--color-black));
+  color: rgb(var(--color-white));
 }
 #popup-producto-agregado .close:hover i {
-  color: rgba(var(--color-black), 0.8);
+  color: rgba(var(--color-white), 0.8);
 }
 #popup-producto-agregado .producto-agregado {
   margin: 0 25px 0 0!important;

@@ -105,6 +105,5 @@
   margin: 0;
 }
 .image-with-text__content .image-with-text__text p {
-  margin-top: 0;
-  margin-bottom: 1rem;
+  font-size: 12px;
 }

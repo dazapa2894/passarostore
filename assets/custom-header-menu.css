@@ -2,6 +2,7 @@
   z-index: 3;
   width: 100%;
   background: rgb(var(--color-white));
+  position: relative;
 }
 #shopify-section-header.fixed {
   position: fixed;

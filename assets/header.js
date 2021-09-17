@@ -20,7 +20,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     function fixed_header_toggler() {
       console.log("document.body.scrollTop = "+document.body.scrollTop);
       console.log("document.documentElement.scrollTop = "+document.documentElement.scrollTop);
-      if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
+      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
         header.classList.add("fixed");
       }else{
         header.classList.remove("fixed");

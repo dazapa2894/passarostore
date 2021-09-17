@@ -68,7 +68,7 @@
   text-align: center;
   text-transform: uppercase;
   font-family: "montserrat";
-  color: rgb(var(--color-dark-blue));
+  color: rgb(var(--color-black));
 }
 #sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .product-offer-wrapper .info-wrapper .price-wrapper .product-compare-price {
   text-decoration: line-through;

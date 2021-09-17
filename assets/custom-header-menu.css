@@ -1,3 +1,13 @@
+#shopify-section-header {
+  z-index: 3;
+  width: 100%;
+  background: rgb(var(--color-white));
+}
+#shopify-section-header.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
 .menu-passaro {
   width: 110px;
   background: 0 0;

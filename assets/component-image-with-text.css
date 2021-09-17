@@ -107,3 +107,7 @@
 .image-with-text__content .image-with-text__text p {
   font-size: 12px;
 }
+.image-with-text__content .blue-btn {
+  margin: 20px 0 0 0;
+  line-height: unset;
+}

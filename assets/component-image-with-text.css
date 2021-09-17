@@ -97,11 +97,11 @@
     padding: 6rem 7rem 7rem;
   }
 }
-.image-with-text__heading {
+.image-with-text__content .image-with-text__heading {
   margin-bottom: 0;
-  font-family: vanitas;
+  font-family: var(--font-heading-family);
 }
-.image-with-text__text p {
+.image-with-text__content .image-with-text__text p {
   margin-top: 0;
   margin-bottom: 1rem;
 }

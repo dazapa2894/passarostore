@@ -155,6 +155,6 @@
 #popup-producto-agregado .close:hover i {
   color: rgba(var(--color-black), 0.8);
 }
-#popup-producto-agregado .blue-btn {
+#popup-producto-agregado .producto-agregado {
   margin: 0 25px 0 0!important;
 }

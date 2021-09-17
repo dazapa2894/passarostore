@@ -97,7 +97,7 @@
   height: 30px;
   font-weight: 700;
   line-height: 1.2;
-  bottom: 45px;
+  bottom: 20px;
   right: 15px;
   border: none;
   cursor: pointer;
@@ -122,7 +122,7 @@
 #sesional-offers .seasonal-swiper-container .swiper-wrapper .product-wrapper .variant-pickers {
   background-color: #fff;
   position: absolute;
-  bottom: 80px;
+  bottom: 60px;
   right: 0;
   left: 0;
   margin: 0 auto;

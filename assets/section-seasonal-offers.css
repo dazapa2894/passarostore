@@ -10,6 +10,9 @@
 #sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide {
   position: relative;
 }
+#sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .product-offer-wrapper {
+  text-decoration: none;
+}
 #sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .product-offer-wrapper .image-wrapper {
   position: relative;
   height: 100%;
@@ -53,6 +56,7 @@
   font-family: var(--font-heading-family);
   line-height: normal;
   text-decoration: none;
+  margin: 0;
   transition: all 0.3s ease-in-out;
 }
 #sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .product-offer-wrapper .info-wrapper .product-title:hover {

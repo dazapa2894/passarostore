@@ -1,7 +1,6 @@
 #shopify-section-header {
   z-index: 3;
   width: 100%;
-  background-color: rgb(var(--color-white));
   position: relative;
 }
 #shopify-section-header.fixed {
@@ -61,7 +60,7 @@
   z-index: 3!important;
 }
 .header-wrapper {
-  position: fixed;
+  background-color: rgb(var(--color-white));
   top: 30px;
   left: 0;
   width: 100%;
@@ -73,7 +72,6 @@
 }
 .side-nav-menu {
   width: 300px;
-  position: fixed;
   top: 0;
   left: 0;
   height: 100vh;

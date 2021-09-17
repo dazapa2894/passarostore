@@ -59,9 +59,6 @@
   margin: 0;
   transition: all 0.3s ease-in-out;
 }
-#sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .product-offer-wrapper .info-wrapper .product-title:hover {
-  color: rgb(var(--color-green));
-}
 #sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .product-offer-wrapper .info-wrapper .price-wrapper .product-price {
   font-size: 15px;
   font-weight: 700;

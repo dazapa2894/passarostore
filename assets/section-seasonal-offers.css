@@ -62,17 +62,13 @@
 #sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .product-offer-wrapper .info-wrapper .product-title:hover {
   color: rgb(var(--color-green));
 }
-#sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .product-offer-wrapper .info-wrapper .price-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
 #sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .product-offer-wrapper .info-wrapper .price-wrapper .product-price {
   font-size: 15px;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
   font-family: "montserrat";
+  background: rgb(var(--color-dark-blue));
 }
 #sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .product-offer-wrapper .info-wrapper .price-wrapper .product-compare-price {
   text-decoration: line-through;
@@ -81,4 +77,5 @@
   text-align: center;
   text-transform: uppercase;
   font-family: "montserrat";
+  background: rgb(var(--color-dark-blue));
 }

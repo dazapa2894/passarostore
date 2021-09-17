@@ -75,7 +75,7 @@
   margin: 0;
 }
 .side-nav-menu ul li {
-  border-bottom: 1px solid rgba(2, 2, 2, 0.2);
+  border-bottom: 1px solid rgba(2, 2, 2, 0.1);
 }
 .side-nav-menu ul li a {
   text-decoration: none;

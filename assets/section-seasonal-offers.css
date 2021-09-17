@@ -30,6 +30,8 @@
 #sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .product-offer-wrapper .image-wrapper .card__badge .badge {
   background-color: rgb(var(--color-green)) !important;
   font-weight: 800;
+  position: absolute;
+  left: 10px;
 }
 #sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .product-offer-wrapper .image-wrapper .add-to-cart-form-btn {
   position: absolute;

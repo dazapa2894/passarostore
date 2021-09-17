@@ -10,30 +10,30 @@
 #sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide {
   position: relative;
 }
-#sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .image-wrapper {
+#sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .product-offer-wrapper .image-wrapper {
   position: relative;
   height: 100%;
 }
-#sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .image-wrapper .product-img {
+#sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .product-offer-wrapper .image-wrapper .product-img {
   position: absolute;
   top: 0;
   width: 100%;
 }
-#sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .image-wrapper .card__badge {
+#sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .product-offer-wrapper .image-wrapper .card__badge {
   position: absolute;
-  top: 0px;
+  top: 0;
   left: 5px;
 }
-#sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .image-wrapper .card__badge .badge {
+#sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .product-offer-wrapper .image-wrapper .card__badge .badge {
   background-color: rgb(var(--color-green)) !important;
   font-weight: 800;
 }
-#sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .image-wrapper .add-to-cart-form-btn {
+#sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .product-offer-wrapper .image-wrapper .add-to-cart-form-btn {
   position: absolute;
   bottom: 20px;
   right: 15px;
 }
-#sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .image-wrapper .add-to-cart-form-btn .agregar {
+#sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .product-offer-wrapper .image-wrapper .add-to-cart-form-btn .agregar {
   border-radius: 10px 0;
   background: rgb(var(--color-dark-blue));
   width: 20px;
@@ -44,10 +44,10 @@
   line-height: 1;
   border: none!important;
 }
-#sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .info-wrapper {
+#sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .product-offer-wrapper .info-wrapper {
   text-align: center;
 }
-#sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .info-wrapper .product-title {
+#sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .product-offer-wrapper .info-wrapper .product-title {
   font-size: 25px;
   color: rgb(var(--color-black));
   font-family: var(--font-heading-family);
@@ -55,22 +55,22 @@
   text-decoration: none;
   transition: all 0.3s ease-in-out;
 }
-#sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .info-wrapper .product-title:hover {
+#sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .product-offer-wrapper .info-wrapper .product-title:hover {
   color: rgb(var(--color-green));
 }
-#sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .info-wrapper .price-wrapper {
+#sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .product-offer-wrapper .info-wrapper .price-wrapper {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
-#sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .info-wrapper .price-wrapper .product-price {
+#sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .product-offer-wrapper .info-wrapper .price-wrapper .product-price {
   font-size: 15px;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
   font-family: "montserrat";
 }
-#sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .info-wrapper .price-wrapper .product-compare-price {
+#sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .product-offer-wrapper .info-wrapper .price-wrapper .product-compare-price {
   text-decoration: line-through;
   font-size: 15px;
   font-weight: 700;

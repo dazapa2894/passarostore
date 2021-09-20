@@ -100,7 +100,7 @@
 #sesional-offers .seasonal-swiper-container .swiper-wrapper .product-wrapper .product-img-wrapper .show-variant {
   position: absolute;
   border-radius: 10px 0;
-  background: rgba(var(--color-black), 0.5);
+  background-color: rgba(var(--color-black), 0.5);
   width: 30px;
   color: #fff;
   font-size: 25px;

@@ -302,19 +302,12 @@
 
       <h1 class="header__heading">
         <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
-          {%- if section.settings.logo != blank -%}
-            {%- assign image_size = section.settings.logo_width | append: 'x' -%}
-            <img 
+          <img 
               src="https://cdn.shopify.com/s/files/1/0592/9287/6983/files/LogoPassaro_cd39d42c-c254-4da6-93ac-6d87a8cd40a5.png?v=1632155202"
               loading="lazy"
               class="header__heading-logo"
-              width="{{ section.settings.logo.width }}"
-              height="{{ section.settings.logo.height }}"
-              alt="{{ section.settings.logo.alt | default: shop.name | escape }}"
+              alt="logo"
             >
-          {%- else -%}
-            <span class="h2">{{ shop.name }}</span>
-          {%- endif -%}
         </a>
       </h1>
 
@@ -398,19 +391,12 @@
 
         <li id="side-menu-logo-wrapper">
           <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
-            {%- if section.settings.logo != blank -%}
-              {%- assign image_size = section.settings.logo_width | append: 'x' -%}
-              <img 
-                src="https://cdn.shopify.com/s/files/1/0592/9287/6983/files/LogoPassaro_cd39d42c-c254-4da6-93ac-6d87a8cd40a5.png?v=1632155202"
-                loading="lazy"
-                class="header__heading-logo"
-                width="{{ section.settings.logo.width }}"
-                height="{{ section.settings.logo.height }}"
-                alt="{{ section.settings.logo.alt | default: shop.name | escape }}"
-              >
-            {%- else -%}
-              <span class="h2">{{ shop.name }}</span>
-            {%- endif -%}
+            <img 
+              src="https://cdn.shopify.com/s/files/1/0592/9287/6983/files/LogoPassaro_cd39d42c-c254-4da6-93ac-6d87a8cd40a5.png?v=1632155202"
+              loading="lazy"
+              class="header__heading-logo"
+              alt="logo"
+            >
           </a>
         </li> 
         <li>

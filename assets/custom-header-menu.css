@@ -85,46 +85,47 @@
 .side-nav-menu ul #side-menu-logo-wrapper {
   display: flex;
   justify-content: center;
-}
-.side-nav-menu ul li {
   border-bottom: 1px solid rgba(2, 2, 2, 0.1);
 }
-.side-nav-menu ul li a {
+.side-nav-menu ul li:not(#side-menu-logo-wrapper) {
+  border-bottom: 1px solid rgba(2, 2, 2, 0.1);
+}
+.side-nav-menu ul li:not(#side-menu-logo-wrapper) a {
   text-decoration: none;
   padding: 10px 20px;
   display: block;
   color: rgb(var(--color-dark-blue));
   transition: all 0.3s ease-in-out;
 }
-.side-nav-menu ul li a .dropdown-indicator {
+.side-nav-menu ul li:not(#side-menu-logo-wrapper) a .dropdown-indicator {
   float: right;
   transition: all 0.2s ease-in-out;
   font-size: 18px;
 }
-.side-nav-menu ul li a .dropdown-indicator.opened {
+.side-nav-menu ul li:not(#side-menu-logo-wrapper) a .dropdown-indicator.opened {
   transform: rotate(180deg);
 }
-.side-nav-menu ul li a span {
+.side-nav-menu ul li:not(#side-menu-logo-wrapper) a span {
   font-size: 16px;
   text-decoration: none;
 }
-.side-nav-menu ul li a:hover {
+.side-nav-menu ul li:not(#side-menu-logo-wrapper) a:hover {
   text-decoration: none;
   background-color: rgb(var(--color-dark-blue));
   color: white;
 }
-.side-nav-menu ul li a:hover span {
+.side-nav-menu ul li:not(#side-menu-logo-wrapper) a:hover span {
   text-decoration: none;
 }
-.side-nav-menu ul li .dropdown-list li {
+.side-nav-menu ul li:not(#side-menu-logo-wrapper) .dropdown-list li {
   background-color: rgb(var(--color-dark-blue));
   border-bottom: 1px rgb(var(--color-white)) solid;
 }
-.side-nav-menu ul li .dropdown-list li a {
+.side-nav-menu ul li:not(#side-menu-logo-wrapper) .dropdown-list li a {
   color: rgb(var(--color-white));
   padding: 4px 0 4px 35px;
 }
-.side-nav-menu ul li .dropdown-list li a:hover {
+.side-nav-menu ul li:not(#side-menu-logo-wrapper) .dropdown-list li a:hover {
   color: rgb(var(--color-dark-blue));
   background-color: rgb(var(--color-white));
 }

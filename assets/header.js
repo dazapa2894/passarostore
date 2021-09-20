@@ -9,7 +9,6 @@ window.addEventListener('DOMContentLoaded', (event) => {
       menu_passaro_element.addEventListener("click", function () {
         document.querySelector(".side-nav-menu").classList.toggle("oculto");
         document.querySelector("#menu-latera-overlay").classList.toggle("opened");
-        
       });
     });
 
@@ -18,8 +17,6 @@ window.addEventListener('DOMContentLoaded', (event) => {
     };
 
     function fixed_header_toggler() {
-      console.log("document.body.scrollTop = "+document.body.scrollTop);
-      console.log("document.documentElement.scrollTop = "+document.documentElement.scrollTop);
       if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
         header.classList.add("fixed");
       }else{
@@ -30,8 +27,6 @@ window.addEventListener('DOMContentLoaded', (event) => {
     $(".dropdown-trigger-nav").click( function(){
       let target = $(this).attr("dropdown-target");
       $("#" + target).slideToggle();
-      console.log($(this));
-      console.log($(this).find(".dropdown-indicator"));
       $(this).find(".dropdown-indicator").toggleClass("opened");
     });
   

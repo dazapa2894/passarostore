@@ -1784,16 +1784,11 @@ input[type='checkbox'] {
   grid-template-columns: 1fr 2fr 1fr;
   align-items: center;
   background-color: rgb(var(--color-background));
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 @media screen and (min-width: 990px) {
-  .header {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-
   .header--has-menu:not(.header--middle-left) {
     padding-bottom: 0;
   }

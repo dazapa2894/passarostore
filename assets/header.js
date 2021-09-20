@@ -32,7 +32,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
       $("#" + target).slideToggle();
       console.log($(this));
       console.log($(this).find(".dropdown-indicator"));
-      $(this).find(".dropdown-indicator").classToggle("opened");
+      $(this).find(".dropdown-indicator").toggleClass("opened");
     });
   
 });

@@ -52,11 +52,7 @@
               </facet-remove>
             </div>
             
-            
-            <div>
-              visualizar
-              
-            </div>
+
 
             <div class="facets__wrapper">
               {%- unless collection.filters == empty -%}
@@ -198,6 +194,11 @@
           {% if collection.current_vendor or collection.current_type %}
             <input type="hidden" name="q" value="{{ collection.current_vendor }}{{ collection.current_type }}">
           {% endif %}
+
+                      
+          <div>
+            visualizar
+          </div>
 
           {%- if section.settings.enable_sorting -%}
             <div class="collection-filters__item sorting caption">

@@ -394,66 +394,33 @@
 
     <div class="side-nav-menu oculto">
       <ul>
+
         <li>
           <a href="#" class="dropdown-trigger-nav">HOME</a>
-        </li>  
+        </li> 
+
         <li>
           <a href="#" class="dropdown-trigger-nav">TIENDA</a>
           <ul class="dropdown-list">
             {% for collection in collections %}
               {% unless collection.handle == 'nueva-coleccion' or collection.handle == 'descuentos-de-temporada' or collection.handle == 'blancos' %}
-                <li><a href="{{collection.url}}">{{collection.title}}</a></li>
+                <li>
+                  <a href="{{collection.url}}">{{collection.title}}</a>
+                </li>
               {% endunless %}
             {% endfor %}   
           </ul>
         </li>  
 
         {%- for link in section.settings.menu.links -%}
-            <li>
-              {%- if link.links != blank -%}
-                <details-disclosure>
-                  <details>
-                    <summary class="header__menu-item list-menu__item link focus-inset">
-                      <span {%- if link.child_active %} class="header__active-menu-item"{% endif %}>{{ link.title | escape }}</span>
-                      {% render 'icon-caret' %}
-                    </summary>
-                    <ul class="header__submenu list-menu list-menu--disclosure caption-large motion-reduce" role="list" tabindex="-1">
-                      {%- for childlink in link.links -%}
-                        <li>
-                          {%- if childlink.links == blank -%}
-                            <a href="{{ childlink.url }}" class="header__menu-item list-menu__item link link--text focus-inset caption-large{% if childlink.current %} list-menu__item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
-                              {{ childlink.title | escape }}
-                            </a>
-                          {%- else -%}
-                            <details>
-                              <summary class="header__menu-item link link--text list-menu__item focus-inset caption-large">
-                                {{ childlink.title | escape }}
-                                {% render 'icon-caret' %}
-                              </summary>
-                              <ul class="header__submenu list-menu motion-reduce">
-                                {%- for grandchildlink in childlink.links -%}
-                                  <li>
-                                    <a href="{{ grandchildlink.url }}" class="header__menu-item list-menu__item link link--text focus-inset caption-large{% if grandchildlink.current %} list-menu__item--active{% endif %}"{% if grandchildlink.current %} aria-current="page"{% endif %}>
-                                      {{ grandchildlink.title | escape }}
-                                    </a>
-                                  </li>
-                                {%- endfor -%}
-                              </ul>
-                            </details>
-                          {%- endif -%}
-                        </li>
-                      {%- endfor -%}
-                    </ul>
-                  </details>
-                </details-disclosure>
-              {%- else -%}
-                <a href="{{ link.url }}" class="header__menu-item header__menu-item list-menu__item link link--text focus-inset"{% if link.current %} aria-current="page"{% endif %}>
-                  <span {%- if link.current %} class="header__active-menu-item"{% endif %}>{{ link.title | escape }}</span>
-                </a>
-              {%- endif -%}
-            </li>
-          {%- endfor -%}
-        <li class="close-menu-passaro">cerrar</li>
+          <li>
+            <a href="{{ link.url }}" class="header__menu-item header__menu-item list-menu__item link link--text focus-inset"{% if link.current %} aria-current="page"{% endif %}>
+              <span {%- if link.current %} class="header__active-menu-item"{% endif %}>{{ link.title | escape }}</span>
+            </a>
+          </li>
+        {%- endfor -%}
+
+        <li class="close-menu-passaro">CERRAR</li>
       </ul>
     </div>
 

@@ -117,8 +117,12 @@
   border-bottom: 1px rgb(var(--color-white)) solid;
 }
 .side-nav-menu ul li .dropdown-list li a {
-  color: rgb(var(--color-white)) !important;
+  color: rgb(var(--color-white));
   padding: 4px 0 4px 35px;
+}
+.side-nav-menu ul li .dropdown-list li a:hover {
+  color: rgb(var(--color-dark-blue));
+  background-color: rgb(var(--color-white));
 }
 .side-nav-menu.oculto {
   left: -400px;

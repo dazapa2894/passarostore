@@ -82,6 +82,10 @@
   padding: 0;
   margin: 0;
 }
+.side-nav-menu ul #side-menu-logo-wrapper {
+  display: flex;
+  justify-content: center;
+}
 .side-nav-menu ul li {
   border-bottom: 1px solid rgba(2, 2, 2, 0.1);
 }

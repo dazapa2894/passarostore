@@ -1,8 +1,9 @@
 #breadcrumb-wrapper {
   width: 100%;
   height: 50px;
-  border-bottom: 1px rgb(var(--color-white)) solid;
+  border-bottom: 1px rgb(var(--color-gray-light)) solid;
   font-family: SourceSansPro;
+  padding: 20px 30px;
 }
 #breadcrumb-wrapper .breadcrumb-arrow {
   transform: rotate(-90deg);

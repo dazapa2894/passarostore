@@ -393,7 +393,21 @@
     </div>
 
     <div class="side-nav-menu oculto">
-      <ul>        
+      <ul>
+        <li>
+          <a href="#" class="dropdown-trigger-nav">HOME</a>
+        </li>  
+        <li>
+          <a href="#" class="dropdown-trigger-nav">TIENDA</a>
+          <ul class="dropdown-list">
+            {% for collection in collections %}
+              {% unless collection.handle == 'nueva-coleccion' or collection.handle == 'descuentos-de-temporada' or collection.handle == 'blancos' %}
+                <li><a href="{{collection.url}}">{{collection.title}}</a></li>
+              {% endunless %}
+            {% endfor %}   
+          </ul>
+        </li>  
+
         {%- for link in section.settings.menu.links -%}
             <li>
               {%- if link.links != blank -%}
@@ -439,14 +453,6 @@
               {%- endif -%}
             </li>
           {%- endfor -%}
-        <li>
-          <a href="#" class="dropdown-trigger-nav">Dropdown</a>
-          <ul class="dropdown-list">
-            <li><a href="#">Blusas</a></li>
-            <li><a href="#">Faldas</a></li>
-            <li><a href="#">Camisas</a></li>
-          </ul>
-        </li>  
         <li class="close-menu-passaro">cerrar</li>
       </ul>
     </div>

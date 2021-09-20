@@ -2,7 +2,7 @@
   height: 50px;
   border-bottom: 1px rgb(var(--color-gray-light)) solid;
   font-family: SourceSansPro;
-  padding: 20px 30px;
+  padding: 5px 30px;
   margin: 0px 20px;
 }
 #breadcrumb-wrapper .breadcrumb-arrow {

@@ -28,7 +28,8 @@ window.addEventListener('DOMContentLoaded', (event) => {
     }
     
     $(".dropdown-trigger-nav").click( function(){
-      $(".dropdown-list").slideToggle();
+      let target = $(this).attr("dropdown-target");
+      $("#" + target).slideToggle();
     });
   
 });

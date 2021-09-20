@@ -401,8 +401,8 @@
         </li> 
 
         <li>
-          <a href="#" class="dropdown-trigger-nav">TIENDA</a>
-          <ul class="dropdown-list" style="display:none;">
+          <a href="#" class="dropdown-trigger-nav" dropdown-target="side-menu-shop-dropdown-content">TIENDA</a>
+          <ul class="dropdown-list" id="side-menu-shop-dropdown-content" style="display:none;">
             {% for collection in collections %}
               {% unless collection.handle == 'nueva-coleccion' or collection.handle == 'descuentos-de-temporada' or collection.handle == 'blancos' %}
                 <li>

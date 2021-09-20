@@ -11,4 +11,5 @@
 #breadcrumb-wrapper .breadcrumb {
   color: rgb(var(--color-dark-blue));
   font-family: SourceSansPro;
+  text-decoration: none;
 }

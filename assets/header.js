@@ -30,6 +30,8 @@ window.addEventListener('DOMContentLoaded', (event) => {
     $(".dropdown-trigger-nav").click( function(){
       let target = $(this).attr("dropdown-target");
       $("#" + target).slideToggle();
+      console.log($(this));
+      console.log($(this).find(".dropdown-indicator"));
       $(this).find(".dropdown-indicator").classToggle("opened");
     });
   

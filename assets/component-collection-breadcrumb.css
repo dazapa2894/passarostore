@@ -1,0 +1,13 @@
+#breadcrumb-wrapper {
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px rgb(var(--color-white)) solid;
+  font-family: SourceSansPro;
+}
+#breadcrumb-wrapper .breadcrumb-arrow {
+  transform: rotate(-90deg);
+}
+#breadcrumb-wrapper .breadcrumb {
+  color: rgb(var(--color-dark-blue));
+  font-family: SourceSansPro;
+}

@@ -26,6 +26,9 @@ window.addEventListener('DOMContentLoaded', (event) => {
         header.classList.remove("fixed");
       }
     }
-      
+    
+    $(".dropdown-trigger-nav").click( function(){
+      $(".dropdown-list").slideToggle();
+    });
   
 });

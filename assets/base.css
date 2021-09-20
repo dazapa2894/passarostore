@@ -1857,7 +1857,7 @@ input[type='checkbox'] {
 }
 
 .header__heading-logo {
-  height: auto;
+  height: 30px;
   width: 100%;
 }
 

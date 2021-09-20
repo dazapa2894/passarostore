@@ -15,6 +15,7 @@
 }
 .newsletter-section .newsletter {
   position: relative;
+  background-color: rgb(var(--color-white), 0.2);
 }
 .newsletter-section .newsletter .newsletter__wrapper {
   background: transparent;

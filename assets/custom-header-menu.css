@@ -94,7 +94,7 @@
 }
 .side-nav-menu ul li a .dropdown-indicator {
   float: right;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 .side-nav-menu ul li a .dropdown-indicator.opened {
   transform: rotate(180deg);

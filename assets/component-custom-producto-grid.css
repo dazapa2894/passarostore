@@ -10,6 +10,7 @@
 .collection-filters__item {
   grid-column: 3;
   align-items: center;
+  margin: 0;
 }
 #column-num-wrapper {
   grid-row: 1;
@@ -18,7 +19,6 @@
   align-items: center;
   align-self: center;
   height: 34px;
-  margin: 0;
 }
 .col-change-btn-wrapper {
   width: 80px;

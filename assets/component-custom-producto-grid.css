@@ -20,12 +20,16 @@
   align-self: center;
   height: 34px;
 }
-.col-change-btn-wrapper {
+#column-num-wrapper h4 {
+  padding: 0 10px;
+}
+#column-num-wrapper .col-change-btn-wrapper {
+  padding: 0 10px;
   display: flex;
   width: 80px;
   align-items: center;
   align-self: center;
 }
-.col-change-btn-wrapper img {
+#column-num-wrapper .col-change-btn-wrapper img {
   background-color: var(rgb(--color-light-gray));
 }

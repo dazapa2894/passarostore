@@ -36,16 +36,16 @@
   background-color: rgb(var(--color-pink-dark));
 }
 .facets__form #column-num-wrapper .col-change-btn-wrapper.active img:nth-child(1) {
-  display: none;
+  display: block;
 }
 .facets__form #column-num-wrapper .col-change-btn-wrapper.active img:nth-child(2) {
-  display: block;
+  display: none;
 }
 .facets__form #column-num-wrapper .col-change-btn-wrapper:not(.active) img:nth-child(1) {
-  display: block;
+  display: none;
 }
 .facets__form #column-num-wrapper .col-change-btn-wrapper:not(.active) img:nth-child(2) {
-  display: none;
+  display: block;
 }
 .facets__form .collection-filters__item {
   grid-column: 3;

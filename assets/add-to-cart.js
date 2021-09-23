@@ -112,6 +112,7 @@ function navConfirm(message, loc) {
 }
 
 function SetSelect(selectElement, color, talla) {
+  console.log(selectElement);
   let option = selectElement.querySelector("[variant='" + color + " / " + talla + "']");
   let new_value = option.getAttribute("value");
   console.log("[variant='" + color + " / " + talla + "']");

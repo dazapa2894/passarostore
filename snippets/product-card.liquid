@@ -11,13 +11,21 @@
 
     Usage:
     {% render 'product-card', show_vendor: section.settings.show_vendor %}
+
+    {% render 'product-card', 
+    product_card_product: product, 
+    media_size: section.settings.image_ratio, 
+    show_secondary_image: section.settings.show_secondary_image, 
+    add_image_padding: section.settings.add_image_padding, 
+    show_vendor: section.settings.show_vendor, 
+    show_image_outline: section.settings.show_image_outline 
+    %}
+
 {% endcomment %}
-<pre>
-{{product_card_product | json}}
-</pre>
-<pre>
-{{ product_card_product.url | json }}
-</pre>
+
+
+
+{% comment %} 
 <div class="card-wrapper">
   <a href="{{ product_card_product.url | default: '#' }}" class="full-unstyled-link">
     <span class="visually-hidden">{{ product_card_product.title | escape }}</span>
@@ -33,7 +41,7 @@
             endif
           -%}
 
-          <div{% if add_image_padding %} class="card__media-full-spacer"{% endif %}>
+          <div {% if add_image_padding %} class="card__media-full-spacer"{% endif %}>
             <div class="media media--transparent media--{{ media_size }} media--hover-effect"
               {% if media_size == 'adapt' and product_card_product.featured_media %} style="padding-bottom: {{ 1 | divided_by: featured_media_aspect_ratio | times: 100 }}%;"{% endif %}
             >
@@ -106,4 +114,83 @@
       </div>
     </div>
   </a>
-</div>
+</div><!-- END card-wrapper --> {% endcomment %}
+
+
+<!-- product info -->
+<div class="product-wrapper card-wrapper" >
+  
+  <div class="product-img-wrapper">
+    <a href="{{product_card_product.url}}" class="img-wrapper">
+      {% if product_card_product.featured_image != blank %}
+        <img class="product-img"
+          src="{{product_card_product.featured_image | img_url: '375x' }}"
+          loading="lazy"
+          alt="{{product_card_product.featured_image.alt | escape }}"
+        >
+      {% else %}
+        {{ 'product-1' | placeholder_svg_tag}}
+      {% endif %}
+      
+      <div class="card__badge">
+        {%- if product_card_product.available == false -%}
+          <span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}" aria-hidden="true">{{ 'products.product_card_product.sold_out' | t }}</span>
+        {%- elsif product_card_product.compare_at_price > product_card_product.price and product_card_product.available -%}
+          <span class="badge badge--top-left color-green pecentual-discount" aria-hidden="true">-{{ product_card_product.compare_at_price_max | minus: product_card_product.price | times: 100 | divided_by: product_card_product.compare_at_price_max }}%</span>
+        {%- endif -%}
+      </div>
+    </a>
+    
+    <div class="show-variant">+</div>
+    
+    <div class="variant-pickers hide">
+      <h5>Tallas</h5>
+      <div class="product-sizes">
+        {% assign first_size = product_card_product.variants[0].option2%}
+        {% assign first_size_counter = 0%}
+        {% for option in product_card_product.variants %}
+          {% if first_size == option.option2 %}
+            {% assign first_size_counter = first_size_counter | plus: 1 %}
+            {% if first_size_counter > 1 %}
+              {% break %}
+            {% endif %}
+          {% endif %}
+
+          <div variant_size="{{option.option2}}" class="size-picker {% if forloop.first == true %}active{% endif %}">
+            {{option.option2}}
+          </div>
+        
+        {% endfor %}
+      </div>        
+      <select id="{{product_card_product.id}}-variant-selector" class="hidden" data-productid="{{product_card_product.id}}">
+        {% for option in product_card_product.variants %}
+          <option value="{{option.id}}" handle="{{product_card_product.handle}}" variant="{{-option.title-}}"> {{option.title}}</option>
+        {% endfor %}
+      </select>
+      <div class="agregar-al-carrito blue-btn">AGREGAR AL CARRITO</div>
+
+    </div><!-- end variant-pickers -->
+    
+  </div>
+
+  <div class="product-colors">
+    {% assign last_img = ''%}
+    {% for option in product_card_product.variants %}
+      {% assign actual_img = option.featured_media.preview_image.src %}
+      
+      {% unless last_img == actual_img %}  
+        {% assign last_img = actual_img%}
+        <div class="variant-color-swatch {% if forloop.first == true %}active{% endif %}" variant_color="{{option.option1}}" variant_img_src="{{actual_img | img_url: '375x' }}">
+          <img class="variant-img"
+                src="{{actual_img | img_url: '50x' , format: 'pjpg'}}"
+                loading="lazy"
+              >
+        </div>
+      {% endunless %}
+    {% endfor %}
+  </div>
+  
+  <div class="product-title">{{ product_card_product.title }}</div>
+  <div class="product-price">{{ product_card_product.price | money_without_trailing_zeros }}</div>   
+
+</div><!-- END card-wrapper -->

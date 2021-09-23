@@ -1,5 +1,5 @@
-$(".col-change-btn-wrapper").click( (e)=>{
-  console.log($(e));
+$("#4-cols-btn, #3-cols-btn").click((event) => {
+  
   console.log($(this));
   console.log(!$(this).hasClass("active"));
 

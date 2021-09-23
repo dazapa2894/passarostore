@@ -1,4 +1,6 @@
-$(".col-change-btn-wrapper:not(.active)").click( ()=>{
+$(".col-change-btn-wrapper").click( ()=>{
   console.log($(this));
-  $(".col-change-btn-wrapper").toggleClass("active");
+  if ($(this).not(".active")) {
+    $(".col-change-btn-wrapper").toggleClass("active");
+  }
 });

@@ -21,6 +21,7 @@
   height: 34px;
 }
 .col-change-btn-wrapper {
+  display: flex;
   width: 80px;
   align-items: center;
   align-self: center;

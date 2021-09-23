@@ -4,4 +4,12 @@
 #column-num-wrapper {
   grid-row: 1;
   grid-column: 2;
+  display: flex;
+  align-items: flex-start;
+}
+.col-change-btn-wrapper {
+  width: 80px;
+}
+.col-change-btn-wrapper img {
+  background-color: var(rgb(--color-light-gray));
 }

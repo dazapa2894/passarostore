@@ -28,6 +28,7 @@
   width: 80px;
   align-items: center;
   align-self: center;
+  cursor: pointer;
 }
 .facets__form #column-num-wrapper .col-change-btn-wrapper img {
   width: 100%;

@@ -31,5 +31,6 @@
   align-self: center;
 }
 #column-num-wrapper .col-change-btn-wrapper img {
-  background-color: var(rgb(--color-light-gray));
+  width: 100%;
+  background-color: rgb(var(--color-light-gray));
 }

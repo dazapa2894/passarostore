@@ -1,0 +1,7 @@
+.collection-filters__item {
+  grid-column: 3!important;
+}
+#column-num-wrapper {
+  grid-row: 1;
+  grid-column: 2;
+}

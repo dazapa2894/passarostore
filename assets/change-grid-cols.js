@@ -1,9 +1,12 @@
-$("#4-cols-btn, #3-cols-btn").click((event) => {
-  
-  console.log($(this));
-  console.log(!$(this).hasClass("active"));
+$("#4-cols-btn").click((event) => {
 
-  if (!$(this).hasClass("active")) {
+  if (!$("#4-cols-btn").hasClass("active")) {
+    $(".col-change-btn-wrapper").toggleClass("active");
+  }
+});
+
+$("#3-cols-btn").click((event) => {
+  if (!$("#3-cols-btn").hasClass("active")) {
     $(".col-change-btn-wrapper").toggleClass("active");
   }
 });

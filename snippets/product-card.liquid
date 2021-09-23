@@ -15,7 +15,9 @@
 <pre>
 {{product_card_product | json}}
 </pre>
-
+<pre>
+{{ product_card_product.url | json }}
+</pre>
 <div class="card-wrapper">
   <a href="{{ product_card_product.url | default: '#' }}" class="full-unstyled-link">
     <span class="visually-hidden">{{ product_card_product.title | escape }}</span>

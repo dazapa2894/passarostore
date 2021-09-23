@@ -10,14 +10,6 @@
 .facets__form .facets__wrapper .facets__summary {
   margin: 0;
 }
-.facets__form .collection-filters__item {
-  grid-column: 3;
-  align-items: center;
-  margin: 0;
-}
-.facets__form .collection-filters__item .collection-filters__field {
-  flex-wrap: wrap;
-}
 .facets__form #column-num-wrapper {
   grid-row: 1;
   grid-column: 2;
@@ -39,4 +31,16 @@
 .facets__form #column-num-wrapper .col-change-btn-wrapper img {
   width: 100%;
   background-color: rgb(var(--color-pink-dark));
+}
+.facets__form .collection-filters__item {
+  grid-column: 3;
+  align-items: center;
+  margin: 0;
+}
+.facets__form .collection-filters__item .collection-filters__field {
+  flex-wrap: wrap;
+}
+.facets__form #CollectionProductCountDesktop {
+  grid-column-start: 3;
+  grid-row-start: 3;
 }

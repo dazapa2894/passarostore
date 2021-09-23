@@ -13,6 +13,8 @@
     {% render 'product-card', show_vendor: section.settings.show_vendor %}
 {% endcomment %}
 
+{{product_card_product | json}}
+
 <div class="card-wrapper">
   <a href="{{ product_card_product.url | default: '#' }}" class="full-unstyled-link">
     <span class="visually-hidden">{{ product_card_product.title | escape }}</span>

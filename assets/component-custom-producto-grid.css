@@ -1,11 +1,17 @@
+.facets__wrapper {
+  grid-column: 1;
+  align-items: center;
+}
 .collection-filters__item {
-  grid-column: 3!important;
+  grid-column: 3;
+  align-items: center;
 }
 #column-num-wrapper {
   grid-row: 1;
   grid-column: 2;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
+  height: 34px;
 }
 .col-change-btn-wrapper {
   width: 80px;

@@ -4,6 +4,7 @@
 .collection-grid-section .collection-filters .facets .facets__form {
   gap: 0;
   grid-template-columns: 33% 34% 33%;
+  margin-bottom: 20px;
 }
 .collection-grid-section .collection-filters .facets .facets__form .facets__wrapper {
   grid-column: 1;

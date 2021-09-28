@@ -24,6 +24,12 @@
   display: block;
   text-align: right;
 }
+.collection-grid-section .collection-filters .facets .facets__form .facets__wrapper .facets__disclosure summary div h4 {
+  font-family: SourceSansPro;
+  font-size: 16px;
+  padding: 0 10px;
+  margin: 0;
+}
 .collection-grid-section .collection-filters .facets .facets__form .facets__wrapper .facets__disclosure .facets__display {
   right: -19rem;
   left: auto;
@@ -44,6 +50,7 @@
   padding: 0 10px;
   margin: 0;
   font-family: SourceSansPro;
+  font-size: 16px;
 }
 .collection-grid-section .collection-filters .facets .facets__form #column-num-wrapper .col-change-btn-wrapper {
   display: flex;

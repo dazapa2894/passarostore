@@ -52,6 +52,9 @@
     display: flex;
   }
 }
+.facets__form .collection-grid-section {
+  margin-top: 25px;
+}
 .facets__form .collection-filters__item {
   grid-column: 3;
   align-items: center;

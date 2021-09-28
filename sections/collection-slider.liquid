@@ -1,0 +1,89 @@
+
+{{ 'section-collection-slider.css' | asset_url | stylesheet_tag }}
+
+{% stylesheet %}
+
+{% endstylesheet %}
+
+
+<section id="collection-slider">  
+   <!-- Slider main container -->
+   <div class="container-new">
+   <div class="collection-swiper-container">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      {% assign mas_abajito = false %}
+      {% assign collection_to_show = 3 %}
+      {% for collection in collections %}
+        {% unless collection.handle == 'nueva-coleccion' or collection.handle == 'descuentos-de-temporada' or collection.handle == 'blancos' %}
+          <!-- collection info -->
+          <a href="{{collection.url}}" class="swiper-slide" >
+
+            <div class="title-container">
+              <div class="titulo">
+                {{collection.title}}
+              </div>
+              <div class="comprar-coleccion">COMPRAR</div>
+            </div>
+
+            {% if collection.image %}
+              {{ collection.image | img_url: '400x600' | img_tag: collection.image.alt }}
+            {% else %}
+              {% assign alt = collection.title | escape %}
+              {{ collection.products.first.image | img_url: '400x600' | img_tag: alt }}
+            {% endif %}
+
+          </a>          
+        {% endunless %}
+
+      {% endfor %}   
+    </div>
+
+     <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  </div><!-- .collection-swiper-container -->
+</div>
+</section>
+
+{% javascript %}
+const swiper = new Swiper('.collection-swiper-container', 
+{
+  // Optional parameters
+  loop: true,
+  slidesPerView: 1,
+  spaceBetween: 8,
+
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  scrollbar: {
+    el: ".swiper-scrollbar",
+    hide: true,
+  },
+
+  breakpoints: {
+    600: {
+      slidesPerView: 2,
+    },
+    992: {
+      slidesPerView: 3,
+      centeredSlides: true,
+    },
+  },
+});
+{% endjavascript %}
+
+
+{% schema %}
+{
+  "name": "t:sections.collection-slider.name",
+  "class": "collection-slider",
+  "settings": [
+    
+  ]
+}
+{% endschema %}

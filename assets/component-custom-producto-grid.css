@@ -52,7 +52,7 @@
     display: flex;
   }
 }
-.facets__form .collection-grid-section {
+.facets__form #collection-grid-section {
   margin-top: 25px;
 }
 .facets__form .collection-filters__item {

@@ -7,7 +7,6 @@
   position: fixed;
   top: 0;
   left: 0;
-  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
 }
 .menu-passaro {
   width: 110px;
@@ -26,7 +25,7 @@
   width: 30px;
   height: 20px;
 }
-.menu-passaro .hamburger .hamburger-bar { 
+.menu-passaro .hamburger .hamburger-bar {
   position: absolute;
   width: 30px;
   height: 3px;
@@ -207,12 +206,14 @@
   color: rgb(var(--color-black));
   font-family: var(--font-heading-family);
   line-height: normal;
+  text-align: center;
 }
 .product-wrapper .product-price {
   font-weight: bold;
   font-size: 16px;
   color: rgb(var(--color-black));
   font-family: montserrat;
+  text-align: center;
 }
 .product-wrapper .variant-pickers {
   background-color: #fff;

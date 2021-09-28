@@ -73,11 +73,11 @@
 .collection-grid-section .collection-filters .facets .facets__form .collection-filters__item {
   grid-column: 3;
   align-items: center;
-  justify-content: flex-start;
   margin: 0;
 }
 .collection-grid-section .collection-filters .facets .facets__form .collection-filters__item .collection-filters__field {
   flex-wrap: wrap;
+  justify-content: flex-start;
 }
 .collection-grid-section .collection-filters .facets .facets__form #CollectionProductCountDesktop {
   grid-column-start: 3;

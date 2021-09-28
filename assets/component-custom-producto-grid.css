@@ -10,6 +10,7 @@
   display: flex;
   align-items: flex-end;
   align-self: center;
+  margin-right: 20px;
 }
 .collection-grid-section .collection-filters .facets .facets__form .facets__wrapper .facets__heading,
 .collection-grid-section .collection-filters .facets .facets__form .facets__wrapper .facets__summary {
@@ -75,7 +76,7 @@
 .collection-grid-section .collection-filters .facets .facets__form .collection-filters__item {
   grid-column: 3;
   align-items: center;
-  margin: 0;
+  margin: 0 0 0 20px;
 }
 .collection-grid-section .collection-filters .facets .facets__form .collection-filters__item .collection-filters__field {
   flex-wrap: wrap;

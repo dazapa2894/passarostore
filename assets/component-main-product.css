@@ -13,3 +13,6 @@
 .product .product__info-wrapper .no-js-hidden .price .badge {
   background-color: rgb(var(--color-green)) !important;
 }
+.product .product__info-wrapper .no-js-hidden .product-form-installment .swatches #swatch-option1 .swatch-single .swatch-navigable .swatch-view li:hover .swatch-image .star-set-image {
+  box-shadow: none!important;
+}

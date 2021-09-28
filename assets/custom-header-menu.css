@@ -62,6 +62,7 @@
 .header-wrapper {
   background-color: rgb(var(--color-white));
   width: 100%;
+  border: none!important;
 }
 .header-wrapper .header__heading {
   justify-content: unset;

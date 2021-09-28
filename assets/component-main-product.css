@@ -11,5 +11,5 @@
   font-weight: 800;
 }
 .product .product__info-wrapper .no-js-hidden .price .badge {
-  background-color: rgb(var(--color-green));
+  background-color: rgb(var(--color-green)) !important;
 }

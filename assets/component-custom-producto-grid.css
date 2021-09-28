@@ -7,12 +7,17 @@
 }
 .collection-grid-section .collection-filters .facets .facets__form .facets__wrapper {
   grid-column: 1;
-  align-items: center;
+  display: flex;
+  align-items: flex-end;
   align-self: center;
 }
 .collection-grid-section .collection-filters .facets .facets__form .facets__wrapper .facets__heading,
 .collection-grid-section .collection-filters .facets .facets__form .facets__wrapper .facets__summary {
   margin: 0;
+}
+.collection-grid-section .collection-filters .facets .facets__form .facets__wrapper .facets__disclosure {
+  margin: 0;
+  width: 100%;
 }
 .collection-grid-section .collection-filters .facets .facets__form #column-num-wrapper {
   grid-row: 1;

@@ -26,14 +26,14 @@
             <div class="active-facets active-facets-desktop">
               {%- for filter in collection.filters -%}
                 {%- for value in filter.active_values -%}
-                  <!--<facet-remove>
+                  <facet-remove>
                     <a href="{{ value.url_to_remove }}" class="active-facets__button active-facets__button--light">
                       <span class="active-facets__button-inner button button--tertiary">
                         {{ value.label | escape }}
                         {% render 'icon-close-small' %}
                       </span>
                     </a>
-                  </facet-remove>-->
+                  </facet-remove>
                 {%- endfor -%}
                 {% if filter.type == "price_range" %}
                   {%- if filter.min_value.value != nil or filter.max_value.value != nil -%}
@@ -57,15 +57,15 @@
 
 
             <div class="facets__wrapper">
-              {%- unless collection.filters == empty -%}
+              <!--{%- unless collection.filters == empty -%}
                 <p class="facets__heading caption-large">{{ 'sections.collection_template.filter_by_label' | t }}</p>
-              {%- endunless -%}
+              {%- endunless -%}-->
 
               {%- for filter in collection.filters -%}
                 {%- assign total_active_values = total_active_values | plus: filter.active_values.size -%}
                 {% case filter.type %}
                 {% when 'list' %}
-                  <details class="disclosure-has-popup facets__disclosure js-filter" data-index="{{ forloop.index }}">
+                  <!--<details class="disclosure-has-popup facets__disclosure js-filter" data-index="{{ forloop.index }}">
                     <summary class="facets__summary caption-large">
                       <div>
                         <span>{{ filter.label | escape }}</span>
@@ -119,7 +119,7 @@
                         {%- endfor -%}
                       </ul>
                     </div>
-                  </details>
+                  </details>-->
                 {% when 'price_range' %}
                   {% liquid
                     assign currencies_using_comma_decimals = 'ANG,ARS,BRL,BYN,BYR,CLF,CLP,COP,CRC,CZK,DKK,EUR,HRK,HUF,IDR,ISK,MZN,NOK,PLN,RON,RUB,SEK,TRY,UYU,VES,VND' | split: ','

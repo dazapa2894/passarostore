@@ -10,6 +10,6 @@
   color: rgb(var(--color-dark-blue));
   font-weight: 800;
 }
-.product .product__info-wrapper .no-js-hidden .price dl .badge {
+.product .product__info-wrapper .no-js-hidden .price .badge {
   background-color: rgb(var(--color-green));
 }

@@ -17,7 +17,7 @@
   box-shadow: none!important;
 }
 .product .product__info-wrapper #product-form-installment .swatches #swatch-option1 .swatch-single .swatch-navigable .swatch-view .swatch-view-item .swatch-image .star-set-image:after {
-  content: '';
+  content: "";
   background-color: red;
   height: 54px;
   width: 54px;

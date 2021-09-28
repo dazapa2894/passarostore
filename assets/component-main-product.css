@@ -4,5 +4,5 @@
   font-size: 3rem;
 }
 .product .product__info-wrapper .no-js-hidden .price dl .price__sale dd s {
-  color: rgba(2, 2, 2, 0.1);
+  color: rgb(var(--color-gray));
 }

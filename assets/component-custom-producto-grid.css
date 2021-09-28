@@ -33,6 +33,7 @@
   display: none;
   align-items: center;
   align-self: center;
+  justify-content: center;
   height: 34px;
 }
 .collection-grid-section .collection-filters .facets .facets__form #column-num-wrapper h4,
@@ -72,6 +73,7 @@
 .collection-grid-section .collection-filters .facets .facets__form .collection-filters__item {
   grid-column: 3;
   align-items: center;
+  justify-content: flex-start;
   margin: 0;
 }
 .collection-grid-section .collection-filters .facets .facets__form .collection-filters__item .collection-filters__field {

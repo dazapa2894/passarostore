@@ -23,6 +23,10 @@
   display: block;
   text-align: right;
 }
+.collection-grid-section .collection-filters .facets .facets__form .facets__wrapper .facets__disclosure .facets__display {
+  right: -19rem;
+  left: auto;
+}
 .collection-grid-section .collection-filters .facets .facets__form #column-num-wrapper {
   grid-row: 1;
   grid-column: 2;

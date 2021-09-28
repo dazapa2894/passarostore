@@ -24,6 +24,7 @@
 .collection-grid-section .collection-filters .facets .facets__form #column-num-wrapper h4,
 .collection-grid-section .collection-filters .facets .facets__form #column-num-wrapper .col-change-btn-wrapper {
   padding: 0 10px;
+  margin: 0;
 }
 .collection-grid-section .collection-filters .facets .facets__form #column-num-wrapper .col-change-btn-wrapper {
   display: flex;

@@ -26,14 +26,14 @@
             <div class="active-facets active-facets-desktop">
               {%- for filter in collection.filters -%}
                 {%- for value in filter.active_values -%}
-                  <facet-remove>
+                  <!--<facet-remove>
                     <a href="{{ value.url_to_remove }}" class="active-facets__button active-facets__button--light">
                       <span class="active-facets__button-inner button button--tertiary">
                         {{ value.label | escape }}
                         {% render 'icon-close-small' %}
                       </span>
                     </a>
-                  </facet-remove>
+                  </facet-remove>-->
                 {%- endfor -%}
                 {% if filter.type == "price_range" %}
                   {%- if filter.min_value.value != nil or filter.max_value.value != nil -%}

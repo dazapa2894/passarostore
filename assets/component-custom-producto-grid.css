@@ -98,6 +98,9 @@
   font-family: SourceSansPro;
   font-size: 16px;
 }
+.collection-grid-section .collection-filters .facets .facets__form .collection-filters__item .collection-filters__field .select select:focus-visible {
+  outline: none;
+}
 .collection-grid-section .collection-filters .facets .facets__form #CollectionProductCountDesktop {
   grid-column-start: 3;
   grid-row-start: 3;

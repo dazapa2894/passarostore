@@ -94,10 +94,12 @@
 .collection-grid-section .collection-filters .facets .facets__form .collection-filters__item .collection-filters__field label {
   font-family: SourceSansPro;
   font-size: 16px;
+  margin-right: 20px;
 }
 .collection-grid-section .collection-filters .facets .facets__form .collection-filters__item .collection-filters__field .select select {
   font-family: SourceSansPro;
   font-size: 16px;
+  padding: 0;
 }
 .collection-grid-section .collection-filters .facets .facets__form .collection-filters__item .collection-filters__field .select select:focus-visible {
   outline: none;

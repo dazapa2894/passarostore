@@ -6,15 +6,13 @@
   padding: 0 10px;
   display: flex;
   align-items: center;
-
-  .breadcrumb-arrow {
-    transform: rotate(-90deg);
-    margin: 0 8px 0 2px;
-  }
-  .breadcrumb {
-    color: rgb(var(--color-dark-blue));
-    font-family: SourceSansPro;
-    text-decoration: none;
-  }
 }
-
+#breadcrumb-wrapper .breadcrumb-arrow {
+  transform: rotate(-90deg);
+  margin: 0 8px 0 2px;
+}
+#breadcrumb-wrapper .breadcrumb {
+  color: rgb(var(--color-dark-blue));
+  font-family: SourceSansPro;
+  text-decoration: none;
+}

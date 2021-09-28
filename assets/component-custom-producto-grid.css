@@ -20,7 +20,8 @@
   width: 100%;
 }
 .collection-grid-section .collection-filters .facets .facets__form .facets__wrapper .facets__disclosure summary div {
-  display: inline;
+  display: block;
+  text-align: right;
 }
 .collection-grid-section .collection-filters .facets .facets__form #column-num-wrapper {
   grid-row: 1;

@@ -94,7 +94,7 @@
 .collection-grid-section .collection-filters .facets .facets__form .collection-filters__item .collection-filters__field label {
   font-family: SourceSansPro;
   font-size: 16px;
-  margin-right: 20px;
+  margin-right: 10px;
 }
 .collection-grid-section .collection-filters .facets .facets__form .collection-filters__item .collection-filters__field .select select {
   font-family: SourceSansPro;

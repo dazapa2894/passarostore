@@ -15,8 +15,10 @@
 }
 .product .product__info-wrapper #product-form-installment .swatches #swatch-option1 .swatch-single .swatch-navigable .swatch-view .swatch-view-item:hover .swatch-image .star-set-image {
   box-shadow: none!important;
-  border: 2px solid!important;
 }
-.product .product__info-wrapper #product-form-installment .swatches #swatch-option1 .swatch-single .swatch-navigable .swatch-view .swatch-view-item .swatch-image .star-set-image {
-  border: 2px solid rgba(2, 2, 2, 0.1) !important;
+.product .product__info-wrapper #product-form-installment .swatches #swatch-option1 .swatch-single .swatch-navigable .swatch-view .swatch-view-item:hover .swatch-image .star-set-image:after {
+  content: '';
+  background-color: red;
+  height: 54px;
+  width: 54px;
 }

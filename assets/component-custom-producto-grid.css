@@ -19,6 +19,9 @@
   margin: 0;
   width: 100%;
 }
+.collection-grid-section .collection-filters .facets .facets__form .facets__wrapper .facets__disclosure summary div {
+  display: inline;
+}
 .collection-grid-section .collection-filters .facets .facets__form #column-num-wrapper {
   grid-row: 1;
   grid-column: 2;

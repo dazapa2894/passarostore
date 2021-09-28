@@ -13,9 +13,9 @@
 .product .product__info-wrapper .no-js-hidden .price .badge {
   background-color: rgb(var(--color-green)) !important;
 }
-.product .product__info-wrapper .no-js-hidden #product-form-installment .swatches #swatch-option1 .swatch-single .swatch-navigable .swatch-view li {
-  background-color: red;
+.product .product__info-wrapper .no-js-hidden #product-form-installment .swatches #swatch-option1 .swatch-single .swatch-navigable .swatch-view .swatch-view-item {
+  background-color: red!important;
 }
-.product .product__info-wrapper .no-js-hidden #product-form-installment .swatches #swatch-option1 .swatch-single .swatch-navigable .swatch-view li:hover .swatch-image .star-set-image {
+.product .product__info-wrapper .no-js-hidden #product-form-installment .swatches #swatch-option1 .swatch-single .swatch-navigable .swatch-view .swatch-view-item:hover .swatch-image .star-set-image {
   box-shadow: none!important;
 }

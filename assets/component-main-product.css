@@ -1,5 +1,8 @@
 .product .product__info-wrapper .product__title {
   color: rgb(var(--color-dark-blue));
   font-weight: 300;
-  font-size: 2rem;
+  font-size: 3rem;
+}
+.product .product__info-wrapper .no-js-hidden .price dl .price__sale dd s {
+  color: rgba(2, 2, 2, 0.1);
 }

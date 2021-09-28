@@ -236,13 +236,13 @@
             </div>
           {%- endif -%}
 
-          <p id="CollectionProductCountDesktop" class="collection-product-count light" role="status">
+          <!--<p id="CollectionProductCountDesktop" class="collection-product-count light" role="status">
             {%- if collection.products_count == collection.all_products_count -%}
               {{ 'sections.collection_template.product_count_simple' | t: count: collection.products_count }}
             {%- else -%}
               {{ 'sections.collection_template.product_count' | t: product_count: collection.products_count, count: collection.all_products_count }}
             {%- endif -%}
-          </p>
+          </p>-->
         </form>
       </collection-filters-form>
     {%- endunless -%}

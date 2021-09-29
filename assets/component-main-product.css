@@ -86,3 +86,6 @@
 #description-detail-product .info-product-container {
   padding: 20px;
 }
+#description-detail-product .info-product-container p {
+  margin: 0 0 15px 0;
+}

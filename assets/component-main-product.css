@@ -53,6 +53,7 @@
   text-transform: uppercase;
   font-weight: 600;
   font-size: 16px;
+  padding: 0.9rem 3rem 1.1rem;
 }
 .product .product__info-wrapper .product-form .form .product-form__buttons .shopify-payment-button .shopify-payment-button__button:hover {
   background-color: rgb(var(--color-white));

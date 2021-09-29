@@ -40,10 +40,15 @@
   text-transform: uppercase;
   font-weight: 600;
   font-size: 16px;
+  border: 1;
 }
 .product .product__info-wrapper .product-form .form .product-form__buttons .shopify-payment-button .shopify-payment-button__button {
   border-radius: 20px 0;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 16px;
+  border: 2px solid rgb(var(--color-dark-blue));
+}
+.product .product__info-wrapper .product-form .form .product-form__buttons .shopify-payment-button .shopify-payment-button__button:hover {
+  background-color: rgb(var(--color-white));
 }

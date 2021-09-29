@@ -35,3 +35,6 @@
 .product .product__info-wrapper #product-form-installment .swatches #swatch-option1 .swatch-single .swatch-navigable .swatch-view .swatch-view-item .swatch-selected {
   background-color: rgb(var(--color-dark-blue));
 }
+.product .product__info-wrapper .product-form .form .product-form__buttons .product-form__submit button {
+  border-radius: 20px 0;
+}

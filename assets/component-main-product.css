@@ -90,7 +90,7 @@
   width: 100px;
   bottom: 0;
   height: 2px;
-  background-color: #f6b2b5;
+  background-color: black;
   will-change: left, right;
 }
 #description-detail-product .info-product-container {

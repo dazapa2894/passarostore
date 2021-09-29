@@ -70,7 +70,12 @@
 #description-detail-product .header-info-product-container .tabs {
   display: flex;
   justify-content: space-between;
+  padding: 0;
 }
 #description-detail-product .header-info-product-container .tabs li {
   list-style: none;
+}
+#description-detail-product .header-info-product-container .tabs li a {
+  text-decoration: none;
+  color: black;
 }

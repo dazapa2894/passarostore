@@ -33,6 +33,8 @@
   box-shadow: none !important;
   height: 50px!important;
   width: 50px!important;
+  min-height: 50px!important;
+  min-width: 50px!important;
 }
 .product .product__info-wrapper #product-form-installment .swatches #swatch-option1 .swatch-single .swatch-navigable .swatch-view .swatch-view-item .swatch-selected {
   background-color: rgb(var(--color-dark-blue));

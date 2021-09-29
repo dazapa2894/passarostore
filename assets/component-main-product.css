@@ -16,12 +16,8 @@
 .product .product__info-wrapper #product-form-installment .swatches #swatch-option1 .swatch-single .swatch-navigable .swatch-view .swatch-view-item:hover .swatch-image .star-set-image {
   box-shadow: none!important;
 }
-.product .product__info-wrapper #product-form-installment .swatches #swatch-option1 .swatch-single .swatch-navigable .swatch-view .swatch-view-item .swatch-image .star-set-image:after {
-  content: "";
+.product .product__info-wrapper #product-form-installment .swatches #swatch-option1 .swatch-single .swatch-navigable .swatch-view .swatch-view-item .swatch-image {
   background-color: red;
   height: 54px;
   width: 54px;
-}
-.product .product__info-wrapper #product-form-installment .swatches #swatch-option1 .swatch-single .swatch-navigable .swatch-view .swatch-view-item.swatch-selected .star-set-image {
-  border: 2px solid red!important;
 }

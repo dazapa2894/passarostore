@@ -80,6 +80,8 @@
 #description-detail-product .header-info-product-container .tabs li a {
   text-decoration: none;
   color: black;
+  margin-bottom: 10px;
+  display: block;
 }
 #description-detail-product .info-product-container {
   padding: 20px;

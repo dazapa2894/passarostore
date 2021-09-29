@@ -72,16 +72,25 @@
   justify-content: space-between;
   padding: 0;
   border-bottom: 1px solid black;
+  margin-bottom: 0;
 }
 #description-detail-product .header-info-product-container .tabs li {
   list-style: none;
   padding: 0 20px;
+  position: relative;
 }
 #description-detail-product .header-info-product-container .tabs li a {
   text-decoration: none;
   color: black;
   margin-bottom: 10px;
   display: block;
+}
+#description-detail-product .header-info-product-container .tabs li .indicador {
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  background-color: #f6b2b5;
+  will-change: left, right;
 }
 #description-detail-product .info-product-container {
   padding: 20px;

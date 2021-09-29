@@ -29,3 +29,6 @@
   align-items: center;
   border-radius: 100%;
 }
+.product .product__info-wrapper #product-form-installment .swatches #swatch-option1 .swatch-single .swatch-navigable .swatch-view .swatch-view-item .swatch-image div {
+  box-shadow: none!important;
+}

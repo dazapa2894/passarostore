@@ -74,8 +74,12 @@
 }
 #description-detail-product .header-info-product-container .tabs li {
   list-style: none;
+  padding: 0 20px;
 }
 #description-detail-product .header-info-product-container .tabs li a {
   text-decoration: none;
   color: black;
+}
+#description-detail-product .info-product-container {
+  padding: 20px;
 }

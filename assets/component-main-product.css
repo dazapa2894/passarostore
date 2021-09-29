@@ -17,7 +17,11 @@
   box-shadow: none!important;
 }
 .product .product__info-wrapper #product-form-installment .swatches #swatch-option1 .swatch-single .swatch-navigable .swatch-view .swatch-view-item .swatch-image {
-  background-color: red;
-  height: 54px;
-  width: 54px;
+  background-color: rgb(var(--color-gray));
+  height: 56px;
+  width: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
 }

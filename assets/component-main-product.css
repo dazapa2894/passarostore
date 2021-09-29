@@ -85,7 +85,7 @@
   margin-bottom: 10px;
   display: block;
 }
-#description-detail-product .header-info-product-container .tabs li .indicador {
+#description-detail-product .header-info-product-container .tabs .indicador {
   position: absolute;
   bottom: 0;
   height: 2px;

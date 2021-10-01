@@ -56,14 +56,17 @@
   background-color: rgb(var(--color-dark-blue));
   color: rgb(var(--color-white));
 }
-#customer_login .form__message:focus-visible {
+#customer_login .form__message:focus-visible,
+#create_customer .form__message:focus-visible {
   outline: none;
   box-shadow: none;
 }
-#customer_login a {
+#customer_login a,
+#create_customer a {
   color: rgb(var(--color-green));
   text-decoration: underline;
 }
-#customer_login a:hover {
+#customer_login a:hover,
+#create_customer a:hover {
   color: rgb(var(--color-dark-blue));
 }

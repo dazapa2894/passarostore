@@ -30,6 +30,7 @@
   text-transform: uppercase!important;
   display: block!important;
   width: fit-content;
+  box-shadow: none!important;
 }
 .blue-btn:hover {
   background-color: rgb(var(--color-white)) !important;

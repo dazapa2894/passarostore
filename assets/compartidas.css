@@ -73,6 +73,9 @@
 .account a {
   color: rgb(var(--color-green));
   text-decoration: underline;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 .account a:hover {
   color: rgb(var(--color-dark-blue));

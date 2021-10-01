@@ -55,3 +55,6 @@
   background-color: rgb(var(--color-dark-blue));
   color: rgb(var(--color-white));
 }
+#customer_login a {
+  color: rgb(var(--color-green));
+}

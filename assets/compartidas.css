@@ -58,6 +58,7 @@
 }
 #customer_login a {
   color: rgb(var(--color-green));
+  text-decoration: underline;
 }
 #customer_login a:hover {
   color: rgb(var(--color-dark-blue));

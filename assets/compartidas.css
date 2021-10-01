@@ -29,7 +29,7 @@
   text-decoration: none!important;
   text-transform: uppercase!important;
   display: block!important;
-  width: fit-content !important;
+  width: fit-content;
 }
 .blue-btn:hover {
   background-color: rgb(var(--color-white)) !important;

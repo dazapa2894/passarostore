@@ -70,3 +70,10 @@
 #create_customer a:hover {
   color: rgb(var(--color-dark-blue));
 }
+.account a {
+  color: rgb(var(--color-green));
+  text-decoration: underline;
+}
+.account a:hover {
+  color: rgb(var(--color-dark-blue));
+}

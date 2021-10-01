@@ -42,7 +42,7 @@
         </small>
       {%- endif -%}
 
-      <button>
+      <button class="blue-btn">
         {{ 'customer.login_page.submit' | t }}
       </button>
 
@@ -55,7 +55,7 @@
   <h1 id="login" tabindex="-1" class="titulo-con-division">
     {{ 'customer.login_page.title' | t }}
   </h1>
-  <div></div>
+
   <div>
     {%- if recover_success == true -%}
       <h3 class="form__message" tabindex="-1" autofocus>
@@ -123,7 +123,7 @@
         </a>
       {%- endif -%}
 
-      <button>
+      <button class="blue-btn">
         {{ 'customer.login_page.sign_in' | t }}
       </button>
 
@@ -140,7 +140,7 @@
       <h2>{{ 'customer.login_page.guest_title' | t }}</h2>
 
       {%- form 'guest_login' -%}
-        <button>
+        <button class="blue-btn">
           {{ 'customer.login_page.guest_continue' | t }}
         </button>
       {%- endform -%}

@@ -58,3 +58,6 @@
 #customer_login a {
   color: rgb(var(--color-green));
 }
+#customer_login a:hover {
+  color: rgb(var(--color-dark-blue));
+}

@@ -175,7 +175,7 @@
   display: block !important;
   width: fit-content;
   box-shadow: none !important;
-  display: flex;
+  display: flex!important;
   align-items: center;
 }
 .collection .button:hover {

@@ -215,7 +215,7 @@
   color: rgb(var(--color-dark-blue)) !important;
 }
 .main__content .step .edit_checkout .step__footer {
-  background-color: red;
+  background-color: red!important;
 }
 .main__content .step .edit_checkout .step__footer #continue_button {
   border-radius: 15px 0px !important;

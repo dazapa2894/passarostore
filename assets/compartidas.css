@@ -105,6 +105,9 @@
 .account .customer-adress-info p::first-line {
   font-weight: bold;
 }
+.addresses h2 {
+  color: rgb(var(--color-dark-blue));
+}
 .addresses a {
   color: rgb(var(--color-dark-blue));
   text-decoration: underline;

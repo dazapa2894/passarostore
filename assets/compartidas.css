@@ -122,3 +122,7 @@
   width: fit-content !important;
   margin: 5px 10px 5px 0;
 }
+.addresses #address_form_new .list li .pink-btn {
+  width: fit-content !important;
+  margin: 5px 10px 5px 0;
+}

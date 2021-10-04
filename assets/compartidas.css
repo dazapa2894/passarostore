@@ -19,7 +19,6 @@
   border-radius: 15px 0px !important;
   background-color: rgb(var(--color-dark-blue)) !important;
   color: rgb(var(--color-white)) !important;
-  width: 100% !important;
   margin: 0 auto 0 auto;
   padding: 5px 30px !important;
   cursor: pointer !important;
@@ -40,7 +39,6 @@
   border-radius: 15px 0px !important;
   background-color: rgb(var(--color-pink)) !important;
   color: rgb(var(--color-white)) !important;
-  width: 100% !important;
   margin: 0 auto 0 auto;
   padding: 5px 30px !important;
   cursor: pointer !important;
@@ -61,7 +59,6 @@
   border-radius: 15px 0px;
   background-color: rgb(var(--color-white));
   color: rgb(var(--color-dark-blue));
-  width: 100%;
   margin: 0 auto 0 auto;
   padding: 5px 30px;
   cursor: pointer;

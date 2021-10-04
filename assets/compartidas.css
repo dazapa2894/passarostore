@@ -145,3 +145,6 @@
 .addresses .button-list .edit-title {
   text-align: center;
 }
+.is-empty .cart__warnings .cart__login-paragraph {
+  margin-top: 20px;
+}

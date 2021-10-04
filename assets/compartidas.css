@@ -214,3 +214,25 @@
   background-color: rgb(var(--color-white)) !important;
   color: rgb(var(--color-dark-blue)) !important;
 }
+#continue_button {
+  border-radius: 15px 0px !important;
+  background-color: rgb(var(--color-dark-blue)) !important;
+  color: rgb(var(--color-white)) !important;
+  margin: 0 auto 0 auto;
+  padding: 5px 30px !important;
+  cursor: pointer !important;
+  font-weight: 600 !important;
+  border: rgb(var(--color-dark-blue)) 2px solid !important;
+  transition: all 0.3s ease-in-out !important;
+  text-decoration: none !important;
+  text-transform: uppercase !important;
+  display: block !important;
+  width: fit-content;
+  box-shadow: none !important;
+  display: flex !important;
+  align-items: center;
+}
+#continue_button:hover {
+  background-color: rgb(var(--color-white)) !important;
+  color: rgb(var(--color-dark-blue)) !important;
+}

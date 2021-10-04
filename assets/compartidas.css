@@ -125,6 +125,7 @@
 .addresses .button-list li .button-edit {
   display: flex;
   justify-content: center;
+  margin-top: 20px;
 }
 .addresses .button-list li .button-edit .pink-btn {
   width: fit-content !important;

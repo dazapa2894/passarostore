@@ -160,7 +160,7 @@
 .is-empty .cart__warnings .cart__login-paragraph a:hover {
   color: rgb(var(--color-dark-blue));
 }
-.collection a {
+.collection .button {
   border-radius: 15px 0px !important;
   background-color: rgb(var(--color-dark-blue)) !important;
   color: rgb(var(--color-white)) !important;
@@ -177,7 +177,7 @@
   width: fit-content;
   box-shadow: none !important;
 }
-.collection a:hover {
+.collection .button:hover {
   background-color: rgb(var(--color-white)) !important;
   color: rgb(var(--color-dark-blue)) !important;
 }

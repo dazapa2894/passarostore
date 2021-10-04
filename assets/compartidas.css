@@ -98,8 +98,8 @@
 .account a:hover {
   color: rgb(var(--color-dark-blue));
 }
-.account p {
-  font-size: 16px;
+.account .customer-adress-info p {
+  font-size: 14px;
 }
 .addresses a {
   color: rgb(var(--color-dark-blue));

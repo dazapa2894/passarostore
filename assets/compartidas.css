@@ -81,8 +81,10 @@
   color: rgb(var(--color-dark-blue));
   text-decoration: underline;
   text-decoration-thickness: 0;
+  transition: text-decoration-thickness ease-in-out 0.1s;
 }
 .addresses a:hover {
   font-weight: bolder;
+  color: rgb(var(--color-dark-blue));
   text-decoration-thickness: 0.2rem;
 }

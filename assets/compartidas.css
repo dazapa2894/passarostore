@@ -122,7 +122,11 @@
   width: fit-content !important;
   margin: 5px 10px 5px 0;
 }
-.addresses .button-list li .pink-btn {
+.addresses .button-list li .button-edit {
+  display: flex;
+  justify-content: center;
+}
+.addresses .button-list li .button-edit .pink-btn {
   width: fit-content !important;
   margin: 5px 10px 5px 0;
 }

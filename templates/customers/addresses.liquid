@@ -107,7 +107,8 @@
             <h2>{{ 'customer.addresses.default' | t }}</h2>
           {%- endif -%}
           {{ address | format_address }}
-          <button
+          <div class="button-edit">
+            <button
             type="button"
             class="pink-btn"
             id="EditFormButton_{{ address.id }}"
@@ -127,6 +128,7 @@
           >
             {{ 'customer.addresses.delete' | t }}
           </button>
+          </div>
           <div id="EditAddress_{{ address.id }}">
             <h2>{{ 'customer.addresses.edit_address' | t }}</h2>
             {%- form 'customer_address', address -%}

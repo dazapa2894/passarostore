@@ -92,5 +92,5 @@
   text-align: center;
 }
 .addresses #address_form_new .blue-btn {
-  width: fit-content;
+  width: fit-content !important;
 }

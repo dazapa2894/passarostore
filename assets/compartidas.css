@@ -160,7 +160,7 @@
 .is-empty .cart__warnings .cart__login-paragraph a:hover {
   color: rgb(var(--color-dark-blue));
 }
-.collection .slider-mobile-gutter .center a {
+.collection .slider-mobile-gutter a {
   border-radius: 15px 0px !important;
   background-color: rgb(var(--color-dark-blue)) !important;
   color: rgb(var(--color-white)) !important;
@@ -177,7 +177,7 @@
   width: fit-content;
   box-shadow: none !important;
 }
-.collection .slider-mobile-gutter .center a:hover {
+.collection .slider-mobile-gutter a:hover {
   background-color: rgb(var(--color-white)) !important;
   color: rgb(var(--color-dark-blue)) !important;
 }

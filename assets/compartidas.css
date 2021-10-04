@@ -153,3 +153,10 @@
 .is-empty .cart__warnings .cart__login-paragraph {
   margin-top: 20px;
 }
+.is-empty .cart__warnings .cart__login-paragraph a {
+  color: rgb(var(--color-green));
+  text-decoration: underline;
+}
+.is-empty .cart__warnings .cart__login-paragraph a:hover {
+  color: rgb(var(--color-dark-blue));
+}

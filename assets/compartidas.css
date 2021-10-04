@@ -91,6 +91,9 @@
 #create_customer a:hover {
   color: rgb(var(--color-dark-blue));
 }
+.account h2 {
+  margin-bottom: 50px;
+}
 .account a {
   color: rgb(var(--color-green));
   text-decoration: underline;
@@ -104,9 +107,6 @@
 }
 .account .customer-adress-info p::first-line {
   font-weight: bold;
-}
-.addresses h2 {
-  color: rgb(var(--color-dark-blue));
 }
 .addresses a {
   color: rgb(var(--color-dark-blue));

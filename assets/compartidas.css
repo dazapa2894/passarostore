@@ -145,6 +145,13 @@
 .addresses .button-list .edit-title {
   text-align: center;
 }
+.title-wrapper-with-link a {
+  color: rgb(var(--color-green));
+  text-decoration: underline;
+}
+.title-wrapper-with-link a:hover {
+  color: rgb(var(--color-dark-blue));
+}
 .is-empty .cart__warnings .blue-btn {
   width: fit-content !important;
   display: flex !important;

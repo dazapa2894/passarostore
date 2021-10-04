@@ -36,6 +36,27 @@
   background-color: rgb(var(--color-white)) !important;
   color: rgb(var(--color-dark-blue)) !important;
 }
+.pink-btn {
+  border-radius: 15px 0px!important;
+  background-color: rgb(var(--color-pink)) !important;
+  color: rgb(var(--color-white)) !important;
+  width: 100%!important;
+  margin: 0 auto 0 auto;
+  padding: 5px 30px!important;
+  cursor: pointer!important;
+  font-weight: 600!important;
+  border: rgb(var(--color-pink)) 2px solid !important;
+  transition: all 0.3s ease-in-out !important;
+  text-decoration: none!important;
+  text-transform: uppercase!important;
+  display: block!important;
+  width: fit-content;
+  box-shadow: none!important;
+}
+.pink-btn:hover {
+  background-color: rgb(var(--color-white)) !important;
+  color: rgb(var(--color-pink)) !important;
+}
 .white-btn {
   border-radius: 15px 0px;
   background-color: rgb(var(--color-white));
@@ -91,6 +112,6 @@
 .addresses #AddressNewHeading {
   text-align: center;
 }
-.addresses #address_form_new .blue-btn {
+.addresses #address_form_new .buttons-adress .blue-btn {
   width: fit-content !important;
 }

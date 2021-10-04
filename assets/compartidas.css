@@ -88,3 +88,6 @@
   color: rgb(var(--color-dark-blue));
   text-decoration-thickness: 0.2rem;
 }
+.addresses #AddressNewHeading {
+  text-align: center;
+}

@@ -119,4 +119,5 @@
 .addresses #address_form_new .buttons-adress .blue-btn,
 .addresses #address_form_new .buttons-adress .pink-btn {
   width: fit-content !important;
+  margin: 5px 10px 5px 0;
 }

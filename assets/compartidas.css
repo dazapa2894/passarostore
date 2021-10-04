@@ -214,7 +214,7 @@
   background-color: rgb(var(--color-white)) !important;
   color: rgb(var(--color-dark-blue)) !important;
 }
-.main__content .step .edit_checkout .step__footer {
+.main__content .step {
   background-color: red!important;
 }
 .main__content .step .edit_checkout .step__footer #continue_button {

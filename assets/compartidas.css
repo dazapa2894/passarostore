@@ -214,10 +214,10 @@
   background-color: rgb(var(--color-white)) !important;
   color: rgb(var(--color-dark-blue)) !important;
 }
-.step .edit_checkout .step__footer {
+.main__content .step .edit_checkout .step__footer {
   background-color: red;
 }
-.step .edit_checkout .step__footer #continue_button {
+.main__content .step .edit_checkout .step__footer #continue_button {
   border-radius: 15px 0px !important;
   background-color: rgb(var(--color-dark-blue)) !important;
   color: rgb(var(--color-white)) !important;
@@ -235,7 +235,7 @@
   display: flex !important;
   align-items: center;
 }
-.step .edit_checkout .step__footer #continue_button:hover {
+.main__content .step .edit_checkout .step__footer #continue_button:hover {
   background-color: rgb(var(--color-white)) !important;
   color: rgb(var(--color-dark-blue)) !important;
 }

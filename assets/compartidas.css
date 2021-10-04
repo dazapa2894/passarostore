@@ -99,6 +99,7 @@
   color: rgb(var(--color-dark-blue));
 }
 .account .customer-adress-info p {
+  color: rgb(var(--color-dark-blue));
   font-size: 14px;
 }
 .account .customer-adress-info p::first-line {

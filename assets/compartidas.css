@@ -77,3 +77,10 @@
 .account a:hover {
   color: rgb(var(--color-dark-blue));
 }
+.addresses a {
+  color: rgb(var(--color-green));
+  text-decoration: underline;
+}
+.addresses a:hover {
+  color: rgb(var(--color-dark-blue));
+}

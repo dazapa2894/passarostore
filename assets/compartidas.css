@@ -152,6 +152,9 @@
 .title-wrapper-with-link a:hover {
   color: rgb(var(--color-dark-blue));
 }
+.cart__contents .cart__items .js-contents .cart-items tbody .cart-item .cart-item__totals #Remove-1 a {
+  color: rgb(var(--color-dark-blue));
+}
 .is-empty .cart__warnings .blue-btn {
   width: fit-content !important;
   display: flex !important;

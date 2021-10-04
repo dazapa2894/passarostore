@@ -115,6 +115,7 @@
 .addresses #address_form_new .buttons-adress {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 20px;
 }
 .addresses #address_form_new .buttons-adress .blue-btn,
 .addresses #address_form_new .buttons-adress .pink-btn {

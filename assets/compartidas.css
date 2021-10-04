@@ -92,7 +92,7 @@
   color: rgb(var(--color-dark-blue));
 }
 .account h2 {
-  margin-bottom: 50px;
+  margin-bottom: 50px!important;
 }
 .account a {
   color: rgb(var(--color-green));

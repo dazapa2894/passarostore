@@ -112,6 +112,11 @@
 .addresses #AddressNewHeading {
   text-align: center;
 }
-.addresses #address_form_new .buttons-adress .blue-btn {
+.addresses #address_form_new .buttons-adress {
+  display: flex;
+  flex-wrap: wrap;
+}
+.addresses #address_form_new .buttons-adress .blue-btn,
+.addresses #address_form_new .buttons-adress .pink-btn {
   width: fit-content !important;
 }

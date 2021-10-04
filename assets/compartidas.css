@@ -168,7 +168,7 @@
   text-decoration: none !important;
   text-transform: uppercase !important;
   display: block !important;
-  width: fit-content;
+  width: 100%;
   box-shadow: none !important;
   display: flex !important;
   align-items: center;

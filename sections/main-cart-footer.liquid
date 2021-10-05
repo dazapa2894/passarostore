@@ -32,7 +32,7 @@
                         <li class="discounts__discount discounts__discount--end">
                           {%- render 'icon-discount' -%}
                           {{ discount.title }}
-                          (-{{ discount.total_allocated_amount | money }})
+                          (-{{ discount.total_allocated_amount | money_without_trailing_zeros }})
                         </li>
                       {%- endfor -%}
                     </ul>

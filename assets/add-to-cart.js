@@ -96,6 +96,8 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
               document.querySelector(".cart-count-bubble").firstElementChild.innerText = response.item_count;
               // navConfirm("Articulo agregado.\n¿Deseas continuar al carrito de compras?", "/cart");
               CartNotification.open();
+              this.cartNotification = document.querySelector('cart-notification');
+              this.cartNotification.renderContents(parsedState);
             });
         } else {
           console.log('Respuesta de red OK pero respuesta HTTP no OK');

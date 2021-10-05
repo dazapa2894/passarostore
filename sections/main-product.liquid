@@ -249,7 +249,7 @@
                       >
                         {{ variant.title }}
                         {%- if variant.available == false %} - {{ 'products.product.sold_out' | t }}{% endif %}
-                        - {{ variant.price | money_without_trailing_zeros | strip_html }}
+                        - {{ variant.price | money | strip_html }}
                       </option>
                     {%- endfor -%}
                   </select>

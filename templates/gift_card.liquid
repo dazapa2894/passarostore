@@ -91,7 +91,7 @@
           {% if settings.currency_code_enabled %}
             {{ gift_card.initial_value | money_with_currency }}
           {% else %}
-            {{ gift_card.initial_value | money_without_trailing_zeros }}
+            {{ gift_card.initial_value | money }}
           {% endif %}
         </p>
         {%- if gift_card.enabled == false or gift_card.expired -%}
@@ -102,7 +102,7 @@
       {% if settings.currency_code_enabled %}
         {%- assign gift_card_balance = gift_card.balance | money_with_currency -%}
       {% else %}
-        {%- assign gift_card_balance = gift_card.balance | money_without_trailing_zeros -%}
+        {%- assign gift_card_balance = gift_card.balance | money -%}
       {% endif %}
       {%- if gift_card.balance != gift_card.initial_value -%}
         <p class="gift-card__label caption-large">{{ 'gift_cards.issued.remaining_html' | t: balance: gift_card_balance }}</p>

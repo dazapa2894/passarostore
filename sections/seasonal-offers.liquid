@@ -17,61 +17,7 @@
           <!-- product info -->
           <div class="product-wrapper swiper-slide" variant_color="{{product.variants.first.option1}}" variant_size="{{product.variants.first.option2}}">
             
-            {% comment %} 
-            <a href="{{product.url}}"  class="product-offer-wrapper">
-
-              <div class="image-wrapper">
-                {% if product.featured_image != blank %}
-                  <img class="product-img"
-                    src="{{product.featured_image | img_url: '375x' }}"
-                    loading="lazy"
-                    alt="{{product.featured_image.alt | escape }}"
-                  >
-                {% else %}
-                  {{ 'product-1' | placeholder_svg_tag}}
-                {% endif %}
-
-                <div class="card__badge">
-                  {%- if product.available == false -%}
-                    <span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}" aria-hidden="true">{{ 'products.product.sold_out' | t }}</span>
-                  {%- elsif product.compare_at_price > product.price and product.available -%}
-                    <span class="badge badge--top-left color-green pecentual-discount" aria-hidden="true">-{{ product.compare_at_price_max | minus: product.price | times: 100 | divided_by: product.compare_at_price_max }}%</span>
-                  {%- endif -%}
-                </div>
-
-                <form action="/cart/add" method="post" id="product-form-{{ product.id }}" class="add-to-cart-form-btn">
-                  <input type="hidden" name="id" value="{{ product.variants.first.id }}">
-                  <div>
-                    <button type="button" name="add" class="agregar" id="product-form- {{ product.id }}" value="{{ product.variants.first.id }}">+</button>
-                  </div>
-                </form>
-              </div>
-
-              <div class="info-wrapper">
-                <h3 class="product-title">{{ product.title }}</h3>
-                <div class="price-wrapper">
-                {% if product.compare_at_price > product.price %}
-                  <div class="product-price">{{- product.price | money_without_trailing_zeros -}}</div>
-                  {% if section.settings.show_compare_price %}
-                    <div class="product-compare-price">{{- product.compare_at_price | money_without_trailing_zeros -}}</div>
-                  {% endif %}
-                {% else %}
-                  <div class="product-price">{{- product.price | money_without_trailing_zeros -}}</div>
-                {% endif %}
-                </div>
-              </div>
-            </a><!-- .product-offer-wrapper --> 
-            {% endcomment %}
-
-
-
-
-
-
-
-
-
-
+            
             <div class="product-img-wrapper">
               <a href="{{product.url}}" class="img-wrapper">
                 {% if product.featured_image != blank %}

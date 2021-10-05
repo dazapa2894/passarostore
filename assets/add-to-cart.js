@@ -94,7 +94,7 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
               // agrego animación de notificación de item agregado al carrito
               // console.log(response);
               document.querySelector(".cart-count-bubble").firstElementChild.innerText = response.item_count;
-              navConfirm("Articulo agregado.\n¿Deseas continuar al carrito de compras?", "//cart");
+              navConfirm("Articulo agregado.\n¿Deseas continuar al carrito de compras?", "/cart");
             });
         } else {
           console.log('Respuesta de red OK pero respuesta HTTP no OK');

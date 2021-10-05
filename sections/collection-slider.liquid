@@ -17,24 +17,26 @@
       {% assign collection_to_show = 3 %}
       {% for collection in collections %}
         {% unless collection.handle == 'nueva-coleccion' or collection.handle == 'descuentos-de-temporada' or collection.handle == 'blancos' %}
-          <!-- collection info -->
-          <a href="{{collection.url}}" class="swiper-slide" >
+          {% if collection.all_products_count > 0 %}
+            <!-- collection info -->
+            <a href="{{collection.url}}" class="swiper-slide" >
 
-            <div class="title-container">
-              <div class="titulo">
-                {{collection.title}}
+              <div class="title-container">
+                <div class="titulo">
+                  {{collection.title}}
+                </div>
+                <div class="comprar-coleccion">COMPRAR</div>
               </div>
-              <div class="comprar-coleccion">COMPRAR</div>
-            </div>
 
-            {% if collection.image %}
-              {{ collection.image | img_url: '400x600' | img_tag: collection.image.alt }}
-            {% else %}
-              {% assign alt = collection.title | escape %}
-              {{ collection.products.first.image | img_url: '400x600' | img_tag: alt }}
-            {% endif %}
+              {% if collection.image %}
+                {{ collection.image | img_url: '400x600' | img_tag: collection.image.alt }}
+              {% else %}
+                {% assign alt = collection.title | escape %}
+                {{ collection.products.first.image | img_url: '400x600' | img_tag: alt }}
+              {% endif %}
 
-          </a>          
+            </a>  
+          {% endif %}        
         {% endunless %}
 
       {% endfor %}   

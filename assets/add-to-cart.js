@@ -88,6 +88,11 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
               json = res.json();
               return json;
             })
+            .then((parsedState) => {
+              console.log("PARSED STATE");
+              console.log(parsedState);
+              document.querySelector('cart-notification').renderContents(parsedState);
+            })
             .catch((error) => {
               console.error('Error:', error);
             }).then(response => {
@@ -97,8 +102,6 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
               document.querySelector(".cart-count-bubble").firstElementChild.innerText = response.item_count;
               // navConfirm("Articulo agregado.\n¿Deseas continuar al carrito de compras?", "/cart");
               
-              this.cartNotification = document.querySelector('cart-notification');
-              this.cartNotification.renderContents(parsedState);
             });
         } else {
           console.log('Respuesta de red OK pero respuesta HTTP no OK');

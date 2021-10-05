@@ -92,10 +92,11 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
               console.error('Error:', error);
             }).then(response => {
               // agrego animación de notificación de item agregado al carrito
-              // console.log(response);
+              console.log("response");
+              console.log(response);
               document.querySelector(".cart-count-bubble").firstElementChild.innerText = response.item_count;
               // navConfirm("Articulo agregado.\n¿Deseas continuar al carrito de compras?", "/cart");
-              CartNotification.open();
+              
               this.cartNotification = document.querySelector('cart-notification');
               this.cartNotification.renderContents(parsedState);
             });

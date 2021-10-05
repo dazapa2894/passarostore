@@ -417,10 +417,11 @@
                 collection.handle == 'descuentos-de-temporada' or 
                 collection.handle == 'blancos' 
               %}
-              <pre>{{ collection.all_products_count | json }}</pre>
-                <li>
-                  <a href="{{collection.url}}">{{collection.title}}</a>
-                </li>
+                {% if collection.all_products_count > 0 %}
+                  <li>
+                    <a href="{{collection.url}}">{{collection.title}}</a>
+                  </li>
+                {% endif %}
               {% endunless %}
             {% endfor %}   
           </ul>

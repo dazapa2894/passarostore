@@ -61,7 +61,7 @@
           {% if settings.currency_code_enabled %}
             {{ compare_at_price | money_with_currency }}
           {% else %}
-            {{ compare_at_price | money }}
+            {{ compare_at_price | money_without_trailing_zeros }}
           {% endif %}
         </s>
       </dd>
@@ -77,7 +77,7 @@
     <small class="unit-price caption{% if product.selected_or_first_available_variant.unit_price_measurement == nil %} hidden{% endif %}">
       <dt class="visually-hidden">{{ 'products.product.price.unit_price' | t }}</dt>
       <dd {% if show_badges == false %}class="price__last"{% endif %}>
-        <span>{{- product.selected_or_first_available_variant.unit_price | money -}}</span>
+        <span>{{- product.selected_or_first_available_variant.unit_price | money_without_trailing_zeros -}}</span>
         <span aria-hidden="true">/</span>
         <span class="visually-hidden">&nbsp;{{ 'accessibility.unit_price_separator' | t }}&nbsp;</span>
         <span>

@@ -42,10 +42,10 @@ show_variant.forEach(show_variant_element => {
 });
 
 agregar_al_carrito.forEach(agregar_al_carrito_element => {
-  console.log(agregar_al_carrito_element);
+  // console.log(agregar_al_carrito_element);
   agregar_al_carrito_element.addEventListener("click", function () {
   
-    console.log("agregar al carrito");
+    // console.log("agregar al carrito");
     
     let data_container_element = agregar_al_carrito_element.parentElement.parentElement.parentElement;
     let variant_size = data_container_element.getAttribute("variant_size");
@@ -87,6 +87,13 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
             .then(res => {
               json = res.json();
               return json;
+            }).then(response => {
+              // agrego animación de notificación de item agregado al carrito
+              console.log("response");
+              console.log(response);
+              document.querySelector(".cart-count-bubble").firstElementChild.innerText = response.item_count;
+              // navConfirm("Articulo agregado.\n¿Deseas continuar al carrito de compras?", "/cart");
+
             })
             .then((parsedState) => {
               console.log("PARSED STATE");
@@ -95,13 +102,6 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
             })
             .catch((error) => {
               console.error('Error:', error);
-            }).then(response => {
-              // agrego animación de notificación de item agregado al carrito
-              console.log("response");
-              console.log(response);
-              document.querySelector(".cart-count-bubble").firstElementChild.innerText = response.item_count;
-              // navConfirm("Articulo agregado.\n¿Deseas continuar al carrito de compras?", "/cart");
-              
             });
         } else {
           console.log('Respuesta de red OK pero respuesta HTTP no OK');
@@ -118,13 +118,13 @@ function navConfirm(message, loc) {
 }
 
 function SetSelect(selectElement, color, talla) {
-  console.log("$(selectElement)");
-  console.log($(selectElement));
+  // console.log("$(selectElement)");
+  // console.log($(selectElement));
   let option = $(selectElement).find("[variant='" + color + " / " + talla + "']");
   let new_value = $(option).attr("value");
-  console.log("[variant='" + color + " / " + talla + "']");
-  console.log(option);
-  console.log(new_value);
+  // console.log("[variant='" + color + " / " + talla + "']");
+  // console.log(option);
+  // console.log(new_value);
   selectElement.value = new_value;
   return new_value;
 }

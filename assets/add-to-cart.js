@@ -66,7 +66,10 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
     };
 
     const body = JSON.stringify({
-      formData,
+      'items': [{
+        'id': variant_id,
+        'quantity': 1
+      }],
       sections: document.querySelector('cart-notification').getSectionsToRender().map((section) => section.id),
       sections_url: window.location.pathname
     });

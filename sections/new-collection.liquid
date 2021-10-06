@@ -12,10 +12,11 @@
   {% assign product_num = 1 %}
   <div id="products-wrapper" class="row">
     {% for product in collections.all.products limit:section.settings.max_products %}
-
-      {% comment %} {% render 'product-card', product_card_product: product, media_size: section.settings.image_ratio, show_secondary_image: section.settings.show_secondary_image, add_image_padding: section.settings.add_image_padding, show_vendor: section.settings.show_vendor, show_image_outline: section.settings.show_image_outline %} {% endcomment %}
+      <div class="col xs12 s12 m6 l4 xl3">
+        {% render 'product-card', product_card_product: product, media_size: section.settings.image_ratio, show_secondary_image: section.settings.show_secondary_image, add_image_padding: section.settings.add_image_padding, show_vendor: section.settings.show_vendor, show_image_outline: section.settings.show_image_outline %}
+      </div>
       
-      <div class="product-wrapper col xs12 s12 m6 l4 xl3" variant_color="{{product.variants.first.option1}}" variant_size="{{product.variants.first.option2}}">
+      {% comment %} <div class="product-wrapper col xs12 s12 m6 l4 xl3" variant_color="{{product.variants.first.option1}}" variant_size="{{product.variants.first.option2}}">
         <div class="product-img-wrapper">
           <a href="{{product.url}}" class="img-wrapper">
             <img class="product-img"
@@ -76,7 +77,7 @@
         
         <div class="product-title">{{ product.title }}</div>
         <div class="product-price">{{ product.price | money_without_trailing_zeros }}</div>
-      </div>
+      </div> {% endcomment %}
 
     {% endfor %}
   </div>

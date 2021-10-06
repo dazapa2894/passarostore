@@ -78,10 +78,7 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
         ...fetchConfig('javascript'),
         body
       })
-      .then((response) => {
-        console.info(response);
-        return response.json();
-      })
+      .then((response) => response.json())
       .then((parsedState) => {
         console.info("PARSED STATE");
         console.info(parsedState);

@@ -140,6 +140,7 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
               };
 
               //response2.sections = notification_obj;
+              console.info("response2");
               console.info(response2);
               // document.querySelector(".cart-count-bubble").firstElementChild.innerText = items_en_el_carrito;
               // navConfirm("Articulo agregado.\n¿Deseas continuar al carrito de compras?", "/cart");

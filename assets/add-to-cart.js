@@ -72,7 +72,7 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
     });
 
     fetch(`${routes.cart_add_url}`, {
-        ...fetchConfig('javascript'),
+        ...fetchConfig(),
         body
       })
       .then((response) => response.json())
@@ -85,8 +85,8 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
         console.error(e);
       })
       .finally(() => {
-        submitButton.classList.remove('loading');
-        submitButton.removeAttribute('disabled');
+        //submitButton.classList.remove('loading');
+        //submitButton.removeAttribute('disabled');
       });
     
     /*

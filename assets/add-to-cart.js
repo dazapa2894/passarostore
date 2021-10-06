@@ -113,6 +113,8 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
               let content_cart_notification_product = '';
 
               items.forEach(item => {
+                console.info(item);
+                console.info(item.id);
                 content_cart_notification_product += 
                   '<div id=\"cart-notification-product-' + item.id + '\">\n\n'+
                   '<img class=\"cart-notification-product__image\"\nsrc=\"' + item.src + '\"\nalt=\"' + item.product_title + '\"\nwidth=\"70\"\nheight=\"70\"\nloading=\"lazy\"\n>\n\n'+

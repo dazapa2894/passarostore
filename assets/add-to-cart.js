@@ -78,8 +78,9 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
         console.error('Error:', error);
       })
       .then(response => {
-        // console.log(response);
+        console.log(response);
         if (response.items.length > 0) {
+
           console.log("MOSTRAR LA INFO DE LA CART CON OTRO FECTH");
           fetch('/cart.js', {
               method: 'GET'
@@ -98,7 +99,7 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
             .then((parsedState) => {
               console.log("PARSED STATE");
               console.log(parsedState);
-              document.querySelector('cart-notification').renderContents(parsedState);
+              //document.querySelector('cart-notification').renderContents(parsedState);
             })
             .catch((error) => {
               console.error('Error:', error);

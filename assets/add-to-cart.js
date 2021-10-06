@@ -89,18 +89,65 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
               json = res.json();
               return json;
             }).then(response => {
-              // agrego animación de notificación de item agregado al carrito
+              // agrego notificación de item agregado al carrito
               console.log("response");
               console.log(response);
-              document.querySelector(".cart-count-bubble").firstElementChild.innerText = response.item_count;
-              // navConfirm("Articulo agregado.\n¿Deseas continuar al carrito de compras?", "/cart");
 
+              let items_en_el_carrito = response.item_count;
+
+              let items = response.items;
+              let product_id = response.items[0].product_id;
+              let variant_id = response.items[0].id;
+              let variant_img = response.items[0].image;
+              let variant_url = response.items[0].url;
+              let product_title = response.items[0].product_title;
+              let variant_options = response.items[0].variant_options;
+              let options_with_values = response.items[0].options_with_values;
+              
+
+              const cart_icon_bubble = '<div id=\"shopify-section-cart-icon-bubble\" class=\"shopify-section\"><svg class=\"icon icon-cart\" aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 40 40\" fill=\"none\">\n  <path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M20.5 6.5a4.75 4.75 0 00-4.75 4.75v.56h-3.16l-.77 11.6a5 5 0 004.99 5.34h7.38a5 5 0 004.99-5.33l-.77-11.6h-3.16v-.57A4.75 4.75 0 0020.5 6.5zm3.75 5.31v-.56a3.75 3.75 0 10-7.5 0v.56h7.5zm-7.5 1h7.5v.56a3.75 3.75 0 11-7.5 0v-.56zm-1 0v.56a4.75 4.75 0 109.5 0v-.56h2.22l.71 10.67a4 4 0 01-3.99 4.27h-7.38a4 4 0 01-4-4.27l.72-10.67h2.22z\"/>\n</svg>\n<span class=\"visually-hidden\">Carrito</span><div class=\"cart-count-bubble\"><span aria-hidden=\"true\">' + items_en_el_carrito + '</span><span class=\"visually-hidden\">' + items_en_el_carrito + ' artículos</span>\n  </div></div>';
+              const cart_notification_button = '<div id="shopify-section-cart-notification-button" class="shopify-section">Ver mi carrito (' + items_en_el_carrito + ')</div>';
+
+              let inicio_cart_notification_product = '<div id=\"shopify-section-cart-notification-product\" class=\"shopify-section\">';
+              let content_cart_notification_product = '';
+
+              items.forEach(item => {
+                content_cart_notification_product += 
+                  '<div id=\"cart-notification-product-' + item.id + '\">\n\n'+
+                  '<img class=\"cart-notification-product__image\"\nsrc=\"' + item.src + '\"\nalt=\"' + item.product_title + '\"\nwidth=\"70\"\nheight=\"70\"\nloading=\"lazy\"\n>\n\n'+
+                  '<div class=\"cart-notification-product__info\">\n<h3 class=\"cart-notification-product__name h4\">' + item.product_title + '</h3>';
+
+                item.options_with_values.forEach(option => {
+                  content_cart_notification_product += 
+                    '<dl>'+
+                      '<div class=\"cart-notification-product__option h4\">\n' +
+                        '<dt>' + option.name + ': </dt>\n' +
+                        '<dd>' + option.value + '</dd>\n' +
+                      '</div>'+
+                    '</dl>';
+                });
+
+                content_cart_notification_product += '</div>\n</div>';
+              }); 
+              let final_cart_notification_product = '</div>';
+
+              const cart_notification_product = inicio_cart_notification_product + content_cart_notification_product + final_cart_notification_product;
+
+              const notification_obj = {
+                "cart-icon-bubble": cart_icon_bubble,
+                "cart-notification-button": cart_notification_button,
+                "cart-notification-product": cart_notification_product,
+              };
+
+              response.sections = notification_obj;
+              // document.querySelector(".cart-count-bubble").firstElementChild.innerText = items_en_el_carrito;
+              // navConfirm("Articulo agregado.\n¿Deseas continuar al carrito de compras?", "/cart");
+              
+
+              // para mostrar el 
+              document.querySelector('cart-notification').renderContents(response);
             })
-            .then((parsedState) => {
-              console.log("PARSED STATE");
-              console.log(parsedState);
-              //document.querySelector('cart-notification').renderContents(parsedState);
-            })
+            
             .catch((error) => {
               console.error('Error:', error);
             });

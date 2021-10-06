@@ -79,6 +79,7 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
         console.error('Error:', error);
       })
       .then(response => {
+        console.log("response1");
         console.log(response);
 
         if (response.items.length > 0) {

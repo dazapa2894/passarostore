@@ -4,12 +4,12 @@ const show_variant = document.querySelectorAll(".show-variant");
 const agregar_al_carrito = document.querySelectorAll(".agregar-al-carrito");
 
 color_swatches.forEach(swatch_element => {
-  // console.info(swatch_element);
+  // console.log(swatch_element);
   swatch_element.addEventListener("click", function () {
     let variant_color = swatch_element.getAttribute("variant_color");
     let variant_img_src = swatch_element.getAttribute("variant_img_src");
-    // console.info("variant_color = " + variant_color);
-    // console.info("variant_img_src = " + variant_img_src);
+    // console.log("variant_color = " + variant_color);
+    // console.log("variant_img_src = " + variant_img_src);
     color_swatches.forEach(element => {element.classList.remove('active');});
     swatch_element.classList.add('active');
     swatch_element.parentElement.previousElementSibling.querySelector(".product-img").setAttribute("src", variant_img_src);
@@ -18,10 +18,10 @@ color_swatches.forEach(swatch_element => {
 });
 
 size_picker.forEach(size_picker_element => {
-  // console.info(size_picker_element);
+  // console.log(size_picker_element);
   size_picker_element.addEventListener("click", function () {
     let variant_size = size_picker_element.getAttribute("variant_size");
-    // console.info("variant_size = " + variant_size);
+    // console.log("variant_size = " + variant_size);
     size_picker.forEach(element => {element.classList.remove('active');});
     size_picker_element.classList.add('active');
     size_picker_element.parentElement.parentElement.parentElement.parentElement.setAttribute("variant_size", variant_size);
@@ -29,7 +29,7 @@ size_picker.forEach(size_picker_element => {
 });
 
 show_variant.forEach(show_variant_element => {
-  // console.info(show_variant_element);
+  // console.log(show_variant_element);
   show_variant_element.addEventListener("click", function () {
     show_variant_element.nextElementSibling.classList.toggle('hide');
     if (show_variant_element.innerHTML == "+") {
@@ -42,10 +42,10 @@ show_variant.forEach(show_variant_element => {
 });
 
 agregar_al_carrito.forEach(agregar_al_carrito_element => {
-  // console.info(agregar_al_carrito_element);
+  // console.log(agregar_al_carrito_element);
   agregar_al_carrito_element.addEventListener("click", function () {
   
-    // console.info("agregar al carrito");
+    // console.log("agregar al carrito");
     
     let data_container_element = agregar_al_carrito_element.parentElement.parentElement.parentElement;
     let variant_size = data_container_element.getAttribute("variant_size");
@@ -56,7 +56,7 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
     let variant_id =  SetSelect(the_select_element, variant_color, variant_size);
     
     
-    console.info("variant_id = " + variant_id);
+    console.log("variant_id = " + variant_id);
     
     let formData = {
       'items': [{
@@ -65,34 +65,6 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
       }]
     };
 
-    const body = JSON.stringify({
-      'items': [{
-        'id': variant_id,
-        'quantity': 1
-      }],
-      sections: document.querySelector('cart-notification').getSectionsToRender().map((section) => section.id),
-      sections_url: window.location.pathname
-    });
-
-    fetch(`${routes.cart_add_url}`, {
-        ...fetchConfig('javascript'),
-        body
-      })
-      .then((response) => response.json())
-      .then((parsedState) => {
-        console.info("PARSED STATE");
-        console.info(parsedState);
-        document.querySelector('cart-notification').renderContents(parsedState);
-      })
-      .catch((e) => {
-        console.error(e);
-      })
-      .finally(() => {
-        //submitButton.classList.remove('loading');
-        //submitButton.removeAttribute('disabled');
-      });
-    
-    /*
     fetch('/cart/add.js', {
         method: 'POST',
         headers: {
@@ -107,10 +79,10 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
         console.error('Error:', error);
       })
       .then(response => {
-        console.info(response);
+        console.log(response);
 
         if (response.items.length > 0) {
-          console.info("MOSTRAR LA INFO DE LA CART CON OTRO FECTH");
+          console.log("MOSTRAR LA INFO DE LA CART CON OTRO FECTH");
           fetch('/cart.js', {
               method: 'GET'
             })
@@ -119,8 +91,8 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
               return json;
             }).then(response => {
               // agrego notificación de item agregado al carrito
-              console.info("response");
-              console.info(response);
+              console.log("response");
+              console.log(response);
 
               let items_en_el_carrito = response.item_count;
 
@@ -169,6 +141,7 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
               };
 
               response.sections = notification_obj;
+              console.info(response);
               // document.querySelector(".cart-count-bubble").firstElementChild.innerText = items_en_el_carrito;
               // navConfirm("Articulo agregado.\n¿Deseas continuar al carrito de compras?", "/cart");
               
@@ -181,12 +154,10 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
               console.error('Error:', error);
             });
         } else {
-          console.info('Respuesta de red OK pero respuesta HTTP no OK');
+          console.log('Respuesta de red OK pero respuesta HTTP no OK');
         }
       });
-      */
-  
-  });// FIN CLICK
+  });
 });
 
 function navConfirm(message, loc) {
@@ -197,13 +168,13 @@ function navConfirm(message, loc) {
 }
 
 function SetSelect(selectElement, color, talla) {
-  // console.info("$(selectElement)");
-  // console.info($(selectElement));
+  // console.log("$(selectElement)");
+  // console.log($(selectElement));
   let option = $(selectElement).find("[variant='" + color + " / " + talla + "']");
   let new_value = $(option).attr("value");
-  // console.info("[variant='" + color + " / " + talla + "']");
-  // console.info(option);
-  // console.info(new_value);
+  // console.log("[variant='" + color + " / " + talla + "']");
+  // console.log(option);
+  // console.log(new_value);
   selectElement.value = new_value;
   return new_value;
 }

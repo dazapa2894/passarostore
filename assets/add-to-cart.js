@@ -67,7 +67,7 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
 
     const body = JSON.stringify({
       formData,
-      sections: this.cartNotification.getSectionsToRender().map((section) => section.id),
+      sections: document.querySelector('cart-notification').getSectionsToRender().map((section) => section.id),
       sections_url: window.location.pathname
     });
 
@@ -79,7 +79,7 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
       .then((parsedState) => {
         console.info("PARSED STATE");
         console.info(parsedState);
-        this.cartNotification.renderContents(parsedState);
+        document.querySelector('cart-notification').renderContents(parsedState);
       })
       .catch((e) => {
         console.error(e);

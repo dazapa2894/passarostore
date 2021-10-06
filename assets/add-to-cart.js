@@ -57,13 +57,39 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
     
     
     console.log("variant_id = " + variant_id);
-      let formData = {
-        'items': [{
-          'id': variant_id,
-          'quantity': 1
-        }]
-      };
+    
+    let formData = {
+      'items': [{
+        'id': variant_id,
+        'quantity': 1
+      }]
+    };
 
+    const body = JSON.stringify({
+      formData,
+      sections: this.cartNotification.getSectionsToRender().map((section) => section.id),
+      sections_url: window.location.pathname
+    });
+
+    fetch(`${routes.cart_add_url}`, {
+        ...fetchConfig('javascript'),
+        body
+      })
+      .then((response) => response.json())
+      .then((parsedState) => {
+        console.log("PARSED STATE");
+        console.log(parsedState);
+        this.cartNotification.renderContents(parsedState);
+      })
+      .catch((e) => {
+        console.error(e);
+      })
+      .finally(() => {
+        submitButton.classList.remove('loading');
+        submitButton.removeAttribute('disabled');
+      });
+    
+    /*
     fetch('/cart/add.js', {
         method: 'POST',
         headers: {
@@ -79,8 +105,8 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
       })
       .then(response => {
         console.log(response);
-        if (response.items.length > 0) {
 
+        if (response.items.length > 0) {
           console.log("MOSTRAR LA INFO DE LA CART CON OTRO FECTH");
           fetch('/cart.js', {
               method: 'GET'
@@ -155,7 +181,9 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
           console.log('Respuesta de red OK pero respuesta HTTP no OK');
         }
       });
-  });
+      */
+  
+  });// FIN CLICK
 });
 
 function navConfirm(message, loc) {

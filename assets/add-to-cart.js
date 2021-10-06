@@ -139,7 +139,7 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
                 "cart-notification-product": cart_notification_product,
               };
 
-              //response2.sections = notification_obj;
+              response2.sections = notification_obj;
               console.info("response2");
               console.info(response2);
               // document.querySelector(".cart-count-bubble").firstElementChild.innerText = items_en_el_carrito;

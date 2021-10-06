@@ -81,7 +81,7 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
       .then((response) => {
         console.info(response);
         console.info(response.json());
-        response.json()
+        return response.json()
       })
       .then((parsedState) => {
         console.info("PARSED STATE");

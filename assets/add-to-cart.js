@@ -117,7 +117,7 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
                 console.info(item.id);
                 content_cart_notification_product += 
                   "<div id=\"cart-notification-product-" + item.id + "\">\n\n"+
-                  "<img class=\"cart-notification-product__image\"\nsrc=\"" + item.src + "\"\nalt=\"" + item.product_title + "\"\nwidth=\"70\"\nheight=\"70\"\nloading=\"lazy\"\n>\n\n"+
+                  "<img class=\"cart-notification-product__image\"\nsrc=\"" + item.image + "\"\nalt=\"" + item.product_title + "\"\nwidth=\"70\"\nheight=\"70\"\nloading=\"lazy\"\n>\n\n" +
                   "<div class=\"cart-notification-product__info\">\n<h3 class=\"cart-notification-product__name h4\">" + item.product_title + "</h3>";
 
                 item.options_with_values.forEach(option => {

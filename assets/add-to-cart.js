@@ -106,8 +106,8 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
               let options_with_values = response2.items[0].options_with_values;
               
 
-              const cart_icon_bubble = '<div id=\"shopify-section-cart-icon-bubble\" class=\"shopify-section\"><svg class=\"icon icon-cart\" aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 40 40\" fill=\"none\">\n  <path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M20.5 6.5a4.75 4.75 0 00-4.75 4.75v.56h-3.16l-.77 11.6a5 5 0 004.99 5.34h7.38a5 5 0 004.99-5.33l-.77-11.6h-3.16v-.57A4.75 4.75 0 0020.5 6.5zm3.75 5.31v-.56a3.75 3.75 0 10-7.5 0v.56h7.5zm-7.5 1h7.5v.56a3.75 3.75 0 11-7.5 0v-.56zm-1 0v.56a4.75 4.75 0 109.5 0v-.56h2.22l.71 10.67a4 4 0 01-3.99 4.27h-7.38a4 4 0 01-4-4.27l.72-10.67h2.22z\"/>\n</svg>\n<span class=\"visually-hidden\">Carrito</span><div class=\"cart-count-bubble\"><span aria-hidden=\"true\">' + items_en_el_carrito + '</span><span class=\"visually-hidden\">' + items_en_el_carrito + ' artículos</span>\n  </div></div>';
-              const cart_notification_button = '<div id="shopify-section-cart-notification-button" class="shopify-section">Ver mi carrito (' + items_en_el_carrito + ')</div>';
+              let cart_icon_bubble = '<div id=\"shopify-section-cart-icon-bubble\" class=\"shopify-section\"><svg class=\"icon icon-cart\" aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 40 40\" fill=\"none\">\n  <path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M20.5 6.5a4.75 4.75 0 00-4.75 4.75v.56h-3.16l-.77 11.6a5 5 0 004.99 5.34h7.38a5 5 0 004.99-5.33l-.77-11.6h-3.16v-.57A4.75 4.75 0 0020.5 6.5zm3.75 5.31v-.56a3.75 3.75 0 10-7.5 0v.56h7.5zm-7.5 1h7.5v.56a3.75 3.75 0 11-7.5 0v-.56zm-1 0v.56a4.75 4.75 0 109.5 0v-.56h2.22l.71 10.67a4 4 0 01-3.99 4.27h-7.38a4 4 0 01-4-4.27l.72-10.67h2.22z\"/>\n</svg>\n<span class=\"visually-hidden\">Carrito</span><div class=\"cart-count-bubble\"><span aria-hidden=\"true\">' + items_en_el_carrito + '</span><span class=\"visually-hidden\">' + items_en_el_carrito + ' artículos</span>\n  </div></div>';
+              let cart_notification_button = '<div id="shopify-section-cart-notification-button" class="shopify-section">Ver mi carrito (' + items_en_el_carrito + ')</div>';
 
               let inicio_cart_notification_product = "<div id=\"shopify-section-cart-notification-product\" class=\"shopify-section\">";
               let content_cart_notification_product = "";
@@ -134,9 +134,10 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
               }); 
               let final_cart_notification_product = "</div>";
 
-              const cart_notification_product = inicio_cart_notification_product + content_cart_notification_product + final_cart_notification_product;
+              let cart_notification_product = inicio_cart_notification_product + content_cart_notification_product + final_cart_notification_product;
+              console.info(cart_notification_product);
 
-              const notification_obj = {
+              let notification_obj = {
                 "cart-icon-bubble": cart_icon_bubble,
                 "cart-notification-button": cart_notification_button,
                 "cart-notification-product": cart_notification_product,

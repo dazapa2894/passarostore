@@ -13,69 +13,8 @@
   <div id="products-wrapper" class="row">
     {% for product in collections.all.products limit:section.settings.max_products %}
 
-      <div class="product-wrapper col xs12 s12 m6 l4 xl3" variant_color="{{product.variants.first.option1}}" variant_size="{{product.variants.first.option2}}">
-        <div class="product-img-wrapper">
-          <a href="{{product.url}}" class="img-wrapper">
-            <img class="product-img"
-                src="{{product.featured_image | img_url: '375x' }}"
-                loading="lazy"
-                alt="{{product.featured_image.alt | escape }}"
-              >
-          </a>
-          
-          <div class="show-variant">+</div>
-          
-          <div class="variant-pickers hide">
-            <h5>Tallas</h5>
-            <div class="product-sizes">
-              {% assign first_size = product.variants[0].option2%}
-              {% assign first_size_counter = 0%}
-              {% for option in product.variants %}
-                {% if first_size == option.option2 %}
-                  {% assign first_size_counter = first_size_counter | plus: 1 %}
-                  {% if first_size_counter > 1 %}
-                    {% break %}
-                  {% endif %}
-                {% endif %}
-
-                <div variant_size="{{option.option2}}" class="size-picker {% if forloop.first == true %}active{% endif %}">
-                  {{option.option2}}
-                </div>
-              
-              {% endfor %}
-            </div>        
-            <select id="{{product.id}}-variant-selector" class="hidden" data-productid="{{product.id}}">
-              {% for option in product.variants %}
-                <option value="{{option.id}}" handle="{{product.handle}}" variant="{{-option.title-}}"> {{option.title}}</option>
-              {% endfor %}
-            </select>
-            <div class="agregar-al-carrito blue-btn">AGREGAR AL CARRITO</div>
-
-          </div><!-- end variant-pickers -->
-          
-        </div>
-
-        <div class="product-colors">
-          {% assign last_img = ''%}
-          {% for option in product.variants %}
-            {% assign actual_img = option.featured_media.preview_image.src %}
-            
-            {% unless last_img == actual_img %}  
-              {% assign last_img = actual_img%}
-              <div class="variant-color-swatch {% if forloop.first == true %}active{% endif %}" variant_color="{{option.option1}}" variant_img_src="{{actual_img | img_url: '375x' }}">
-                <img class="variant-img"
-                      src="{{actual_img | img_url: '50x' , format: 'pjpg'}}"
-                      loading="lazy"
-                    >
-              </div>
-            {% endunless %}
-          {% endfor %}
-        </div>
-        
-        <div class="product-title">{{ product.title }}</div>
-        <div class="product-price">{{ product.price | money_without_trailing_zeros }}</div>
-      </div>
-
+      {% render 'product-card', product_card_product: product, media_size: section.settings.image_ratio, show_secondary_image: section.settings.show_secondary_image, add_image_padding: section.settings.add_image_padding, show_vendor: section.settings.show_vendor, show_image_outline: section.settings.show_image_outline %}
+      
     {% endfor %}
   </div>
 

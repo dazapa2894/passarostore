@@ -988,13 +988,14 @@ summary::-webkit-details-marker {
 }
 
 .grid--2-col .grid__item {
-  width: calc(50% - 0.5rem / 2);
+  max-width: 100%;
+  width: 100%;
 }
+
 
 @media screen and (min-width: 520px) {
   .grid--2-col .grid__item {
-    max-width: 100%;
-    width: 100%;
+    width: calc(50% - 0.5rem / 2);
   }
 }
 

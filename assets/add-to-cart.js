@@ -75,7 +75,7 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
     });
 
     fetch(`${routes.cart_add_url}`, {
-        ...fetchConfig(),
+        ...fetchConfig('javascript'),
         body
       })
       .then((response) => {

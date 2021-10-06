@@ -100,7 +100,7 @@
                     {%- endif -%}
 
                     <ul class="discounts list-unstyled" role="list" aria-label="{{ 'customer.order.discount' | t }}">
-                      {{item | json}}
+                      {% comment %} {{item | json}} {% endcomment %}
                       {%- for discount in item.discounts -%}
                         <li class="discounts__discount">
                           {%- render 'icon-discount' -%}

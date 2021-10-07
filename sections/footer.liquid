@@ -20,6 +20,11 @@
   
   {% comment %} <div class=""></div> {% endcomment %}
   
+  {{linklists | json}}
+  
+  {% comment %} {% for link in linklists.main-menu.links %}
+    <a href="{{ link.url }}">{{ link.title }}</a>
+  {% endfor %} {% endcomment %}
   <div class="container">
     <div class="row">
       <div class="col col3">
@@ -55,3 +60,4 @@
   </div>
 
 </footer>
+  

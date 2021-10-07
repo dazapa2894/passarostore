@@ -43,7 +43,7 @@
 :root,
 
 .color-dark-blue{
-  color: rgb(var(--color-base-text)) !important;
+  color: rgb(var(--color-white)) !important;
   background-color: rgb(var(--color-dark-blue)) !important;
 }
 .color-pink{

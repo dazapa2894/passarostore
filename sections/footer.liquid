@@ -21,21 +21,25 @@
   {% comment %} <div class=""></div> {% endcomment %}
   
 
-  
+  <style>
+  .footer-title{
+    color: white;
+  }
+  </style>
   
 
   <div class="container">
     <div class="row">
       <div class="col col3">
         <div class="footer-logo">
-          <h3>
+          <h3 class="footer-title">
             LOGO
           </h3>
         </div>
       </div>
       <div class="col col3">
         <div class="footer-links">
-          <h3>
+          <h3 class="footer-title">
             QUIZÁ TE INTERESE
           </h3>
           {% for link in linklists.footer.links %}
@@ -45,7 +49,7 @@
       </div>
       <div class="col col3">
         <div class="footer-legal">
-          <h3>
+          <h3 class="footer-title">
             AVISOS LEGALES
           </h3>
           {% for link in linklists.footer-legales.links %}

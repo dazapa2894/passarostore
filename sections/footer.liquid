@@ -20,11 +20,10 @@
   
   {% comment %} <div class=""></div> {% endcomment %}
   
-  {{linklists}}
+
   
-  {% comment %} {% for link in linklists.main-menu.links %}
-    <a href="{{ link.url }}">{{ link.title }}</a>
-  {% endfor %} {% endcomment %}
+  
+
   <div class="container">
     <div class="row">
       <div class="col col3">
@@ -39,6 +38,9 @@
           <h3>
             QUIZÁ TE INTERESE
           </h3>
+          {% for link in linklists.footer.links %}
+            <a href="{{ link.url }}">{{ link.title }}</a>
+          {% endfor %}
         </div>
       </div>
       <div class="col col3">
@@ -46,6 +48,9 @@
           <h3>
             AVISOS LEGALES
           </h3>
+          {% for link in linklists.footer-legales.links %}
+            <a href="{{ link.url }}">{{ link.title }}</a>
+          {% endfor %}
         </div>
       </div>
       <div class="col col3">

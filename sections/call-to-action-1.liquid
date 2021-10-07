@@ -4,8 +4,8 @@
 {% endstylesheet %}
 
 <section id="call-to-action-1" class="promo-banner-section">
-
-  <div class="promo-wrapper" {% unless section.settings.promo_theme != null %} style="background-color: #111;"{% endunless%}>
+{{section.settings.banner_img}}
+  <div class="promo-wrapper" {% unless section.settings.banner_img == "" %} style="background-color: #111;"{% endunless%}>
     <div class="promo-img-wrapper">
       
       

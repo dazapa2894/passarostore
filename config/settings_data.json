@@ -12,6 +12,8 @@
   "current": {
     "social_facebook_link": "https:\/\/www.facebook.com\/passarostore\/",
     "social_instagram_link": "https:\/\/www.instagram.com\/passaro_store",
+    "favicon": "shopify:\/\/shop_images\/LogoSoloP.png",
+    "currency_code_enabled": false,
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",

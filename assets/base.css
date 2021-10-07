@@ -44,7 +44,7 @@
 
 .color-dark-blue{
   color: rgb(var(--color-base-text)) !important;
-  background-color: rgb(var(--color-gray-light)) !important;
+  background-color: rgb(var(--color-dark-blue)) !important;
 }
 .color-pink{
   color: rgb(var(--color-white)) !important;

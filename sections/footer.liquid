@@ -1,5 +1,7 @@
 {% comment %}theme-check-disable UndefinedObject{% endcomment %}
 {{ 'section-footer.css' | asset_url | stylesheet_tag }}
+{{ 'custom-footer.css' | asset_url | stylesheet_tag }}
+
 <link rel="stylesheet" href="{{ 'component-newsletter.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-list-menu.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-list-payment.css' | asset_url }}" media="print" onload="this.media='all'">
@@ -16,7 +18,7 @@
 
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-<footer class="footer color-{{ section.settings.color_scheme }}">
+<footer class="footer color-dark-blue">
   {%- if section.blocks.size > 0 or section.settings.newsletter_enable or section.settings.show_social -%}
     <div class="footer__content-top page-width">
       {%- if section.blocks.size > 0 -%}
@@ -450,34 +452,6 @@
     }
   ],
   "settings": [
-    {
-      "type": "select",
-      "id": "color_scheme",
-      "options": [
-        {
-          "value": "accent-1",
-          "label": "t:sections.footer.settings.color_scheme.options__1.label"
-        },
-        {
-          "value": "accent-2",
-          "label": "t:sections.footer.settings.color_scheme.options__2.label"
-        },
-        {
-          "value": "background-1",
-          "label": "t:sections.footer.settings.color_scheme.options__3.label"
-        },
-        {
-          "value": "background-2",
-          "label": "t:sections.footer.settings.color_scheme.options__4.label"
-        },
-        {
-          "value": "inverse",
-          "label": "t:sections.footer.settings.color_scheme.options__5.label"
-        }
-      ],
-      "default": "background-1",
-      "label": "t:sections.footer.settings.color_scheme.label"
-    },
     {
       "type": "header",
       "content": "t:sections.footer.settings.header__1.content",

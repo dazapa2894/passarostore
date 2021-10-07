@@ -42,9 +42,11 @@
           <h3 class="footer-title">
             QUIZÁ TE INTERESE
           </h3>
+          <ul>
           {% for link in linklists.footer.links %}
-            <a href="{{ link.url }}">{{ link.title }}</a>
+            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
+          </ul>
         </div>
       </div>
       <div class="col col3">
@@ -52,9 +54,11 @@
           <h3 class="footer-title">
             AVISOS LEGALES
           </h3>
+          <ul>
           {% for link in linklists.footer-legales.links %}
-            <a href="{{ link.url }}">{{ link.title }}</a>
+            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
+          </ul>
         </div>
       </div>
       <div class="col col3">

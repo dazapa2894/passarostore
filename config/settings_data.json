@@ -10,6 +10,8 @@
   "white": "#ffffff",
   "black": "#111111",
   "current": {
+    "social_facebook_link": "https:\/\/www.facebook.com\/passarostore\/",
+    "social_instagram_link": "https:\/\/www.instagram.com\/passaro_store",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",

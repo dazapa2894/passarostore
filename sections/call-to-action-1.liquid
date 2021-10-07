@@ -5,7 +5,7 @@
 
 <section id="call-to-action-1" class="promo-banner-section">
 
-  <div class="promo-wrapper" {% unless section.settings.banner_img == blank %} style="background-color: #f00; background-image: {{section.settings.banner_img | imgurl: 'x388'}};"{% endunless%}>
+  <div class="promo-wrapper" {% unless section.settings.banner_img == blank %} style="background-color: #f00; background-image: url({{section.settings.banner_img | img_url: 'x388'}});"{% endunless%}>
     <div class="promo-img-wrapper">
       
       

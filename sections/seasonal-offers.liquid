@@ -111,18 +111,7 @@
   
 </section>
 
-{% javascript %}
-const swiper = new Swiper('.seasonal-swiper-container', 
-{
-  // Optional parameters
-  loop: true,
-  spaceBetween: 5,
-  slidesPerView: 5,
-  centeredSlides: false,
-  grabCursor: true,
-  freeMode: true,
-});
-{% endjavascript %}
+<script src="{{ 'seasonal-offers.js' | asset_url }}" defer="defer"></script>
 
 {% schema %}
 {

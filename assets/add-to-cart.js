@@ -1,8 +1,8 @@
-const color_swatches = document.querySelectorAll(".variant-color-swatch");
 const size_picker = document.querySelectorAll(".size-picker");
 const show_variant = document.querySelectorAll(".show-variant");
 const agregar_al_carrito = document.querySelectorAll(".agregar-al-carrito");
 
+console.log($(".variant-color-swatch"));
 $(".variant-color-swatch").click( function() {
     let variant_color = $(this).attr("variant_color");
     let variant_img_src = $(this).attr("variant_img_src");

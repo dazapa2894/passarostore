@@ -178,7 +178,7 @@
     {% assign last_img = ''%}
     
     {% for option in product_card_product.variants %}
-      {{ option.metafields }}
+      {{ option.metafields.my_fields.miniatura_color }}
       {% assign actual_img = option.featured_media.preview_image.src %}
       
       {% unless last_img == actual_img %}  

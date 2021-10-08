@@ -182,8 +182,10 @@
       {% assign mini_img = option.metafields.my_fields.miniatura_color %}
 
       {% assign actual_img = option.featured_media.preview_image.src %}
-      
-      {% unless last_img == mini_img %}  
+
+      "{{mini_img}}" /-/ "{{last_img}}"
+
+      {% unless last_img == mini_img %} 
         {% assign last_img = mini_img %}
         <div class="variant-color-swatch {% if forloop.first == true %}active{% endif %}" variant_color="{{option.option1}}" variant_img_src="{{actual_img | img_url: '375x' }}">
           <img class="variant-img"

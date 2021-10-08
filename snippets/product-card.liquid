@@ -183,7 +183,7 @@
 
       {% assign actual_img = option.featured_media.preview_image.src %}
 
-      "{{mini_img}}" /-/ "{{last_img}}"
+      {{mini_img == last_img}}
 
       {% unless last_img == mini_img %} 
         {% assign last_img = mini_img %}

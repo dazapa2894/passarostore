@@ -6,10 +6,11 @@ console.log($(".variant-color-swatch"));
 $(".variant-color-swatch").click( function() {
     let variant_color = $(this).attr("variant_color");
     let variant_img_src = $(this).attr("variant_img_src");
-    console.info("swatch clicked");
-    console.info($(this));
-    console.log("variant_color = " + variant_color);
-    console.log("variant_img_src = " + variant_img_src);
+   
+    // console.info("swatch clicked");
+    // console.info($(this));
+    // console.log("variant_color = " + variant_color);
+    // console.log("variant_img_src = " + variant_img_src);
     
     $(this).each(function() {
       $(this).removeClass('active');

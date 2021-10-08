@@ -181,7 +181,7 @@
 
       {% assign mini_img = option.metafields.my_fields.miniatura_color %}
 
-      {% assign actual_img = option.metafields.my_fields.miniatura_color %}
+      {% assign actual_img = option.featured_media.preview_image.src %}
       
       {% unless last_img == actual_img %}  
         {% assign last_img = actual_img%}

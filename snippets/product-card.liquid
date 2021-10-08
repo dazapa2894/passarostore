@@ -173,7 +173,6 @@
     </div><!-- end variant-pickers -->
     
   </div>
-
   <div class="product-colors">
     {% assign last_color = ''%}
     
@@ -183,16 +182,18 @@
       {% assign mini_img = option.metafields.my_fields.miniatura_color %}
       {% assign actual_img = option.featured_media.preview_image.src %}
 
+      {% if mini_img != blank %}
       
-      
-      {% if last_color != actual_color %} 
-        {% assign last_color = actual_color %}
-        <div class="variant-color-swatch {% if forloop.first == true %}active{% endif %}" variant_color="{{option.option1}}" variant_img_src="{{actual_img | img_url: '375x' }}">
-          <img class="variant-img"
-                src="{{mini_img | img_url: '50x' , format: 'pjpg'}}"
-                loading="lazy"
-              >
-        </div>
+        {% if last_color != actual_color %} 
+          {% assign last_color = actual_color %}
+          <div class="variant-color-swatch {% if forloop.first == true %}active{% endif %}" variant_color="{{option.option1}}" variant_img_src="{{actual_img | img_url: '375x' }}">
+            <img class="variant-img"
+                  src="{{mini_img | img_url: '50x' , format: 'pjpg'}}"
+                  loading="lazy"
+                >
+          </div>
+        {% endif %}
+        
       {% endif %}
     {% endfor %}
   </div>

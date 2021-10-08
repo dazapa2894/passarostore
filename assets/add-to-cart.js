@@ -3,20 +3,21 @@ const size_picker = document.querySelectorAll(".size-picker");
 const show_variant = document.querySelectorAll(".show-variant");
 const agregar_al_carrito = document.querySelectorAll(".agregar-al-carrito");
 
-color_swatches.forEach(swatch_element => {
-  // console.log(swatch_element);
-  swatch_element.addEventListener("click", function () {
-    let variant_color = swatch_element.getAttribute("variant_color");
-    let variant_img_src = swatch_element.getAttribute("variant_img_src");
+$(".variant-color-swatch").click( function() {
+    let variant_color = $(this).attr("variant_color");
+    let variant_img_src = $(this).attr("variant_img_src");
     console.info("swatch clicked");
-    console.info(swatch_element);
+    console.info($(this));
     console.log("variant_color = " + variant_color);
     console.log("variant_img_src = " + variant_img_src);
-    color_swatches.forEach(element => {element.classList.remove('active');});
-    swatch_element.classList.add('active');
-    swatch_element.parentElement.previousElementSibling.querySelector(".product-img").setAttribute("src", variant_img_src);
-    swatch_element.parentElement.parentElement.setAttribute("variant_color", variant_color);
-  });
+    
+    $(this).each(function() {
+      $(this).removeClass('active');
+    });
+
+    $(this).addClass('active');
+    $(this).parent().prev().find(".product-img").attr("src", variant_img_src);
+    $(this).parent().parent().attr("variant_color", variant_color);
 });
 
 size_picker.forEach(size_picker_element => {

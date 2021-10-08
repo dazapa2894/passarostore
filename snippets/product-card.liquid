@@ -179,7 +179,7 @@
     
     {% for option in product_card_product.variants %}
 
-      {{ assign mini_img = option.metafields.my_fields.miniatura_color}}
+      {% assign mini_img = option.metafields.my_fields.miniatura_color %}
 
       {% assign actual_img = option.metafields.my_fields.miniatura_color %}
       

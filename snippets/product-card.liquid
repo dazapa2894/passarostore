@@ -175,24 +175,18 @@
   </div>
 
   <div class="product-colors">
-    {% assign last_img = ''%}
+    {% assign last_color = ''%}
     
     {% for option in product_card_product.variants %}
 
+      {% assign actual_color = option.option1 %}
       {% assign mini_img = option.metafields.my_fields.miniatura_color %}
-
       {% assign actual_img = option.featured_media.preview_image.src %}
-      
-      <pre>{{mini_img}}</pre>
-      <pre>{{last_img}}</pre>
-      {% if mini_img == last_img %}
-        {{true}}
-      {% else %}
-        {{false}}
-      {% endif%}
 
-      {% if last_img != mini_img %} 
-        {% assign last_img = mini_img %}
+      
+      
+      {% if last_color != actual_color %} 
+        {% assign last_color = actual_color %}
         <div class="variant-color-swatch {% if forloop.first == true %}active{% endif %}" variant_color="{{option.option1}}" variant_img_src="{{actual_img | img_url: '375x' }}">
           <img class="variant-img"
                 src="{{mini_img | img_url: '50x' , format: 'pjpg'}}"

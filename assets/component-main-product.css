@@ -12,6 +12,8 @@
 }
 .product .product__info-wrapper .no-js-hidden .price .badge {
   background-color: rgb(var(--color-green)) !important;
+  padding: 5px 15px;
+  color: white;
 }
 .product .product__info-wrapper #product-form-installment .swatches #swatch-option1 .swatch-single .swatch-navigable .swatch-view .swatch-view-item:hover .swatch-image {
   background-color: rgb(var(--color-dark-blue));

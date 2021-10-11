@@ -86,7 +86,7 @@
 }
 #customer_login a:hover,
 #create_customer a:hover {
-  color: rgb(var(--color-dark-blue));
+  color: rgba(0, 0, 0, 0.6);
 }
 .account h2 {
   margin-bottom: 50px !important;

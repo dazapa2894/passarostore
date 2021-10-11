@@ -7,6 +7,13 @@ footer .footer-links .footer-title {
 footer .footer-links ul {
   padding: 0;
 }
+footer .footer-links ul li {
+  list-style: none;
+}
+footer .footer-links ul li a {
+  color: white;
+  text-decoration: none;
+}
 footer .footer-legal {
   color: white;
 }

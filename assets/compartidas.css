@@ -111,14 +111,12 @@
 }
 .addresses a {
   color: rgb(var(--color-dark-blue));
-  text-decoration: underline;
-  text-decoration-thickness: 0;
   transition: all 0.3s ease-in-out;
+  color: black;
+  text-decoration: underline;
 }
 .addresses a:hover {
-  font-weight: bolder;
-  color: rgb(var(--color-dark-blue));
-  text-decoration-thickness: 0.2rem;
+  color: rgba(0, 0, 0, 0.6);
 }
 .addresses #AddressNewHeading {
   text-align: center;

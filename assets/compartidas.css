@@ -188,11 +188,11 @@
   margin-top: 20px;
 }
 .is-empty .cart__warnings .cart__login-paragraph a {
-  color: rgb(var(--color-green));
+  color: black;
   text-decoration: underline;
 }
 .is-empty .cart__warnings .cart__login-paragraph a:hover {
-  color: rgb(var(--color-dark-blue));
+  color: rgba(0, 0, 0, 0.6);
 }
 .collection .button {
   border-radius: 15px 0px !important;

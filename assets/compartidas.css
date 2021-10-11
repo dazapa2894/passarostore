@@ -148,11 +148,11 @@
   text-align: center;
 }
 .title-wrapper-with-link a {
-  color: rgb(var(--color-green));
+  color: black;
   text-decoration: underline;
 }
 .title-wrapper-with-link a:hover {
-  color: rgb(var(--color-dark-blue));
+  color: rgba(0, 0, 0, 0.6);
 }
 .cart__contents .cart__items .js-contents .cart-items tbody .cart-item .cart-item__totals #Remove-1 a {
   color: rgb(var(--color-dark-blue));

@@ -118,6 +118,9 @@
 .addresses a:hover {
   color: rgba(0, 0, 0, 0.6);
 }
+.addresses .blue-btn {
+  margin: 4rem auto;
+}
 .addresses #AddressNewHeading {
   text-align: center;
 }

@@ -81,7 +81,7 @@
 }
 #customer_login a,
 #create_customer a {
-  color: rgb(var(--color-green));
+  color: black;
   text-decoration: underline;
 }
 #customer_login a:hover,

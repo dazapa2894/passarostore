@@ -53,3 +53,10 @@ footer .footer-copyright p {
   padding: 10px 0;
   font-size: 14px;
 }
+footer .footer-copyright p a {
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+footer .footer-copyright p a:hover {
+  color: rgba(255, 255, 255, 0.6);
+}

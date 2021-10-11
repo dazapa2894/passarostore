@@ -1,8 +1,12 @@
 footer {
   padding: 50px 0;
 }
+footer .footer-logo {
+  text-align: center;
+}
 footer .footer-logo img {
   width: 100%;
+  max-width: 250px;
 }
 footer .footer-links .footer-title,
 footer .footer-legal .footer-title,

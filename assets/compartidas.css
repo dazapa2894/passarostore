@@ -88,6 +88,10 @@
 #create_customer a:hover {
   color: rgba(0, 0, 0, 0.6);
 }
+#customer_login .blue-btn,
+#create_customer .blue-btn {
+  margin: 4rem auto;
+}
 .account h2 {
   margin-bottom: 50px !important;
 }

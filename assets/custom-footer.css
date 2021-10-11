@@ -40,12 +40,16 @@ footer .footer-redes ul li a:hover {
 }
 footer .divider {
   height: 1px;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.6);
   width: 100%;
+  margin-top: 50px;
 }
 footer .footer-copyright {
   padding: 0 20px;
 }
 footer .footer-copyright p {
   text-align: center;
+  margin: 0;
+  padding: 10px 0;
+  font-size: 14px;
 }

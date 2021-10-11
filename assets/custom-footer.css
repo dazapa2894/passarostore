@@ -19,6 +19,7 @@ footer .footer-links ul li,
 footer .footer-legal ul li,
 footer .footer-redes ul li {
   list-style: none;
+  line-height: 1.5;
 }
 footer .footer-links ul li a,
 footer .footer-legal ul li a,

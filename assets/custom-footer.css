@@ -1,5 +1,5 @@
 footer {
-  padding: 50px 0;
+  padding: 50px 0 0 0;
 }
 footer .footer-logo {
   text-align: center;
@@ -37,4 +37,15 @@ footer .footer-links ul li a:hover,
 footer .footer-legal ul li a:hover,
 footer .footer-redes ul li a:hover {
   color: rgba(255, 255, 255, 0.6);
+}
+footer .divider {
+  height: 1px;
+  background-color: white;
+  width: 100%;
+}
+footer .footer-copyright {
+  padding: 0 20px;
+}
+footer .footer-copyright p {
+  text-align: center;
 }

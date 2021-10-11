@@ -1,6 +1,6 @@
 #call-to-action-1 .promo-wrapper {
   position: relative;
-  background-color: black;
+  background-image: url(https://cdn.shopify.com/s/files/1/0592/9287/6983/files/banner-promo.jpg?v=1629925616);
   background-size: cover;
 }
 #call-to-action-1 .promo-wrapper .promo-img-wrapper img {

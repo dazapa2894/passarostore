@@ -96,11 +96,11 @@
   margin-bottom: 50px !important;
 }
 .account a {
-  color: rgb(var(--color-green));
+  color: black;
   text-decoration: underline;
 }
 .account a:hover {
-  color: rgb(var(--color-dark-blue));
+  color: rgba(0, 0, 0, 0.6);
 }
 .account .customer-adress-info p {
   color: rgb(var(--color-dark-blue));

@@ -93,11 +93,13 @@
               {%- endform -%}
             </div>
           {%- when 'description' -%}
-            {%- if product.description != blank -%}
-              <div class="product__description rte">
-                {{ product.description }}
-              </div>
-            {%- endif -%}
+            {% comment %} 
+              {%- if product.description != blank -%}
+                <div class="product__description rte">
+                  {{ product.description }}
+                </div>
+              {%- endif -%} 
+            {% endcomment %}
           {%- when 'custom_liquid' -%}
             {{ block.settings.custom_liquid }}
           {%- when 'collapsible_tab' -%}
@@ -434,13 +436,7 @@
       <div class="header-info-product-container">
         <ul class="tabs">
           <div class="indicador"></div>
-          <li class="tab col s3">
-            <a href="#descripcion">
-              {%- if product.description != blank -%}
-                  {{ product.description }}
-              {%- endif -%}
-            </a>
-          </li>
+          <li class="tab col s3"><a href="#descripcion">Descripción</a></li>
           <li class="tab col s3"><a href="#tallas">Guía de tallas</a></li>
           <li class="tab col s3"><a href="#lavado">Lavado</a></li>
         </ul>
@@ -449,7 +445,11 @@
       <div class="info-product-container">
         <div id="descripcion">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, iusto quas. Ipsum error, voluptatum itaque facilis doloremque saepe quis officia debitis pariatur ut doloribus consectetur alias! Dolores voluptatum et repudiandae.
+            {%- if product.description != blank -%}
+                {{ product.description }}
+            {%- else -%}
+                Sin descripción
+            {%- endif -%}
           </p>
         </div>
 

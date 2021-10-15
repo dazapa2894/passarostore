@@ -119,6 +119,52 @@
 {% comment %} <pre style="display:none;">{{product_card_product | json}}</pre> {% endcomment %}
 
 <script>
+
+  var producto_object = {
+    "product_card_product": {{ product_card_product | json }},
+    
+    "product_card_product.available": {{ product_card_product.available | json }},
+    "product_card_product.collections": {{ product_card_product.collections | json }},
+    "product_card_product.compare_at_price": {{ product_card_product.compare_at_price | json }},
+    "product_card_product.compare_at_price_max": {{ product_card_product.compare_at_price_max | json }},
+    "product_card_product.compare_at_price_min": {{ product_card_product.compare_at_price_min | json }},
+    "product_card_product.compare_at_price_varies": {{ product_card_product.compare_at_price_varies | json }},
+    "product_card_product.content": {{ product_card_product.content | json }},
+    "product_card_product.created_at": {{ product_card_product.created_at | json }},
+    "product_card_product.description": {{ product_card_product.description | json }},
+    "product_card_product.featured_image": {{ product_card_product.featured_image | json }},
+    "product_card_product.featured_media": {{ product_card_product.featured_media | json }},
+    "product_card_product.first_available_variant": {{ product_card_product.first_available_variant | json }},
+    "product_card_product.gift_card?": {{ product_card_product.gift_card? | json }},
+    "product_card_product.handle": {{ product_card_product.handle | json }},
+    "product_card_product.has_only_default_variant": {{ product_card_product.has_only_default_variant | json }},
+    "product_card_product.id": {{ product_card_product.id | json }},
+    "product_card_product.images": {{ product_card_product.images | json }},
+    "product_card_product.media": {{ product_card_product.media | json }},
+    "product_card_product.options": {{ product_card_product.options | json }},
+    "product_card_product.options_by_name": {{ product_card_product.options_by_name | json }},
+    "product_card_product.options_with_values": {{ product_card_product.options_with_values | json }},
+    "product_card_product.price": {{ product_card_product.price | json }},
+    "product_card_product.price_max": {{ product_card_product.price_max | json }},
+    "product_card_product.price_min": {{ product_card_product.price_min | json }},
+    "product_card_product.price_varies": {{ product_card_product.price_varies | json }},
+    "product_card_product.published_at": {{ product_card_product.published_at | json }},
+    "product_card_product.requires_selling_plan": {{ product_card_product.requires_selling_plan | json }},
+    "product_card_product.selected_variant": {{ product_card_product.selected_variant | json }},
+    "product_card_product.selected_or_first_available_variant": {{ product_card_product.selected_or_first_available_variant | json }},
+    "product_card_product.selected_or_first_available_selling_plan_allocation": {{ product_card_product.selected_or_first_available_selling_plan_allocation | json }},
+    "product_card_product.selected_selling_plan": {{ product_card_product.selected_selling_plan | json }},
+    "product_card_product.selected_selling_plan_allocation": {{ product_card_product.selected_selling_plan_allocation | json }},
+    "product_card_product.selling_plan_groups": {{ product_card_product.selling_plan_groups | json }},
+    "product_card_product.tags": {{ product_card_product.tags | json }},
+    "product_card_product.template_suffix": {{ product_card_product.template_suffix | json }},
+    "product_card_product.title": {{ product_card_product.title | json }},
+    "product_card_product.type": {{ product_card_product.type | json }},
+    "product_card_product.url": {{ product_card_product.url | json }},
+    "product_card_product.variants": {{ product_card_product.variants | json }},
+    "product_card_product.vendor": {{ product_card_product.vendor | json }},
+
+  };
     console.log("product_card_product");
     console.log( {{ product_card_product | json }} );
     console.log("product_card_product.available");

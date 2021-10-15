@@ -25,17 +25,7 @@
     {% render 'meta-tags' %}
 
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
-    
-<!-- starapps_scripts_start -->
-<!-- This code is automatically managed by StarApps Studio -->
-<!-- Please contact support@starapps.studio for any help -->
-{% include "starapps-language-meta" %}
-{% render "starapps-product-json", product: product, starapps_app: "VIA", starapps_attribute: "sa-product-json" %}
-<script type="text/javascript" src="https://bcdn.starapps.studio/apps/via/passarostore/script-1634310349.js?shop={{shop.permanent_domain}}" async></script>
-<script type="text/javascript" src="https://cdn.starapps.studio/apps/vsk/passarostore/script-1634312407.js?shop={{shop.permanent_domain}}" async></script>
-<script type="text/javascript" src="https://bcdn.starapps.studio/apps/vtk/passarostore/script-1634314982.js?shop={{shop.permanent_domain}}" async></script>
-<!-- starapps_scripts_end -->
-{{ content_for_header }}
+    {{ content_for_header }}
 
     {%- liquid
       assign body_font_bold = settings.type_body_font | font_modify: 'weight', 'bold'

@@ -436,9 +436,15 @@
       <div class="header-info-product-container">
         <ul class="tabs">
           <div class="indicador"></div>
-          <li class="tab col s3"><a href="#descripcion">Descripción</a></li>
-          <li class="tab col s3"><a href="#tallas">Guía de tallas</a></li>
-          <li class="tab col s3"><a href="#lavado">Lavado</a></li>
+          <li class="tab col s3">
+            <a id="tab-descripcion" tab-target="#descripcion">Descripción</a>
+          </li>
+          <li class="tab col s3">
+            <a id="tab-tallas" tab-target="#tallas">Guía de tallas</a>
+          </li>
+          <li class="tab col s3">
+            <a id="tab-lavado" tab-target="#lavado">Lavado</a>
+          </li>
         </ul>
       </div>
 
@@ -504,7 +510,7 @@
 
 
 
-
+<script src="{{ 'product-details.js' | asset_url }}" defer="defer"></script>
 
 
 

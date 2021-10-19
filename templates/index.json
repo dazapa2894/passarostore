@@ -123,6 +123,26 @@
         "color_scheme": "background-1",
         "layout": "image_first"
       }
+    },
+    "163467924732e2c9fd": {
+      "type": "apps",
+      "blocks": {
+        "fd554fc1-eaf8-477b-af9c-e3312b7c2151": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_font": "helvetica_n4",
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "fd554fc1-eaf8-477b-af9c-e3312b7c2151"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -132,6 +152,7 @@
     "new_collection",
     "call_to_action",
     "seasonal_offers",
-    "about_us"
+    "about_us",
+    "163467924732e2c9fd"
   ]
 }

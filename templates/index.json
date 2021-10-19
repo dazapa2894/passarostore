@@ -94,7 +94,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Las etiquetas se la dejamos a la ropa,<br>Pássaro esa versión de ti que te gusta.<\/p>",
+            "heading": "<p>Nosotros<\/p>",
             "heading_style": "h2"
           }
         },
@@ -107,8 +107,8 @@
         "button": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Conocenos",
+            "button_link": "shopify:\/\/blogs\/news\/nuestra-historia"
           }
         }
       },

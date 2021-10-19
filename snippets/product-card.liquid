@@ -232,7 +232,8 @@
     {% for option in product_card_product.variants %}
 
       {% assign actual_color = option.option1 %}
-      {% assign mini_img = option.metafields.my_fields.miniatura_color %}
+      {% comment %} {% assign mini_img = option.metafields.my_fields.miniatura_color %} {% endcomment %}
+      {% assign mini_img = option.featured_media.preview_image.src %}
       {% assign actual_img = option.featured_media.preview_image.src %}
 
       {% if mini_img != blank %}

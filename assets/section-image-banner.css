@@ -146,6 +146,7 @@
 .banner__content .button {
   height: auto;
   margin-right: 2rem;
+  line-height: inherit;
 }
 
 .banner__box > * + .banner__text {

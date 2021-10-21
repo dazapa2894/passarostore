@@ -350,7 +350,7 @@
       <div class="product-media-modal__content" role="document" aria-label="{{ 'products.modal.label' | t }}" tabindex="0">
           {%- if product.selected_or_first_available_variant.featured_media != null -%}
             <img
-              src="{{ product.selected_or_first_available_variant.featured_media | img_url: '750x' }}"
+              src="{{ product.selected_or_first_available_variant.featured_media | img_url: 'x500' }}"
               alt="{{ media.alt | escape }}"
               loading="lazy"
               height="80vh"

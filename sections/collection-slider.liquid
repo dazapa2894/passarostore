@@ -17,8 +17,7 @@
       {% assign collection_to_show = 3 %}
       {% for link in linklists.categorias.links %}
       {% assign collection = link.object %}
-        {% unless collection.handle == 'nueva-coleccion' or collection.handle == 'descuentos-de-temporada' or collection.handle == 'blancos' %}
-          {% if collection.all_products_count > 0 %}
+          {% if collection.all_products_count >= 0 %}
             <!-- collection info -->
             <a href="{{collection.url}}" class="swiper-slide" >
 
@@ -37,8 +36,7 @@
               {% endif %}
 
             </a>  
-          {% endif %}        
-        {% endunless %}
+          {% endif %}
 
       {% endfor %}   
     </div>

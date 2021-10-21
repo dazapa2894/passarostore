@@ -413,17 +413,11 @@
           <ul class="dropdown-list" id="side-menu-shop-dropdown-content" style="display:none;">
             {% for link in linklists.categorias.links %}
             {% assign collection = link.object %}
-              {% unless 
-                collection.handle == 'nueva-coleccion' or 
-                collection.handle == 'descuentos-de-temporada' or 
-                collection.handle == 'blancos' 
-              %}
-                {% if collection.all_products_count > 0 %}
+                {% if collection.all_products_count >= 0 %}
                   <li>
                     <a href="{{collection.url}}">{{collection.title}}</a>
                   </li>
                 {% endif %}
-              {% endunless %}
             {% endfor %}   
           </ul>
         </li>  

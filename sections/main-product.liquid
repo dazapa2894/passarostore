@@ -24,7 +24,7 @@
     <div class="grid__item product__media-list-wrapper">
         <ul class="product__media-list grid grid--peek list-unstyled slider slider--mobile" role="list">
           {%- for media in product.media -%}
-              <li class="product__media-item grid__item slider__slide{% if media.media_type != 'image' %} product__media-item--full{% endif %}" data-media-id="{{ section.id }}-{{ media.id }}">
+              <li class="grid__item slider__slide{% if media.media_type != 'image' %} product__media-item--full{% endif %}" data-media-id="{{ section.id }}-{{ media.id }}">
                 {% render 'product-thumbnail', media: media, position: forloop.index, loop: section.settings.enable_video_looping, modal_id: section.id %}
               </li>
           {%- endfor -%}

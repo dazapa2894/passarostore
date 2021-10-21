@@ -3,7 +3,6 @@ const swiper = new Swiper('.collection-swiper-container', {
   loop: true,
   slidesPerView: 1,
   spaceBetween: 8,
-  centeredSlides: true,
 
   navigation: {
     nextEl: ".swiper-button-next",
@@ -17,11 +16,11 @@ const swiper = new Swiper('.collection-swiper-container', {
   breakpoints: {
     600: {
       slidesPerView: 2,
-      centeredSlides: false,
+      centeredSlides: true,
     },
     992: {
       slidesPerView: 3,
-      centeredSlides: false,
+      centeredSlides: true,
     },
   },
 });

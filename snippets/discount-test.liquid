@@ -1,0 +1,29 @@
+<div id="discount-message"></div>
+
+<style> 
+.show-discount {
+  text-align: center;
+  background-color: #b7b8c4;
+}
+.show-discount span {
+  color: red;
+  font-weight: bold;
+}
+</style>
+
+<script type="text/javascript">
+  var codeCookieValue;
+  var getCookie = function(name) {
+    var value = "; " + document.cookie;
+    var parts = value.split('; '+name+'=');
+    if (parts.length == 2) return parts.pop().split(";").shift();
+  };
+  codeCookieValue = getCookie('discount_code');
+  if(!codeCookieValue){
+    console.log("No Discount Code");
+  }
+  if(codeCookieValue){
+    console.log("Discount Code - " + codeCookieValue);
+    document.getElementById("discount-message").innerHTML="<div class='show-discount'>Discount Code To Be Applied At Checkout: <span>" + codeCookieValue + "</span></div>";
+  }
+  </script>

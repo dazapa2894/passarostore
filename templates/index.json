@@ -8,10 +8,7 @@
           "settings": {
             "button_label_1": "DESCUBRIR",
             "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_label_2": ""
           }
         }
       },
@@ -19,15 +16,55 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/11.jpg",
-        "desktop_text_box_position": "flex-end",
-        "color_scheme": "no-background",
-        "stack_images_on_mobile": true,
-        "adapt_height_first_image": false
+        "desktop_text_box_position": "flex-end"
       }
     },
     "collection_slider": {
       "type": "collection-slider",
+      "settings": {
+      }
+    },
+    "new_collection": {
+      "type": "new-collection",
+      "settings": {
+        "title": "Ultimas colecciones"
+      }
+    },
+    "call_to_action": {
+      "type": "call-to-action-1",
+      "settings": {
+      }
+    },
+    "seasonal_offers": {
+      "type": "seasonal-offers",
+      "settings": {
+        "title": "Seasonal offers"
+      }
+    },
+    "about_us": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
       "settings": {
       }
     },
@@ -37,13 +74,11 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Suscríbete a nuestro newsletter"
           }
         },
         "paragraph": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "<p>Suscríbete y obten un 10% de descuento en tu primera compra<\/p>"
           }
         },
         "email_form": {
@@ -58,90 +93,6 @@
         "email_form"
       ],
       "settings": {
-        "color_scheme": "background-1",
-        "full_width": true
-      }
-    },
-    "new_collection": {
-      "type": "new-collection",
-      "settings": {
-        "title": "Ultimas colecciones",
-        "max_products": "6",
-        "final_button_label": "ver el catálogo",
-        "final_button_url": ""
-      }
-    },
-    "call_to_action": {
-      "type": "call-to-action-1",
-      "settings": {
-        "promo_theme": "trending",
-        "promo_title": "lunes multicolor",
-        "promo_text": "Vestibulum feugiat libero est, ut ultrices diam accumsan et. Cras eleifend nec nisl sed bibendum. Sed vel velit lacus. Nulla varius purus id tortor gravida varius. Sed iaculis interdum nisi, nec faucibus metus iaculis id.",
-        "button_label": "descubrir",
-        "button_url": ""
-      }
-    },
-    "seasonal_offers": {
-      "type": "seasonal-offers",
-      "settings": {
-        "title": "Seasonal offers",
-        "show_compare_price": false
-      }
-    },
-    "about_us": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Nosotros<\/p>",
-            "heading_style": "h2"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        },
-        "button": {
-          "type": "button",
-          "settings": {
-            "button_label": "Conocenos",
-            "button_link": "shopify:\/\/blogs\/news\/nuestra-historia"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
-      "settings": {
-        "full_width": true,
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first"
-      }
-    },
-    "163467924732e2c9fd": {
-      "type": "apps",
-      "blocks": {
-        "fd554fc1-eaf8-477b-af9c-e3312b7c2151": {
-          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
-          "settings": {
-            "heading_font": "helvetica_n4",
-            "heading_size": 20,
-            "feed_width": 100,
-            "html_area": ""
-          }
-        }
-      },
-      "block_order": [
-        "fd554fc1-eaf8-477b-af9c-e3312b7c2151"
-      ],
-      "settings": {
-        "include_margins": true
       }
     }
   },
@@ -152,7 +103,6 @@
     "new_collection",
     "call_to_action",
     "seasonal_offers",
-    "about_us",
-    "163467924732e2c9fd"
+    "about_us"
   ]
 }

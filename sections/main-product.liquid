@@ -19,8 +19,22 @@
 {%- endif -%}
 
 <section class="page-width container-new">
-  <div class="product grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
+  <div class="product grid grid--1-col {% if product.media.size > 0 %}grid--3-col-tablet{% else %}product--no-media{% endif %}">
+    
+    <div class="grid__item product__media-list-wrapper">
+        <ul class="product__media-list grid grid--peek list-unstyled slider slider--mobile" role="list">
+          {%- for media in product.media -%}
+            {%- unless media.id == product.selected_or_first_available_variant.featured_media.id -%}
+              <li class="product__media-item grid__item slider__slide{% if media.media_type != 'image' %} product__media-item--full{% endif %}" data-media-id="{{ section.id }}-{{ media.id }}">
+                {% render 'product-thumbnail', media: media, position: forloop.index, loop: section.settings.enable_video_looping, modal_id: section.id %}
+              </li>
+            {%- endunless -%}
+          {%- endfor -%}
+        </ul>
+    </div>
+
     <div class="grid__item product__media-wrapper">
+      
       <slider-component class="slider-mobile-gutter">
         <a class="skip-to-content-link button visually-hidden" href="#ProductInfo-{{ section.id }}">
           {{ "accessibility.skip_to_product_info" | t }}
@@ -32,13 +46,13 @@
               {% render 'product-thumbnail', media: media, position: 'featured', loop: section.settings.enable_video_looping, modal_id: section.id %}
             </li>
           {%- endif -%}
-          {%- for media in product.media -%}
+          {% comment %} {%- for media in product.media -%}
             {%- unless media.id == product.selected_or_first_available_variant.featured_media.id -%}
               <li class="product__media-item grid__item slider__slide{% if media.media_type != 'image' %} product__media-item--full{% endif %}" data-media-id="{{ section.id }}-{{ media.id }}">
                 {% render 'product-thumbnail', media: media, position: forloop.index, loop: section.settings.enable_video_looping, modal_id: section.id %}
               </li>
             {%- endunless -%}
-          {%- endfor -%}
+          {%- endfor -%} {% endcomment %}
         </ul>
         <div class="slider-buttons slider-buttons--overlay no-js-hidden{% if product.media.size < 2 %} small-hide{% endif %}">
           <div class="slider-counter caption">
@@ -51,6 +65,7 @@
           <button type="button" class="slider-button slider-button--next" name="next" aria-label="{{ 'accessibility.next_slide' | t }}">{% render 'icon-caret' %}</button>
         </div>
       </slider-component>
+
       {%- if first_3d_model -%}
         <button
           class="button button--full-width product__xr-button"
@@ -66,6 +81,7 @@
         </button>
       {%- endif -%}
     </div>
+
     <div class="product__info-wrapper grid__item">
       <div id="ProductInfo-{{ section.id }}" class="product__info-container{% if section.settings.enable_sticky_info %} product__info-container--sticky{% endif %}">
         {%- assign product_form_id = 'product-form-' | append: section.id -%}
@@ -311,6 +327,7 @@
         {%- endfor -%}
       </div>
     </div>
+    
   </div>
   {%- render 'cart-notification' -%}
 

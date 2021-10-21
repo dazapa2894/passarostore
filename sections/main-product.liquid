@@ -348,25 +348,21 @@
       <button id="ModalClose-{{ section.id }}" type="button" class="product-media-modal__toggle" aria-label="{{ 'accessibility.close' | t }}">{% render 'icon-close' %}</button>
 
       <div class="product-media-modal__content" role="document" aria-label="{{ 'products.modal.label' | t }}" tabindex="0">
-        {%- for media in product.media -%}
-          {%- if product.selected_or_first_available_variant.featured_media != null -%}
             <img
-              srcset="{%- if media.preview_image.width >= 550 -%}{{ media.preview_image | img_url: '550x' }} 550w,{%- endif -%}
-                      {%- if media.preview_image.width >= 1100 -%}{{ media.preview_image | img_url: '1100x' }} 1100w,{%- endif -%}
-                      {%- if media.preview_image.width >= 1680 -%}{{ media.preview_image | img_url: '1680x' }} 1680w,{%- endif -%}
-                      {%- if media.preview_image.width >= 1920 -%}{{ media.preview_image | img_url: '1920x' }} 1920w,{%- endif -%}
-                      {%- if media.preview_image.width >= 2048 -%}{{ media.preview_image | img_url: '2048x' }} 2048w,{%- endif -%}
-                      {%- if media.preview_image.width >= 4096 -%}{{ media.preview_image | img_url: '4096x' }} 4096w{%- endif -%}"
+              srcset="{%- if product.media.preview_image.width >= 550 -%}{{ product.media.preview_image | img_url: '550x' }} 550w,{%- endif -%}
+                      {%- if product.media.preview_image.width >= 1100 -%}{{ product.media.preview_image | img_url: '1100x' }} 1100w,{%- endif -%}
+                      {%- if product.media.preview_image.width >= 1680 -%}{{ product.media.preview_image | img_url: '1680x' }} 1680w,{%- endif -%}
+                      {%- if product.media.preview_image.width >= 1920 -%}{{ product.media.preview_image | img_url: '1920x' }} 1920w,{%- endif -%}
+                      {%- if product.media.preview_image.width >= 2048 -%}{{ product.media.preview_image | img_url: '2048x' }} 2048w,{%- endif -%}
+                      {%- if product.media.preview_image.width >= 4096 -%}{{ product.media.preview_image | img_url: '4096x' }} 4096w{%- endif -%}"
               sizes="(min-width: 750px) calc(100vw - 12rem), 100vw"
-              src="{{ media.preview_image | img_url: '750x' }}"
-              alt="{{ media.alt | escape }}"
+              src="{{ product.media.preview_image | img_url: '750x' }}"
+              alt="{{ product.media.alt | escape }}"
               loading="lazy"
               width="1100"
-              height="{{ 1100 | divided_by: media.preview_image.aspect_ratio | ceil }}"
-              data-media-id="{{ media.id }}"
+              height="{{ 1100 | divided_by: product.media.preview_image.aspect_ratio | ceil }}"
+              data-product.media-id="{{ product.media.id }}"
             >
-          {%- endif -%}
-        {%- endfor -%}
       </div>
     </div>
   </product-modal>

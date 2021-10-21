@@ -350,18 +350,10 @@
       <div class="product-media-modal__content" role="document" aria-label="{{ 'products.modal.label' | t }}" tabindex="0">
           {%- if product.selected_or_first_available_variant.featured_media != null -%}
             <img
-              srcset="{%- if product.selected_or_first_available_variant.featured_media.width >= 550 -%}{{ product.selected_or_first_available_variant.featured_media | img_url: '550x' }} 550w,{%- endif -%}
-                      {%- if product.selected_or_first_available_variant.featured_media.width >= 1100 -%}{{ product.selected_or_first_available_variant.featured_media | img_url: '1100x' }} 1100w,{%- endif -%}
-                      {%- if product.selected_or_first_available_variant.featured_media.width >= 1680 -%}{{ product.selected_or_first_available_variant.featured_media | img_url: '1680x' }} 1680w,{%- endif -%}
-                      {%- if product.selected_or_first_available_variant.featured_media.width >= 1920 -%}{{ product.selected_or_first_available_variant.featured_media | img_url: '1920x' }} 1920w,{%- endif -%}
-                      {%- if product.selected_or_first_available_variant.featured_media.width >= 2048 -%}{{ product.selected_or_first_available_variant.featured_media | img_url: '2048x' }} 2048w,{%- endif -%}
-                      {%- if product.selected_or_first_available_variant.featured_media.width >= 4096 -%}{{ product.selected_or_first_available_variant.featured_media | img_url: '4096x' }} 4096w{%- endif -%}"
-              sizes="(min-width: 750px) calc(100vw - 12rem), 100vw"
               src="{{ product.selected_or_first_available_variant.featured_media | img_url: '750x' }}"
               alt="{{ media.alt | escape }}"
               loading="lazy"
-              width="1100"
-              height="{{ 1100 | divided_by: product.selected_or_first_available_variant.featured_media.aspect_ratio | ceil }}"
+              height="80vh"
               data-media-id="{{ media.id }}"
             >
           {%- endif -%}

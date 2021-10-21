@@ -40,8 +40,8 @@
 
 @media screen and (min-width: 990px) {
   .product:not(.product--no-media) .product__media-list-wrapper {
-    max-width: 60%;
-    width: calc(60% - 1rem / 2);
+    max-width: 10%;
+    width: calc(10% - 1rem / 2);
   }
 
   .product:not(.product--no-media) .product__media-wrapper {

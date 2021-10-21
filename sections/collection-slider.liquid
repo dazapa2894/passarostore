@@ -15,7 +15,8 @@
       <!-- Slides -->
       {% assign mas_abajito = false %}
       {% assign collection_to_show = 3 %}
-      {% for collection in collections %}
+      {% for link in linklists.categorias.links %}
+      {% assign collection = link.object %}
         {% unless collection.handle == 'nueva-coleccion' or collection.handle == 'descuentos-de-temporada' or collection.handle == 'blancos' %}
           {% if collection.all_products_count > 0 %}
             <!-- collection info -->

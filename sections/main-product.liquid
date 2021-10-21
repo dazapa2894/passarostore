@@ -22,9 +22,9 @@
   <div class="product grid grid--1-col {% if product.media.size > 0 %}grid--3-col-tablet{% else %}product--no-media{% endif %}">
     
     <div class="grid__item product__media-list-wrapper">
-        <ul class="product__media-list grid list-unstyled" role="list">
+        <ul class="product__media-list list-unstyled" role="list">
           {%- for media in product.media -%}
-              <li class="grid__item">
+              <li class="">
                 {% render 'product-thumbnail', media: media, position: forloop.index, loop: section.settings.enable_video_looping, modal_id: section.id %}
               </li>
           {%- endfor -%}

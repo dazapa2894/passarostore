@@ -93,7 +93,7 @@ la collection
 
 {%- for product in main_collection.products -%}
   ---"{{ product_card_product.title }}:{{product_card_product.variants.0.sku}}" == "{{ product.title }}:{{ product.variants.0.sku}}"---
-  {% if product.variants[0].sku == product_card_product.variants[0].sku %}
+  {% if product.variants.first.sku == product_card_product.variants.first.sku %}
     <!-- product info -->
     <div class="product-wrapper card-wrapper" variant_color="{{product_card_product.variants.first.option1}}" variant_size="{{product_card_product.variants.first.option2}}">
       

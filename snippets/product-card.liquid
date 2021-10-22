@@ -79,7 +79,7 @@
 </script>
 
 <!-- product info -->
-<div class="product-wrapper card-wrapper" variant_color="{{product_card_product.variants.first.option1}}" variant_size="{{product_card_product.variants.first.option2}}">
+<div class="product-wrapper card-wrapper" variant_size="{{product_card_product.variants.first.option1}}">
   
   <div class="product-img-wrapper">
     <a href="{{product_card_product.url}}" class="img-wrapper">
@@ -109,18 +109,18 @@
     <div class="variant-pickers hide">
       <h5>Tallas</h5>
       <div class="product-sizes">
-        {% assign first_size = product_card_product.variants[0].option2%}
+        {% assign first_size = product_card_product.variants[0].option1%}
         {% assign first_size_counter = 0%}
         {% for option in product_card_product.variants %}
-          {% if first_size == option.option2 %}
+          {% if first_size == option.option1 %}
             {% assign first_size_counter = first_size_counter | plus: 1 %}
             {% if first_size_counter > 1 %}
               {% break %}
             {% endif %}
           {% endif %}
 
-          <div variant_size="{{option.option2}}" class="size-picker {% if forloop.first == true %}active{% endif %}">
-            {{option.option2}}
+          <div variant_size="{{option.option1}}" class="size-picker {% if forloop.first == true %}active{% endif %}">
+            {{option.option1}}
           </div>
         
         {% endfor %}
@@ -135,34 +135,7 @@
     </div><!-- end variant-pickers -->
     
   </div>
-  <!--
-  <div class="product-colors">
-    {% assign last_color = ''%}
     
-    {% for option in product_card_product.variants %}
-
-      {% assign actual_color = option.option1 %}
-      {% comment %} {% assign mini_img = option.metafields.my_fields.miniatura_color %} {% endcomment %}
-      {% assign mini_img = option.featured_media.preview_image.src %}
-      {% assign actual_img = option.featured_media.preview_image.src %}
-
-      {% if mini_img != blank %}
-      
-        {% if last_color != actual_color %} 
-          {% assign last_color = actual_color %}
-          <div class="variant-color-swatch {% if forloop.first == true %}active{% endif %}" variant_color="{{option.option1}}" variant_img_src="{{actual_img | img_url: '375x' }}">
-            <img class="variant-img"
-                  src="{{mini_img | img_url: '50x' , format: 'pjpg'}}"
-                  loading="lazy"
-                >
-          </div>
-        {% endif %}
-        
-      {% endif %}
-    {% endfor %}
-  </div>
-  -->
-  
   <div class="product-title">{{ product_card_product.title }}</div>
   <div class="product-price">{{ product_card_product.price | money_without_trailing_zeros }}</div>   
 

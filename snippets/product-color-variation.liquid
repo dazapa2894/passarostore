@@ -24,22 +24,22 @@
 {% endcomment %}
 
 
-{%- for temp_colection in product_card_product.collections -%}
 
+{%- for temp_colection in product_card_product.collections -%}
   {% unless temp_colection.handle contains "colores" or temp_colection.handle contains "descuentos" %}
     {% assign main_collection = temp_colection %}
     {% break %} // This will work
   {% endunless %}
 {% endfor%}
 
-{{ main_collection | json }}
+<h3> variaciones de color </h3>
 
+<div id="products-wrapper" class="row">
 {%- for product in main_collection.products -%}
-  ---"{{ product_card_product.title }}:{{product_card_product.variants.first.sku}}" == "{{ product.title }}:{{ product.variants.first.sku}}"---
   {% if product.variants.first.sku == product_card_product.variants.first.sku and product != product_card_product %}
-    {% render 'product-card', product_card_product: product, add_image_padding: true, show_vendor: false %}
+    <div class="col xs12 s12 m6 l4 xl3">
+      {% render 'product-card', product_card_product: product, add_image_padding: true, show_vendor: false %}
+    </div>
   {% endif %}
 {%- endfor -%}
-
-
------------------
+</div>

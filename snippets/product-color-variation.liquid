@@ -79,8 +79,8 @@
 </script>
 
 {%- for temp_colection in product_card_product.collections -%}
-{{temp_colection.hamdle}}
-  {% unless temp_colection.hamdle contains "colores" %}
+{{temp_colection.handle}}
+  {% unless temp_colection.handle contains "colores" %}
     {% assign main_collection = temp_colection %}
     {% break %} // This will work
   {% endunless %}

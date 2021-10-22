@@ -1,0 +1,176 @@
+{% comment %}
+    Renders a product card
+
+    Accepts:
+    - product_card_product: {Object} Product Liquid object (optional)
+    - media_size: {String} Size of the product image card. Values are "square" and "portrait". Default is "square" (optional)
+    - show_secondary_image: {Boolean} Show the secondary image on hover. Default: false (optional)
+    - add_image_padding: {Boolean} Enables padding on the image to space out the grid
+    - show_vendor: {Boolean} Show the product vendor. Default: false
+    - show_image_outline: {Boolean} Show card outline. Default: true (optional)
+
+    Usage:
+    {% render 'product-card', show_vendor: section.settings.show_vendor %}
+
+    {% render 'product-card', 
+    product_card_product: product, 
+    media_size: section.settings.image_ratio, 
+    show_secondary_image: section.settings.show_secondary_image, 
+    add_image_padding: section.settings.add_image_padding, 
+    show_vendor: section.settings.show_vendor, 
+    show_image_outline: section.settings.show_image_outline 
+    %}
+
+{% endcomment %}
+
+
+
+<script>
+
+  var producto_object = {
+    "product_card_product": {{ product_card_product | json }},
+
+    "product_card_product.available": {{ product_card_product.available | json }},
+    "product_card_product.collections": {{ product_card_product.collections | json }},
+    "product_card_product.compare_at_price": {{ product_card_product.compare_at_price | json }},
+    "product_card_product.compare_at_price_max": {{ product_card_product.compare_at_price_max | json }},
+    "product_card_product.compare_at_price_min": {{ product_card_product.compare_at_price_min | json }},
+    "product_card_product.compare_at_price_varies": {{ product_card_product.compare_at_price_varies | json }},
+    "product_card_product.content": {{ product_card_product.content | json }},
+    "product_card_product.created_at": {{ product_card_product.created_at | json }},
+    "product_card_product.description": {{ product_card_product.description | json }},
+    "product_card_product.featured_image": {{ product_card_product.featured_image | json }},
+    "product_card_product.featured_media": {{ product_card_product.featured_media | json }},
+    "product_card_product.first_available_variant": {{ product_card_product.first_available_variant | json }},
+    "product_card_product.gift_card?": {{ product_card_product.gift_card? | json }},
+    "product_card_product.handle": {{ product_card_product.handle | json }},
+    "product_card_product.has_only_default_variant": {{ product_card_product.has_only_default_variant | json }},
+    "product_card_product.id": {{ product_card_product.id | json }},
+    "product_card_product.images": {{ product_card_product.images | json }},
+    "product_card_product.media": {{ product_card_product.media | json }},
+    "product_card_product.options": {{ product_card_product.options | json }},
+    "product_card_product.options_by_name": {{ product_card_product.options_by_name | json }},
+    "product_card_product.options_with_values": {{ product_card_product.options_with_values | json }},
+    "product_card_product.price": {{ product_card_product.price | json }},
+    "product_card_product.price_max": {{ product_card_product.price_max | json }},
+    "product_card_product.price_min": {{ product_card_product.price_min | json }},
+    "product_card_product.price_varies": {{ product_card_product.price_varies | json }},
+    "product_card_product.published_at": {{ product_card_product.published_at | json }},
+    "product_card_product.requires_selling_plan": {{ product_card_product.requires_selling_plan | json }},
+    "product_card_product.selected_variant": {{ product_card_product.selected_variant | json }},
+    "product_card_product.selected_or_first_available_variant": {{ product_card_product.selected_or_first_available_variant | json }},
+    "product_card_product.selected_or_first_available_selling_plan_allocation": {{ product_card_product.selected_or_first_available_selling_plan_allocation | json }},
+    "product_card_product.selected_selling_plan": {{ product_card_product.selected_selling_plan | json }},
+    "product_card_product.selected_selling_plan_allocation": {{ product_card_product.selected_selling_plan_allocation | json }},
+    "product_card_product.selling_plan_groups": {{ product_card_product.selling_plan_groups | json }},
+    "product_card_product.tags": {{ product_card_product.tags | json }},
+    "product_card_product.template_suffix": {{ product_card_product.template_suffix | json }},
+    "product_card_product.title": {{ product_card_product.title | json }},
+    "product_card_product.type": {{ product_card_product.type | json }},
+    "product_card_product.url": {{ product_card_product.url | json }},
+    "product_card_product.variants": {{ product_card_product.variants | json }},
+    "product_card_product.vendor": {{ product_card_product.vendor | json }},
+
+  };
+  
+  console.log(producto_object);
+    
+    
+</script>
+
+{%- for product in products -%}
+  ---"{{ product.title }} == {{ product_card_product.title }}""---
+  {% if product.title == product_card_product.title %}
+    <!-- product info -->
+    <div class="product-wrapper card-wrapper" variant_color="{{product_card_product.variants.first.option1}}" variant_size="{{product_card_product.variants.first.option2}}">
+      
+      <div class="product-img-wrapper">
+        <a href="{{product_card_product.url}}" class="img-wrapper">
+          {% if product_card_product.featured_image != blank %}
+            <img class="product-img"
+              src="{{product_card_product.featured_image | img_url: '375x' }}"
+              loading="lazy"
+              alt="{{product_card_product.featured_image.alt | escape }}"
+            >
+          {% else %}
+            {{ 'product-1' | placeholder_svg_tag}}
+          {% endif %}
+          
+          <!--
+          <div class="card__badge">
+            {%- if product_card_product.available == false -%}
+              <span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}" aria-hidden="true">{{ 'products.product_card_product.sold_out' | t }}</span>
+            {%- elsif product_card_product.compare_at_price > product_card_product.price and product_card_product.available -%}
+              <span class="badge badge--top-left color-green pecentual-discount" aria-hidden="true">-{{ product_card_product.compare_at_price_max | minus: product_card_product.price | times: 100 | divided_by: product_card_product.compare_at_price_max }}%</span>
+            {%- endif -%}
+          </div>
+          -->
+        </a>
+        
+        <div class="show-variant">+</div>
+        
+        <div class="variant-pickers hide">
+          <h5>Tallas</h5>
+          <div class="product-sizes">
+            {% assign first_size = product_card_product.variants[0].option2%}
+            {% assign first_size_counter = 0%}
+            {% for option in product_card_product.variants %}
+              {% if first_size == option.option2 %}
+                {% assign first_size_counter = first_size_counter | plus: 1 %}
+                {% if first_size_counter > 1 %}
+                  {% break %}
+                {% endif %}
+              {% endif %}
+
+              <div variant_size="{{option.option2}}" class="size-picker {% if forloop.first == true %}active{% endif %}">
+                {{option.option2}}
+              </div>
+            
+            {% endfor %}
+          </div>        
+          <select id="{{product_card_product.id}}-variant-selector" class="hidden" data-productid="{{product_card_product.id}}">
+            {% for option in product_card_product.variants %}
+              <option value="{{option.id}}" handle="{{product_card_product.handle}}" variant="{{-option.title-}}"> {{option.title}}</option>
+            {% endfor %}
+          </select>
+          <div class="agregar-al-carrito blue-btn">AGREGAR AL CARRITO</div>
+
+        </div><!-- end variant-pickers -->
+        
+      </div>
+      <!--
+      <div class="product-colors">
+        {% assign last_color = ''%}
+        
+        {% for option in product_card_product.variants %}
+
+          {% assign actual_color = option.option1 %}
+          {% comment %} {% assign mini_img = option.metafields.my_fields.miniatura_color %} {% endcomment %}
+          {% assign mini_img = option.featured_media.preview_image.src %}
+          {% assign actual_img = option.featured_media.preview_image.src %}
+
+          {% if mini_img != blank %}
+          
+            {% if last_color != actual_color %} 
+              {% assign last_color = actual_color %}
+              <div class="variant-color-swatch {% if forloop.first == true %}active{% endif %}" variant_color="{{option.option1}}" variant_img_src="{{actual_img | img_url: '375x' }}">
+                <img class="variant-img"
+                      src="{{mini_img | img_url: '50x' , format: 'pjpg'}}"
+                      loading="lazy"
+                    >
+              </div>
+            {% endif %}
+            
+          {% endif %}
+        {% endfor %}
+      </div>
+      -->
+      
+      <div class="product-title">{{ product_card_product.title }}</div>
+      <div class="product-price">{{ product_card_product.price | money_without_trailing_zeros }}</div>   
+
+    </div><!-- END card-wrapper -->
+  {% endif %}
+{%- endfor -%}
+
+

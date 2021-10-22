@@ -53,11 +53,10 @@ agregar_al_carrito.forEach(agregar_al_carrito_element => {
     
     let data_container_element = agregar_al_carrito_element.parentElement.parentElement.parentElement;
     let variant_size = data_container_element.getAttribute("variant_size");
-    let variant_color = data_container_element.getAttribute("variant_color");
     
     let the_select_element = agregar_al_carrito_element.parentElement.querySelector("select");
     
-    let variant_id =  SetSelect(the_select_element, variant_color, variant_size);
+    let variant_id =  SetSelect(the_select_element, variant_size);
     
     
     console.log("variant_id = " + variant_id);
@@ -175,12 +174,12 @@ function navConfirm(message, loc) {
   return false; // cancel the click event always
 }
 
-function SetSelect(selectElement, color, talla) {
+function SetSelect(selectElement, talla) {
   // console.log("$(selectElement)");
   // console.log($(selectElement));
-  let option = $(selectElement).find("[variant='" + color + " / " + talla + "']");
+  let option = $(selectElement).find("[variant='" + talla + "']");
   let new_value = $(option).attr("value");
-  // console.log("[variant='" + color + " / " + talla + "']");
+  // console.log("[variant='" + talla + "']");
   // console.log(option);
   // console.log(new_value);
   selectElement.value = new_value;

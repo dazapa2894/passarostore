@@ -1,5 +1,5 @@
 {% comment %}
-    Renders a product COLOR VARIATION
+    Renders a product COLOR VARIATION using the product-card
 
     Accepts:
     - product_card_product: {Object} Product Liquid object (optional)
@@ -24,59 +24,6 @@
 {% endcomment %}
 
 
-
-<script>
-
-  var producto_object = {
-    "product_card_product": {{ product_card_product | json }},
-
-    "product_card_product.available": {{ product_card_product.available | json }},
-    "product_card_product.collections": {{ product_card_product.collections | json }},
-    "product_card_product.compare_at_price": {{ product_card_product.compare_at_price | json }},
-    "product_card_product.compare_at_price_max": {{ product_card_product.compare_at_price_max | json }},
-    "product_card_product.compare_at_price_min": {{ product_card_product.compare_at_price_min | json }},
-    "product_card_product.compare_at_price_varies": {{ product_card_product.compare_at_price_varies | json }},
-    "product_card_product.content": {{ product_card_product.content | json }},
-    "product_card_product.created_at": {{ product_card_product.created_at | json }},
-    "product_card_product.description": {{ product_card_product.description | json }},
-    "product_card_product.featured_image": {{ product_card_product.featured_image | json }},
-    "product_card_product.featured_media": {{ product_card_product.featured_media | json }},
-    "product_card_product.first_available_variant": {{ product_card_product.first_available_variant | json }},
-    "product_card_product.gift_card?": {{ product_card_product.gift_card? | json }},
-    "product_card_product.handle": {{ product_card_product.handle | json }},
-    "product_card_product.has_only_default_variant": {{ product_card_product.has_only_default_variant | json }},
-    "product_card_product.id": {{ product_card_product.id | json }},
-    "product_card_product.images": {{ product_card_product.images | json }},
-    "product_card_product.media": {{ product_card_product.media | json }},
-    "product_card_product.options": {{ product_card_product.options | json }},
-    "product_card_product.options_by_name": {{ product_card_product.options_by_name | json }},
-    "product_card_product.options_with_values": {{ product_card_product.options_with_values | json }},
-    "product_card_product.price": {{ product_card_product.price | json }},
-    "product_card_product.price_max": {{ product_card_product.price_max | json }},
-    "product_card_product.price_min": {{ product_card_product.price_min | json }},
-    "product_card_product.price_varies": {{ product_card_product.price_varies | json }},
-    "product_card_product.published_at": {{ product_card_product.published_at | json }},
-    "product_card_product.requires_selling_plan": {{ product_card_product.requires_selling_plan | json }},
-    "product_card_product.selected_variant": {{ product_card_product.selected_variant | json }},
-    "product_card_product.selected_or_first_available_variant": {{ product_card_product.selected_or_first_available_variant | json }},
-    "product_card_product.selected_or_first_available_selling_plan_allocation": {{ product_card_product.selected_or_first_available_selling_plan_allocation | json }},
-    "product_card_product.selected_selling_plan": {{ product_card_product.selected_selling_plan | json }},
-    "product_card_product.selected_selling_plan_allocation": {{ product_card_product.selected_selling_plan_allocation | json }},
-    "product_card_product.selling_plan_groups": {{ product_card_product.selling_plan_groups | json }},
-    "product_card_product.tags": {{ product_card_product.tags | json }},
-    "product_card_product.template_suffix": {{ product_card_product.template_suffix | json }},
-    "product_card_product.title": {{ product_card_product.title | json }},
-    "product_card_product.type": {{ product_card_product.type | json }},
-    "product_card_product.url": {{ product_card_product.url | json }},
-    "product_card_product.variants": {{ product_card_product.variants | json }},
-    "product_card_product.vendor": {{ product_card_product.vendor | json }},
-
-  };
-  
-  console.log(producto_object);
-        
-</script>
-
 {%- for temp_colection in product_card_product.collections -%}
 
   {% unless temp_colection.handle contains "colores" or temp_colection.handle contains "descuentos" %}
@@ -90,95 +37,7 @@
 {%- for product in main_collection.products -%}
   ---"{{ product_card_product.title }}:{{product_card_product.variants.first.sku}}" == "{{ product.title }}:{{ product.variants.first.sku}}"---
   {% if product.variants.first.sku == product_card_product.variants.first.sku and product != product_card_product %}
-    <!-- product info -->
-    <div class="product-wrapper card-wrapper" variant_color="{{product.variants.first.option1}}" variant_size="{{product.variants.first.option2}}">
-      
-      <div class="product-img-wrapper">
-        <a href="{{product.url}}" class="img-wrapper">
-          {% if product.featured_image != blank %}
-            <img class="product-img"
-              src="{{product.featured_image | img_url: '375x' }}"
-              loading="lazy"
-              alt="{{product.featured_image.alt | escape }}"
-            >
-          {% else %}
-            {{ 'product-1' | placeholder_svg_tag}}
-          {% endif %}
-          
-          <!--
-          <div class="card__badge">
-            {%- if product.available == false -%}
-              <span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}" aria-hidden="true">{{ 'products.product.sold_out' | t }}</span>
-            {%- elsif product.compare_at_price > product.price and product.available -%}
-              <span class="badge badge--top-left color-green pecentual-discount" aria-hidden="true">-{{ product.compare_at_price_max | minus: product.price | times: 100 | divided_by: product.compare_at_price_max }}%</span>
-            {%- endif -%}
-          </div>
-          -->
-        </a>
-        
-        <div class="show-variant">+</div>
-        
-        <div class="variant-pickers hide">
-          <h5>Tallas</h5>
-          <div class="product-sizes">
-            {% assign first_size = product.variants[0].option2%}
-            {% assign first_size_counter = 0%}
-            {% for option in product.variants %}
-              {% if first_size == option.option2 %}
-                {% assign first_size_counter = first_size_counter | plus: 1 %}
-                {% if first_size_counter > 1 %}
-                  {% break %}
-                {% endif %}
-              {% endif %}
-
-              <div variant_size="{{option.option2}}" class="size-picker {% if forloop.first == true %}active{% endif %}">
-                {{option.option2}}
-              </div>
-            
-            {% endfor %}
-          </div>        
-          <select id="{{product.id}}-variant-selector" class="hidden" data-productid="{{product.id}}">
-            {% for option in product.variants %}
-              <option value="{{option.id}}" handle="{{product.handle}}" variant="{{-option.title-}}"> {{option.title}}</option>
-            {% endfor %}
-          </select>
-          <div class="agregar-al-carrito blue-btn">AGREGAR AL CARRITO</div>
-
-        </div><!-- end variant-pickers -->
-        
-      </div>
-      <!--
-      <div class="product-colors">
-        {% assign last_color = ''%}
-        
-        {% for option in product.variants %}
-
-          {% assign actual_color = option.option1 %}
-          {% comment %} {% assign mini_img = option.metafields.my_fields.miniatura_color %} {% endcomment %}
-          {% assign mini_img = option.featured_media.preview_image.src %}
-          {% assign actual_img = option.featured_media.preview_image.src %}
-
-          {% if mini_img != blank %}
-          
-            {% if last_color != actual_color %} 
-              {% assign last_color = actual_color %}
-              <div class="variant-color-swatch {% if forloop.first == true %}active{% endif %}" variant_color="{{option.option1}}" variant_img_src="{{actual_img | img_url: '375x' }}">
-                <img class="variant-img"
-                      src="{{mini_img | img_url: '50x' , format: 'pjpg'}}"
-                      loading="lazy"
-                    >
-              </div>
-            {% endif %}
-            
-          {% endif %}
-        {% endfor %}
-      </div>
-      -->
-      
-      <div class="product-title">{{ product.title }}</div>
-      <div class="product-price">{{ product.price | money_without_trailing_zeros }}</div>   
-
-    </div><!-- END card-wrapper -->
+    {% render 'product-card', product_card_product: product, add_image_padding: true, show_vendor: false %}
   {% endif %}
 {%- endfor -%}
 

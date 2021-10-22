@@ -78,13 +78,17 @@
     
 </script>
 
+el for
+
 {%- for temp_colection in product_card_product.collections -%}
+{{temp_colection.hamdle}}
   {% unless temp_colection.hamdle contains "color" %}
     {% assign main_collection = temp_colection %}
     {% break %} // This will work
   {% endunless %}
 {% endfor%}
 
+la collection
 {{ main_collection | json }}
 
 {%- for product in main_collection.products -%}

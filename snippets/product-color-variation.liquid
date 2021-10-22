@@ -77,10 +77,10 @@
     
     
 </script>
-
+los handle
 {%- for temp_colection in product_card_product.collections -%}
 {{temp_colection.handle}}
-  {% unless temp_colection.handle contains "colores" %}
+  {% unless temp_colection.handle contains "colores" or temp_colection.handle contains "descuentos" %}
     {% assign main_collection = temp_colection %}
     {% break %} // This will work
   {% endunless %}

@@ -78,7 +78,16 @@
     
 </script>
 
-{%- for product in products -%}
+{%- for temp_colection in product_card_product.collections -%}
+  {% unless temp_colection.hamdle contains "color" %}
+    {% assign main_collection = temp_colection %}
+    {% break %} // This will work
+  {% endunless %}
+{% endfor%}
+
+{{ main_collection | json }}
+
+{%- for product in main_collection.products -%}
   ---"{{ product.title }} == {{ product_card_product.title }}""---
   {% if product.title == product_card_product.title %}
     <!-- product info -->
@@ -174,3 +183,4 @@
 {%- endfor -%}
 
 
+-----------------

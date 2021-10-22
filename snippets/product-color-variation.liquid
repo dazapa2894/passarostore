@@ -74,34 +74,32 @@
   };
   
   console.log(producto_object);
-    
-    
+        
 </script>
-los handle
+
 {%- for temp_colection in product_card_product.collections -%}
-{{temp_colection.handle}}
+
   {% unless temp_colection.handle contains "colores" or temp_colection.handle contains "descuentos" %}
     {% assign main_collection = temp_colection %}
     {% break %} // This will work
   {% endunless %}
 {% endfor%}
 
-la collection
 {{ main_collection | json }}
 
 {%- for product in main_collection.products -%}
   ---"{{ product_card_product.title }}:{{product_card_product.variants.first.sku}}" == "{{ product.title }}:{{ product.variants.first.sku}}"---
   {% if product.variants.first.sku == product_card_product.variants.first.sku %}
     <!-- product info -->
-    <div class="product-wrapper card-wrapper" variant_color="{{product_card_product.variants.first.option1}}" variant_size="{{product_card_product.variants.first.option2}}">
+    <div class="product-wrapper card-wrapper" variant_color="{{product.variants.first.option1}}" variant_size="{{product.variants.first.option2}}">
       
       <div class="product-img-wrapper">
-        <a href="{{product_card_product.url}}" class="img-wrapper">
-          {% if product_card_product.featured_image != blank %}
+        <a href="{{product.url}}" class="img-wrapper">
+          {% if product.featured_image != blank %}
             <img class="product-img"
-              src="{{product_card_product.featured_image | img_url: '375x' }}"
+              src="{{product.featured_image | img_url: '375x' }}"
               loading="lazy"
-              alt="{{product_card_product.featured_image.alt | escape }}"
+              alt="{{product.featured_image.alt | escape }}"
             >
           {% else %}
             {{ 'product-1' | placeholder_svg_tag}}
@@ -109,10 +107,10 @@ la collection
           
           <!--
           <div class="card__badge">
-            {%- if product_card_product.available == false -%}
-              <span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}" aria-hidden="true">{{ 'products.product_card_product.sold_out' | t }}</span>
-            {%- elsif product_card_product.compare_at_price > product_card_product.price and product_card_product.available -%}
-              <span class="badge badge--top-left color-green pecentual-discount" aria-hidden="true">-{{ product_card_product.compare_at_price_max | minus: product_card_product.price | times: 100 | divided_by: product_card_product.compare_at_price_max }}%</span>
+            {%- if product.available == false -%}
+              <span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}" aria-hidden="true">{{ 'products.product.sold_out' | t }}</span>
+            {%- elsif product.compare_at_price > product.price and product.available -%}
+              <span class="badge badge--top-left color-green pecentual-discount" aria-hidden="true">-{{ product.compare_at_price_max | minus: product.price | times: 100 | divided_by: product.compare_at_price_max }}%</span>
             {%- endif -%}
           </div>
           -->
@@ -123,9 +121,9 @@ la collection
         <div class="variant-pickers hide">
           <h5>Tallas</h5>
           <div class="product-sizes">
-            {% assign first_size = product_card_product.variants[0].option2%}
+            {% assign first_size = product.variants[0].option2%}
             {% assign first_size_counter = 0%}
-            {% for option in product_card_product.variants %}
+            {% for option in product.variants %}
               {% if first_size == option.option2 %}
                 {% assign first_size_counter = first_size_counter | plus: 1 %}
                 {% if first_size_counter > 1 %}
@@ -139,9 +137,9 @@ la collection
             
             {% endfor %}
           </div>        
-          <select id="{{product_card_product.id}}-variant-selector" class="hidden" data-productid="{{product_card_product.id}}">
-            {% for option in product_card_product.variants %}
-              <option value="{{option.id}}" handle="{{product_card_product.handle}}" variant="{{-option.title-}}"> {{option.title}}</option>
+          <select id="{{product.id}}-variant-selector" class="hidden" data-productid="{{product.id}}">
+            {% for option in product.variants %}
+              <option value="{{option.id}}" handle="{{product.handle}}" variant="{{-option.title-}}"> {{option.title}}</option>
             {% endfor %}
           </select>
           <div class="agregar-al-carrito blue-btn">AGREGAR AL CARRITO</div>
@@ -153,7 +151,7 @@ la collection
       <div class="product-colors">
         {% assign last_color = ''%}
         
-        {% for option in product_card_product.variants %}
+        {% for option in product.variants %}
 
           {% assign actual_color = option.option1 %}
           {% comment %} {% assign mini_img = option.metafields.my_fields.miniatura_color %} {% endcomment %}
@@ -177,8 +175,8 @@ la collection
       </div>
       -->
       
-      <div class="product-title">{{ product_card_product.title }}</div>
-      <div class="product-price">{{ product_card_product.price | money_without_trailing_zeros }}</div>   
+      <div class="product-title">{{ product.title }}</div>
+      <div class="product-price">{{ product.price | money_without_trailing_zeros }}</div>   
 
     </div><!-- END card-wrapper -->
   {% endif %}

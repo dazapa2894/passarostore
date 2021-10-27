@@ -10,6 +10,7 @@ $(".tab-trigger").click(function () {
   
 });
 
+console.log($(".product__media-list .main_product_thumbnail_item_holder img.main_product_thumbnail_item"));
 $(".product__media-list .main_product_thumbnail_item_holder img.main_product_thumbnail_item").click( function() {
   console.log("thumb clicked");
   console.log($(this));

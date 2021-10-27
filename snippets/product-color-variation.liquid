@@ -33,15 +33,18 @@
 {% endfor%}
 
 {% comment %} AQUI DEBO HACER QUE SOLO MUESTRE LA SECCIÓN SI ENCUENTRA VARIACIONES DE COLOR {% endcomment %}
+<section id="variaciones_color_wrapper">
+  <h3> variaciones de color </h3>
 
-<h3> variaciones de color </h3>
+  <div id="products-wrapper" class="row">
+  {%- for product in main_collection.products -%}
+    {% if product.variants.first.sku == product_card_product.variants.first.sku and product != product_card_product %}
+      <div class="col xs12 s12 m6 l4 xl3">
+        {% render 'product-card', product_card_product: product, add_image_padding: true, show_vendor: false %}
+      </div>
+    {% endif %}
+  {%- endfor -%}
+  </div>
+</section>
 
-<div id="products-wrapper" class="row">
-{%- for product in main_collection.products -%}
-  {% if product.variants.first.sku == product_card_product.variants.first.sku and product != product_card_product %}
-    <div class="col xs12 s12 m6 l4 xl3">
-      {% render 'product-card', product_card_product: product, add_image_padding: true, show_vendor: false %}
-    </div>
-  {% endif %}
-{%- endfor -%}
-</div>
+<script src="{{ 'product-color-variation.js' | asset_url }}" defer="defer"></script>

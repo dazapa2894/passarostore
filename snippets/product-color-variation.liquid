@@ -34,16 +34,18 @@
 
 {% comment %} AQUI DEBO HACER QUE SOLO MUESTRE LA SECCIÓN SI ENCUENTRA VARIACIONES DE COLOR {% endcomment %}
 <section id="variaciones_color_wrapper">
-  <h3 class="product-recommendations__heading"> variaciones de color </h3>
+  <div class="container">
+    <h3 class="product-recommendations__heading"> variaciones de color </h3>
 
-  <div id="products-wrapper" class="row">
-  {%- for product in main_collection.products -%}
-    {% if product.variants.first.sku == product_card_product.variants.first.sku and product != product_card_product %}
-      <div class="col xs12 s12 m6 l4 xl3">
-        {% render 'product-card', product_card_product: product, add_image_padding: true, show_vendor: false %}
-      </div>
-    {% endif %}
-  {%- endfor -%}
+    <div id="products-wrapper" class="row">
+    {%- for product in main_collection.products -%}
+      {% if product.variants.first.sku == product_card_product.variants.first.sku and product != product_card_product %}
+        <div class="col xs12 s12 m6 l4 xl3">
+          {% render 'product-card', product_card_product: product, add_image_padding: true, show_vendor: false %}
+        </div>
+      {% endif %}
+    {%- endfor -%}
+    </div>
   </div>
 </section>
 

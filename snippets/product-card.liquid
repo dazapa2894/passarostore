@@ -124,7 +124,7 @@
           </div>
         
         {% endfor %}
-      </div>        
+      </div>
       <select id="{{product_card_product.id}}-variant-selector" class="hidden" data-productid="{{product_card_product.id}}">
         {% for option in product_card_product.variants %}
           <option value="{{option.id}}" handle="{{product_card_product.handle}}" variant="{{-option.title-}}"> {{option.title}}</option>

@@ -1,4 +1,4 @@
-const swiper = new Swiper('.collection-swiper-container', {
+var collection_swiper = new Swiper('.collection-swiper-container', {
   // Optional parameters
   loop: true,
   slidesPerView: 1,

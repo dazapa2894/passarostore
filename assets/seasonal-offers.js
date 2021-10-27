@@ -1,4 +1,4 @@
-const swiper = new Swiper('.seasonal-swiper-container', {
+var seasonal_swiper = new Swiper('.seasonal-swiper-container', {
   // Optional parameters
   loop: true,
   // when window width is < 499px

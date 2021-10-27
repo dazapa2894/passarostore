@@ -27,7 +27,7 @@
           {%- for media in product.media -%}
               <li class="">
                 <div class="product__media media main_product_thumbnail_item_holder1" style="padding-top: {{ 1 | divided_by: media.preview_image.aspect_ratio | times: 100 }}%;">
-                  <img
+                  <img class="main_product_thumbnail_item3"
                     srcset="{% if media.preview_image.width >= 288 %}{{ media.preview_image | img_url: '288x' }} 288w,{% endif %}
                       {% if media.preview_image.width >= 576 %}{{ media.preview_image | img_url: '576x' }} 576w,{% endif %}
                       {% if media.preview_image.width >= 750 %}{{ media.preview_image | img_url: '750x' }} 750w,{% endif %}

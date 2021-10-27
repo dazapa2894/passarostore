@@ -9,3 +9,10 @@ $(".tab-trigger").click(function () {
 
   
 });
+
+$(".product__media-list .main_product_thumbnail_item_holder img.main_product_thumbnail_item").click( function() {
+  img_src = $(this).attr("src");
+  $("#producto_main_img img").removeAttr("srcset");
+  $("#producto_main_img img").attr("src", img_src);
+
+});

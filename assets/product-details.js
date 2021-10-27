@@ -18,6 +18,7 @@ $(".product__media-list .main_product_thumbnail_item_holder img.main_product_thu
 
   $main_img = $("#producto_main_img img");
   $main_img.attr("src", img_src);
+  $(".product-media-modal__content img").attr("src", img_src);
 
   if ($main_img[0].hasAttribute("srcset")) {
     console.log("tiene srcset");

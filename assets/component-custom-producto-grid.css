@@ -109,5 +109,9 @@
   grid-row-start: 3;
 }
 .collection-grid-section .collection-filters .mobile-facets__wrapper .mobile-facets__disclosure .mobile-facets__open-wrapper {
-  color: black;
+  color: black!important;
+  transition: all 0.3s ease-in-out;
+}
+.collection-grid-section .collection-filters .mobile-facets__wrapper .mobile-facets__disclosure .mobile-facets__open-wrapper:hover {
+  color: rgba(0, 0, 0, 0.6);
 }

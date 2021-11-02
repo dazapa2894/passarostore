@@ -4,7 +4,7 @@ $(".tab-trigger").click(function () {
   console.log($(this));
   console.log($(this).attr("tab-target"));
   console.log(id);
-  console.log($(this).parent().parent().find(">li"));
+  console.log($(this).parent().parent().find(" > li"));
   $(".tab-content").removeClass("active-tab");
   $(id).addClass("active-tab");
 

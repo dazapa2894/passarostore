@@ -82,7 +82,7 @@
 }
 #description-detail-product .header-info-product-container .tabs li {
   list-style: none;
-  padding: 0 20px;
+  padding: 0;
 }
 #description-detail-product .header-info-product-container .tabs li .tab-trigger {
   cursor: pointer;
@@ -92,6 +92,7 @@
   color: black;
   margin-bottom: 10px;
   display: block;
+  padding: 0 20px;
   transition: all 0.3s ease-in-out;
 }
 #description-detail-product .header-info-product-container .tabs li a:hover {

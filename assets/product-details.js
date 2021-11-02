@@ -3,7 +3,8 @@ $(".tab-trigger").click(function () {
   var id = $(this).attr("tab-target");
   console.log($(this));
   console.log($(this).attr("tab-target"));
-  console.log(id)
+  console.log(id);
+  console.log($(this).parent().parent());
   $(".tab-content").removeClass("active-tab");
   $(id).addClass("active-tab");
 

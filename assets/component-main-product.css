@@ -36,10 +36,10 @@
 }
 .product .product__info-wrapper #product-form-installment .swatches #swatch-option1 .swatch-single .swatch-navigable .swatch-view .swatch-view-item .swatch-image div {
   box-shadow: none !important;
-  height: 50px!important;
-  width: 50px!important;
-  min-height: 50px!important;
-  min-width: 50px!important;
+  height: 50px !important;
+  width: 50px !important;
+  min-height: 50px !important;
+  min-width: 50px !important;
 }
 .product .product__info-wrapper #product-form-installment .swatches #swatch-option1 .swatch-single .swatch-navigable .swatch-view .swatch-view-item .swatch-selected {
   background-color: rgb(var(--color-dark-blue));
@@ -93,13 +93,8 @@
   margin-bottom: 10px;
   display: block;
 }
-#description-detail-product .header-info-product-container .tabs .indicador {
-  position: absolute;
-  width: 100px;
-  bottom: 0;
-  height: 2px;
-  background-color: black;
-  will-change: left, right;
+#description-detail-product .header-info-product-container .tabs .active-li-tab a {
+  color: red;
 }
 #description-detail-product .info-product-container {
   padding: 20px;
@@ -115,7 +110,4 @@
 }
 #description-detail-product .info-product-container .tab-content .tallas-US {
   margin-top: 20px;
-}
-#description-detail-product .info-product-container .active-li-tab {
-  color: red;
 }

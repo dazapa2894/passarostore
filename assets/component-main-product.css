@@ -138,3 +138,6 @@
 #description-detail-product .info-product-container #lavado ul li p {
   margin-left: 10px;
 }
+cart-notification .cart-notification-wrapper #cart-notification {
+  background-color: red;
+}

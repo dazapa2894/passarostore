@@ -121,12 +121,15 @@
 }
 #description-detail-product .info-product-container #lavado ul {
   padding: 0;
+  display: flex;
+  flex-wrap: wrap;
 }
 #description-detail-product .info-product-container #lavado ul li {
   list-style: none;
   display: flex;
   align-items: center;
-  margin-bottom: 15px;
+  margin: 15px;
+  width: 250px;
 }
 #description-detail-product .info-product-container #lavado ul li img {
   width: 80px;

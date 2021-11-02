@@ -18,7 +18,7 @@
   padding: 80px 20px;
 }
 #call-to-action-1 .promo-wrapper .promo-text-wrapper .promo-theme {
-  color: red;
+  color: rgba(255, 255, 255, 0.6);
   text-transform: uppercase;
   font-size: 14px;
   font-family: montserrat;

@@ -99,7 +99,9 @@
 .side-nav-menu ul li:not(#side-menu-logo-wrapper) a {
   text-decoration: none;
   padding: 10px 20px;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   color: rgb(var(--color-dark-blue));
   transition: all 0.3s ease-in-out;
   height: 40px;

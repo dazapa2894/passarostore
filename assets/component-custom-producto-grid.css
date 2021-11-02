@@ -108,6 +108,9 @@
   grid-column-start: 3;
   grid-row-start: 3;
 }
+.collection-grid-section .collection-filters .mobile-facets__wrapper .mobile-facets__disclosure .mobile-facets__open-wrapper svg {
+  filter: grayscale(1);
+}
 .collection-grid-section .collection-filters .mobile-facets__wrapper .mobile-facets__disclosure .mobile-facets__open-wrapper span {
   color: black!important;
   transition: all 0.3s ea;

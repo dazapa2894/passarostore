@@ -178,3 +178,10 @@ cart-notification .cart-notification-wrapper #cart-notification .cart-notificati
   background-color: rgb(var(--color-dark-blue));
   color: rgb(var(--color-white));
 }
+cart-notification .cart-notification-wrapper #cart-notification .cart-notification__links .button-label {
+  color: #000;
+  text-decoration: underline;
+}
+cart-notification .cart-notification-wrapper #cart-notification .cart-notification__links .button-label:hover {
+  color: rgba(0, 0, 0, 0.6);
+}

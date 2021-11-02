@@ -216,3 +216,23 @@
   background-color: rgb(var(--color-white)) !important;
   color: rgb(var(--color-dark-blue)) !important;
 }
+.shopify-policy__container {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 90%;
+}
+@media only screen and (min-width: 601px) {
+  .shopify-policy__container {
+    width: 85%;
+  }
+}
+@media only screen and (min-width: 993px) {
+  .shopify-policy__container {
+    width: 90%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .shopify-policy__container {
+    width: 70%;
+  }
+}

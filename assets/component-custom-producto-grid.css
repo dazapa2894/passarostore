@@ -108,10 +108,10 @@
   grid-column-start: 3;
   grid-row-start: 3;
 }
-.collection-grid-section .collection-filters .mobile-facets__wrapper .mobile-facets__disclosure .mobile-facets__open-wrapper {
+.collection-grid-section .collection-filters .mobile-facets__wrapper .mobile-facets__disclosure .mobile-facets__open-wrapper span {
   color: black!important;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s ea;
 }
-.collection-grid-section .collection-filters .mobile-facets__wrapper .mobile-facets__disclosure .mobile-facets__open-wrapper:hover {
+.collection-grid-section .collection-filters .mobile-facets__wrapper .mobile-facets__disclosure .mobile-facets__open-wrapper span:hover {
   color: rgba(0, 0, 0, 0.6);
 }

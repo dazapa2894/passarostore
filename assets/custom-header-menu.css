@@ -127,6 +127,7 @@
 }
 .side-nav-menu ul li:not(#side-menu-logo-wrapper) a:hover span {
   text-decoration: none;
+  color: white;
 }
 .side-nav-menu ul li:not(#side-menu-logo-wrapper) .dropdown-list li {
   background-color: rgb(var(--color-dark-blue));

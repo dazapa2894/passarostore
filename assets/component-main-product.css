@@ -94,7 +94,7 @@
   display: block;
 }
 #description-detail-product .header-info-product-container .tabs .active-li-tab a {
-  color: red;
+  color: red!important;
 }
 #description-detail-product .info-product-container {
   padding: 20px;

@@ -93,8 +93,14 @@
   margin-bottom: 10px;
   display: block;
 }
+#description-detail-product .header-info-product-container .tabs li a:hover {
+  color: rgba(var(--color-foreground), 0.55);
+}
+#description-detail-product .header-info-product-container .tabs .active-li-tab {
+  border-bottom: 2px solid;
+}
 #description-detail-product .header-info-product-container .tabs .active-li-tab a {
-  color: red!important;
+  font-weight: 600;
 }
 #description-detail-product .info-product-container {
   padding: 20px;

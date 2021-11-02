@@ -103,12 +103,13 @@
   color: rgb(var(--color-dark-blue));
   transition: all 0.3s ease-in-out;
   height: 40px;
+  cursor: pointer;
 }
 .side-nav-menu ul li:not(#side-menu-logo-wrapper) a .dropdown-indicator {
   float: right;
   transition: all 0.2s ease-in-out;
   font-size: 18px;
-  margin-top: 5px;
+  margin-top: 2px;
 }
 .side-nav-menu ul li:not(#side-menu-logo-wrapper) a .dropdown-indicator.opened {
   transform: rotate(180deg);

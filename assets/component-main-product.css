@@ -119,3 +119,19 @@
 #description-detail-product .info-product-container .tab-content .tallas-US {
   margin-top: 20px;
 }
+#description-detail-product .info-product-container #lavado ul {
+  padding: 0;
+}
+#description-detail-product .info-product-container #lavado ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+#description-detail-product .info-product-container #lavado ul li img {
+  width: 80px;
+  height: auto;
+}
+#description-detail-product .info-product-container #lavado ul li p {
+  margin-left: 10px;
+}

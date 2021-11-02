@@ -172,6 +172,7 @@ cart-notification .cart-notification-wrapper #cart-notification .cart-notificati
   text-transform: uppercase;
   display: flex;
   width: 100%;
+  box-shadow: none;
 }
 cart-notification .cart-notification-wrapper #cart-notification .cart-notification__links form button:hover {
   background-color: rgb(var(--color-dark-blue));

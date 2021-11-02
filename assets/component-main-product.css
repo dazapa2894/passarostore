@@ -116,3 +116,6 @@
 #description-detail-product .info-product-container .tab-content .tallas-US {
   margin-top: 20px;
 }
+#description-detail-product .info-product-container .active-li-tab {
+  color: red;
+}

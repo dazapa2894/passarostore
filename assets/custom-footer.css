@@ -3,6 +3,7 @@ footer {
 }
 footer .footer-logo {
   text-align: center;
+  display: block;
 }
 footer .footer-logo img {
   width: 100%;

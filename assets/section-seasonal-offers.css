@@ -177,6 +177,7 @@
   background-color: rgb(var(--color-dark-blue));
 }
 #sesional-offers .seasonal-swiper-container .swiper-wrapper .product-wrapper .variant-pickers .agregar-al-carrito {
+  width: fit-content !important;
   padding: 5px 5px;
   text-align: center;
   font-size: 15px;

@@ -102,6 +102,7 @@
   display: block;
   color: rgb(var(--color-dark-blue));
   transition: all 0.3s ease-in-out;
+  height: 40px;
 }
 .side-nav-menu ul li:not(#side-menu-logo-wrapper) a .dropdown-indicator {
   float: right;

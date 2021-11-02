@@ -185,8 +185,10 @@
         <a href="{{ block.settings.page.url }}"
           class="product-popup-modal__button link no-js">{{ block.settings.link_label }}</a>
         {%- when 'share' -%}
+
         <div class="sharethis-inline-share-buttons"></div>
-        <share-button class="share-button" {{ block.shopify_attributes }}>
+
+        <!--<share-button class="share-button" {{ block.shopify_attributes }}>
           <button class="share-button__button button button--tertiary hidden">
             {% render 'icon-share' %}
             {{ 'general.share.share' | t }}
@@ -213,7 +215,9 @@
             </div>
           </details>
         </share-button>
-        <script src="{{ 'share.js' | asset_url }}" defer="defer"></script>
+
+        <script src="{{ 'share.js' | asset_url }}" defer="defer"></script>-->
+        
         {%- when 'variant_picker' -%}
         {%- unless product.has_only_default_variant -%}
         {%- if block.settings.picker_type == 'button' -%}

@@ -92,6 +92,7 @@
   color: black;
   margin-bottom: 10px;
   display: block;
+  transition: all 0.3s ease-in-out;
 }
 #description-detail-product .header-info-product-container .tabs li a:hover {
   color: rgba(var(--color-foreground), 0.55);

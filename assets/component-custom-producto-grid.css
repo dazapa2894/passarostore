@@ -112,9 +112,16 @@
   filter: grayscale(1);
 }
 .collection-grid-section .collection-filters .mobile-facets__wrapper .mobile-facets__disclosure .mobile-facets__open-wrapper span {
-  color: black!important;
+  color: black !important;
   transition: all 0.3s ea;
 }
 .collection-grid-section .collection-filters .mobile-facets__wrapper .mobile-facets__disclosure .mobile-facets__open-wrapper span:hover {
+  color: rgba(0, 0, 0, 0.6);
+}
+#CollectionFiltersFormMobile .mobile-facets__inner .mobile-facets__main .mobile-facets__footer .mobile-facets__clear-wrapper a {
+  color: black !important;
+  transition: all 0.3s ea;
+}
+#CollectionFiltersFormMobile .mobile-facets__inner .mobile-facets__main .mobile-facets__footer .mobile-facets__clear-wrapper a:hover {
   color: rgba(0, 0, 0, 0.6);
 }

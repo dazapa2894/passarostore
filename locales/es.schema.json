@@ -413,14 +413,17 @@
         }
       }
     },
-    "call-to-action": {
-      "name": "Llamada a la acción",
+    "lunes-multicolor": {
+      "name": "Lunes multicolor",
       "settings": {
+        "show_section": {
+          "label": "Mostrar sección"
+        },
         "banner_img": {
           "label": "Imagen del banner"
         },
         "promo_theme": {
-          "label": "nombre de la tematica"
+          "label": "Nombre de la tematica"
         },
         "promo_title": {
           "label": "Título de la promoción"

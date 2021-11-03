@@ -409,9 +409,12 @@
         }
       }
     },
-    "call-to-action": {
+    "lunes-multicolor": {
       "name": "Call to action",
       "settings": {
+        "show_section": {
+          "label": "Show section"
+        },
         "banner_img": {
           "label": "Banner Image"
         },

@@ -29,19 +29,20 @@ class ProductRecommendations extends HTMLElement {
       rootMargin: '0px 0px 200px 0px'
     }).observe(this);
     
-    console.log($(".show-variant"));
-    $(".show-variant").click(function () {
-      console.log("+ clicked");
-      console.log($(this));
-      $(this).next().toggleClass('hide');
-      if ($(this).html() == "+") {
-        $(this).html("-");
-      } else if ($(this).html() == "-") {
-        $(this).html("+");
-      }
-    });
-
   }
 }
 
 customElements.define('product-recommendations', ProductRecommendations);
+
+console.log(".show-variant 2");
+console.log($(".show-variant"));
+$(".show-variant").click(function () {
+  console.log("+ clicked");
+  console.log($(this));
+  $(this).next().toggleClass('hide');
+  if ($(this).html() == "+") {
+    $(this).html("-");
+  } else if ($(this).html() == "-") {
+    $(this).html("+");
+  }
+});

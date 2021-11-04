@@ -547,10 +547,10 @@
     }
 
     showActiveMedia() {
-      this.querySelectorAll(`[data-media-id]:not([data-media-id="${this.openedBy.getAttribute("data-media-id")}"])`).forEach((element)=> {
-      element.classList.remove('active');
-      }
-      )
+      this.querySelectorAll(`[data-media-id]:not([data-media-id="${this.openedBy.getAttribute("data-media-id")}"])`).forEach( function(element){
+        element.classList.remove('active');
+      });
+      
       const activeMedia = this.querySelector(`[data-media-id="${this.openedBy.getAttribute("data-media-id")}"]`);
       activeMedia.classList.add('active');
       activeMedia.scrollIntoView();

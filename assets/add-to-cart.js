@@ -36,12 +36,12 @@ size_picker.forEach(size_picker_element => {
 
   $(".show-variant").click(function () {
     console.log("+ clicked");
-    console.log(this);
-    this.next().classToggle('hide');
-    if (this.html() == "+") {
-      this.html("-");
-    } else if (this.html() == "-") {
-      this.html("+");
+    console.log($(this));
+    $(this).next().classToggle('hide');
+    if ($(this).html() == "+") {
+      $(this).html("-");
+    } else if ($(this).html() == "-") {
+      $(this).html("+");
     }
   });
 

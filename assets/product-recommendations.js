@@ -8,7 +8,7 @@ class ProductRecommendations extends HTMLElement {
       if (!entries[0].isIntersecting) return;
       observer.unobserve(this);
 
-      //console.log(this);
+      console.log(this);
 
       fetch(this.dataset.url)
         .then(response => response.text())
@@ -16,6 +16,7 @@ class ProductRecommendations extends HTMLElement {
           const html = document.createElement('div');
           html.innerHTML = text;
           const recommendations = html.querySelector('product-recommendations');
+          console.log(recommendations);
           if (recommendations && recommendations.innerHTML.trim().length) {
             this.innerHTML = recommendations.innerHTML;
           }

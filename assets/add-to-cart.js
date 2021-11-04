@@ -1,5 +1,3 @@
-const size_picker = document.querySelectorAll(".size-picker");
-const agregar_al_carrito = document.querySelectorAll(".agregar-al-carrito");
 
 $(".variant-color-swatch").click( function() {
   let variant_color = $(this).attr("variant_color");
@@ -19,16 +17,16 @@ $(".variant-color-swatch").click( function() {
   $(this).parent().parent().attr("variant_color", variant_color);
 });
 
-size_picker.forEach(size_picker_element => {
-  // console.log(size_picker_element);
-  $(".size-picker").click( function () {
-    let variant_size = $(this).attr("variant_size");
-    // console.log("variant_size = " + variant_size);
-    $(".size-picker").removeClass('active');
-    $(this).addClass('active');
-    $(this).parent().parent().parent().parent().attr("variant_size", variant_size);
-  });
+
+// console.log($(".size-picker"));
+$(".size-picker").click( function () {
+  let variant_size = $(this).attr("variant_size");
+  // console.log("variant_size = " + variant_size);
+  $(".size-picker").removeClass('active');
+  $(this).addClass('active');
+  $(this).parent().parent().parent().parent().attr("variant_size", variant_size);
 });
+
 
 console.log($(".show-variant"));
 $(".show-variant").click(function () {

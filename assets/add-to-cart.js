@@ -21,10 +21,11 @@ $(".variant-color-swatch").click( function() {
 // console.log($(".size-picker"));
 $(".size-picker").click( function () {
   let variant_size = $(this).attr("variant_size");
-  // console.log("variant_size = " + variant_size);
-  $(".size-picker").removeClass('active');
-  $(this).addClass('active');
   $(this).parent().parent().parent().parent().attr("variant_size", variant_size);
+  // console.log("variant_size = " + variant_size);
+  
+  $(this).parent().find(".size-picker").removeClass('active');
+  $(this).addClass('active');
 });
 
 

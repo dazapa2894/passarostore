@@ -5,7 +5,7 @@
 
   <div class="promo-wrapper" 
     {% if section.settings.banner_img != blank %} 
-      style="background-color: #f00; background-image: url({{section.settings.banner_img | img_url}});"
+      style="background-color: #f00; background-image: url({{section.settings.banner_img | img_url: '1920x'}});"
     {% endif%}>
     <div class="promo-img-wrapper">
       

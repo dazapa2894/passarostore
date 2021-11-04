@@ -74,6 +74,7 @@ $(".agregar-al-carrito").off('click').on('click', function () {
       body: JSON.stringify(formData)
     })
     .then(res => {
+      console.log("res");
       return res.json();
     })
     .catch((error) => {
@@ -89,6 +90,7 @@ $(".agregar-al-carrito").off('click').on('click', function () {
             method: 'GET'
           })
           .then(res2 => {
+            console.log("res2");
             json = res2.json();
             return json;
           }).then(response2 => {

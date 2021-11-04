@@ -72,6 +72,8 @@ class ProductRecommendations extends HTMLElement {
               body: JSON.stringify(formData)
             })
             .then(res => {
+              console.log("res");
+              console.log(res);
               return res.json();
             })
             .catch((error) => {
@@ -87,6 +89,8 @@ class ProductRecommendations extends HTMLElement {
                     method: 'GET'
                   })
                   .then(res2 => {
+                    console.log("res2");
+                    console.log(res2);
                     json = res2.json();
                     return json;
                   }).then(response2 => {

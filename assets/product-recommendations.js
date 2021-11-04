@@ -20,6 +20,20 @@ class ProductRecommendations extends HTMLElement {
           if (recommendations && recommendations.innerHTML.trim().length) {
             this.innerHTML = recommendations.innerHTML;
           }
+
+          console.log(".show-variant 2");
+          console.log($(".show-variant"));
+          $(".show-variant").click(function () {
+            console.log("+ clicked");
+            console.log($(this));
+            $(this).next().toggleClass('hide');
+            if ($(this).html() == "+") {
+              $(this).html("-");
+            } else if ($(this).html() == "-") {
+              $(this).html("+");
+            }
+          });
+
         })
         .catch(e => {
           console.error(e);
@@ -35,21 +49,3 @@ class ProductRecommendations extends HTMLElement {
 
 customElements.define('product-recommendations', ProductRecommendations);
 
-$("product-recommendations").ready(function(){
-  console.log($("product-recommendations"));
-  console.log(".show-variant 3");
-  console.log($(".show-variant"));
-});
-
-console.log(".show-variant 2");
-console.log($(".show-variant"));
-$(".show-variant").click(function () {
-  console.log("+ clicked");
-  console.log($(this));
-  $(this).next().toggleClass('hide');
-  if ($(this).html() == "+") {
-    $(this).html("-");
-  } else if ($(this).html() == "-") {
-    $(this).html("+");
-  }
-});

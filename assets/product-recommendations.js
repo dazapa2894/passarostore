@@ -1,29 +1,32 @@
-var loadProductRecommendationsIntoSection = function () {
-  var productRecommendationsSection = document.querySelector(".product-recommendations");
-  if (productRecommendationsSection === null) {
-    return;
-  }
-  var productId = productRecommendationsSection.dataset.productId;
-  var limit = productRecommendationsSection.dataset.limit;
-  var requestUrl = "/recommendations/products?section_id=product-recommendations&limit=" + limit + "&product_id=" + productId;
-  var request = new XMLHttpRequest();
-  request.open("GET", requestUrl);
-  request.onload = function () {
-    if (request.status >= 200 && request.status < 300) {
-      var container = document.createElement("div");
-      container.innerHTML = request.response;
-      productRecommendationsSection.parentElement.innerHTML = container.querySelector(".product-recommendations").innerHTML;
+console.log("product-recommendations.js");
+
+class ProductRecommendations extends HTMLElement {
+  constructor() {
+    super();
+
+    const handleIntersection = (entries, observer) => {
+      if (!entries[0].isIntersecting) return;
+      observer.unobserve(this);
+
+      fetch(this.dataset.url)
+        .then(response => response.text())
+        .then(text => {
+          const html = document.createElement('div');
+          html.innerHTML = text;
+          const recommendations = html.querySelector('product-recommendations');
+          if (recommendations && recommendations.innerHTML.trim().length) {
+            this.innerHTML = recommendations.innerHTML;
+          }
+        })
+        .catch(e => {
+          console.error(e);
+        });
     }
-  };
-  request.send();
-};
 
-
-document.addEventListener("shopify:section:load", function (event) {
-  console.log("section loaded asddasd");
-  if (event.detail.sectionId === "product-recommendations") {
-    loadProductRecommendationsIntoSection();
+    new IntersectionObserver(handleIntersection.bind(this), {
+      rootMargin: '0px 0px 200px 0px'
+    }).observe(this);
   }
-});
+}
 
-loadProductRecommendationsIntoSection();
+customElements.define('product-recommendations', ProductRecommendations);

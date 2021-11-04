@@ -74,7 +74,8 @@
   };
   
   console.log(producto_object);
-    
+  
+
     
 </script>
 
@@ -140,3 +141,16 @@
   <div class="product-price">{{ product_card_product.price | money_without_trailing_zeros }}</div>   
 
 </div><!-- END card-wrapper -->
+
+<script>
+$(".show-variant").click(function () {
+  console.log("+ clicked");
+  console.log($(this));
+  $(this).next().toggleClass('hide');
+  if ($(this).html() == "+") {
+    $(this).html("-");
+  } else if ($(this).html() == "-") {
+    $(this).html("+");
+  }
+});
+</script>

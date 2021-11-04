@@ -30,7 +30,7 @@ size_picker.forEach(size_picker_element => {
   });
 });
 
-
+console.log($(".show-variant"));
 $(".show-variant").click(function () {
   console.log("+ clicked");
   console.log($(this));

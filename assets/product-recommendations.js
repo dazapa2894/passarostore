@@ -21,8 +21,8 @@ class ProductRecommendations extends HTMLElement {
             this.innerHTML = recommendations.innerHTML;
           }
 
-          
-          $(".show-variant").click(function () {
+          // agrego el evento para mostrar el cuadro de tallas
+          $(".show-variant").off('click').on('click', function () {
             console.log("+ clicked");
             console.log($(this));
             $(this).next().toggleClass('hide');
@@ -33,18 +33,27 @@ class ProductRecommendations extends HTMLElement {
             }
           });
 
+          // agrego el evento de cambiar la talla de la compra
+          $(".size-picker").off('click').on('click', function () {
+            let variant_size = $(this).attr("variant_size");
+            $(this).parent().parent().parent().parent().attr("variant_size", variant_size);
+            // console.log("variant_size = " + variant_size);
 
-          $(".agregar-al-carrito").click(function () {
+            console.log($(this).parent());
+            console.log($(this).parent().find(".size-picker"));
+            $(this).parent().find(".size-picker").removeClass('active');
+            $(this).addClass('active');
+          });
 
+
+          //agrego el evento de agregar al carrito
+          $(".agregar-al-carrito").off('click').on('click', function () {
             // console.log("agregar al carrito");
-
             let $data_container_element = $(this).parent().parent().parent();
-            let variant_size = $data_container_element.attr("variant_size");
-
             let $the_select_element = $(this).parent().find("select");
-
+            
+            let variant_size = $data_container_element.attr("variant_size");
             let variant_id = SetSelect($the_select_element, variant_size);
-
 
             console.log("variant_id = " + variant_id);
 

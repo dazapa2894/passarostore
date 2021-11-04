@@ -1,25 +1,25 @@
 
-$(".variant-color-swatch").click( function() {
-  let variant_color = $(this).attr("variant_color");
-  let variant_img_src = $(this).attr("variant_img_src");
+// $(".variant-color-swatch").click( function() {
+//   let variant_color = $(this).attr("variant_color");
+//   let variant_img_src = $(this).attr("variant_img_src");
   
-  // console.info("swatch clicked");
-  // console.info($(this));
-  // console.log("variant_color = " + variant_color);
-  // console.log("variant_img_src = " + variant_img_src);
+//   // console.info("swatch clicked");
+//   // console.info($(this));
+//   // console.log("variant_color = " + variant_color);
+//   // console.log("variant_img_src = " + variant_img_src);
   
-  $(this).each(function() {
-    $(this).removeClass('active');
-  });
+//   $(this).each(function() {
+//     $(this).removeClass('active');
+//   });
   
-  $(this).addClass('active');
-  $(this).parent().prev().find(".product-img").attr("src", variant_img_src);
-  $(this).parent().parent().attr("variant_color", variant_color);
-});
+//   $(this).addClass('active');
+//   $(this).parent().prev().find(".product-img").attr("src", variant_img_src);
+//   $(this).parent().parent().attr("variant_color", variant_color);
+// });
 
-
+// agrego el evento para mostrar el cuadro de tallas
 // console.log($(".size-picker"));
-$(".size-picker").click( function () {
+$(".size-picker").off('click').on('click', function() {
   let variant_size = $(this).attr("variant_size");
   $(this).parent().parent().parent().parent().attr("variant_size", variant_size);
   // console.log("variant_size = " + variant_size);
@@ -30,9 +30,9 @@ $(".size-picker").click( function () {
   $(this).addClass('active');
 });
 
-
+// agrego el evento de cambiar la talla de la compra
 console.log($(".show-variant"));
-$(".show-variant").click(function () {
+$(".show-variant").off('click').on('click', function () {
   console.log("+ clicked");
   console.log($(this));
   $(this).next().toggleClass('hide');
@@ -43,7 +43,9 @@ $(".show-variant").click(function () {
   }
 });
 
-$(".agregar-al-carrito").click(function() {
+
+//agrego el evento de agregar al carrito
+$(".agregar-al-carrito").off('click').on('click', function () {
 
   // console.log("agregar al carrito");
   

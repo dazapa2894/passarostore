@@ -35,6 +35,7 @@ class ProductRecommendations extends HTMLElement {
 customElements.define('product-recommendations', ProductRecommendations);
 
 $("product-recommendations").ready(function(){
+  console.log($("product-recommendations"));
   console.log(".show-variant 3");
   console.log($(".show-variant"));
 });

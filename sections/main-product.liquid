@@ -119,7 +119,7 @@
           {{ product.title | escape }}
         </h1>
         <pre>
-          {{products.product | json}}
+          {{product | json}}
         </pre>
         {%- when 'price' -%}
         <div class="no-js-hidden" id="price-{{ section.id }}" {{ block.shopify_attributes }}>

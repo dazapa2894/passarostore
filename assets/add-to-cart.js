@@ -24,6 +24,8 @@ $(".size-picker").click( function () {
   $(this).parent().parent().parent().parent().attr("variant_size", variant_size);
   // console.log("variant_size = " + variant_size);
   
+  console.log($(this).parent());
+  console.log($(this).parent().find(".size-picker"));
   $(this).parent().find(".size-picker").removeClass('active');
   $(this).addClass('active');
 });

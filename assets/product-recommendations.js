@@ -1,4 +1,4 @@
-console.log("product-recommendations.js");
+//console.log("product-recommendations.js");
 
 class ProductRecommendations extends HTMLElement {
   constructor() {
@@ -8,7 +8,7 @@ class ProductRecommendations extends HTMLElement {
       if (!entries[0].isIntersecting) return;
       observer.unobserve(this);
 
-      console.log(this);
+      //console.log(this);
 
       fetch(this.dataset.url)
         .then(response => response.text())

@@ -1,5 +1,16 @@
 {
   "sections": {
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "Productos recomendados",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -70,21 +81,10 @@
         "enable_sticky_info": true,
         "enable_video_looping": false
       }
-    },
-    "product-recommendations": {
-      "type": "product-recommendations",
-      "settings": {
-        "heading": "Productos recomendados",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": false
-      }
     }
   },
   "order": [
-    "main",
-    "product-recommendations"
+    "product-recommendations",
+    "main"
   ]
 }

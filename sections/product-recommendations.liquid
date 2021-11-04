@@ -1,55 +1,18 @@
-ble blas asbd
-{% assign heading = 'You may also like' %}
-
-{% assign limit = 4 %}
-
-<div  class="page-width product-recommendations" 
-      data-base-url="{{ routes.product_recommendations_url }}" 
-      data-product-id="{{ product.id }}" 
-      data-limit="{{ limit }}" 
-      data-section-id="{{ section.id }}" 
-      data-section-type="product-recommendations">
-
-  {% if recommendations.performed %}
-
-    {% if recommendations.products_count > 0 %}
-
-      <div class="section-header text-center">
-
-        <h2>{{ heading }}</h2>
-
-      </div>
-
-      <ul class="grid grid–uniform grid–view-items">
-
-        {% for product in recommendations.products %}
-
-          <li class="grid__item small–one-half medium-up–one-quarter">
-
-            {% include 'product-card-grid', max_height: 250 %}
-
-          </li>
-
-        {% endfor %}
-
-      </ul>
-
-    {% endif %}
-
-  {% else %}
-
-  loading
-
-    <div class="product-recommendations__loading-dots">
-
-      <div class="product-recommendations__loading-dot"></div>
-
-      <div class="product-recommendations__loading-dot"></div>
-
-      <div class="product-recommendations__loading-dot"></div>
-
-    </div>
-
-  {% endif %}
-
+<div class="product-recommendations" data-product-id="{{ product.id }}" data-limit="4">
+  {%- if recommendations.products_count > 0 -%}
+    <h1>You may also like</h1>
+    <ul>
+      {%- for product in recommendations.products -%}
+      <li class="product">
+        <a href="{{ product.url }}">
+          <img class="product__img" src="{{ product.featured_image | img_url: '300x300' }}" alt="{{ product.featured_image.alt }}" />
+          <p class="product__title">{{ product.title }}</p>
+          <p class="product__price">{{ product.price | money}}</p>
+        </a>
+      </li>
+      {%- endfor -%}
+    </ul>
+  {%- endif -%}
 </div>
+
+<script src="{{ 'product-recommendations.js' | asset_url }}" defer="defer"></script>

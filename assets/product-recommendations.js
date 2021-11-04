@@ -17,9 +17,13 @@ var loadProductRecommendationsIntoSection = function () {
   };
   request.send();
 };
+
+
 document.addEventListener("shopify:section:load", function (event) {
+  console.log("section loaded asddasd");
   if (event.detail.sectionId === "product-recommendations") {
     loadProductRecommendationsIntoSection();
   }
 });
+
 loadProductRecommendationsIntoSection();

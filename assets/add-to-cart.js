@@ -1,24 +1,23 @@
 const size_picker = document.querySelectorAll(".size-picker");
-const show_variant = document.querySelectorAll(".show-variant");
+const $show_variant = $(".show-variant");
 const agregar_al_carrito = document.querySelectorAll(".agregar-al-carrito");
 
-console.log($(".variant-color-swatch"));
 $(".variant-color-swatch").click( function() {
-    let variant_color = $(this).attr("variant_color");
-    let variant_img_src = $(this).attr("variant_img_src");
-   
-    // console.info("swatch clicked");
-    // console.info($(this));
-    // console.log("variant_color = " + variant_color);
-    // console.log("variant_img_src = " + variant_img_src);
-    
-    $(this).each(function() {
-      $(this).removeClass('active');
-    });
-
-    $(this).addClass('active');
-    $(this).parent().prev().find(".product-img").attr("src", variant_img_src);
-    $(this).parent().parent().attr("variant_color", variant_color);
+  let variant_color = $(this).attr("variant_color");
+  let variant_img_src = $(this).attr("variant_img_src");
+  
+  // console.info("swatch clicked");
+  // console.info($(this));
+  // console.log("variant_color = " + variant_color);
+  // console.log("variant_img_src = " + variant_img_src);
+  
+  $(this).each(function() {
+    $(this).removeClass('active');
+  });
+  
+  $(this).addClass('active');
+  $(this).parent().prev().find(".product-img").attr("src", variant_img_src);
+  $(this).parent().parent().attr("variant_color", variant_color);
 });
 
 size_picker.forEach(size_picker_element => {
@@ -32,22 +31,20 @@ size_picker.forEach(size_picker_element => {
   });
 });
 
-show_variant.forEach(show_variant_element => {
-  
-  console.log(show_variant_element);
 
-  show_variant_element.addEventListener("click", function () {
+  console.log($show_variant);
+
+  $(".show-variant").click(function () {
     console.log("+ clicked");
-    console.log(show_variant_element);
-    show_variant_element.nextElementSibling.classList.toggle('hide');
-    if (show_variant_element.innerHTML == "+") {
-      show_variant_element.innerHTML = "-";
-    } else if (show_variant_element.innerHTML == "-") {
-      show_variant_element.innerHTML = "+";
+    console.log(this);
+    this.next().classToggle('hide');
+    if (this.html() == "+") {
+      this.html("-");
+    } else if (this.html() == "-") {
+      this.html("+");
     }
-    
   });
-});
+
 
 agregar_al_carrito.forEach(agregar_al_carrito_element => {
   // console.log(agregar_al_carrito_element);

@@ -1,5 +1,4 @@
 const size_picker = document.querySelectorAll(".size-picker");
-const $show_variant = $(".show-variant");
 const agregar_al_carrito = document.querySelectorAll(".agregar-al-carrito");
 
 $(".variant-color-swatch").click( function() {
@@ -32,19 +31,16 @@ size_picker.forEach(size_picker_element => {
 });
 
 
-  console.log($show_variant);
-
-  $(".show-variant").click(function () {
-    console.log("+ clicked");
-    console.log($(this));
-    $(this).next().toggleClass('hide');
-    if ($(this).html() == "+") {
-      $(this).html("-");
-    } else if ($(this).html() == "-") {
-      $(this).html("+");
-    }
-  });
-
+$(".show-variant").click(function () {
+  console.log("+ clicked");
+  console.log($(this));
+  $(this).next().toggleClass('hide');
+  if ($(this).html() == "+") {
+    $(this).html("-");
+  } else if ($(this).html() == "-") {
+    $(this).html("+");
+  }
+});
 
 agregar_al_carrito.forEach(agregar_al_carrito_element => {
   // console.log(agregar_al_carrito_element);

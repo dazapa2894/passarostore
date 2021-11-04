@@ -28,6 +28,18 @@ class ProductRecommendations extends HTMLElement {
     new IntersectionObserver(handleIntersection.bind(this), {
       rootMargin: '0px 0px 200px 0px'
     }).observe(this);
+    
+    $(".show-variant").click(function () {
+      console.log("+ clicked");
+      console.log($(this));
+      $(this).next().toggleClass('hide');
+      if ($(this).html() == "+") {
+        $(this).html("-");
+      } else if ($(this).html() == "-") {
+        $(this).html("+");
+      }
+    });
+
   }
 }
 

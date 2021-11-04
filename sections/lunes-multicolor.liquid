@@ -1,5 +1,6 @@
 {{ 'section-lunes-multicolor.css' | asset_url | stylesheet_tag }}
 
+{%- if section.settings.show_section -%}
 <section id="lunes-multicolor" class="promo-banner-section">
 
   <div class="promo-wrapper" {% unless section.settings.banner_img == blank %} style="background-color: #f00; background-image: url({{section.settings.banner_img | img_url: 'x388'}});"{% endunless%}>
@@ -16,6 +17,7 @@
   </div>
   
 </section>
+{%- endif -%}
 
 {% schema %}
 {

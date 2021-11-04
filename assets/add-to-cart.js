@@ -37,7 +37,7 @@ size_picker.forEach(size_picker_element => {
   $(".show-variant").click(function () {
     console.log("+ clicked");
     console.log($(this));
-    $(this).next().classToggle('hide');
+    $(this).next().toggleClass('hide');
     if ($(this).html() == "+") {
       $(this).html("-");
     } else if ($(this).html() == "-") {

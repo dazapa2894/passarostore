@@ -81,6 +81,9 @@
   grid-area: auto;
   justify-self: center;
 }
+.header-wrapper .header__heading .header__heading-link img {
+  width: auto;
+}
 .side-nav-menu {
   width: 300px;
   position: fixed;

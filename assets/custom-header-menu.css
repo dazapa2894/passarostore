@@ -83,6 +83,12 @@
 }
 .header-wrapper .header__heading .header__heading-link img {
   width: auto;
+  height: 25px;
+}
+@media (min-width: 768px) {
+  .header-wrapper .header__heading .header__heading-link img {
+    height: 30px;
+  }
 }
 .side-nav-menu {
   width: 300px;

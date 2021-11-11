@@ -96,7 +96,7 @@
 .banner__content {
   padding: 0;
   display: flex;
-  /*position: relative;*/
+  position: relative;
   width: 100%;
   justify-content: center;
 }

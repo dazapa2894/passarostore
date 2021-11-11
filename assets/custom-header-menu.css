@@ -10,7 +10,7 @@
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
 }
 .menu-passaro {
-  width: 110px;
+  width: 30px;
   background: 0 0;
   text-align: right;
   color: rgb(var(--color-black));
@@ -19,6 +19,11 @@
   cursor: pointer;
   display: flex;
   align-items: center;
+}
+@media (min-width: 768px) {
+  .menu-passaro {
+    width: 110px;
+  }
 }
 .menu-passaro .hamburger {
   position: relative;
@@ -64,12 +69,12 @@
   width: 30px;
 }
 .shopify-section {
-  z-index: 3!important;
+  z-index: 3 !important;
 }
 .header-wrapper {
   background-color: rgb(var(--color-white));
   width: 100%;
-  border: none!important;
+  border: none !important;
 }
 .header-wrapper .header__heading {
   justify-content: unset;
@@ -277,7 +282,7 @@
   background-color: rgb(var(--color-dark-blue));
 }
 .product-wrapper .variant-pickers .agregar-al-carrito {
-  width: 80%!important;
+  width: 80% !important;
   padding: 5px 5px;
   text-align: center;
   font-size: 15px;

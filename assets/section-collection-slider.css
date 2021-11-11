@@ -72,3 +72,13 @@
 #collection-slider .swiper-button-prev {
   color: rgb(var(--color-gray));
 }
+#main-banner-btn {
+  position: absolute;
+}
+#main-banner-btn .banner__buttons {
+  margin: 0 auto;
+  width: fit-content;
+}
+#main-banner-btn .banner__buttons a {
+  margin: 0!important;
+}

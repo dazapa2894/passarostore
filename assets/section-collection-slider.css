@@ -74,6 +74,7 @@
 }
 #main-banner-btn {
   position: absolute;
+  bottom: 0;
 }
 #main-banner-btn .banner__buttons {
   margin: 0 auto;

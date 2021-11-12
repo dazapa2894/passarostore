@@ -2208,3 +2208,8 @@ details-disclosure > details {
   word-break: break-word;
   font-family: montserrat;
 }
+@media only screen and (max-width: 589px) {
+  .grid-overflow-wrapper .grid__item:first-child {
+      margin-left: 0;
+  }
+  }

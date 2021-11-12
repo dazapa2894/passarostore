@@ -16,6 +16,14 @@ footer .footer-redes {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  footer .footer-links,
+  footer .footer-legal,
+  footer .footer-redes {
+    text-align: left;
+  }
 }
 footer .footer-links .footer-title,
 footer .footer-legal .footer-title,

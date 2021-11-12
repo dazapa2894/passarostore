@@ -2208,11 +2208,3 @@ details-disclosure > details {
   word-break: break-word;
   font-family: montserrat;
 }
-@media screen and (max-width: 590px) {
-  #CollectionSection .grid-uniform {
-    padding:0;
-  }
-  .grid__item.grid-product.medium--one-half.large--one-third {
-    width: 50%;
-  }
-  }

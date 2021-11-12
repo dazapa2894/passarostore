@@ -9,6 +9,14 @@ footer .footer-logo img {
   width: 100%;
   max-width: 250px;
 }
+footer .footer-links,
+footer .footer-legal,
+footer .footer-redes {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
 footer .footer-links .footer-title,
 footer .footer-legal .footer-title,
 footer .footer-redes .footer-title {

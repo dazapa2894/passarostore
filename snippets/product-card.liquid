@@ -138,7 +138,13 @@
   </div>
     
   <div class="product-title">{{ product_card_product.title }}</div>
-  <div class="product-price">{{ product_card_product.price | money_without_trailing_zeros }}</div>   
+  {%- if product_card_product.compare_at_price > product_card_product.price and product_card_product.available -%}
+    <div class="product-price">
+      {{ product_card_product.price | money_without_trailing_zeros }}<del>{{ product_card_product.compare_at_price | money_without_trailing_zeros }}</del>
+    </div>
+  {%- else -%}
+    <div class="product-price">{{ product_card_product.price | money_without_trailing_zeros }}</div>   
+  {%- endif -%}
 
 </div><!-- END card-wrapper -->
 

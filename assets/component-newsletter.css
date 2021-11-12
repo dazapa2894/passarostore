@@ -1,7 +1,7 @@
 .newsletter-section {
   position: relative;
   overflow: hidden;
-  margin: 80px 0;
+  margin: 40px 0;
 }
 .newsletter-section .background-img {
   width: 100%;
@@ -14,7 +14,7 @@
 }
 .newsletter-section .newsletter {
   position: relative;
-  padding: 5rem;
+  padding: 3rem;
   background-color: rgb(var(--color-white), 0.2);
 }
 .newsletter-section .newsletter .newsletter__wrapper {

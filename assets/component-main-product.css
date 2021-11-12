@@ -87,6 +87,7 @@
 #description-detail-product .header-info-product-container .tabs li .tab-trigger {
   cursor: pointer;
   font-size: 10px;
+  text-align: center;
 }
 @media (min-width: 768px) {
   #description-detail-product .header-info-product-container .tabs li .tab-trigger {

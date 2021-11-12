@@ -94,7 +94,7 @@
         {{ 'product-1' | placeholder_svg_tag}}
       {% endif %}
       
-      <!--
+      
       <div class="card__badge">
         {%- if product_card_product.available == false -%}
           <span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}" aria-hidden="true">{{ 'products.product_card_product.sold_out' | t }}</span>
@@ -102,7 +102,7 @@
           <span class="badge badge--top-left color-green pecentual-discount" aria-hidden="true">-{{ product_card_product.compare_at_price_max | minus: product_card_product.price | times: 100 | divided_by: product_card_product.compare_at_price_max }}%</span>
         {%- endif -%}
       </div>
-      -->
+     
     </a>
     
     <div class="show-variant">+</div>

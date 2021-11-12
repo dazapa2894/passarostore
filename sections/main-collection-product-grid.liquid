@@ -482,9 +482,10 @@
         </p>
 
         <div class="title-wrapper center">
-          <h2 class="title title--primary">
+          <h2 class="title title--primary titulo-con-division">
             {{ 'sections.collection_template.empty' | t }}<br>
             {{ 'sections.collection_template.use_fewer_filters_html' | t: link: collection.url, class: "underlined-link link" }}
+            <div></div>
           </h2>
         </div>
       </div>
@@ -498,8 +499,8 @@
           </div>
         </div>
 
-        <ul id="main-collection-product-grid" data-id="{{ section.id }}" class="
-          grid grid--4-col negative-margin product-grid">
+        <ul id="main-collection-product-grid" data-id="{{ section.id }}" class="          
+        grid grid--4-col negative-margin product-grid">
           {%- for product in collection.products -%}
             <li class="grid__item">
               {% render 'product-card', product_card_product: product, media_size: section.settings.image_ratio, show_secondary_image: section.settings.show_secondary_image, add_image_padding: section.settings.add_image_padding, show_vendor: section.settings.show_vendor, show_image_outline: section.settings.show_image_outline %}

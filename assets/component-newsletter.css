@@ -15,10 +15,13 @@
 }
 .newsletter-section .newsletter {
   position: relative;
+  padding: 5rem;
   background-color: rgb(var(--color-white), 0.2);
 }
 .newsletter-section .newsletter .newsletter__wrapper {
   background: transparent;
+  border: 1px solid!important;
+  padding: 30px 0;
 }
 .newsletter-form {
   display: flex;

@@ -23,7 +23,7 @@ footer .footer-redes {
   footer .footer-legal,
   footer .footer-redes {
     text-align: left;
-    justify-content: flex-start;
+    display: block;
   }
 }
 footer .footer-links .footer-title,

@@ -340,3 +340,8 @@
   color: white;
   font-size: 24px;
 }
+#whatsapp-contact:hover {
+  background-color: #128c7e;
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+}

@@ -341,7 +341,10 @@
   font-size: 24px;
 }
 #whatsapp-contact:hover {
-  background-color: #128c7e;
+  background-color: #fff;
   -webkit-transition: 0.3s all ease-in-out;
   transition: 0.3s all ease-in-out;
+}
+#whatsapp-contact:hover i {
+  color: rgb(var(--color-dark-blue));
 }

@@ -2,7 +2,7 @@ var seasonal_swiper = new Swiper('.seasonal-swiper-container', {
   // Optional parameters
   loop: true,
   // when window width is < 499px
-  slidesPerView: 1,
+  slidesPerView: 2,
   spaceBetween: 5,
   centeredSlides: false,
   grabCursor: true,

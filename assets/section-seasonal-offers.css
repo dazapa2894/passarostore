@@ -52,7 +52,7 @@
   text-align: center;
 }
 #sesional-offers .seasonal-swiper-container .swiper-wrapper .swiper-slide .product-offer-wrapper .info-wrapper .product-title {
-  font-size: 25px;
+  font-size: 20px;
   color: rgb(var(--color-black));
   font-family: var(--font-heading-family);
   line-height: normal;
@@ -116,7 +116,7 @@
   background: rgba(var(--color-black), 0.8);
 }
 #sesional-offers .seasonal-swiper-container .swiper-wrapper .product-wrapper .product-title {
-  font-size: 28px;
+  font-size: 20px;
   color: rgb(var(--color-black));
   font-family: var(--font-heading-family);
   line-height: normal;

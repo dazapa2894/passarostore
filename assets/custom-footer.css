@@ -57,9 +57,9 @@ footer .footer-legal ul li a:hover,
 footer .footer-redes ul li a:hover {
   color: rgba(255, 255, 255, 0.6);
 }
-footer .footer-links .list-soacial,
-footer .footer-legal .list-soacial,
-footer .footer-redes .list-soacial {
+footer .footer-links .list-social,
+footer .footer-legal .list-social,
+footer .footer-redes .list-social {
   margin: 0!important;
 }
 footer .divider {

@@ -1,9 +1,9 @@
 {
   "transparent": "#ffffff00",
   "dark_blue": "#001840",
-  "pink": "#fbaebf",
-  "pink_light": "#ffbccb",
-  "pink_dark": "#ff849f",
+  "pink": "#1d1d1d",
+  "pink_light": "#808ca0",
+  "pink_dark": "#1d1d1d",
   "gray": "#8b8d8d",
   "gray_light": "#dbdbdb",
   "ocean_green": "#54cabf",

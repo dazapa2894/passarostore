@@ -50,7 +50,7 @@
       {
         "type": "color",
         "id": "pink",
-        "default": "#000",
+        "default": "#1d1d1d",
         "label": "t:settings_schema.colors.settings.pink.label",
         "info": "t:settings_schema.colors.settings.pink.info"
       },
@@ -64,7 +64,7 @@
       {
         "type": "color",
         "id": "pink_dark",
-        "default": "#000",
+        "default": "#1d1d1d",
         "label": "t:settings_schema.colors.settings.pink_dark.label",
         "info": "t:settings_schema.colors.settings.pink_dark.info"
       },
@@ -124,7 +124,7 @@
       {
         "type": "color",
         "id": "colors_outline_button_labels",
-        "default": "#ffbccb",
+        "default": "#808ca0",
         "label": "t:settings_schema.colors.settings.colors_outline_button_labels.label",
         "info": "t:settings_schema.colors.settings.colors_outline_button_labels.info"
       },

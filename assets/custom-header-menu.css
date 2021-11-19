@@ -90,6 +90,9 @@
     height: 30px;
   }
 }
+.header-wrapper .header__icons .site-header__account {
+  display: none!important;
+}
 .side-nav-menu {
   width: 300px;
   position: fixed;

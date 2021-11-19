@@ -37,13 +37,13 @@
 }
 .pink-btn {
   border-radius: 15px 0px !important;
-  background-color: rgb(var(--color-pink)) !important;
+  background-color: #000 !important;
   color: rgb(var(--color-white)) !important;
   margin: 0 auto 0 auto;
   padding: 5px 30px !important;
   cursor: pointer !important;
   font-weight: 600 !important;
-  border: rgb(var(--color-pink)) 2px solid !important;
+  border: #000 2px solid !important;
   transition: all 0.3s ease-in-out !important;
   text-decoration: none !important;
   text-transform: uppercase !important;
@@ -53,7 +53,7 @@
 }
 .pink-btn:hover {
   background-color: rgb(var(--color-white)) !important;
-  color: rgb(var(--color-pink)) !important;
+  color: #000 !important;
 }
 .white-btn {
   border-radius: 15px 0px;

@@ -34,16 +34,26 @@
   background: rgba(var(--color-black), 0.8);
 }
 #new-collection #products-wrapper .product-wrapper .product-title {
-  font-size: 20px;
+  font-size: 15px;
   color: rgb(var(--color-black));
   font-family: var(--font-heading-family);
   line-height: normal;
 }
+@media (min-width: 600px) {
+  #new-collection #products-wrapper .product-wrapper .product-title {
+    font-size: 20px;
+  }
+}
 #new-collection #products-wrapper .product-wrapper .product-price {
   font-weight: bold;
-  font-size: 16px;
+  font-size: 14px;
   color: rgb(var(--color-black));
   font-family: montserrat;
+}
+@media (min-width: 600px) {
+  #new-collection #products-wrapper .product-wrapper .product-price {
+    font-size: 16px;
+  }
 }
 #new-collection #products-wrapper .product-wrapper .variant-pickers {
   background-color: white;

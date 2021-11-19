@@ -229,18 +229,28 @@
   background: rgba(var(--color-black), 0.8);
 }
 .product-wrapper .product-title {
-  font-size: 20px;
+  font-size: 15px;
   color: rgb(var(--color-black));
   font-family: var(--font-heading-family);
   line-height: normal;
   text-align: center;
 }
+@media (min-width: 600px) {
+  .product-wrapper .product-title {
+    font-size: 20px;
+  }
+}
 .product-wrapper .product-price {
   font-weight: bold;
-  font-size: 16px;
+  font-size: 14px;
   color: rgb(var(--color-black));
   font-family: montserrat;
   text-align: center;
+}
+@media (min-width: 600px) {
+  .product-wrapper .product-price {
+    font-size: 16px;
+  }
 }
 .product-wrapper .variant-pickers {
   background-color: #fff;

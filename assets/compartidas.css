@@ -95,6 +95,9 @@
 .account h2 {
   margin-bottom: 50px !important;
 }
+.account img {
+  display: none!important;
+}
 .account a {
   color: black;
   text-decoration: underline;

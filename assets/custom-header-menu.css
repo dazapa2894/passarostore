@@ -352,6 +352,7 @@
 #whatsapp-contact i {
   color: white;
   font-size: 24px;
+  margin-top: -3px;
 }
 #whatsapp-contact:hover {
   background-color: #fff;

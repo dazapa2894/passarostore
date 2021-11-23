@@ -392,7 +392,7 @@
     "checkout": {
       "order_summary": {
         "unit_price": {
-          "content_html": "{{ per_unit }}{{ price }}{{ accessible_separator }}"
+          "content_html": "{{ price }}{{ accessible_separator }}{{ per_unit }}"
         }
       }
     }

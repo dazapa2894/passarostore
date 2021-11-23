@@ -140,6 +140,9 @@
       "xr_button": "View in your space",
       "xr_button_label": "View in your space, loads item in augmented reality window"
     },
+    "product_card_product": {
+      "sold_out": "Sold out"
+    },
     "modal": {
       "label": "Media gallery"
     }

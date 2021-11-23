@@ -141,6 +141,9 @@
         "play_video": "Reproducir video"
       }
     },
+    "product_card_product": {
+      "sold_out": "agotado"
+    },
     "modal": {
       "label": "Galería multimedia"
     }
@@ -386,15 +389,6 @@
       "expired": "Vencido",
       "copy_code_success": "El código se copió correctamente",
       "print_gift_card": "Imprimir"
-    }
-  },
-  "shopify": {
-    "checkout": {
-      "order_summary": {
-        "unit_price": {
-          "content_html": "{{ price }}{{ accessible_separator }}{{ per_unit }}"
-        }
-      }
     }
   }
 }

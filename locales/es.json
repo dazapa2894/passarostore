@@ -387,5 +387,14 @@
       "copy_code_success": "El código se copió correctamente",
       "print_gift_card": "Imprimir"
     }
+  },
+  "shopify": {
+    "checkout": {
+      "order_summary": {
+        "unit_price": {
+          "content_html": "{{ per_unit }}{{ price }}{{ accessible_separator }}"
+        }
+      }
+    }
   }
 }

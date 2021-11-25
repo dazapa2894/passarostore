@@ -1866,6 +1866,11 @@ input[type='checkbox'] {
   color: rgba(var(--color-foreground), 0.75);
 }
 
+.hcenter{
+  display: flex;
+  justify-content: center;
+}
+
 .header__heading-logo {
   height: 30px;
 }

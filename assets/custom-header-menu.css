@@ -2,10 +2,6 @@
   z-index: 3;
   width: 100%;
   position: relative;
-  margin-bottom: -55px;
-}
-#shopify-section-header .header-wrapper {
-  background-color: #ffffff00;
 }
 #shopify-section-header.fixed {
   position: fixed;
@@ -16,6 +12,12 @@
 }
 #shopify-section-header.fixed .header-wrapper {
   background-color: white;
+}
+#shopify-section-header.home-page {
+  margin-bottom: -55px;
+}
+#shopify-section-header.home-page .header-wrapper {
+  background-color: #ffffff00;
 }
 .menu-passaro {
   width: 30px;

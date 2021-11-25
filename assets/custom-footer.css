@@ -6,6 +6,9 @@ footer .footer-logo {
   justify-content: center;
   margin-bottom: 20px;
 }
+footer .newsletter-form__message {
+  color: white;
+}
 footer .footer-links,
 footer .footer-legal,
 footer .footer-redes {

@@ -20,7 +20,7 @@
   background-color: rgb(var(--color-dark-blue)) !important;
   color: rgb(var(--color-white)) !important;
   margin: 0 auto 0 auto;
-  padding: 5px 30px !important;
+  padding: 5px 15px !important;
   cursor: pointer !important;
   font-weight: 600 !important;
   border: rgb(var(--color-dark-blue)) 2px solid !important;

@@ -65,7 +65,7 @@ footer .footer-redes ul li a:hover {
 footer .footer-links .footer__list-social .list-social__item a,
 footer .footer-legal .footer__list-social .list-social__item a,
 footer .footer-redes .footer__list-social .list-social__item a {
-  padding: 1.3rem !important;
+  padding: 0 1.3rem !important;
 }
 footer .divider {
   height: 1px;

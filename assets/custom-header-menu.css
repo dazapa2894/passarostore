@@ -318,7 +318,7 @@
   background-color: rgb(var(--color-dark-blue));
 }
 .product-wrapper .variant-pickers .agregar-al-carrito {
-  width: 80% !important;
+  width: 100% !important;
   padding: 5px 5px;
   text-align: center;
   font-size: 15px;

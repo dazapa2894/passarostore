@@ -79,6 +79,9 @@
   width: 100%;
   border: none !important;
 }
+.header-wrapper .header {
+  background-color: #ffffff00;
+}
 .header-wrapper .header__heading {
   justify-content: unset;
   grid-area: auto;

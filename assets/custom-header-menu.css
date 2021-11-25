@@ -18,9 +18,9 @@
 }
 #shopify-section-header.home-page .header-wrapper {
   background-color: #ffffff00;
-  &.fixed{
-    background-color: white;
-  }
+}
+#shopify-section-header.home-page.fixed .header-wrapper {
+  background-color: #ffffff;
 }
 .menu-passaro {
   width: 30px;

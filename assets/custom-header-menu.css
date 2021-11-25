@@ -292,6 +292,7 @@
 }
 .product-wrapper .variant-pickers .product-sizes {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   margin-left: 5px;
 }

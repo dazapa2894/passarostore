@@ -131,7 +131,10 @@
           <option value="{{option.id}}" handle="{{product_card_product.handle}}" variant="{{-option.title-}}"> {{option.title}}</option>
         {% endfor %}
       </select>
-      <div class="agregar-al-carrito blue-btn">AGREGAR AL CARRITO</div>
+      <div class="agregar-al-carrito blue-btn">
+        <span class="agregar-span medium-hide large-up-hide">AGREGAR AL CARRITO</span>
+        <div class="agregar-icon small-hide medium-hide">{% render 'icon-cart-empty' %}</div>
+      </div>
 
     </div><!-- end variant-pickers -->
     

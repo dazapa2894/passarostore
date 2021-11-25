@@ -561,6 +561,11 @@ table:not([class]) th {
   }
 }
 
+.hcenter{
+  display: flex;
+  justify-content: center;
+}
+
 .center {
   text-align: center;
 }

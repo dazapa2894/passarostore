@@ -19,7 +19,15 @@
 <footer class="footer color-dark-blue">
   
   {% comment %} <div class=""></div> {% endcomment %}
-  
+  <div class="container-new">
+    <div class="row" style="margin: 0;">
+      <div class="col xs12 s12 m12 l12 xl12">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0592/9287/6983/files/LogoPassaro_blanco.png?v=1633967209"
+          loading="lazy" class="header__heading-logo" height="30px" alt="logo">
+      </div>
+    </div><!-- . row -->
+  </div><!-- . container -->
 
   <div class="container-new">
     <div class="row" style="margin: 0;">
@@ -29,7 +37,7 @@
         </a>
       </div> .col -->
 
-      <div class="col xs12 s12 m4 l4 xl4">
+      <div class="col xs12 s12 m3 l3 xl3">
         <div class="footer-links">
           <h3 class="footer-title">
             QUIZÁ TE INTERESE
@@ -42,7 +50,7 @@
         </div>
       </div><!-- .col -->
 
-      <div class="col xs12 s12 m4 l4 xl4">
+      <div class="col xs12 s12 m3 l3 xl3">
         <div class="footer-legal">
           <h3 class="footer-title">
             AVISOS LEGALES
@@ -55,7 +63,7 @@
         </div>
       </div><!-- .col -->
 
-      <div class="col xs12 s12 m4 l4 xl4">
+      <div class="col xs12 s12 m3 l3 xl3">
         <div class="footer-redes">
           <h3 class="footer-title">
             SÍGUENOS EN
@@ -80,6 +88,51 @@
                 </a>
               </li>
             </ul>      
+        </div>
+      </div><!-- .col -->
+
+      <div class="col xs12 s12 m3 l3 xl3">
+        <div class="footer-redes">
+          <h3 class="footer-title">
+            Suscríbete a nuestro newsletter
+          </h3>
+
+          <div class="newsletter">
+            
+            {% form 'customer', class: 'newsletter-form' %}
+            <input type="hidden" name="contact[tags]" value="newsletter">
+            <div class="newsletter-form__field-wrapper">
+              <div class="field">
+                <input id="NewsletterForm--{{ section.id }}" type="email" name="contact[email]" class="field__input"
+                  value="{{ form.email }}" aria-required="true" autocorrect="off" autocapitalize="off"
+                  autocomplete="email" {% if form.errors %} autofocus aria-invalid="true"
+                  aria-describedby="Newsletter-error--{{ section.id }}" {% elsif form.posted_successfully? %}
+                  aria-describedby="Newsletter-success--{{ section.id }}" {% endif %}
+                  placeholder="{{ 'newsletter.label' | t }}" required>
+                <label class="field__label" for="NewsletterForm--{{ section.id }}">
+                  {{ 'newsletter.label' | t }}
+                </label>
+                <button type="submit" class="newsletter-form__button field__button" name="commit" id="Subscribe"
+                  aria-label="{{ 'newsletter.button_label' | t }}">
+                  {% render 'icon-arrow' %}
+                </button>
+              </div>
+              {%- if form.errors -%}
+              <small class="newsletter-form__message form__message"
+                id="Newsletter-error--{{ section.id }}">{% render 'icon-error' %}{{ form.errors.translated_fields['email'] | capitalize }}
+                {{ form.errors.messages['email'] }}</small>
+              {%- endif -%}
+            </div>
+            {%- if form.posted_successfully? -%}
+            <h3 class="newsletter-form__message newsletter-form__message--success form__message"
+              id="Newsletter-success--{{ section.id }}" tabindex="-1" autofocus>
+              {% render 'icon-success' %}{{ 'newsletter.success' | t }}</h3>
+            {%- endif -%}
+            {% endform %}
+
+          </div>
+
+         
         </div>
       </div><!-- .col -->
       

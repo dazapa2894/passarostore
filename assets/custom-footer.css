@@ -55,17 +55,17 @@ footer .footer-redes ul li a {
   text-decoration: none;
   font-size: 12px;
   transition: all 0.3s ease-in-out;
-  padding: 10px 0px 10px 0!important;
+  padding: 10px 0px 10px 0;
 }
 footer .footer-links ul li a:hover,
 footer .footer-legal ul li a:hover,
 footer .footer-redes ul li a:hover {
   color: rgba(255, 255, 255, 0.6);
 }
-footer .footer-links .list-social,
-footer .footer-legal .list-social,
-footer .footer-redes .list-social {
-  margin: 0!important;
+footer .footer-links .footer__list-social .list-social__item a,
+footer .footer-legal .footer__list-social .list-social__item a,
+footer .footer-redes .footer__list-social .list-social__item a {
+  padding: 1.3rem !important;
 }
 footer .divider {
   height: 1px;

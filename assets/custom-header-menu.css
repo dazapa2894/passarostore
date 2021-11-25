@@ -221,7 +221,7 @@
   height: 25px;
 }
 .product-wrapper .product-img-wrapper .img-wrapper .card__badge .badge {
-  background-color: rgb(var(--color-dark-blue)) !important;
+  background-color: #419835 !important;
   font-weight: 800;
 }
 .product-wrapper .product-img-wrapper .show-variant {

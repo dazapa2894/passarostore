@@ -29,5 +29,5 @@ window.addEventListener('DOMContentLoaded', (event) => {
       $("#" + target).slideToggle();
       $(this).find(".dropdown-indicator").toggleClass("opened");
     });
-  
+
 });

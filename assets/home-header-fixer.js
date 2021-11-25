@@ -1,0 +1,1 @@
+$('#shopify-section-header').addClass('home-page')

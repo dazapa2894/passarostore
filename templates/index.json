@@ -67,6 +67,11 @@
       ],
       "settings": {
       }
+    },
+    "home_header_fixer": {
+      "type": "home-header-fixer",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -75,6 +80,7 @@
     "new_collection",
     "call_to_action",
     "seasonal_offers",
-    "about_us"
+    "about_us",
+    "home_header_fixer"
   ]
 }

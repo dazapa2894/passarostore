@@ -13,6 +13,11 @@ var collection_swiper = new Swiper('.collection-swiper-container', {
     hide: true,
   },
 
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
   breakpoints: {
     600: {
       slidesPerView: 2,

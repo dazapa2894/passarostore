@@ -9,6 +9,12 @@ footer .footer-logo img {
   width: 100%;
   max-width: 250px;
 }
+footer .footer-logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 footer .footer-links,
 footer .footer-legal,
 footer .footer-redes {

@@ -561,10 +561,14 @@ table:not([class]) th {
   }
 }
 
-.hcenter{
+.footer-logo{
   display: flex;
   justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
+
+
 
 .center {
   text-align: center;

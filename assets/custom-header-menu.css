@@ -2,12 +2,20 @@
   z-index: 3;
   width: 100%;
   position: relative;
+  margin-bottom: -55px;
+}
+#shopify-section-header .header-wrapper {
+  background-color: #ffffff00;
 }
 #shopify-section-header.fixed {
   position: fixed;
   top: 0;
   left: 0;
+  margin-bottom: 0;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+}
+#shopify-section-header.fixed .header-wrapper {
+  background-color: white;
 }
 .menu-passaro {
   width: 30px;
@@ -70,9 +78,6 @@
 }
 .shopify-section {
   z-index: 3 !important;
-}
-#shopify-section-header.shopify-section.fixed .header-wrapper {
-  background-color: white;
 }
 .header-wrapper {
   background-color: #ffffff00;

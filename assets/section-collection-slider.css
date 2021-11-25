@@ -68,6 +68,9 @@
 #collection-slider .collection-swiper-container .swiper-slide:hover .title-container .comprar-coleccion {
   letter-spacing: 2px;
 }
+#collection-slider .collection-swiper-container .swiper-pagination {
+  bottom: -30px !important;
+}
 #collection-slider .swiper-button-next,
 #collection-slider .swiper-button-prev {
   color: rgb(var(--color-gray));

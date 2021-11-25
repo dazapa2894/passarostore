@@ -71,8 +71,11 @@
 .shopify-section {
   z-index: 3 !important;
 }
+#shopify-section-header.shopify-section.fixed .header-wrapper {
+  background-color: white;
+}
 .header-wrapper {
-  background-color: rgb(var(--color-white));
+  background-color: #ffffff00;
   width: 100%;
   border: none !important;
 }

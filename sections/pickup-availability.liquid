@@ -5,6 +5,10 @@
   <pickup-availability-preview class="pickup-availability-preview">
     {%- liquid
       assign closest_location = pick_up_availabilities.first
+
+      if closest_location.available
+        render 'icon-tick'
+      endif
     -%}
 
     <div class="pickup-availability-info">
@@ -12,6 +16,7 @@
         
         <p class="caption">{{ closest_location.pick_up_time }}</p>
         
+
       {%- endif -%}
     </div>
   </pickup-availability-preview>

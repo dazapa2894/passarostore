@@ -1,7 +1,5 @@
 #lunes-multicolor .promo-wrapper {
   position: relative;
-  background-image: url(https://cdn.shopify.com/s/files/1/0592/9287/6983/files/banner-promo.jpg?v=1629925616);
-  background-size: cover;
 }
 #lunes-multicolor .promo-wrapper .promo-img-wrapper img {
   width: 100%;

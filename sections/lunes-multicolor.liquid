@@ -3,12 +3,11 @@
 {%- if section.settings.show_section -%}
 <section id="lunes-multicolor" class="promo-banner-section">
 
-  <div class="promo-wrapper"
-    style="background-color: rgb({{section.settings.background_color.red}}, {{section.settings.background_color.green}},
-    {{section.settings.background_color.blue}})">
+  <div class="promo-wrapper" 
+  style="background-color: rgb({{section.settings.background_color.red}}, {{section.settings.background_color.green}},  {{section.settings.background_color.blue}})">
     
     <div class="promo-img-wrapper">
-      {{section.settings.banner_img | img_url: 'x390'}}
+      <img src="{{section.settings.banner_img | img_url: 'x390'}}">
     </div>
     <div class="promo-text-wrapper">
       <div>

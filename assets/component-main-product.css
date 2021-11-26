@@ -1,7 +1,7 @@
 .product .product__info-wrapper .product__title {
   color: rgb(var(--color-dark-blue));
   font-weight: 300;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 .product .product__info-wrapper .no-js-hidden .price dl .price__sale dd s {
   color: rgb(var(--color-gray));
@@ -139,7 +139,7 @@
   width: 250px;
 }
 #description-detail-product .info-product-container #lavado ul li img {
-  width: 80px;
+  width: 40px;
   height: auto;
 }
 #description-detail-product .info-product-container #lavado ul li p {

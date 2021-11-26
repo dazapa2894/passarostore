@@ -329,13 +329,12 @@
                 {% render 'icon-unavailable' %}
                 <div class="pickup-availability-info">
                   <p class="caption-large">{{ 'products.product.pickup_availability.unavailable' | t }}</p>
-                  <button
-                    class="pickup-availability-button link link--text underlined-link">{{ 'products.product.pickup_availability.refresh' | t }}</button>
+                  <button class="pickup-availability-button link link--text underlined-link">{{ 'products.product.pickup_availability.refresh' | t }}</button>
                 </div>
+              </div>
+            </template>
+          </pickup-availability>
         </div>
-        </template>
-        </pickup-availability>
-      </div>
 
       <script src="{{ 'pickup-availability.js' | asset_url }}" defer="defer"></script>
       {%- endcase -%}

@@ -1,5 +1,7 @@
 #lunes-multicolor .promo-wrapper {
   position: relative;
+  display: flex;
+  flex-direction: row;
 }
 #lunes-multicolor .promo-wrapper .promo-img-wrapper {
   align-items: flex-end;

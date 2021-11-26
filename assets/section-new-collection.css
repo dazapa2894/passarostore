@@ -95,6 +95,8 @@
   transition: all 0.3s ease-in-out;
   cursor: pointer;
   font-size: 12px;
+  color: #fff;
+  background-color: rgb(var(--color-dark-blue));
 }
 #new-collection #products-wrapper .product-wrapper .variant-pickers .product-sizes .size-picker:hover {
   color: rgb(var(--color-dark-blue));

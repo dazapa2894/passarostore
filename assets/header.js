@@ -31,3 +31,13 @@ window.addEventListener('DOMContentLoaded', (event) => {
     });
 
 });
+
+
+
+function custom_notificacion( titulo, mensaje, tipo = 1 ){ 
+
+  console.log("titulo notificación =" + titulo);
+  console.log("mensaje notificación =" + mensaje);
+  console.log("tipo notificación =" + tipo);
+
+}

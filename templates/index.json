@@ -8,10 +8,7 @@
           "settings": {
             "button_label_1": "DESCUBRIR",
             "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_label_2": ""
           }
         }
       },
@@ -19,10 +16,7 @@
         "button"
       ],
       "settings": {
-        "desktop_text_box_position": "flex-end",
-        "color_scheme": "no-background",
-        "stack_images_on_mobile": true,
-        "adapt_height_first_image": false
+        "desktop_text_box_position": "flex-end"
       }
     },
     "collection_slider": {
@@ -33,32 +27,18 @@
     "new_collection": {
       "type": "new-collection",
       "settings": {
-        "title": "Últimas colecciones",
-        "max_products": "6",
-        "final_button_label": "ver el catálogo",
-        "final_button_url": ""
+        "title": "Últimas colecciones"
       }
     },
     "call_to_action": {
       "type": "lunes-multicolor",
       "settings": {
-        "background_color": "#E7E6E6",
-        "text_color": "#001840",
-        "button_body_color": "#001840",
-        "button_text_color": "#ffffff",
-        "show_section": true,
-        "promo_title": "<p>LUNES MULTICOLOR<\/p>",
-        "promo_text": "<p>Compra con <strong>descuento <\/strong>el color del día <strong>BEIGE<\/strong><\/p>",
-        "promo_discount_text": "<p>25% DCTO<\/p>",
-        "button_label": "descubrir",
-        "button_url": ""
       }
     },
     "seasonal_offers": {
       "type": "seasonal-offers",
       "settings": {
-        "title": "Seasonal offers",
-        "show_compare_price": false
+        "title": "Seasonal offers"
       }
     },
     "about_us": {
@@ -67,21 +47,16 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Las etiquetas se la dejamos a la ropa,<br>Pássaro esa versión de ti que te gusta.<\/p>",
-            "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
           }
         }
       },
@@ -91,11 +66,6 @@
         "button"
       ],
       "settings": {
-        "full_width": true,
-        "image": "shopify:\/\/shop_images\/banner_principal.jpg",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first"
       }
     },
     "home_header_fixer": {

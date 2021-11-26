@@ -8,6 +8,7 @@
       >
         {%- if section.settings.image != blank -%}
           <img
+            src="{{ section.settings.image.alt | img_url: 'medium' }}"
             alt="{{ section.settings.image.alt | escape }}"
             loading="lazy"
             width="{{ section.settings.image.width }}"

@@ -3,12 +3,12 @@
 {%- if section.settings.show_section -%}
 <section id="lunes-multicolor" class="promo-banner-section">
 
-  <div class="promo-wrapper" 
-    {% if section.settings.banner_img != blank %} 
-      style="background-color: #f00; background-image: url({{section.settings.banner_img | img_url: '1920x'}});"
-    {% endif%}>
+  <div class="promo-wrapper"
+    style="background-color: rgb({{section.settings.background_color.red}}, {{section.settings.background_color.green}},
+    {{section.settings.background_color.blue}})">
+    
     <div class="promo-img-wrapper">
-      <img src="https://cdn.shopify.com/s/files/1/0592/9287/6983/files/LogoPassaro_blanco.png?v=1633967209" height="100%">
+      {{section.settings.banner_img | img_url: 'x390'}}
     </div>
     <div class="promo-text-wrapper">
       <div>
@@ -36,6 +36,34 @@
       "type": "header",
       "content": "Activar/Desactivar sección"
     },
+    {
+    "type": "header",
+    "content": "Ajustes de estilo"
+    },
+    {
+    "type": "color",
+    "id": "background_color",
+    "label": "Color del fondo",
+    "default": "#ffffff"
+    },
+    {
+    "type": "color",
+    "id": "text_color",
+    "label": "Color del texto",
+    "default": "#000000"
+    },
+    {
+    "type": "color",
+    "id": "button_body_color",
+    "label": "Color del fondo del boton",
+    "default": "#001840"
+    },
+    {
+    "type": "color",
+    "id": "button_text_color",
+    "label": "Color del texto del boton",
+    "default": "#ffffff"
+    },
     { 
       "id": "show_section",
       "type": "checkbox",
@@ -45,7 +73,12 @@
     },
     {
     "type": "header",
-    "content": "Contenido"
+    "content": "Ajustes de contenido"
+    },
+    {
+    "id": "banner_img",
+    "type": "image_picker",
+    "label": "t:sections.lunes-multicolor.settings.banner_img.label"
     },
     {
       "id": "promo_theme",
@@ -75,40 +108,8 @@
       "id": "button_url",
       "type": "url",
       "label": "t:sections.lunes-multicolor.settings.button_url.label"
-    },
-    {
-    "type": "header",
-    "content": "Estilo"
-    },
-    {
-    "id": "banner_img",
-    "type": "image_picker",
-    "label": "t:sections.lunes-multicolor.settings.banner_img.label"
-    },
-    {
-    "type": "color",
-    "id": "background_color",
-    "label": "Color del fondo",
-    "default": "#ffffff"
-    },
-    {
-    "type": "color",
-    "id": "text_color",
-    "label": "Color del texto",
-    "default": "#000000"
-    },
-    {
-    "type": "color",
-    "id": "button_body_color",
-    "label": "Color del fondo del boton",
-    "default": "#001840"
-    },
-    {
-    "type": "color",
-    "id": "button_text_color",
-    "label": "Color del texto del boton",
-    "default": "#ffffff"
     }
+    
   ]
 }
 {% endschema %}

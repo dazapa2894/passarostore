@@ -36,6 +36,7 @@
   font-family: var(--font-heading-family);
   text-transform: uppercase;
   color: rgb(var(--color-white));
+  font-family: montserrat;
   line-height: normal;
   margin-bottom: 15px;
 }
@@ -46,4 +47,12 @@
   font-family: montserrat;
   color: rgb(var(--color-white));
   margin-bottom: 40px;
+}
+#lunes-multicolor .promo-wrapper .promo-text-wrapper .promo-discount {
+  font-size: 40px;
+  font-family: var(--font-heading-family);
+  text-transform: uppercase;
+  color: rgb(var(--color-white));
+  line-height: normal;
+  margin-bottom: 15px;
 }

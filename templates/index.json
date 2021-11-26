@@ -92,6 +92,7 @@
       ],
       "settings": {
         "full_width": true,
+        "image": "shopify:\/\/shop_images\/banner_principal.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"

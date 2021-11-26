@@ -94,14 +94,15 @@
   font-family: montserrat;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
+  font-size: 12px;
 }
 #new-collection #products-wrapper .product-wrapper .variant-pickers .product-sizes .size-picker:hover {
-  color: #fff;
-  background-color: rgb(var(--color-dark-blue));
+  color: rgb(var(--color-dark-blue));
+  background-color: white;
 }
 #new-collection #products-wrapper .product-wrapper .variant-pickers .product-sizes .size-picker.active {
-  color: #fff;
-  background-color: rgb(var(--color-dark-blue));
+  color: rgb(var(--color-dark-blue));
+  background-color: white;
 }
 #new-collection #products-wrapper .product-wrapper .variant-pickers .agregar-al-carrito {
   width: 100%!important;

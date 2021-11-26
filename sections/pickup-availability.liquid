@@ -3,3 +3,15 @@
 
 <p class="caption">{{ closest_location.pick_up_time }}</p>
 
+{%- if pick_up_availabilities.size > 0 -%}
+  {% assign closest_location = pick_up_availabilities.first %}
+  
+  <div class="pickup-availability-info">
+    {%- if closest_location.available -%}
+
+      <p class="caption">{{ closest_location.pick_up_time }}</p>
+
+    {%- endif -%}
+  </div>
+
+{%- endif -%}

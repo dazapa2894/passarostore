@@ -6,24 +6,32 @@
   <div class="promo-wrapper" 
   style="background-color: rgb({{section.settings.background_color.red}}, {{section.settings.background_color.green}},  {{section.settings.background_color.blue}})">
     
-    <div class="promo-img-wrapper">
-      {% if section.settings.banner_img != blank %}
-        <img src="{{section.settings.banner_img | img_url: 'x390'}}">
-      {% else %}
-        <img src="https://cdn.shopify.com/s/files/1/0592/9287/6983/files/placeholder_multicolor.jpg?v=1637944419">
-      {% endif %}
-    </div>
     <div class="promo-text-wrapper">
       <div>
-        <div class="promo-theme">{{section.settings.promo_theme}}</div>
-        <div class="promo-title">{{section.settings.promo_title}}</div>
-        <div class="promo-text">{{section.settings.promo_text}}</div>
-        <a class="white-btn" href="{{section.settings.button_url}}">
-          <span>
+        <div class="promo-theme" 
+          style="background-color: rgb({{section.settings.text_color.red}}, {{section.settings.text_color.green}},  {{section.settings.text_color.blue}})">
+          {{section.settings.promo_theme}}</div>
+        <div class="promo-title" 
+          style="background-color: rgb({{section.settings.text_color.red}}, {{section.settings.text_color.green}},  {{section.settings.text_color.blue}})">
+          {{section.settings.promo_title}}</div>
+        <div class="promo-text"
+          style="background-color: rgb({{section.settings.text_color.red}}, {{section.settings.text_color.green}},  {{section.settings.text_color.blue}})">
+          {{section.settings.promo_text}}</div>
+        <a class="white-btn" href="{{section.settings.button_url}}"
+          style="background-color: rgb({{section.settings.button_body_color.red}}, {{section.settings.button_body_color.green}},  {{section.settings.button_body_color.blue}})">
+          <span style="background-color: rgb({{section.settings.button_text_color.red}}, {{section.settings.button_text_color.green}},  {{section.settings.button_text_color.blue}})">
             {{section.settings.button_label}}
           </span>
         </a>
       </div>
+    </div>
+
+    <div class="promo-img-wrapper">
+      {% if section.settings.banner_img != blank %}
+      <img src="{{section.settings.banner_img | img_url: 'x390'}}">
+      {% else %}
+      <img src="https://cdn.shopify.com/s/files/1/0592/9287/6983/files/placeholder_multicolor.jpg?v=1637944419">
+      {% endif %}
     </div>
   </div>
   

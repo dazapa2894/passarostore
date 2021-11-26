@@ -8,15 +8,18 @@
       style="background-color: #f00; background-image: url({{section.settings.banner_img | img_url: '1920x'}});"
     {% endif%}>
     <div class="promo-img-wrapper">
-      
-      
+      <img src="https://cdn.shopify.com/s/files/1/0592/9287/6983/files/LogoPassaro_blanco.png?v=1633967209" height="100%">
     </div>
     <div class="promo-text-wrapper">
       <div>
         <div class="promo-theme">{{section.settings.promo_theme}}</div>
         <div class="promo-title">{{section.settings.promo_title}}</div>
         <div class="promo-text">{{section.settings.promo_text}}</div>
-        <a class="white-btn" href="{{section.settings.button_url}}">{{section.settings.button_label}}</a>
+        <a class="white-btn" href="{{section.settings.button_url}}">
+          <span>
+            {{section.settings.button_label}}
+          </span>
+        </a>
       </div>
     </div>
   </div>
@@ -41,9 +44,8 @@
       "default": true
     },
     {
-      "id": "banner_img",
-      "type": "image_picker",
-      "label": "t:sections.lunes-multicolor.settings.banner_img.label"
+    "type": "header",
+    "content": "Contenido"
     },
     {
       "id": "promo_theme",
@@ -73,6 +75,39 @@
       "id": "button_url",
       "type": "url",
       "label": "t:sections.lunes-multicolor.settings.button_url.label"
+    },
+    {
+    "type": "header",
+    "content": "Estilo"
+    },
+    {
+    "id": "banner_img",
+    "type": "image_picker",
+    "label": "t:sections.lunes-multicolor.settings.banner_img.label"
+    },
+    {
+    "type": "color",
+    "id": "background_color",
+    "label": "Color del fondo",
+    "default": "#ffffff"
+    },
+    {
+    "type": "color",
+    "id": "text_color",
+    "label": "Color del texto",
+    "default": "#000000"
+    },
+    {
+    "type": "color",
+    "id": "button_body_color",
+    "label": "Color del fondo del boton",
+    "default": "#001840"
+    },
+    {
+    "type": "color",
+    "id": "button_text_color",
+    "label": "Color del texto del boton",
+    "default": "#ffffff"
     }
   ]
 }

@@ -3,6 +3,8 @@
   display: flex;
   flex-direction: row;
   height: 390px;
+  width: 100%;
+  justify-content: space-between;
 }
 #lunes-multicolor .promo-wrapper .promo-img-wrapper {
   align-items: flex-end;
@@ -17,9 +19,10 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   text-align: center;
   padding: 80px 20px;
+  width: 100%;
 }
 #lunes-multicolor .promo-wrapper .promo-text-wrapper .promo-theme {
   color: rgba(255, 255, 255, 0.6);

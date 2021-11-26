@@ -7,7 +7,11 @@
   style="background-color: rgb({{section.settings.background_color.red}}, {{section.settings.background_color.green}},  {{section.settings.background_color.blue}})">
     
     <div class="promo-img-wrapper">
-      <img src="{{section.settings.banner_img | img_url: 'x390'}}">
+      {% if section.settings.banner_img != blank %}
+        <img src="{{section.settings.banner_img | img_url: 'x390'}}">
+      {% else %}
+        <img src="https://cdn.shopify.com/s/files/1/0592/9287/6983/files/placeholder_multicolor.jpg?v=1637944419">
+      {% endif %}
     </div>
     <div class="promo-text-wrapper">
       <div>

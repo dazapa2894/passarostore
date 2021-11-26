@@ -1,6 +1,9 @@
 #lunes-multicolor .promo-wrapper {
   position: relative;
 }
+#lunes-multicolor .promo-wrapper .promo-img-wrapper {
+  align-items: flex-end;
+}
 #lunes-multicolor .promo-wrapper .promo-img-wrapper img {
   height: 100%;
 }

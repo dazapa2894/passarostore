@@ -8,7 +8,10 @@
           "settings": {
             "button_label_1": "DESCUBRIR",
             "button_link_1": "shopify:\/\/collections\/all",
-            "button_label_2": ""
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
@@ -16,7 +19,10 @@
         "button"
       ],
       "settings": {
-        "desktop_text_box_position": "flex-end"
+        "desktop_text_box_position": "flex-end",
+        "color_scheme": "no-background",
+        "stack_images_on_mobile": true,
+        "adapt_height_first_image": false
       }
     },
     "collection_slider": {
@@ -27,18 +33,32 @@
     "new_collection": {
       "type": "new-collection",
       "settings": {
-        "title": "Últimas colecciones"
+        "title": "Últimas colecciones",
+        "max_products": "6",
+        "final_button_label": "ver el catálogo",
+        "final_button_url": ""
       }
     },
     "call_to_action": {
       "type": "lunes-multicolor",
       "settings": {
+        "background_color": "#E7E6E6",
+        "text_color": "#001840",
+        "button_body_color": "#001840",
+        "button_text_color": "#ffffff",
+        "show_section": true,
+        "promo_title": "",
+        "promo_text": "",
+        "promo_discount_text": "",
+        "button_label": "descubrir",
+        "button_url": ""
       }
     },
     "seasonal_offers": {
       "type": "seasonal-offers",
       "settings": {
-        "title": "Seasonal offers"
+        "title": "Seasonal offers",
+        "show_compare_price": false
       }
     },
     "about_us": {
@@ -47,16 +67,21 @@
         "heading": {
           "type": "heading",
           "settings": {
+            "heading": "<p>Las etiquetas se la dejamos a la ropa,<br>Pássaro esa versión de ti que te gusta.<\/p>",
+            "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
+            "button_label": "Button label",
+            "button_link": ""
           }
         }
       },
@@ -66,11 +91,34 @@
         "button"
       ],
       "settings": {
+        "full_width": true,
+        "height": "adapt",
+        "layout": "image_first"
       }
     },
     "home_header_fixer": {
       "type": "home-header-fixer",
       "settings": {
+      }
+    },
+    "163796234716612656": {
+      "type": "apps",
+      "blocks": {
+        "cbb69fea-0cae-4c04-8715-f23434998539": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_font": "helvetica_n4",
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": "<style>\n#shopify-section-template--15119185084599__163796234716612656{\n  position: relative;\n  padding: 100px 20px;\n}\n.titulo-con-division-insta{\n  position: absolute;\n  z-index: 1;\n  top: 0;\n  margin: 50px auto;\n  font-family: var(--font-heading-family);\n  color: rgb(var(--color-gray));\n  display: flex;\n  justify-content: center;\n  margin-bottom: 60px;\n  text-align: center;\n  width: 100%;\n  left: 0;\n}\n.titulo-con-division-insta div {\n  content: \"\";\n  height: 2px;\n  width: 73px;\n  background: rgb(var(--color-gray));\n  position: absolute;\n  bottom: -15px;\n  \n}\n.instafeed_info_wrapper{\n  position: absolute;\n  bottom: -5px;\n  z-index: 1;\n  background-color: white;\n  max-width: 500px;\n  text-align: center;\n  box-shadow: 0px 11px 26px -1px rgb(0 0 0 \/ 20%);\n  left: 0;\n  right: 0;\n  margin: 0 auto;\n  padding: 20px 0;\n}\n.instafeed_info_wrapper h2, .instafeed_info_wrapper p{\n  margin: 0;\n}\n\n@media screen and (min-width: 750px) {\n  .instafeed_info_wrapper{\n    bottom: 10px;\n    padding: 0;\n  }\n  .instafeed_info_wrapper h2, .instafeed_info_wrapper p{\n    margin: 10px 0;\n  }\n}\n\n@media screen and (min-width: 990px) {\n  .instafeed_info_wrapper{\n    bottom: 30px;\n    padding: 0;\n  }\n}\n\n<\/style>\n\n\n<h2 class=\"titulo-con-division-insta\">\n  Nuestro instagram\n  <div><\/div>\n<\/h2>\n\n<div class=\"instafeed_info_wrapper\">\n  <h2 id=\"instafeed_title\">Síguenos en instagram<\/h2>\n  <p id=\"instafeed_instgram_name\">@passarostore<\/p>\n<\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "cbb69fea-0cae-4c04-8715-f23434998539"
+      ],
+      "settings": {
+        "include_margins": true
       }
     }
   },
@@ -81,6 +129,7 @@
     "call_to_action",
     "seasonal_offers",
     "about_us",
-    "home_header_fixer"
+    "home_header_fixer",
+    "163796234716612656"
   ]
 }

@@ -46,7 +46,6 @@
   font-size: 12px;
   font-family: montserrat;
   color: rgb(var(--color-white));
-  margin-bottom: 40px;
 }
 #lunes-multicolor .promo-wrapper .promo-text-wrapper .promo-discount {
   font-size: 40px;
@@ -54,5 +53,5 @@
   text-transform: uppercase;
   color: rgb(var(--color-white));
   line-height: normal;
-  margin-bottom: 15px;
+  margin: 30px 0;
 }

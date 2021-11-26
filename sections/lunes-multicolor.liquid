@@ -13,10 +13,10 @@
           {{section.settings.promo_title}}</div>
         <div class="promo-text"
           style="color: rgb({{section.settings.text_color.red}}, {{section.settings.text_color.green}},  {{section.settings.text_color.blue}})">
-          Compra con <b>descuento</b> el color del día <b>{{section.settings.promo_text}}</b></div>
+          {{section.settings.promo_text}}</b></div>
         <div class="promo-discount"
           style="color: rgb({{section.settings.text_color.red}}, {{section.settings.text_color.green}},  {{section.settings.text_color.blue}})">
-          25% DCTO</div>
+          {{section.settings.promo_discount_text}}</div>
         <a class="white-btn" href="{{section.settings.button_url}}"
           style="background-color: rgb({{section.settings.button_body_color.red}}, {{section.settings.button_body_color.green}},  {{section.settings.button_body_color.blue}})">
           <span style="color: rgb({{section.settings.button_text_color.red}}, {{section.settings.button_text_color.green}},  {{section.settings.button_text_color.blue}})">
@@ -99,21 +99,18 @@
     },
     {
       "id": "promo_title",
-      "type": "text",
-      "label": "t:sections.lunes-multicolor.settings.promo_title.label",
-      "default": "LUNES MULTICOLOR"
+      "type": "richtext",
+      "label": "t:sections.lunes-multicolor.settings.promo_title.label"
     },
     {
       "id": "promo_text",
-      "type": "textarea",
-      "label": "t:sections.lunes-multicolor.settings.promo_text.label",
-      "default": "Compra con <b>descuento</b> el color del día <b>BEIGE</b>."
+      "type": "richtext",
+      "label": "t:sections.lunes-multicolor.settings.promo_text.label"
     },
     {
       "id": "promo_discount_text",
-      "type": "textarea",
-      "label": "t:sections.lunes-multicolor.settings.promo_discount_text.label",
-      "default": "Compra con <b>descuento</b> el color del día <b>BEIGE</b>."
+      "type": "richtext",
+      "label": "t:sections.lunes-multicolor.settings.promo_discount_text.label"
     },
     {
       "id": "button_label",

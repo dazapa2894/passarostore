@@ -25,7 +25,7 @@
         "enable_infinite_scroll": true,
         "container_selector": "#CollectionProductGrid",
         "path": ".pagination .btn--next",
-        "append": ".prod-grid .prod__item",
+        "append": ".prod-grid .pagination__item--prev",
         "hide_nav": ".pagination",
         "status": ".page-load-status",
         "status_info": "Loading...",

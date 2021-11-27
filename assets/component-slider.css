@@ -91,13 +91,14 @@ slider-component .slider-buttons {
   z-index: 2;
   right: 0;
   bottom: 0;
-  height: 32px;
-  width: 32px;
+  
 }
 
 .slider-buttons.slider-buttons--overlay {
   border: 0.1rem solid rgba(var(--color-foreground), 0.08);
   background-color: rgb(var(--color-background));
+  height: 32px;
+  width: 32px;
 }
 
 .slider-mobile-gutter .slider-buttons {

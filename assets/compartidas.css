@@ -57,6 +57,13 @@
   display: block !important;
   width: fit-content;
   box-shadow: none !important;
+  font-size: 12px;
+  min-height: 36px!important;
+}
+@media only screen and (min-width: 601px) {
+  .pink-btn {
+    font-size: 16px;
+  }
 }
 .pink-btn:hover {
   background-color: rgb(var(--color-white)) !important;
@@ -76,6 +83,13 @@
   text-transform: uppercase;
   display: block;
   width: fit-content;
+  font-size: 12px;
+  min-height: 36px!important;
+}
+@media only screen and (min-width: 601px) {
+  .white-btn {
+    font-size: 16px;
+  }
 }
 .white-btn:hover {
   background-color: rgb(var(--color-dark-blue));

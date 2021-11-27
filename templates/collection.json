@@ -9,10 +9,16 @@
       "type": "main-collection-product-grid",
       "settings": {
       }
+    },
+    "infinite-scroll": {
+      "type": "collection-infinite-scroll",
+      "settings": {
+      }
     }
   },
   "order": [
     "breadcrumb",
-    "product-grid"
+    "product-grid",
+    "infinite-scroll"
   ]
 }

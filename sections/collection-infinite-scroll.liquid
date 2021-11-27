@@ -9,6 +9,7 @@
 {%  assign append = section.settings.append | default: false %}
 {%  assign hide_nav = section.settings.hide_nav | default: ".pagination"  %}
 {%  assign status = section.settings.status | default: ".page-load-status" %}
+
 <script>
   var isSettings =
     '{ "container" : "{{container_selector}}", "path" : "{{path}}", "append" : "{{append}}", "hideNav" : "{{hide_nav}}", "status" : "{{status}}" }';

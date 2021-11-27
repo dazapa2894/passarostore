@@ -8,28 +8,11 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
-        "products_per_page": 16,
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": false,
-        "enable_filtering": true,
-        "enable_sorting": true,
-        "collapse_on_larger_devices": false
       }
     },
     "infinite-scroll": {
       "type": "collection-infinite-scroll",
       "settings": {
-        "enable_infinite_scroll": true,
-        "container_selector": "#CollectionProductGrid",
-        "path": ".pagination .btn--next",
-        "append": ".prod-grid .pagination__item--prev",
-        "hide_nav": ".pagination",
-        "status": ".page-load-status",
-        "status_info": "Loading...",
-        "status_end": "No more product to load!"
       }
     }
   },

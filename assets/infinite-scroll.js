@@ -1,10 +1,10 @@
-var elem = document.querySelector(isSettingsObj.container);
-if ($(isSettingsObj.path).length > 0) {
+var elem = document.querySelector(isSettings.container);
+if ($(isSettings.path).length > 0) {
   var infScroll = new InfiniteScroll(elem, {
-    path: isSettingsObj.path,
-    append: isSettingsObj.append,
+    path: isSettings.path,
+    append: isSettings.append,
     history: false,
-    hideNav: isSettingsObj.hideNav,
-    status: isSettingsObj.status
+    hideNav: isSettings.hideNav,
+    status: isSettings.status
   });
 }

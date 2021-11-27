@@ -445,7 +445,7 @@
 </div>
 
 <div id="CollectionProductGrid">
-  {% assign custom_limit = section %}{%- paginate collection.products by 20.settings.products_per_page -%}
+  {% assign custom_limit = section %}{%- paginate collection.products by 16.settings.products_per_page -%}
     {%- if collection.products.size == 0 -%}
       <div class="collection collection--empty page-width" id="main-collection-product-grid" data-id="{{ section.id }}">
         <div class="loading-overlay">
@@ -496,7 +496,7 @@
         {%- endif -%}
       </div>
     {%- endif -%}
-  {%- endpaginate -%}
+  <input type="hidden" name="eosh-total-pages" class="eosh-total-pages" value="{{ paginate.pages }}">{%- endpaginate -%}
 </div>
 
 {% schema %}

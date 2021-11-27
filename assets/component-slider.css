@@ -91,6 +91,8 @@ slider-component .slider-buttons {
   z-index: 2;
   right: 0;
   bottom: 0;
+  height: 32px;
+  width: 32px;
 }
 
 .slider-buttons.slider-buttons--overlay {
@@ -104,6 +106,7 @@ slider-component .slider-buttons {
 
 .slider-counter {
   margin-right: 3rem;
+  height: 32px;
 }
 
 .slider-buttons--overlay .slider-counter {

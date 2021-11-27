@@ -462,6 +462,7 @@ a.product__text {
   height: 100%;
   width: 100%;
   pointer-events: none;
+  font-size: 12px;
 }
 
 .product-media-modal {

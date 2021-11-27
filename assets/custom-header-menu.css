@@ -130,6 +130,7 @@
 }
 .side-nav-menu ul #side-menu-logo-wrapper a {
   width: 50%;
+  font-size: 15px;
   padding: 30px 0px;
 }
 .side-nav-menu ul li:not(#side-menu-logo-wrapper) {

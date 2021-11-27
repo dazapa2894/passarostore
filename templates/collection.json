@@ -23,7 +23,7 @@
       "type": "collection-infinite-scroll",
       "settings": {
         "enable_infinite_scroll": true,
-        "container_selector": ".prod-grid",
+        "container_selector": "#CollectionProductGrid",
         "path": ".pagination .btn--next",
         "append": ".prod-grid .prod__item",
         "hide_nav": ".pagination",

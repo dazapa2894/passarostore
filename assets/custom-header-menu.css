@@ -97,15 +97,16 @@
   grid-area: auto;
   justify-self: center;
 }
-.header-wrapper .header__heading .header__heading-link img {
+.header-wrapper .header__heading .header__heading-link img, .footer-logo img {
   width: auto;
   height: 25px;
 }
 @media (min-width: 768px) {
-  .header-wrapper .header__heading .header__heading-link img {
+  .header-wrapper .header__heading .header__heading-link img, .footer-logo img {
     height: 30px;
   }
 }
+
 .header-wrapper .header__icons .site-header__account {
   display: none!important;
 }

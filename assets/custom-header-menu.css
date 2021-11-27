@@ -97,12 +97,12 @@
   grid-area: auto;
   justify-self: center;
 }
-.header-wrapper .header__heading .header__heading-link img, .footer-logo img {
+.header-wrapper .header__heading .header__heading-link img, .footer-logo img, .header__heading-logo {
   width: auto;
   height: 25px;
 }
 @media (min-width: 768px) {
-  .header-wrapper .header__heading .header__heading-link img, .footer-logo img {
+  .header-wrapper .header__heading .header__heading-link img, .footer-logo img, .header__heading-logo {
     height: 30px;
   }
 }

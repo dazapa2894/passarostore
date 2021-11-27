@@ -97,8 +97,6 @@ slider-component .slider-buttons {
 .slider-buttons.slider-buttons--overlay {
   border: 0.1rem solid rgba(var(--color-foreground), 0.08);
   background-color: rgb(var(--color-background));
-  height: 32px;
-  width: 32px;
 }
 
 .slider-mobile-gutter .slider-buttons {
@@ -107,7 +105,6 @@ slider-component .slider-buttons {
 
 .slider-counter {
   margin-right: 3rem;
-  height: 32px;
 }
 
 .slider-buttons--overlay .slider-counter {
@@ -154,6 +151,8 @@ slider-component .slider-buttons {
 .slider-buttons--overlay .slider-button {
   margin-top: -1px;
   margin-bottom: -1px;
+  height: 32px;
+  width: 32px;
 }
 
 .slider-buttons--overlay .slider-button + .slider-button {

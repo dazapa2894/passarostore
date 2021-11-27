@@ -7,12 +7,14 @@
   width: 280px;
   height: 200px;
   background: white;
+  padding: 20px;
 }
 #custom-notification #cerrar-notificacion {
   width: 20px;
   height: 20px;
   position: absolute;
   right: 0;
+  top: 0;
   cursor: pointer;
 }
 #custom-notification #titulo-notificacion {
@@ -25,5 +27,4 @@
   font-family: montserrat;
   font-size: 12px;
   color: rgb(var(--color-dark-blue));
-  padding: 20px 20px;
 }

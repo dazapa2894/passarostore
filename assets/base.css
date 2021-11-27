@@ -1872,7 +1872,7 @@ input[type='checkbox'] {
 }
 
 .header__heading-logo {
-  height: 30px;
+  height: 25px;
 }
 
 @media screen and (min-width: 990px) {

@@ -23,11 +23,11 @@
       "type": "collection-infinite-scroll",
       "settings": {
         "enable_infinite_scroll": true,
-        "container_selector": "",
-        "path": "",
-        "append": "",
-        "hide_nav": "",
-        "status": "",
+        "container_selector": ".prod-grid",
+        "path": ".pagination .btn--next",
+        "append": ".prod-grid .prod__item",
+        "hide_nav": ".pagination",
+        "status": ".page-load-status",
         "status_info": "Loading...",
         "status_end": "No more product to load!"
       }

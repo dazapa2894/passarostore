@@ -33,11 +33,21 @@ window.addEventListener('DOMContentLoaded', (event) => {
 });
 
 
+$("#cerrar-notificacion").click( function(){
+  $("#custom-notification").slideUp();
+});
 
 function custom_notificacion( titulo, mensaje, tipo = 1 ){ 
 
   console.log("titulo notificación =" + titulo);
   console.log("mensaje notificación =" + mensaje);
   console.log("tipo notificación =" + tipo);
+
+  
+  $("#titulo-notificacion").html(titulo);
+  $("#descripcion-notificacion").html(mensaje);
+  
+
+  $("#custom-notification").slideDown();
 
 }

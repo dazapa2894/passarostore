@@ -390,5 +390,13 @@
       "copy_code_success": "El código se copió correctamente",
       "print_gift_card": "Imprimir"
     }
+  },
+  "shopify": {
+    "checkout": {
+      "delivery_options": {
+        "ship": "Envío Certificado",
+        "pick_up": "Retiro en Tienda"
+      }
+    }
   }
 }

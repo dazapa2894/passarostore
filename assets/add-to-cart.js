@@ -33,15 +33,19 @@ $(".size-picker").off('click').on('click', function() {
 // agrego el evento de cambiar la talla de la compra
 console.log($(".show-variant"));
 $(".show-variant").off('click').on('click', function () {
-  console.log("+ clicked");
-  console.log($(this));
-  $(this).next().toggleClass('hide');
-  if ($(this).html() == "+") {
-    $(this).html("-");
-  } else if ($(this).html() == "-") {
-    $(this).html("+");
-  }
+  show_variant(this);
 });
+
+function show_variant( element ){
+  console.log("+ clicked");
+  console.log($(element));
+  $(element).next().toggleClass('hide');
+  if ($(element).html() == "+") {
+    $(element).html("-");
+  } else if ($(element).html() == "-") {
+    $(element).html("+");
+  }
+}
 
 
 //agrego el evento de agregar al carrito

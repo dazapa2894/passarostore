@@ -39,7 +39,7 @@
         "final_button_url": "shopify:\/\/collections\/nueva-coleccion"
       }
     },
-    "call_to_action": {
+    "lunes_multicolor": {
       "type": "lunes-multicolor",
       "settings": {
         "background_color": "#e7e6e6",
@@ -126,7 +126,7 @@
     "image_banner",
     "collection_slider",
     "new_collection",
-    "call_to_action",
+    "lunes_multicolor",
     "seasonal_offers",
     "about_us",
     "home_header_fixer",

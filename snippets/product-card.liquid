@@ -78,78 +78,82 @@
 
     
 </script>
+<!-- Solo muestro el producto si hay existencias -->
+{% if product_card_product.available %}
 
-<!-- product info -->
-<div class="product-wrapper card-wrapper" variant_size="{{product_card_product.variants.first.option1}}">
-  
-  <div class="product-img-wrapper">
-    <a href="{{product_card_product.url}}" class="img-wrapper">
-      {% if product_card_product.featured_image != blank %}
-        <img class="product-img"
-          src="{{product_card_product.featured_image | img_url: '375x' }}"
-          loading="lazy"
-          alt="{{product_card_product.featured_image.alt | escape }}"
-        >
-      {% else %}
-        {{ 'product-1' | placeholder_svg_tag}}
-      {% endif %}
-      
-      
-      <div class="card__badge">
-        {%- if product_card_product.available == false -%}
-          <span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}" aria-hidden="true">{{ 'products.product_card_product.sold_out' | t }}</span>
-        {%- elsif product_card_product.compare_at_price > product_card_product.price and product_card_product.available -%}
-          <span class="badge badge--top-left color-green pecentual-discount" aria-hidden="true">-{{ product_card_product.compare_at_price_max | minus: product_card_product.price | times: 100 | divided_by: product_card_product.compare_at_price_max }}%</span>
-        {%- endif -%}
-      </div>
-     
-    </a>
+  <!-- product info -->
+  <div class="product-wrapper card-wrapper" variant_size="{{product_card_product.variants.first.option1}}">
     
-    <div class="show-variant"  onclick="Show_variant(this)">+</div>
-    
-    <div class="variant-pickers hide">
-      <h5 class="small-hide">Tallas</h5>
-      <div class="product-sizes">
-        {% assign first_size = product_card_product.variants[0].option1%}
-        {% assign first_size_counter = 0%}
-        {% for option in product_card_product.variants %}
-          {% if first_size == option.option1 %}
-            {% assign first_size_counter = first_size_counter | plus: 1 %}
-            {% if first_size_counter > 1 %}
-              {% break %}
-            {% endif %}
-          {% endif %}
-
-          <div variant_size="{{option.option1}}" class="size-picker {% if forloop.first == true %}active{% endif %}">
-            {{option.option1}}
-          </div>
+    <div class="product-img-wrapper">
+      <a href="{{product_card_product.url}}" class="img-wrapper">
+        {% if product_card_product.featured_image != blank %}
+          <img class="product-img"
+            src="{{product_card_product.featured_image | img_url: '375x' }}"
+            loading="lazy"
+            alt="{{product_card_product.featured_image.alt | escape }}"
+          >
+        {% else %}
+          {{ 'product-1' | placeholder_svg_tag}}
+        {% endif %}
         
-        {% endfor %}
-      </div>
-      <select id="{{product_card_product.id}}-variant-selector" class="hidden" data-productid="{{product_card_product.id}}">
-        {% for option in product_card_product.variants %}
-          <option value="{{option.id}}" handle="{{product_card_product.handle}}" variant="{{-option.title-}}"> {{option.title}}</option>
-        {% endfor %}
-      </select>
-      <div class="agregar-al-carrito blue-btn">
-        <span class="agregar-span small-hide medium-hide">AGREGAR AL CARRITO</span>
-        <div class="agregar-icon large-up-hide ">{% render 'icon-cart-empty-small' %}</div>
-      </div>
+        
+        <div class="card__badge">
+          {%- if product_card_product.available == false -%}
+            <span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}" aria-hidden="true">{{ 'products.product_card_product.sold_out' | t }}</span>
+          {%- elsif product_card_product.compare_at_price > product_card_product.price and product_card_product.available -%}
+            <span class="badge badge--top-left color-green pecentual-discount" aria-hidden="true">-{{ product_card_product.compare_at_price_max | minus: product_card_product.price | times: 100 | divided_by: product_card_product.compare_at_price_max }}%</span>
+          {%- endif -%}
+        </div>
+      
+      </a>
+      
+      <div class="show-variant">+</div>
+      
+      <div class="variant-pickers hide">
+        <h5 class="small-hide">Tallas</h5>
+        <div class="product-sizes">
+          {% assign first_size = product_card_product.variants[0].option1%}
+          {% assign first_size_counter = 0%}
+          {% for option in product_card_product.variants %}
+            {% if first_size == option.option1 %}
+              {% assign first_size_counter = first_size_counter | plus: 1 %}
+              {% if first_size_counter > 1 %}
+                {% break %}
+              {% endif %}
+            {% endif %}
 
-    </div><!-- end variant-pickers -->
-    
-  </div>
-    
-  <div class="product-title">{{ product_card_product.title }}</div>
-  {%- if product_card_product.compare_at_price > product_card_product.price and product_card_product.available -%}
-    <div class="product-price">
-      <del style="color: rgb(var(--color-gray));">{{ product_card_product.compare_at_price | money_without_trailing_zeros }}</del>
-      {{ product_card_product.price | money_without_trailing_zeros }}
+            <div variant_size="{{option.option1}}" class="size-picker {% if forloop.first == true %}active{% endif %}">
+              {{option.option1}}
+            </div>
+          
+          {% endfor %}
+        </div>
+        <select id="{{product_card_product.id}}-variant-selector" class="hidden" data-productid="{{product_card_product.id}}">
+          {% for option in product_card_product.variants %}
+            <option value="{{option.id}}" handle="{{product_card_product.handle}}" variant="{{-option.title-}}"> {{option.title}}</option>
+          {% endfor %}
+        </select>
+        <div class="agregar-al-carrito blue-btn">
+          <span class="agregar-span small-hide medium-hide">AGREGAR AL CARRITO</span>
+          <div class="agregar-icon large-up-hide ">{% render 'icon-cart-empty-small' %}</div>
+        </div>
+
+      </div><!-- end variant-pickers -->
+      
     </div>
-  {%- else -%}
-    <div class="product-price">{{ product_card_product.price | money_without_trailing_zeros }}</div>   
-  {%- endif -%}
+      
+    <div class="product-title">{{ product_card_product.title }}</div>
+    {%- if product_card_product.compare_at_price > product_card_product.price and product_card_product.available -%}
+      <div class="product-price">
+        <del style="color: rgb(var(--color-gray));">{{ product_card_product.compare_at_price | money_without_trailing_zeros }}</del>
+        {{ product_card_product.price | money_without_trailing_zeros }}
+      </div>
+    {%- else -%}
+      <div class="product-price">{{ product_card_product.price | money_without_trailing_zeros }}</div>   
+    {%- endif -%}
 
-</div><!-- END card-wrapper -->
+  </div><!-- END card-wrapper -->
 
+  
+{% endif %}
 

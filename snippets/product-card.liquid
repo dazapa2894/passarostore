@@ -80,10 +80,10 @@
 </script>
 
 
-{% assign ocultar_todo = true %}
+{% assign ocultar_agotados = false %}
 
 <!-- Solo muestro el producto si hay existencias -->
-{% if product_card_product.available or ocultar_todo == false %}
+{% if product_card_product.available or ocultar_agotados == false %}
 
   <!-- product info -->
   <div class="product-wrapper card-wrapper" variant_size="{{product_card_product.variants.first.option1}}">

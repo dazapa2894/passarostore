@@ -15,8 +15,8 @@ $(".tab-trigger").click(function () {
   
 });
 
-console.log($(".product__media-list .main_product_thumbnail_item_holder img.main_product_thumbnail_item, button.product__media-toggle"));
-$(".product__media-list .main_product_thumbnail_item_holder img.main_product_thumbnail_item, button.product__media-toggle").click(function () {
+console.log($(".product__media-list .main_product_thumbnail_item_holder img.main_product_thumbnail_item"));
+$(".product__media-list .main_product_thumbnail_item_holder img.main_product_thumbnail_item").click(function () {
   console.log("thumb clicked");
   console.log($(this));
   img_src = $(this).attr("src");
@@ -29,6 +29,29 @@ $(".product__media-list .main_product_thumbnail_item_holder img.main_product_thu
     console.log("tiene srcset");
     $main_img.removeAttr("srcset");
   }else{
+    console.log("NO tiene srcset");
+  }
+
+});
+
+
+console.log($("button.product__media-toggle"));
+$("button.product__media-toggle").click(function () {
+  
+  console.log("butn clicked");
+  console.log($(this));
+  console.log($(this).prev().find("img"));
+  img_src = $(this).prev().find("img").attr("src");
+  console.log(img_src);
+  
+  $main_img = $("#producto_main_img img");
+  $main_img.attr("src", img_src);
+  $(".product-media-modal__content img").attr("src", img_src);
+
+  if ($main_img[0].hasAttribute("srcset")) {
+    console.log("tiene srcset");
+    $main_img.removeAttr("srcset");
+  } else {
     console.log("NO tiene srcset");
   }
 

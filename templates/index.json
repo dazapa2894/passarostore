@@ -41,6 +41,7 @@
     },
     "lunes_multicolor": {
       "type": "lunes-multicolor",
+      "disabled": true,
       "settings": {
         "background_color": "#e7e6e6",
         "text_color": "#001840",
@@ -57,12 +58,13 @@
     "seasonal_offers": {
       "type": "seasonal-offers",
       "settings": {
-        "title": "Descuentos",
+        "title": "esenciales",
         "show_compare_price": false
       }
     },
     "about_us": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",

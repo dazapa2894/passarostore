@@ -37,16 +37,14 @@ $(".product__media-list .main_product_thumbnail_item_holder img.main_product_thu
 
 console.log($("button.product__media-toggle"));
 $("button.product__media-toggle").click(function () {
-  
-  console.log("buton clicked");
+  console.log("thumb clicked");
   console.log($(this));
   console.log($(this).prev().find("img"));
   img_src = $(this).prev().find("img").attr("src");
   console.log(img_src);
-  
-  $main_img = $("#producto_main_img img");
-  $main_img.attr("src", img_src);
+
   $(".product-media-modal__content img").attr("src", img_src);
+  $(".product-media-modal__content img").addClass("active");
 
   if ($main_img[0].hasAttribute("srcset")) {
     console.log("tiene srcset");

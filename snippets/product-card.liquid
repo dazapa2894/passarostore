@@ -23,7 +23,8 @@
 
 {% endcomment %}
 
-
+{% comment %} ESTA VARIABLE SE USA PARA MOSTRAR O NO LOS PRODUCTOS AGOTADOS {% endcomment %}
+{% assign ocultar_agotados = false %}
 
 <script>
 
@@ -79,8 +80,6 @@
     
 </script>
 
-
-{% assign ocultar_agotados = false %}
 
 <!-- Solo muestro el producto si hay existencias -->
 {% if product_card_product.available or ocultar_agotados == false %}

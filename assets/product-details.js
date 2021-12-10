@@ -38,7 +38,7 @@ $(".product__media-list .main_product_thumbnail_item_holder img.main_product_thu
 console.log($("button.product__media-toggle"));
 $("button.product__media-toggle").click(function () {
   
-  console.log("butn clicked");
+  console.log("buton clicked");
   console.log($(this));
   console.log($(this).prev().find("img"));
   img_src = $(this).prev().find("img").attr("src");

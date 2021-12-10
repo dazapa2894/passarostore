@@ -1,5 +1,5 @@
 #shopify-section-header {
-  z-index: 3;
+  z-index: 4 !important;
   width: 100%;
   position: relative;
 }

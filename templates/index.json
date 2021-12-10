@@ -58,7 +58,7 @@
     "seasonal_offers": {
       "type": "seasonal-offers",
       "settings": {
-        "title": "esenciales",
+        "title": "Esenciales",
         "show_compare_price": false
       }
     },

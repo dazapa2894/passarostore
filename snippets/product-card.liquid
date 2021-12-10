@@ -78,8 +78,12 @@
 
     
 </script>
+
+
+{% assign ocultar_todo = false %}
+
 <!-- Solo muestro el producto si hay existencias -->
-{% if product_card_product.available %}
+{% if product_card_product.available and ocultar_todo %}
 
   <!-- product info -->
   <div class="product-wrapper card-wrapper" variant_size="{{product_card_product.variants.first.option1}}">

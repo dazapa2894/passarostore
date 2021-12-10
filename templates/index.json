@@ -35,7 +35,7 @@
       "settings": {
         "title": "Últimas colecciones",
         "max_products": "6",
-        "final_button_label": "ver el catálogo",
+        "final_button_label": "ver Colección",
         "final_button_url": "shopify:\/\/collections\/nueva-coleccion"
       }
     },

@@ -461,7 +461,6 @@ a.product__text {
   z-index: 2;
   height: 100%;
   width: 100%;
-  pointer-events: none;
   font-size: 12px;
 }
 

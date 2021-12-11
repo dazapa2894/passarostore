@@ -5,7 +5,7 @@
       "settings": {
         "title": "Colecciones",
         "sort": "alphabetical",
-        "image_ratio": "square",
+        "image_ratio": "portrait",
         "color_scheme": "background-1",
         "image_padding": false
       }

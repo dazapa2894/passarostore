@@ -399,7 +399,8 @@
       },
       "contact": {
         "province_label": "Departamento",
-        "province_placeholder": "Departamento"
+        "province_placeholder": "Departamento",
+        "country_label": "País"
       }
     }
   }

@@ -15,8 +15,8 @@
         "show_image_outline": true,
         "show_vendor": false,
         "enable_filtering": true,
-        "enable_sorting": true,
-        "collapse_on_larger_devices": false
+        "enable_sorting": false,
+        "collapse_on_larger_devices": true
       }
     }
   },

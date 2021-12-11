@@ -42,17 +42,17 @@
     },
     "lunes_multicolor": {
       "type": "lunes-multicolor",
-      "disabled": true,
       "settings": {
         "background_color": "#e7e6e6",
         "text_color": "#001840",
         "button_body_color": "#001840",
         "button_text_color": "#ffffff",
         "show_section": true,
-        "promo_title": "",
-        "promo_text": "",
+        "banner_img": "shopify:\/\/shop_images\/Multicolor.jpg",
+        "promo_title": "<p>Conoce nuestra nueva base<\/p>",
+        "promo_text": "<p>EN COLECCIÓN LINO PURO<\/p>",
         "promo_discount_text": "",
-        "button_label": "descubrir",
+        "button_label": "VER COLECCIÓN",
         "button_url": ""
       }
     },

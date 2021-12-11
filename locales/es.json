@@ -396,6 +396,10 @@
       "delivery_options": {
         "ship": "Envío Certificado",
         "pick_up": "Retiro en Tienda"
+      },
+      "contact": {
+        "province_label": "Departamento",
+        "province_placeholder": "Departamento"
       }
     }
   }

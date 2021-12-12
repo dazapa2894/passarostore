@@ -399,7 +399,7 @@
       },
       "contact": {
         "province_label": "Departamento",
-        "province_placeholder": "Departamento",
+        "province_placeholder": "Selecciona tu Departamento",
         "country_label": "País"
       }
     }

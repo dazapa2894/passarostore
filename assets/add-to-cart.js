@@ -20,21 +20,20 @@
 // agrego el evento para mostrar el cuadro de tallas
 // console.log($(".size-picker"));
 $(".size-picker").off('click').on('click', function() {
-  let variant_size = $(this).attr("variant_size");
-  $(this).parent().parent().parent().parent().attr("variant_size", variant_size);
-  // console.log("variant_size = " + variant_size);
-  
-  console.log($(this).parent());
-  console.log($(this).parent().find(".size-picker"));
-  $(this).parent().find(".size-picker").removeClass('active');
-  $(this).addClass('active');
+  ChangeSize( this );
 });
 
 // agrego el evento de cambiar la talla de la compra
-//console.log($(".show-variant"));
-//$(".show-variant").off('click').on('click', function () {
-//  Show_variant(this);
-//});
+console.log($(".show-variant"));
+$(".show-variant").off('click').on('click', function () {
+  Show_variant(this);
+});
+
+//agrego el evento de agregar al carrito
+$(".agregar-al-carrito").off('click').on('click', function () {
+  AddProduct(this);
+});
+
 
 function Show_variant( element ){
   console.log("Show_variants");
@@ -47,23 +46,30 @@ function Show_variant( element ){
   }
 }
 
+function ChangeSize( element ){
+  let variant_size = $(element).attr("variant_size");
+  $(element).parent().parent().parent().parent().attr("variant_size", variant_size);
+  // console.log("variant_size = " + variant_size);
 
+  console.log($(element).parent());
+  console.log($(element).parent().find(".size-picker"));
+  $(element).parent().find(".size-picker").removeClass('active');
+  $(element).addClass('active');
+}
 
-//agrego el evento de agregar al carrito
-$(".agregar-al-carrito").off('click').on('click', function () {
-
+function AddProduct( element ){
   // console.log("agregar al carrito");
-  
-  let $data_container_element = $(this).parent().parent().parent();
+
+  let $data_container_element = $(element).parent().parent().parent();
   let variant_size = $data_container_element.attr("variant_size");
-  
-  let $the_select_element = $(this).parent().find("select");
-  
-  let variant_id =  SetSelect($the_select_element, variant_size);
-  
-  
+
+  let $the_select_element = $(element).parent().find("select");
+
+  let variant_id = SetSelect($the_select_element, variant_size);
+
+
   console.log("variant_id = " + variant_id);
-  
+
   let formData = {
     'items': [{
       'id': variant_id,
@@ -88,13 +94,13 @@ $(".agregar-al-carrito").off('click').on('click', function () {
     .then(response => {
       console.log("response1");
       console.log(response);
-      
+
       ///////////////////////////////////////////// MANEJO ERRORES DEL CARRITO ///////////////////////////////////////////////////////////////
       console.log("ERROR DESCRIPTION");
       console.log(response.description);
       console.log(response.message);
       console.log(response.status);
-      if ('description' in response){
+      if ('description' in response) {
         if (response.status == 422) {
           // resoliviendo error del carrito al agregar el producto
           console.log("resoliviendo error del carrito al agregar el producto");
@@ -113,13 +119,13 @@ $(".agregar-al-carrito").off('click').on('click', function () {
 
           // mostrar el error en una notificacion cool
           custom_notificacion("Error al agregar al carrito", mensaje_error_notificacion);
-          
+
 
         }
       }
       /////////////////////////////////////////////////// FIN ERRORES DEL CARRITO /////////////////////////////////////////////////
-      
-      
+
+
 
 
       if ('items' in response) {
@@ -204,9 +210,9 @@ $(".agregar-al-carrito").off('click').on('click', function () {
         }
       }
 
-      
+
     });
-});
+}
 
 
 function navConfirm(message, loc) {

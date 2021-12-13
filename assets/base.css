@@ -2250,4 +2250,5 @@ details-disclosure > details {
 .loadMoreButton{
   font-family: montserrat;
   font-weight: 600;
+  text-transform: uppercase;
 }

@@ -136,7 +136,7 @@
             <option value="{{option.id}}" handle="{{product_card_product.handle}}" variant="{{-option.title-}}"> {{option.title}}</option>
           {% endfor %}
         </select>
-        <div class="agregar-al-carrito blue-btn">
+        <div class="agregar-al-carrito blue-btn" onclick="AddProduct(this)">
           <span class="agregar-span small-hide medium-hide">AGREGAR AL CARRITO</span>
           <div class="agregar-icon large-up-hide ">{% render 'icon-cart-empty-small' %}</div>
         </div>

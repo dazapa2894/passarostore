@@ -2245,3 +2245,7 @@ details-disclosure > details {
   word-break: break-word;
   font-family: montserrat;
 }
+
+.loadMoreButton{
+  font-family: montserrat;
+}

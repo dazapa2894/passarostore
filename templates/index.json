@@ -43,7 +43,7 @@
     "lunes_multicolor": {
       "type": "lunes-multicolor",
       "settings": {
-        "background_color": "#ffffff",
+        "background_color": "#efefef",
         "text_color": "#001840",
         "button_body_color": "#001840",
         "button_text_color": "#ffffff",

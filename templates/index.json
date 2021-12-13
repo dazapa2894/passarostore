@@ -43,7 +43,7 @@
     "lunes_multicolor": {
       "type": "lunes-multicolor",
       "settings": {
-        "background_color": "#e7e6e6",
+        "background_color": "#ffffff",
         "text_color": "#001840",
         "button_body_color": "#001840",
         "button_text_color": "#ffffff",
@@ -54,13 +54,6 @@
         "promo_discount_text": "",
         "button_label": "VER COLECCIÓN",
         "button_url": ""
-      }
-    },
-    "seasonal_offers": {
-      "type": "seasonal-offers",
-      "settings": {
-        "title": "Esenciales",
-        "show_compare_price": false
       }
     },
     "about_us": {
@@ -99,6 +92,13 @@
         "layout": "image_first"
       }
     },
+    "seasonal_offers": {
+      "type": "seasonal-offers",
+      "settings": {
+        "title": "Esenciales",
+        "show_compare_price": false
+      }
+    },
     "home_header_fixer": {
       "type": "home-header-fixer",
       "settings": {
@@ -130,8 +130,8 @@
     "collection_slider",
     "new_collection",
     "lunes_multicolor",
-    "seasonal_offers",
     "about_us",
+    "seasonal_offers",
     "home_header_fixer",
     "16390641501879d813"
   ]

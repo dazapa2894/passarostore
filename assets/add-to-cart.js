@@ -19,20 +19,20 @@
 
 // agrego el evento para mostrar el cuadro de tallas
 // console.log($(".size-picker"));
-$(".size-picker").off('click').on('click', function() {
-  ChangeSize( this );
-});
+// $(".size-picker").off('click').on('click', function() {
+//   ChangeSize( this );
+// });
 
-// agrego el evento de cambiar la talla de la compra
-console.log($(".show-variant"));
-$(".show-variant").off('click').on('click', function () {
-  Show_variant(this);
-});
+// // agrego el evento de cambiar la talla de la compra
+// console.log($(".show-variant"));
+// $(".show-variant").off('click').on('click', function () {
+//   Show_variant(this);
+// });
 
-//agrego el evento de agregar al carrito
-$(".agregar-al-carrito").off('click').on('click', function () {
-  AddProduct(this);
-});
+// //agrego el evento de agregar al carrito
+// $(".agregar-al-carrito").off('click').on('click', function () {
+//   AddProduct(this);
+// });
 
 
 function Show_variant( element ){

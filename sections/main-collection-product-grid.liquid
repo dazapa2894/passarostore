@@ -446,7 +446,7 @@
 
 <div id="CollectionProductGrid">
   {{settings.products_per_page}}
-  {% assign custom_limit = section.settings.products_per_page %}{%- paginate collection.products by 12 -%}
+  {% assign custom_limit = section.settings.products_per_page %}{%- paginate collection.products by 120 -%}
     {%- if collection.products.size == 0 -%}
       <div class="collection collection--empty page-width" id="main-collection-product-grid" data-id="{{ section.id }}">
         <div class="loading-overlay">

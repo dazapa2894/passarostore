@@ -48,6 +48,7 @@ function Show_variant( element ){
 
 function ChangeSize( element ){
   let variant_size = $(element).attr("variant_size");
+  console.log("new size = " + variant_size);
   $(element).parent().parent().parent().parent().attr("variant_size", variant_size);
   // console.log("variant_size = " + variant_size);
 

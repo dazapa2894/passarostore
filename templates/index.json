@@ -47,7 +47,7 @@
         "text_color": "#001840",
         "button_body_color": "#001840",
         "button_text_color": "#ffffff",
-        "show_section": true,
+        "show_section": false,
         "banner_img": "shopify:\/\/shop_images\/Multicolor.jpg",
         "promo_title": "<p>Conoce nuestra nueva base<\/p>",
         "promo_text": "<p>EN COLECCIÓN LINO PURO<\/p>",

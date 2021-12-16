@@ -63,6 +63,7 @@
       "blocks": {
         "heading": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "<p>Las etiquetas se la dejamos a la ropa,<br\/>Pássaro esa versión de ti que te gusta.<\/p>",
             "heading_style": "h2"
@@ -70,12 +71,14 @@
         },
         "text": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         },
         "button": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Descubrir",
             "button_link": ""

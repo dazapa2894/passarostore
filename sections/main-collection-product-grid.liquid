@@ -487,22 +487,16 @@
         grid grid--2-col grid--3-col-tablet grid--4-col-desktop grid--quarter-max negative-margin product-grid">
           {%- for product in collection.products -%}
           	
-          	{% if settings.ocultar_agotados == "false" %}
+          	{% if settings.ocultar_agotados == false %}
           		<script>
-                  console.log("mostrar producto? {{settings.vars.ocultar_agotados}}");
+                  console.log("mostrar producto? {{settings.ocultar_agotados}}");
           		</script>
           	{% endif %}
           
-          	{% if settings.global_vars.ocultar_agotados != blank %}
-          		<script>
-                  console.log("mostrar producto2? {{settings.global_vars.ocultar_agotados}}");
-          		</script>
-          	{% endif %}
+
           
           	{% if product.available %}
-          		<script>
-                  console.log("mostrar producto3? {{settings.ocultar_agotados}}");
-          		</script>
+          		
               <li class="grid__item">
                 {% render 'product-card', product_card_product: product, media_size: section.settings.image_ratio, show_secondary_image: section.settings.show_secondary_image, add_image_padding: section.settings.add_image_padding, show_vendor: section.settings.show_vendor, show_image_outline: section.settings.show_image_outline %}
               </li>

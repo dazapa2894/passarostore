@@ -486,7 +486,7 @@
         <ul id="main-collection-product-grid" data-id="{{ section.id }}" class="          
         grid grid--2-col grid--3-col-tablet grid--4-col-desktop grid--quarter-max negative-margin product-grid">
           {%- for product in collection.products -%}
-          	{% if ocultar_agotados %}
+          	{% if ocultar_agotados == false %}
           		<script>
                   console.log("mostrar producto? {{ocultar_agotados}}");
           		</script>

@@ -486,19 +486,23 @@
         <ul id="main-collection-product-grid" data-id="{{ section.id }}" class="          
         grid grid--2-col grid--3-col-tablet grid--4-col-desktop grid--quarter-max negative-margin product-grid">
           {%- for product in collection.products -%}
+          	
           	{% if settings.global_vars.ocultar_agotados == false %}
           		<script>
                   console.log("mostrar producto? {{settings.global_vars.ocultar_agotados}}");
           		</script>
           	{% endif %}
+          
+          	{% if settings.global_vars.ocultar_agotados != blank %}
+          		<script>
+                  console.log("mostrar producto2? {{settings.global_vars.ocultar_agotados}}");
+          		</script>
+          	{% endif %}
+          
           	{% if product.available %}
               <li class="grid__item">
                 {% render 'product-card', product_card_product: product, media_size: section.settings.image_ratio, show_secondary_image: section.settings.show_secondary_image, add_image_padding: section.settings.add_image_padding, show_vendor: section.settings.show_vendor, show_image_outline: section.settings.show_image_outline %}
               </li>
-          	{% else %}
-          		<script>
-                  console.log("mostrar producto? {{settings.global_vars.ocultar_agotados}}");
-          		</script>
           	{% endif %}
           
           {%- endfor -%}

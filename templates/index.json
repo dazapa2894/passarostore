@@ -47,13 +47,13 @@
         "text_color": "#001840",
         "button_body_color": "#001840",
         "button_text_color": "#ffffff",
-        "show_section": false,
+        "show_section": true,
         "banner_img": "shopify:\/\/shop_images\/Multicolor.jpg",
-        "promo_title": "<p>Conoce nuestra nueva base<\/p>",
-        "promo_text": "<p>EN COLECCIÓN LINO PURO<\/p>",
-        "promo_discount_text": "",
+        "promo_title": "<p>Happy Hour Pássaro<\/p>",
+        "promo_text": "<p>Descuento por horas del 15 al 16 Diciembre<\/p>",
+        "promo_discount_text": "<p>20%, 15% y 10% dTO<\/p>",
         "button_label": "VER COLECCIÓN",
-        "button_url": ""
+        "button_url": "shopify:\/\/collections"
       }
     },
     "about_us": {

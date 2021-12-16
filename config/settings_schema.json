@@ -363,7 +363,7 @@
         "type": "checkbox",
         "id": "ocultar_agotados",
         "label": "Ocultar agotados",
-        "default": false
+        "default": true
       }
     ]
   }

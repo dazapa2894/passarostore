@@ -357,7 +357,7 @@
     ]
   },
   {
-    "name": "global_vars",
+    "name": "vars",
     "settings": [
       {
         "type": "text",

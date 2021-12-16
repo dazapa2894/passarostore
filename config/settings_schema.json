@@ -360,10 +360,10 @@
     "name": "global_vars",
     "settings": [
       {
-        "type": "checkbox",
+        "type": "text",
         "id": "ocultar_agotados",
         "label": "Ocultar agotados",
-        "default": false
+        "default": "false"
       }
     ]
   }

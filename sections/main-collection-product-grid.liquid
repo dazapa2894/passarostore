@@ -488,7 +488,7 @@
           {%- for product in collection.products -%}
           	{% if settings.global_vars.ocultar_agotados == false %}
           		<script>
-                  console.log("mostrar producto? {{ocultar_agotados}}");
+                  console.log("mostrar producto? {{settings.global_vars.ocultar_agotados}}");
           		</script>
           	{% endif %}
           	{% if product.available %}

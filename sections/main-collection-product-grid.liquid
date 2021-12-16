@@ -487,7 +487,7 @@
         grid grid--2-col grid--3-col-tablet grid--4-col-desktop grid--quarter-max negative-margin product-grid">
           {%- for product in collection.products -%}
           	
-          	{% if settings.global_vars.ocultar_agotados == false %}
+          	{% if settings.global_vars.ocultar_agotados == "false" %}
           		<script>
                   console.log("mostrar producto? {{settings.global_vars.ocultar_agotados}}");
           		</script>

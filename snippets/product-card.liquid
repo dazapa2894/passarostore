@@ -26,6 +26,17 @@
 {% comment %} ESTA VARIABLE SE USA PARA MOSTRAR O NO LOS PRODUCTOS AGOTADOS {% endcomment %}
 {% assign ocultar_agotados = false %}
 
+{% if ocultar_agotados == true %}
+	<script>
+      console.log($(this));
+  	</script>
+{% endif %}
+
+
+<!-- Solo muestro el producto si hay existencias -->
+{% if product_card_product.available or ocultar_agotados == false %}
+
+
 <script>
 
   var producto_object = {
@@ -80,9 +91,6 @@
     
 </script>
 
-
-<!-- Solo muestro el producto si hay existencias -->
-{% if product_card_product.available or ocultar_agotados == false %}
 
   <!-- product info -->
   <div class="product-wrapper card-wrapper" variant_size="{{product_card_product.variants.first.option1}}">

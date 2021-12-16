@@ -357,13 +357,13 @@
     ]
   },
   {
-    "name": "vars",
+    "name": "global_vars",
     "settings": [
       {
-        "type": "text",
+        "type": "checkbox",
         "id": "ocultar_agotados",
         "label": "Ocultar agotados",
-        "default": "false"
+        "default": false
       }
     ]
   }

@@ -355,5 +355,16 @@
         "default": true
       }
     ]
+  },
+  {
+    "name": "global_vars",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "ocultar_agotados",
+        "label": "Ocultar agotados",
+        "default": false
+      }
+    ]
   }
 ]

@@ -42,7 +42,6 @@
     },
     "lunes_multicolor": {
       "type": "lunes-multicolor",
-      "disabled": true,
       "settings": {
         "background_color": "#efefef",
         "text_color": "#001840",
@@ -54,7 +53,7 @@
         "promo_text": "<p>Nuestra nueva base<\/p>",
         "promo_discount_text": "",
         "button_label": "VER COLECCIÓN",
-        "button_url": "shopify:\/\/collections\/leticia"
+        "button_url": "shopify:\/\/collections\/lino"
       }
     },
     "about_us": {

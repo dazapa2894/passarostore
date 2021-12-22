@@ -35,10 +35,7 @@
           "hide_search_mobile": false,
           "logo_width": 100,
           "logo_position": "middle-left",
-          "menu": "main-menu",
-          "show_line_separator": true,
-          "enable_sticky_header": true,
-          "enable_header_search": true
+          "menu": "main-menu"
         }
       },
       "footer": {

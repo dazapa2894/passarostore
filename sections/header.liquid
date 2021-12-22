@@ -103,7 +103,7 @@
         <span>Menú</span>
       </div>
 
-      <details-modal class="header__search{%- if section.settings.hide_search_mobile-%} small-hide{% endif %}" style="grid-area: icons;">
+      <details-modal class="header__search{% if section.settings.hide_search_mobile %} small-hide{% endif %}" style="grid-area: icons;">
         <details>
           <summary
             class="header__icon header__icon--search header__icon--summary link link--text focus-inset modal__toggle"

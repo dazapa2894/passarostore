@@ -42,7 +42,6 @@
     },
     "lunes_multicolor": {
       "type": "lunes-multicolor",
-      "disabled": true,
       "settings": {
         "background_color": "#efefef",
         "text_color": "#001840",

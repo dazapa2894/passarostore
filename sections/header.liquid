@@ -102,7 +102,7 @@
     </div>
 
     {%- if section.settings.logo_position == 'top-center' or section.settings.menu == blank -%}
-      <details-modal class="header__search">
+      <details-modal class="header__search{%- if section.settings.hide_search_mobile-%} small-hide{% endif %}">
         <details>
           <summary class="header__icon header__icon--search header__icon--summary link link--text focus-inset modal__toggle" aria-haspopup="dialog" aria-label="{{ 'general.search.search' | t }}">
             <span>
@@ -155,7 +155,7 @@
 
     <div class="header__icons">
 
-      <details-modal class="header__search">
+      <details-modal class="header__search{%- if section.settings.hide_search_mobile-%} small-hide{% endif %}">
         <details>
           <summary class="header__icon header__icon--search header__icon--summary link link--text focus-inset modal__toggle" aria-haspopup="dialog" aria-label="{{ 'general.search.search' | t }}">
             <span>
@@ -437,6 +437,12 @@
 {
   "name": "t:sections.header.name",
   "settings": [
+    {
+      "type":"checkbox",
+      "id": "hide_search_mobile",
+      "default": true,
+      "label": "Ocultar el botón de búsqueda en celulares?"
+    },
     {
       "type": "image_picker",
       "id": "logo",

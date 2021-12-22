@@ -32,7 +32,7 @@
       "header": {
         "type": "header",
         "settings": {
-          "hide_search_mobile": true,
+          "hide_search_mobile": false,
           "logo_width": 100,
           "logo_position": "middle-left",
           "menu": "main-menu",

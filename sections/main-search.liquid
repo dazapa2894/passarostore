@@ -157,6 +157,7 @@
           {% render 'pagination', paginate: paginate %}
         {%- endif -%}
       </div>
+    <input type="hidden" name="eosh-total-pages" class="eosh-total-pages" value="{{ paginate.pages }}">
     {% endpaginate %}
   {%- endif -%}
 </div>

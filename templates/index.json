@@ -59,21 +59,18 @@
     },
     "about_us": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "heading": "<p>Las etiquetas se la dejamos a la ropa,<br\/>Pássaro esa versión de ti que te gusta.<\/p>",
+            "heading": "<p>¡Temporada de Rebajas!<\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "text": "<p>Renueva tu clóset y AHORRA el 50% en la segunda prenda que compres.<\/p><p>*Aplican términos y condiciones <\/p>"
           }
         },
         "button": {
@@ -92,6 +89,7 @@
       ],
       "settings": {
         "full_width": true,
+        "image": "shopify:\/\/shop_images\/rebajas.jpg",
         "height": "adapt",
         "layout": "image_first"
       }

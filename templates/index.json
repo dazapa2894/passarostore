@@ -70,7 +70,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Renueva tu clóset y AHORRA el 50% en la segunda prenda que compres.<\/p><p>*Aplican términos y condiciones <\/p>"
+            "text": "<p>Renueva tu clóset y AHORRA el 50% en la segunda prenda que compres.<\/p><p>Aplican términos y condiciones<\/p><p>*El descuento se aplica a la prenda de menor valor.<br\/>*Aplica para prendas superiores a 20.000 mil pesos.<br\/>*Aplica para todos los productos y accesorios en la tienda.<br\/>*No es acumulable con otras promociones.<br\/>*No aplica para cambios o devoluciones.<\/p>"
           }
         },
         "button": {

@@ -1,6 +1,6 @@
 var eoshDomain = Shopify.shop;
         var removePagination = document.querySelectorAll(".gf_collection-paginator-wrapper, .pagination-page, .boost-pfs-filter-bottom-pagination, .toolbar-bottom, .Pagination Text--subdued, .pagination, .pagination-border-top, .pagination-custom, .Pagination, .justify-content-center, .collection-pagination, .box__paginate, .paginate, .pagination--container, #pagination, .collection--pagination");
-        if(window.location.href.indexOf("collections")>-1 || (window.location.href.indexOf("a/search") > -1 && Shopify.shop=="perkele-shop.myshopify.com") || (window.location.href.indexOf("search")>-1 && (Shopify.shop=="thisisneverthatstore.myshopify.com" || Shopify.shop=="thisisneverthat-intl.myshopify.com" || Shopify.shop == "passarostore.myshopify.com") ))
+        if(window.location.href.indexOf("collections")>-1 || (window.location.href.indexOf("a/search") > -1 && Shopify.shop=="perkele-shop.myshopify.com") || (window.location.href.indexOf("search")>-1 && (Shopify.shop=="thisisneverthatstore.myshopify.com" || Shopify.shop=="thisisneverthat-intl.myshopify.com" || Shopify.shop == "passarostore.myshopify.com" || Shopify.shop=="funkydecors.myshopify.com") ))
     	{
             if(typeof(removePagination[0])!="undefined"){
                 if(eoshDomain=="aziodesign.myshopify.com"){

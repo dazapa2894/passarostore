@@ -96,7 +96,7 @@
     "seasonal_offers": {
       "type": "seasonal-offers",
       "settings": {
-        "title": "Esenciales",
+        "title": "Descuentos",
         "show_compare_price": false
       }
     },

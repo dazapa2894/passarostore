@@ -122,7 +122,7 @@
         "8c03b00b-933a-4c57-8a06-bbed4bcd05cf"
       ],
       "settings": {
-        "include_margins": false
+        "include_margins": true
       }
     }
   },

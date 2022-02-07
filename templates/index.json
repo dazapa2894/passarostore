@@ -63,21 +63,21 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>¡Semana del Jean 40% DCTO!<\/p>",
+            "heading": "<p>25% DTO EN COLOR BLANCO!<\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>MUST HAVE. La prenda que no puede faltar en tu clóset! Encuentra TODOS nuestros jeans y shorts denim con el 40% de descuento.<\/p><p>Aplican términos y condiciones<br\/>*Aplica del 1 al 6 de Febrero de 2022<br\/>*Sólo aplica para la línea de Jean *Aplica para tienda online y físicas. *No es acumulable con otras promociones.                              *Aplica para pagos en efectivo, Tarjeta debito y credito, sodexo, tarjeta regalo y sistecredito.<\/p>"
+            "text": "<p>Lunes Multicolor<\/p><p>Aplican términos y condiciones<br\/>*Aplica sólo los días lunes<br\/>*No aplica para estampados<\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
-            "button_label": "VER JEANS",
-            "button_link": "shopify:\/\/collections\/jeans"
+            "button_label": "VER REFERENCIAS",
+            "button_link": "shopify:\/\/collections\/colores-blancos"
           }
         }
       },
@@ -88,7 +88,7 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Jeans.jpg",
+        "image": "shopify:\/\/shop_images\/Lunesmulticolor-03.png",
         "height": "adapt",
         "layout": "image_first"
       }

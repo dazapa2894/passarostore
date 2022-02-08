@@ -63,21 +63,21 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>25% DTO EN COLOR BLANCO!<\/p>",
+            "heading": "<p>T-SHIRT 40% DTO<\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Lunes Multicolor<\/p><p>Aplican términos y condiciones<br\/>*Aplica sólo los días lunes<br\/>*No aplica para estampados<\/p>"
+            "text": "<p>Temporada de T-SHIRT<\/p><p>Aplican términos y condiciones<br\/>*Solo aplica para la línea de camisetas.<br\/>*No es acumulable con otras promociones<br\/>*Aplica para pagos en efectivo, Tarjeta debito y credito, sodexo, tarjeta regalo y sistecredito.<br\/>*No aplica para devoluciones<\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "VER REFERENCIAS",
-            "button_link": "shopify:\/\/collections\/colores-blancos"
+            "button_link": "shopify:\/\/collections\/camisetas"
           }
         }
       },
@@ -88,7 +88,7 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Lunesmulticolor-03.png",
+        "image": "shopify:\/\/shop_images\/Camisetas_descuentos-11.jpg",
         "height": "adapt",
         "layout": "image_first"
       }

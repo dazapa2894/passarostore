@@ -63,21 +63,21 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>T-SHIRT 40% DTO<\/p>",
+            "heading": "<p>25% DTO en colores ROSA + ROJO <\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Temporada de T-SHIRT<\/p><p>Aplican términos y condiciones<br\/>*Solo aplica para la línea de camisetas.<br\/>*No es acumulable con otras promociones<br\/>*Aplica para pagos en efectivo, Tarjeta debito y credito, sodexo, tarjeta regalo y sistecredito.<br\/>*No aplica para devoluciones<\/p>"
+            "text": "<p>Lunes Multicolor <\/p><p>Aplican términos y condiciones<br\/>*Sólo aplica 14 Feb ´22<br\/>*Aplica para tiendas físicas y online<\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "VER REFERENCIAS",
-            "button_link": "shopify:\/\/collections\/camisetas"
+            "button_link": "shopify:\/\/collections\/rojo-rosa"
           }
         }
       },
@@ -88,7 +88,7 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Camisetas_descuentos-11.jpg",
+        "image": "shopify:\/\/shop_images\/Lunesmulticolor-03_894daaa5-fb4b-4086-843a-43c49ab5657a.png",
         "height": "adapt",
         "layout": "image_first"
       }

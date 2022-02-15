@@ -63,21 +63,21 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>25% DTO en colores ROSA + ROJO <\/p>",
+            "heading": "<p>40% EN VESTIDOS + ENTERIZOS<\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Lunes Multicolor <\/p><p>Aplican términos y condiciones<br\/>*Sólo aplica 14 Feb ´22<br\/>*Aplica para tiendas físicas y online<\/p>"
+            "text": "<p>Temporada de descuentos<br\/><\/p><p>Términos y condiciones:<\/p><p>*Sólo aplica del 14 al 20 Feb ´22<br\/>* Solo aplica para la línea de vestidos y enterizos<br\/>*No es acumulable con otras promociones<br\/>*Aplica para pagos en efectivo, Tarjeta debito y credito, sodexo, tarjeta regalo y sistecredito.<br\/>*No aplica para devoluciones<br\/>*Aplica para tiendas físicas y online<\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "VER REFERENCIAS",
-            "button_link": "shopify:\/\/collections\/rojo-rosa"
+            "button_link": "shopify:\/\/collections\/40-enterizos-y-vestidos"
           }
         }
       },
@@ -88,7 +88,7 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Lunesmulticolor-03_894daaa5-fb4b-4086-843a-43c49ab5657a.png",
+        "image": "shopify:\/\/shop_images\/Vestidos_y_enterizos_4-11.jpg",
         "height": "adapt",
         "layout": "image_first"
       }

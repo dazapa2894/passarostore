@@ -59,26 +59,25 @@
     },
     "about_us": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>40% EN VESTIDOS + ENTERIZOS<\/p>",
+            "heading": "<p>MOSTAZA CON EL 25%DTO<\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Temporada de descuentos<br\/><\/p><p>Términos y condiciones:<\/p><p>*Sólo aplica del 14 al 20 Feb ´22<br\/>* Solo aplica para la línea de vestidos y enterizos<br\/>*No es acumulable con otras promociones<br\/>*Aplica para pagos en efectivo, Tarjeta debito y credito, sodexo, tarjeta regalo y sistecredito.<br\/>*No aplica para devoluciones<br\/>*Aplica para tiendas físicas y online<\/p>"
+            "text": "<p>Lunes Multicolor <br\/><\/p><p>Términos y condiciones:<\/p><p>*Sólo aplica Lunes 21 Feb.<br\/>*No es acumulable con otras promociones<br\/>*Aplica para tiendas físicas y online<\/p><p>*No aplica a línea de estampados<\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
-            "button_label": "VER REFERENCIAS",
-            "button_link": "shopify:\/\/collections\/40-enterizos-y-vestidos"
+            "button_label": "Ver referencias",
+            "button_link": "shopify:\/\/collections\/colores-mostaza"
           }
         }
       },
@@ -89,7 +88,7 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Vestidos_y_enterizos_4-11.jpg",
+        "image": "shopify:\/\/shop_images\/Lunesmulticolor-03.jpg",
         "height": "adapt",
         "layout": "image_first"
       }

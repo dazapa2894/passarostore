@@ -63,21 +63,21 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>MOSTAZA CON EL 25%DTO<\/p>",
+            "heading": "<p>REF. SELECCIONADAS HASTA CON EL 50%DTO<\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Lunes Multicolor <br\/><\/p><p>Términos y condiciones:<\/p><p>*Sólo aplica Lunes 21 Feb.<br\/>*No es acumulable con otras promociones<br\/>*Aplica para tiendas físicas y online<\/p><p>*No aplica a línea de estampados<\/p>"
+            "text": "<p>Temporada de Descuentos<br\/><\/p><p>Términos y condiciones:<\/p><p>*Aplica Lunes 21 al 27 Feb<br\/>*Solo aplica para ref. seleccionadas<br\/>*No es acumulable con otras promociones<br\/>*Aplica para pagos en efectivo, Tarjeta debito y credito, sodexo, tarjeta regalo y sistecredito<br\/>*No aplica para devoluciones<br\/>*Aplica para tiendas físicas y online<\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "Ver referencias",
-            "button_link": "shopify:\/\/collections\/colores-mostaza"
+            "button_link": "shopify:\/\/collections\/descuentos-de-temporada"
           }
         }
       },
@@ -88,7 +88,7 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Lunesmulticolor-03.jpg",
+        "image": "shopify:\/\/shop_images\/Ref._Seleccionadas-11.png",
         "height": "adapt",
         "layout": "image_first"
       }

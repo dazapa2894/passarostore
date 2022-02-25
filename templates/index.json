@@ -20,9 +20,9 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/PORTADA-FEB1.jpg",
-        "desktop_text_box_position": "flex-end",
+        "desktop_text_box_position": "center",
         "color_scheme": "no-background",
-        "stack_images_on_mobile": false,
+        "stack_images_on_mobile": true,
         "adapt_height_first_image": false
       }
     },

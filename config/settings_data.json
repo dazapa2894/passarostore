@@ -16,7 +16,6 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
               "heading": "¡ENVÍO GRATIS SOLO POR HOY!",
               "color_scheme": "dark-blue",

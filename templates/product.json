@@ -53,6 +53,13 @@
           "type": "share",
           "settings": {
           }
+        },
+        "8d3954f5-d6db-4126-8cc4-a18c0b380b6e": {
+          "type": "popup",
+          "settings": {
+            "link_label": "ENVÍO GRATIS SOLO POR HOY",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -64,7 +71,8 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
+        "share",
+        "8d3954f5-d6db-4126-8cc4-a18c0b380b6e"
       ],
       "settings": {
         "enable_sticky_info": true,

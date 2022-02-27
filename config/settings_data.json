@@ -16,8 +16,9 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
-              "heading": "Envíos GRATIS en Cali y en el resto del país por compras superiores a $150.000",
+              "heading": "¡ENVÍO GRATIS SOLO POR HOY!",
               "color_scheme": "dark-blue",
               "link": ""
             }

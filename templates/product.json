@@ -27,13 +27,6 @@
           "settings": {
           }
         },
-        "83be1591-9902-4fcd-861f-174323b3eab4": {
-          "type": "text",
-          "settings": {
-            "text": "ENVÍO GRATIS",
-            "text_style": "subtitle"
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -67,7 +60,6 @@
         "title",
         "subtitle",
         "price",
-        "83be1591-9902-4fcd-861f-174323b3eab4",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",

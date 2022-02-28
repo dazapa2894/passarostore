@@ -63,21 +63,21 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>REF. SELECCIONADAS HASTA CON EL 50%DTO<\/p>",
+            "heading": "<p>TERRACOTA CON EL 25% DTO<\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Términos y condiciones:<\/p><p>*Aplica Lunes 21 al 27 Feb<br\/>*Solo aplica para ref. seleccionadas<br\/>*No es acumulable con otras promociones<br\/>*Aplica para pagos en efectivo, Tarjeta debito y credito, sodexo, tarjeta regalo y sistecredito<br\/>*No aplica para devoluciones<br\/>*Aplica para tiendas físicas y online<\/p>"
+            "text": "<p>Términos y condiciones:<\/p><p>*Aplica Lunes 21 al 27 Feb<br\/>*No es acumulable con otras promociones<br\/>*No aplica para colores estampados<br\/>*Aplica para tiendas físicas y online<\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "Ver referencias",
-            "button_link": "shopify:\/\/collections\/descuentos-de-temporada"
+            "button_link": "shopify:\/\/collections\/colores-terracota"
           }
         }
       },
@@ -88,7 +88,7 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Ref._Seleccionadas-11.png",
+        "image": "shopify:\/\/shop_images\/Lunesmulticolor-20.jpg",
         "height": "adapt",
         "layout": "image_first"
       }

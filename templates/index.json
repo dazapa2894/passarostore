@@ -59,12 +59,11 @@
     },
     "about_us": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>TERRACOTA CON EL 25% DTO<\/p>",
+            "heading": "<p>VERDE CON EL 25% DTO<\/p>",
             "heading_style": "h2"
           }
         },
@@ -78,7 +77,7 @@
           "type": "button",
           "settings": {
             "button_label": "Ver referencias",
-            "button_link": "shopify:\/\/collections\/colores-terracota"
+            "button_link": "shopify:\/\/collections\/colores-verde"
           }
         }
       },
@@ -89,7 +88,7 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Lunesmulticolor-20.jpg",
+        "image": "shopify:\/\/shop_images\/Lunesmulticolor-20_303e18f4-fd32-4d53-941b-63fae9920a3b.jpg",
         "height": "adapt",
         "layout": "image_first"
       }

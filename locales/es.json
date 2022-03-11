@@ -405,7 +405,10 @@
         "optional_company_label": "Cédula",
         "zip_code_placeholder": "Código postal (opcional)",
         "zip_code_label": "Código postal (opcional)",
-        "postal_code_placeholder": "Código postal (opcional)"
+        "postal_code_placeholder": "Código postal (opcional)",
+        "postal_code_label": "Código postal (opcional)",
+        "postcode_label": "Código postal (opcional)",
+        "postcode_placeholder": "Código postal (opcional)"
       }
     }
   }

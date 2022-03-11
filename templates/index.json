@@ -19,7 +19,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Banner_ppal-01.jpg",
+        "image": "shopify:\/\/shop_images\/Banner_ppal-01.png",
         "desktop_text_box_position": "center",
         "color_scheme": "no-background",
         "stack_images_on_mobile": true,
@@ -70,7 +70,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>*Aplican términos y condiciones establecidas para el día sin IVA<\/p><p>*Aplica Viernes 11 Marzo ´22<\/p><p>* Usa el cupón al momento de pagar: <strong>SINIVA<br\/><\/strong>* Los envios se despachan maximo durante los proximos 5 dias habiles.<br\/>*Aplica para tiendas físicas y online<\/p>"
+            "text": "<p>*Aplican términos y condiciones establecidas para el día sin IVA<\/p><p>*Aplica Viernes 11 Marzo ´22<\/p><p>*Poner Cupón al momento de pagar: SINIVA<br\/>*Aplica para tiendas físicas y online<\/p>"
           }
         },
         "button": {

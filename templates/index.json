@@ -59,7 +59,6 @@
     },
     "about_us": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -77,8 +76,8 @@
         "button": {
           "type": "button",
           "settings": {
-            "button_label": "Ver referencias",
-            "button_link": "shopify:\/\/collections\/colores-verde"
+            "button_label": "CONOCE MÁS",
+            "button_link": "https:\/\/drive.google.com\/file\/d\/1RSTNb9GJOQqU1XK3dp8D3KSZOxTHJR4G\/view?usp=sharing"
           }
         }
       },

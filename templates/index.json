@@ -64,14 +64,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>VERDE CON EL 25% DTO<\/p>",
+            "heading": "<p>HOY DÍA SIN IVA<\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Lunes Multicolor <\/p><p>Términos y condiciones:<\/p><p>*Aplica Lunes 28 Feb<br\/>*No es acumulable con otras promociones<br\/>*No aplica para colores estampados<br\/>*Aplica para tiendas físicas y online<\/p>"
+            "text": "<p>Términos y condiciones:<\/p><p>*Aplica Viernes 11 Marzo ´22<\/p><p>*Poner Cupón al momento de pagar: SINIVA<\/p><p>*Aplican términos y condiciones establecidas para el día sin IVA<br\/>*Aplica para tiendas físicas y online<\/p>"
           }
         },
         "button": {
@@ -89,7 +89,7 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Lunesmulticolor-20_303e18f4-fd32-4d53-941b-63fae9920a3b.jpg",
+        "image": "shopify:\/\/shop_images\/dia_sin_iva-04.jpg",
         "height": "adapt",
         "layout": "image_first"
       }

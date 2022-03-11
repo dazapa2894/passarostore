@@ -403,7 +403,8 @@
         "country_label": "País",
         "company_label": "Cédula",
         "optional_company_label": "Cédula",
-        "zip_code_placeholder": "Código postal (opcional)"
+        "zip_code_placeholder": "Código postal (opcional)",
+        "zip_code_label": "Código postal (opcional)"
       }
     }
   }

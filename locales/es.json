@@ -401,7 +401,7 @@
         "province_label": "Departamento",
         "province_placeholder": "Selecciona tu Departamento",
         "country_label": "País",
-        "company_label": "Cédula",
+        "company_label": "Cédula (obligatorio)",
         "optional_company_label": "Cédula",
         "zip_code_placeholder": "Código postal (opcional)",
         "zip_code_label": "Código postal (opcional)",

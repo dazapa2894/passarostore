@@ -400,7 +400,9 @@
       "contact": {
         "province_label": "Departamento",
         "province_placeholder": "Selecciona tu Departamento",
-        "country_label": "País"
+        "country_label": "País",
+        "company_label": "Cédula",
+        "optional_company_label": "Cédula"
       }
     }
   }

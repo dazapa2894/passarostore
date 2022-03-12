@@ -17,7 +17,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "heading": "Ingresa el cupón del día sin IVA: SINIVA",
+              "heading": "Envios gratis a Cali. Por compras superior a 150.000 envios gratis nacional",
               "color_scheme": "dark-blue",
               "link": ""
             }
@@ -33,7 +33,7 @@
         "type": "header",
         "settings": {
           "hide_search_mobile": false,
-          "logo_width": 100,
+          "logo_width": 230,
           "logo_position": "middle-left",
           "menu": "main-menu"
         }

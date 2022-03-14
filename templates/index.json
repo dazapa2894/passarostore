@@ -76,7 +76,7 @@
         "button": {
           "type": "button",
           "settings": {
-            "button_label": "CONOCE MÁS",
+            "button_label": "Ver referencias",
             "button_link": "shopify:\/\/collections\/colores-negro"
           }
         }

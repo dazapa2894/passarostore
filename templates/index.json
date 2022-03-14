@@ -64,14 +64,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>HOY DÍA SIN IVA<\/p>",
+            "heading": "<p>HOY 25% COLOR NEGRO<\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>*Aplican términos y condiciones establecidas para el día sin IVA<\/p><p>*Aplica Viernes 11 Marzo ´22<\/p><p>*Usa el Cupón al momento de pagar: SINIVA<br\/>*El descuento se realiza al momento de pagar.<br\/>*Aplica para tiendas físicas y online<\/p>"
+            "text": "<p>Lunes multicolor <\/p><p><\/p><p>Aplican términos y condiciones <\/p><p>*Aplica sólo Lunes 14 Marzo ´22<\/p><p>*No es acomulable con otros descuentos<br\/>*No aplica para línea de estampados<br\/>*Aplica para tiendas físicas y online<\/p>"
           }
         },
         "button": {
@@ -89,7 +89,7 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/dia_sin_iva-04.jpg",
+        "image": "shopify:\/\/shop_images\/Lunesmulticolor-03_b6a2ddc4-3a9b-487a-a55b-eff69a79bb09.jpg",
         "height": "adapt",
         "layout": "image_first"
       }

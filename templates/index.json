@@ -1,5 +1,10 @@
 {
   "sections": {
+    "home_header_fixer": {
+      "type": "home-header-fixer",
+      "settings": {
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -101,11 +106,6 @@
         "show_compare_price": false
       }
     },
-    "home_header_fixer": {
-      "type": "home-header-fixer",
-      "settings": {
-      }
-    },
     "16390641501879d813": {
       "type": "apps",
       "blocks": {
@@ -128,13 +128,13 @@
     }
   },
   "order": [
+    "home_header_fixer",
     "image_banner",
     "collection_slider",
     "new_collection",
     "lunes_multicolor",
     "about_us",
     "seasonal_offers",
-    "home_header_fixer",
     "16390641501879d813"
   ]
 }

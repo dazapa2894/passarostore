@@ -2,7 +2,6 @@
   "sections": {
     "home_header_fixer": {
       "type": "home-header-fixer",
-      "disabled": true,
       "settings": {
       }
     },

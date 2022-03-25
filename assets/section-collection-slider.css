@@ -1,6 +1,7 @@
 #collection-slider {
   position: relative;
   margin: 40px 0px;
+  z-index: 1;
 }
 #collection-slider .collection-swiper-container {
   padding-bottom: 30px;

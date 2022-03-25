@@ -1,10 +1,5 @@
 {
   "sections": {
-    "home_header_fixer": {
-      "type": "home-header-fixer",
-      "settings": {
-      }
-    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -29,6 +24,11 @@
         "color_scheme": "no-background",
         "stack_images_on_mobile": true,
         "adapt_height_first_image": false
+      }
+    },
+    "home_header_fixer": {
+      "type": "home-header-fixer",
+      "settings": {
       }
     },
     "collection_slider": {
@@ -128,8 +128,8 @@
     }
   },
   "order": [
-    "home_header_fixer",
     "image_banner",
+    "home_header_fixer",
     "collection_slider",
     "new_collection",
     "lunes_multicolor",

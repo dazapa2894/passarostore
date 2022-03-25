@@ -33,6 +33,7 @@
         "type": "header",
         "settings": {
           "hide_search_mobile": false,
+          "logo": "shopify:\/\/shop_images\/P_Intranet_0793d094-362f-4e55-93a2-4a4833079677.png",
           "logo_width": 230,
           "logo_position": "middle-left",
           "menu": "main-menu"

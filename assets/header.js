@@ -1,3 +1,7 @@
+$("#loadify_loader").load( function(){
+	$("#loadify_loader").prepend('<img src="https://cdn.shopify.com/s/files/1/0592/9287/6983/files/logo_passaro.svg?v=1638029440" id="loadify_img" class="loadify_img">');
+});
+
 window.addEventListener('DOMContentLoaded', (event) => {
     console.log('DOM fully loaded and parsed');
 

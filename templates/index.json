@@ -59,7 +59,6 @@
     },
     "about_us": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -71,7 +70,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Lunes multicolor <\/p><p><\/p><p>Aplican términos y condiciones <\/p><p>*Aplica sólo Lunes 21 Marzo ´22<\/p><p>*No es acomulable con otros descuentos<br\/>*No aplica para línea de estampados<br\/>*Aplica para tiendas físicas y online<\/p>"
+            "text": "<p>Lunes multicolor <\/p><p><\/p><p>Aplican términos y condiciones <\/p><p>*Aplica sólo Lunes 28 Marzo ´22<\/p><p>*No es acomulable con otros descuentos<br\/>*No aplica para línea de estampados<br\/>*Aplica para tiendas físicas y online<\/p>"
           }
         },
         "button": {

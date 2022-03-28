@@ -64,7 +64,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>HOY 25% COLOR BEIGE<\/p>",
+            "heading": "<p>HOY 25% COLOR ROSA<\/p>",
             "heading_style": "h2"
           }
         },
@@ -78,7 +78,7 @@
           "type": "button",
           "settings": {
             "button_label": "Ver referencias",
-            "button_link": "shopify:\/\/collections\/colores-beige"
+            "button_link": "shopify:\/\/collections\/colores-rosa"
           }
         }
       },
@@ -89,7 +89,7 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Lunesmulticolor-17.jpg",
+        "image": "shopify:\/\/shop_images\/Lunesmulticolor-17_b732683a-40f7-4ecc-8cbf-db89efe955f9.jpg",
         "height": "adapt",
         "layout": "image_first"
       }

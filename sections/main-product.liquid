@@ -227,12 +227,22 @@
           <fieldset class="js product-form__input">
             <legend class="form__label">{{ option.name }}</legend>
             {%- for value in option.values -%}
-            <input type="radio" id="{{ section.id }}-{{ option.name }}-{{ forloop.index0 }}" name="{{ option.name }}"
-              value="{{ value | escape }}" form="product-form-{{ section.id }}"
-              {% if option.selected_value == value %}checked{% endif %}>
-            <label for="{{ section.id }}-{{ option.name }}-{{ forloop.index0 }}">
-              {{ value }}
-            </label>
+            
+            {% if variant.available %}
+				<!-- Variante SIN STOCK -->
+               	<!-- <div class="hidden"></div> -->
+            {% else %}
+            	<!-- Variante CON STOCK -->
+            	<!-- <div class="out-of-stock-overlay absolute"></div> -->
+            {% endif %}
+            
+              <input type="radio" id="{{ section.id }}-{{ option.name }}-{{ forloop.index0 }}" name="{{ option.name }}"
+                value="{{ value | escape }}" form="product-form-{{ section.id }}"
+                {% if option.selected_value == value %}checked{% endif %}>
+              <label for="{{ section.id }}-{{ option.name }}-{{ forloop.index0 }}">
+                {{ value }}
+              </label>
+            <!-- </div> -->
             {%- endfor -%}
           </fieldset>
           {%- endfor -%}

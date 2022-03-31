@@ -167,9 +167,9 @@ fieldset.product-form__input .form__label {
 
 .product-form__input .talla-agotada::after {
   content: "";
-  width: 110%;
+  width: 101%;
   height: 3px;
-  background: #fff;
+  background: rgb(var(--color-foreground));
   z-index: 2;
   position: absolute;
   top: 15px;

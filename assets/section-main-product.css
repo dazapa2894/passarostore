@@ -188,7 +188,7 @@ fieldset.product-form__input .form__label {
   top: 15px;
   left: 0px;
   border-radius: 10px;
-  transform: rotate(25deg);
+  transform: rotate(335deg);
 }
 
 .product-form__input input[type='radio'] + label:hover {

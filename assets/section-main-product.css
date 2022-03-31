@@ -167,13 +167,13 @@ fieldset.product-form__input .form__label {
 
 .product-form__input .talla-agotada::after {
   content: "";
-  width: 101%;
+  width: 100%;
   height: 3px;
-  background: rgba(var(--color-foreground),.55);
+  background: rgba(var(--color-foreground),.80);
   z-index: 2;
   position: absolute;
   top: 15px;
-  left: -2px;
+  left: 0px;
   border-radius: 10px;
   transform: rotate(27deg);
 }

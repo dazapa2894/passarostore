@@ -162,6 +162,20 @@ fieldset.product-form__input .form__label {
   text-align: center;
   transition: border var(--duration-short) ease;
   cursor: pointer;
+  position: relative;
+}
+
+.product-form__input .talla-agotada::after {
+  content: "";
+  width: 110%;
+  height: 3px;
+  background: rgb(var(--color-dark-blue));
+  z-index: 2;
+  position: absolute;
+  top: 15px;
+  left: -2px;
+  border-radius: 10px;
+  transform: rotate(27deg);
 }
 
 .product-form__input input[type='radio'] + label:hover {

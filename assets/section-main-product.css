@@ -169,7 +169,7 @@ fieldset.product-form__input .form__label {
   content: "";
   width: 110%;
   height: 3px;
-  background: rgb(var(--color-dark-blue));
+  background: #fff;
   z-index: 2;
   position: absolute;
   top: 15px;

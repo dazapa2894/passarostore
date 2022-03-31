@@ -1,5 +1,7 @@
 window.addEventListener('DOMContentLoaded', (event) => {
     console.log('DOM fully loaded and parsed');
+  
+  	$('body').addClass('loaded');
 
     const menu_passaro = document.querySelectorAll(".close-menu-passaro");
     const header = document.querySelector("#shopify-section-header");

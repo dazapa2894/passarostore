@@ -330,7 +330,7 @@
   content: "";
   width: 146%;
   height: 3px;
-  background: white;
+  background: rgb(var(--color-gray));
   z-index: 2;
   position: absolute;
   top: 13px;

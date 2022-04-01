@@ -316,6 +316,7 @@
   font-size: 12px;
   color: #fff;
   background-color: rgb(var(--color-dark-blue));
+  position: relative;
 }
 .product-wrapper .variant-pickers .product-sizes .size-picker:hover {
   color: rgb(var(--color-dark-blue));
@@ -324,6 +325,18 @@
 .product-wrapper .variant-pickers .product-sizes .size-picker.active {
   color: rgb(var(--color-dark-blue));
   background-color: white;
+}
+.product-wrapper .variant-pickers .product-sizes .size-picker.talla-agotada::after {
+  content: "";
+  width: 146%;
+  height: 3px;
+  background: white;
+  z-index: 2;
+  position: absolute;
+  top: 13px;
+  left: -7px;
+  border-radius: 10px;
+  transform: rotate(45deg);
 }
 .product-wrapper .variant-pickers .agregar-al-carrito {
   width: 100% !important;

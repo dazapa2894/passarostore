@@ -133,7 +133,9 @@
               {% endif %}
             {% endif %}
 
-            <div variant_size="{{option.option1}}" class="size-picker {% if forloop.first == true %}active{% endif %}" onclick="ChangeSize( this )">
+            <div variant_size="{{option.option1}}" 
+                 class="size-picker{% if forloop.first == true %} active{% endif %}{% unless option.available %} talla-agotada{% endunless %}" 
+                 onclick="ChangeSize( this )">
               {{option.option1}}
             </div>
           

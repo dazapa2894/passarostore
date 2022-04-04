@@ -65,21 +65,21 @@
           "type": "heading",
           "disabled": true,
           "settings": {
-            "heading": "<p>HOY 25% COLOR ROSA<\/p>",
+            "heading": "<p>HOY 25% COLOR MOSTAZA<\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Lunes multicolor <\/p><p><\/p><p>Aplican términos y condiciones <\/p><p>*Aplica sólo Lunes 28 Marzo ´22<\/p><p>*No es acomulable con otros descuentos<br\/>*No aplica para línea de estampados<br\/>*Aplica para tiendas físicas y online<\/p>"
+            "text": "<p>Lunes multicolor <\/p><p><\/p><p>Aplican términos y condiciones <\/p><p>*Aplica sólo Lunes 4 Abril ´22<\/p><p>*No es acomulable con otros descuentos<br\/>*No aplica para línea de estampados<br\/>*Aplica para tiendas físicas y online<\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "Ver referencias",
-            "button_link": "shopify:\/\/collections\/colores-rosa"
+            "button_link": "shopify:\/\/collections\/colores-mostaza"
           }
         }
       },
@@ -90,7 +90,7 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Lunesmulticolor-17_b732683a-40f7-4ecc-8cbf-db89efe955f9.jpg",
+        "image": "shopify:\/\/shop_images\/Lunesmulticolor-17_b8e02bb0-f785-45e6-89c7-097358a21371.jpg",
         "height": "adapt",
         "layout": "image_first"
       }

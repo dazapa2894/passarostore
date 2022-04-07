@@ -59,26 +59,25 @@
     },
     "about_us": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>HOY 25% COLOR MOSTAZA<\/p>",
+            "heading": "<p>DESCUBRE LA COLECCIÓN ASTRO<\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Lunes Multicolor <\/p><p><\/p><p>Aplican términos y condiciones <\/p><p>*Aplica sólo Lunes 4 Abril ´22<\/p><p>*No es acomulable con otros descuentos<br\/>*No aplica para línea de estampados<br\/>*Aplica para tiendas físicas y online<\/p>"
+            "text": "<p>Tu signo zodiacal en una camiseta<\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
-            "button_label": "Ver referencias",
-            "button_link": "shopify:\/\/collections\/colores-mostaza"
+            "button_label": "Ver colección",
+            "button_link": "shopify:\/\/collections\/camisetas"
           }
         }
       },
@@ -89,7 +88,7 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Lunesmulticolor-17_bc690671-9a3b-4a73-8666-1c774a799622.jpg",
+        "image": "shopify:\/\/shop_images\/COLECCION-ASTRO.jpg",
         "height": "adapt",
         "layout": "image_first"
       }

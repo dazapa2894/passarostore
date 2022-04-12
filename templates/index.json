@@ -63,21 +63,21 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>COLOR VERDE CON EL 25%DTO<\/p>",
+            "heading": "<p>COLECCIÓN ASTRO<\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Lunes Multicolor<\/p><p><\/p><p>*Aplica lunes 11 de Abril 2022<\/p><p>*Aplica en tiendas y online<\/p><p>*No es acomulable con otros descuentos<\/p><p>*No aplica para estampados<\/p>"
+            "text": "<p>Encuentra diseños exclusivos de tu signo zodiacal en nuestra nueva colección de camisetas 😍😍<\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "Ver colección",
-            "button_link": "shopify:\/\/collections\/colores-verde"
+            "button_link": "shopify:\/\/collections\/coleccion-astro"
           }
         }
       },
@@ -88,7 +88,7 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Lunesmulticolor-17_d23c76e1-2c2f-448a-a1e6-5d07d1aa85f7.jpg",
+        "image": "shopify:\/\/shop_images\/COLECCION-ASTRO.jpg",
         "height": "adapt",
         "layout": "image_first"
       }

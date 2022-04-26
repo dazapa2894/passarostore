@@ -63,21 +63,21 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>NEGRO CON EL 25%DTO<\/p>",
+            "heading": "<p>60% DTO en Ref. Seleccionadas<\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Sólo por hoy aprovecha el LUNES MULTICOLOR<\/p><p>*Aplica sólo lunes 25 de Abril ´22<\/p><p>*Aplica en tiendas y online<\/p><p>*No aplica para estampados<\/p>"
+            "text": "<p>ÚLTIMAS UNIDADES<\/p><p>*Aplica hasta agotar inventario<\/p><p>*Aplica en tiendas y online<\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
-            "button_label": "Ver colección",
-            "button_link": "shopify:\/\/collections\/colores-negro"
+            "button_label": "Ver DESCUENTOS",
+            "button_link": "shopify:\/\/collections\/descuentos-de-temporada"
           }
         }
       },
@@ -88,7 +88,7 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Lunesmulticolor-17_3bc0ad17-0233-4002-a432-1edcf3af267b.jpg",
+        "image": "shopify:\/\/shop_images\/Ref._Seleccionadas_Mesa_de_trabajo_1_copia_7.png",
         "height": "adapt",
         "layout": "image_first"
       }

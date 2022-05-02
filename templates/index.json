@@ -63,14 +63,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>60% DTO en Ref. Seleccionadas<\/p>",
+            "heading": "<p>25% DTO COLOR BEIGE<\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>ÚLTIMAS UNIDADES<\/p><p>*Aplica hasta agotar inventario<\/p><p>*Aplica en tiendas y online<\/p>"
+            "text": "<p>Sólo por hoy aprovecha el LUNES MULTICOLOR<\/p><p>*Aplica sólo lunes …de Abril ´22<\/p><p>*Aplica en tiendas y online<\/p><p>*No aplica para estampados<\/p>"
           }
         },
         "button": {
@@ -88,7 +88,7 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Ref.-Seleccionadas.jpg",
+        "image": "shopify:\/\/shop_images\/Lunesmulticolor-14.jpg",
         "height": "adapt",
         "layout": "image_first"
       }

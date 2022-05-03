@@ -59,19 +59,18 @@
     },
     "about_us": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p><a href=\"\/collections\/camisetas\" title=\"Camisetas\"><strong>COLECCIÓN ASTRO<\/strong><\/a><\/p>",
+            "heading": "<p><strong>COLECCIÓN ASTRO<\/strong><\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Descubre nuestra nueva colección ASTRO.<\/p>"
+            "text": "<p>Descubre nuestra nueva colección de camisetas ASTRO.<\/p>"
           }
         },
         "button": {

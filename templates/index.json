@@ -77,7 +77,7 @@
           "type": "button",
           "settings": {
             "button_label": "Ver Colección",
-            "button_link": "shopify:\/\/collections\/coleccion-astro"
+            "button_link": "shopify:\/\/collections\/colores-rojo"
           }
         }
       },

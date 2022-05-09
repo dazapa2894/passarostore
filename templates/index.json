@@ -63,14 +63,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p><strong>COLECCIÓN ASTRO<\/strong><\/p>",
+            "heading": "<p><strong>ROJO CON EL 25%DTO<\/strong><\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Descubre nuestra nueva colección de camisetas ASTRO.<\/p>"
+            "text": "<p>Sólo por hoy aprovecha el LUNES MULTICOLOR<\/p><p>*Aplica sólo lunes 9 de Mayo ´22<\/p><p>*Aplica en tiendas y online<\/p><p>*No aplica para estampados<\/p>"
           }
         },
         "button": {
@@ -88,7 +88,7 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/COLECCION-ASTRO.jpg",
+        "image": "shopify:\/\/shop_images\/Lunesmulticolor-14_b0f1b086-04bd-40fd-a859-91596ea50093.jpg",
         "height": "adapt",
         "layout": "image_first"
       }

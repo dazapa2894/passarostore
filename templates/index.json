@@ -63,21 +63,21 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p><strong>COLECCIÓN ASTRO<\/strong><\/p>",
+            "heading": "<p><strong>AZUL CON EL 25%DTO<\/strong><\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Encuentra diseños exclusivos de tu signo zodiacal en nuestra nueva colección de camisetas 😍😍<\/p>"
+            "text": "<p>Sólo por hoy aprovecha el LUNES MULTICOLOR<\/p><p>*Aplica sólo lunes 16 de Mayo ´22<\/p><p>*Aplica en tiendas y online<\/p><p>*No aplica para estampados<\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "Ver Colección",
-            "button_link": "shopify:\/\/collections\/coleccion-astro"
+            "button_link": "shopify:\/\/collections\/colores-azul"
           }
         }
       },
@@ -88,7 +88,7 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/COLECCION-ASTRO.jpg",
+        "image": "shopify:\/\/shop_images\/Lunesmulticolor-14_8a607fec-b122-4296-8fc6-af94e6b037bf.jpg",
         "height": "adapt",
         "layout": "image_first"
       }

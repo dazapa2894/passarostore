@@ -147,6 +147,7 @@
     <!-- Upsell & Cross Sell - Selleasy by Logbase - Starts -->
       <script src='https://upsell-app.logbase.io/lb-upsell.js?shop=passarostore.myshopify.com' defer></script>
     <!-- Upsell & Cross Sell - Selleasy by Logbase - Ends -->
+{% include "onvoard-initialize-head" %}
 </head>
 
   <body>
@@ -210,5 +211,6 @@
         unavailable: `{{ 'products.product.unavailable' | t }}`,
       }
     </script>
-  </body><script src={{ 'eosh-loadmoreAndinfinitescroll.js' | asset_url }} defer='defer'></script>                   
+  {% include "onvoard-appscripts" %}
+</body><script src={{ 'eosh-loadmoreAndinfinitescroll.js' | asset_url }} defer='defer'></script>                   
 </html>

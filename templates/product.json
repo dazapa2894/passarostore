@@ -44,6 +44,12 @@
             "show_dynamic_checkout": true
           }
         },
+        "df142cac-843e-4c70-a604-5c267170a420": {
+          "type": "shopify:\/\/apps\/onvoard-aov-progress-bar\/blocks\/aov-progress-bar\/73a9be24-355c-420e-90ba-44b9c69509c0",
+          "settings": {
+            "app_id": "apb_b28g0a4f0cfeylr"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -63,6 +69,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "df142cac-843e-4c70-a604-5c267170a420",
         "description",
         "share"
       ],

@@ -59,26 +59,25 @@
     },
     "about_us": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p><strong>ROSA CON EL 25%DTO<\/strong><\/p>",
+            "heading": "<p><strong>BLANCO CON EL 25%DTO<\/strong><\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Sólo por hoy aprovecha el LUNES MULTICOLOR<\/p><p>*Aplica sólo lunes 23 de Mayo ´22<\/p><p>*Aplica en tiendas y online<\/p><p>*No aplica para estampados<\/p>"
+            "text": "<p>Sólo por hoy aprovecha el LUNES MULTICOLOR<\/p><p>*Aplica sólo lunes 6 de Junio ´22<\/p><p>*Aplica en tiendas y online<\/p><p>*No aplica para estampados<\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "Ver Colección",
-            "button_link": "shopify:\/\/collections\/colores-rosa"
+            "button_link": "shopify:\/\/collections\/colores-blancos"
           }
         }
       },
@@ -89,7 +88,7 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Lunesmulticolor-14_04bd0154-34fc-4604-8b8e-2e4217e63b97.jpg",
+        "image": "shopify:\/\/shop_images\/Lunesmulticolor-14_084d4580-1d2e-42fc-b75b-f7353e42b8a2.jpg",
         "height": "adapt",
         "layout": "image_first"
       }

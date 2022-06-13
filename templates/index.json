@@ -59,26 +59,25 @@
     },
     "about_us": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p><strong>BLANCO CON EL 25%DTO<\/strong><\/p>",
+            "heading": "<p><strong>TERRACOTA CON EL 25%DTO<\/strong><\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Sólo por hoy aprovecha el LUNES MULTICOLOR<\/p><p>*Aplica sólo lunes 6 de Junio ´22<\/p><p>*Aplica en tiendas y online<\/p><p>*No aplica para estampados<\/p>"
+            "text": "<p>Sólo por hoy aprovecha el LUNES MULTICOLOR<\/p><p>*Aplica sólo lunes 13 de Junio ´22<\/p><p>*Aplica en tiendas y online<\/p><p>*No aplica para estampados<\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "Ver Colección",
-            "button_link": "shopify:\/\/collections\/colores-blancos"
+            "button_link": "shopify:\/\/collections\/colores-terracota"
           }
         }
       },
@@ -89,7 +88,7 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Lunesmulticolor-14_084d4580-1d2e-42fc-b75b-f7353e42b8a2.jpg",
+        "image": "shopify:\/\/shop_images\/Lunesmulticolor-14_15c95075-f186-4973-b41f-d16163ea7928.jpg",
         "height": "adapt",
         "layout": "image_first"
       }

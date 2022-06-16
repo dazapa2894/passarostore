@@ -75,10 +75,9 @@
         },
         "button": {
           "type": "button",
-          "disabled": true,
           "settings": {
-            "button_label": "Ver Colección",
-            "button_link": "shopify:\/\/collections\/colores-terracota"
+            "button_label": "vER MÁS",
+            "button_link": "https:\/\/drive.google.com\/file\/d\/1IVTbOVrPntbZHhb6hJQhVjNeN_VGG1KX\/view?usp=sharing"
           }
         }
       },

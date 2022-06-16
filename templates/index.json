@@ -59,23 +59,23 @@
     },
     "about_us": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p><strong>TERRACOTA CON EL 25%DTO<\/strong><\/p>",
+            "heading": "<p><strong>VUELVE EL DIA SIN IVA<\/strong><\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Sólo por hoy aprovecha el LUNES MULTICOLOR<\/p><p>*Aplica sólo lunes 13 de Junio ´22<\/p><p>*Aplica en tiendas y online<\/p><p>*No aplica para estampados<\/p>"
+            "text": "<p>Informate de todo lo que necesitas saber del DÍA SIN IVA<\/p>"
           }
         },
         "button": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Ver Colección",
             "button_link": "shopify:\/\/collections\/colores-terracota"
@@ -89,7 +89,7 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Lunesmulticolor-14_5cf9632f-4556-4481-b7f5-e90a7f1acbca.jpg",
+        "image": "shopify:\/\/shop_images\/Dia_sin_iva-08.jpg",
         "height": "adapt",
         "layout": "image_first"
       }

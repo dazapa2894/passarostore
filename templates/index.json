@@ -95,9 +95,8 @@
     },
     "seasonal_offers": {
       "type": "seasonal-offers",
-      "disabled": true,
       "settings": {
-        "title": "Descuentos",
+        "title": "MAS VENDIDOS",
         "show_compare_price": false
       }
     },

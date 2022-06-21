@@ -97,7 +97,7 @@
     "seasonal_offers": {
       "type": "seasonal-offers",
       "settings": {
-        "title": "MAS VENDIDOS",
+        "title": "OFERTAS",
         "show_compare_price": false
       }
     },

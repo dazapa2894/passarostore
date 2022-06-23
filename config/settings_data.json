@@ -10,6 +10,7 @@
   "white": "#ffffff",
   "black": "#111111",
   "current": {
+    "accent_icons": "text",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",

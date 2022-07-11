@@ -64,14 +64,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p><strong>VUELVE EL DIA SIN IVA<\/strong><\/p>",
+            "heading": "<p><strong>COLOR DEL DÍA: NEGRO<\/strong><\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Informate de todo lo que necesitas saber del DÍA SIN IVA<\/p>"
+            "text": "<p>Sólo por hoy aprovecha el LUNES MULTICOLOR<\/p><p>*Aplica sólo lunes 11 de Julio ´22<\/p><p>*Aplica en tiendas y online<\/p><p>*No aplica para estampados<\/p>"
           }
         },
         "button": {
@@ -89,7 +89,7 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Dia_sin_iva-08.jpg",
+        "image": "shopify:\/\/shop_images\/Lunesmulticolor-14_02ec33be-f11e-4db4-974a-d7d002aa7ac5.jpg",
         "height": "adapt",
         "layout": "image_first"
       }

@@ -76,7 +76,7 @@
         "button": {
           "type": "button",
           "settings": {
-            "button_label": "vER MÁS",
+            "button_label": "VER MÁS",
             "button_link": "shopify:\/\/collections\/salva-eco"
           }
         }
@@ -88,7 +88,6 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Lunesmulticolor-14_02ec33be-f11e-4db4-974a-d7d002aa7ac5.jpg",
         "height": "adapt",
         "layout": "image_first"
       }

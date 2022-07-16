@@ -157,11 +157,11 @@
     <div class="product-title">{{ product_card_product.title }}</div>
     {%- if product_card_product.compare_at_price > product_card_product.price and product_card_product.available -%}
       <div class="product-price notranslate">
-        <del style="color: rgb(var(--color-gray));">{{ product_card_product.compare_at_price }}</del>
-        {{ product_card_product.price }}
+        <del style="color: rgb(var(--color-gray));">{{ product_card_product.compare_at_price | money }}</del>
+        {{ product_card_product.price | money }}
       </div>
     {%- else -%}
-      <div class="product-price notranslate">{{ product_card_product.price }}</div>   
+      <div class="product-price notranslate">{{ product_card_product.price | money }}</div>   
     {%- endif -%}
 
   </div><!-- END card-wrapper -->

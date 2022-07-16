@@ -154,14 +154,17 @@
       </div><!-- end variant-pickers -->
       
     </div>
+    <script>console.log({{ "Hello" }});</script>
+    <script>console.log({{ product_card_product.compare_at_price | money_without_trailing_zeros | json }});</script>
+    <script>console.log({{ product_card_product.price | json }});</script>
     <div class="product-title">{{ product_card_product.title }}</div>
     {%- if product_card_product.compare_at_price > product_card_product.price and product_card_product.available -%}
       <div class="product-price notranslate">
-        <del style="color: rgb(var(--color-gray));">{{ product_card_product.compare_at_price | money }}</del>
-        {{ product_card_product.price | money }}
+        <del style="color: rgb(var(--color-gray));">{{ product_card_product.compare_at_price | money_without_trailing_zeros }}</del>
+        {{ product_card_product.price | money_without_trailing_zeros }}
       </div>
     {%- else -%}
-      <div class="product-price notranslate">{{ product_card_product.price | money }}</div>   
+      <div class="product-price notranslate">{{ product_card_product.price | money_without_trailing_zeros }}</div>   
     {%- endif -%}
 
   </div><!-- END card-wrapper -->

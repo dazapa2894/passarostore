@@ -15,8 +15,8 @@ window.addEventListener('DOMContentLoaded', (event) => {
     });
 
     window.onscroll = function () {
-      fixed_header_toggler();
-      fixHeaderIconColor();
+      fixed_header_toggler(header);
+      fixHeaderIconColor(header);
     };
 
     
@@ -34,11 +34,11 @@ window.addEventListener('DOMContentLoaded', (event) => {
 });
 
 // para volver a dejar los iconos de color oscuro ya que al hacer scroll sale un fondo blanco
-function fixHeaderIconColor(){
+function fixHeaderIconColor(header) {
   console.log("fixHeaderIconColor");
 }
 
-function fixed_header_toggler() {
+function fixed_header_toggler(header) {
   if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
     header.classList.add("fixed");
   } else {

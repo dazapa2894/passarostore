@@ -6,12 +6,14 @@
 <link rel="stylesheet" href="{{ 'component-list-menu.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-search.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-menu-drawer.css' | asset_url }}" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="{{ 'component-cart-notification.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'component-cart-notification.css' | asset_url }}" media="print"
+  onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'custom-notification.css' | asset_url }}" media="print" onload="this.media='all'">
 
 
 <!-- Fontawesome -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+  integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
 
 
 <noscript>{{ 'component-list-menu.css' | asset_url | stylesheet_tag }}</noscript>
@@ -20,14 +22,14 @@
 <noscript>{{ 'component-cart-notification.css' | asset_url | stylesheet_tag }}</noscript>
 
 <script>
-const logo_claro = "{{ section.settings.logo_claro | img_url: '200x'  }}";
-const logo_oscuro = "{{ section.settings.logo_oscuro | img_url: '200x'  }}";
-const color_claro = "{{ section.settings.color_for_dark_background }}";
-const color_oscuro = "{{ section.settings.color_for_light_background }}";
+  const logo_claro = "{{ section.settings.logo_claro | img_url: '200x'  }}";
+  const logo_oscuro = "{{ section.settings.logo_oscuro | img_url: '200x'  }}";
+  const color_claro = "{{ section.settings.color_for_dark_background }}";
+  const color_oscuro = "{{ section.settings.color_for_light_background }}";
+</script>
 
-</script> 
-
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script src="{{ 'header.js' | asset_url }}" defer="defer"></script>
 <script src="{{ 'add-to-cart.js' | asset_url }}" defer="defer"></script>
 
@@ -90,63 +92,55 @@ const color_oscuro = "{{ section.settings.color_for_light_background }}";
 
 <svg xmlns="http://www.w3.org/2000/svg" class="hidden">
   <symbol id="icon-search" viewbox="0 0 18 19" fill="none">
-    <path fill-rule="evenodd" clip-rule="evenodd" d="M11.03 11.68A5.784 5.784 0 112.85 3.5a5.784 5.784 0 018.18 8.18zm.26 1.12a6.78 6.78 0 11.72-.7l5.4 5.4a.5.5 0 11-.71.7l-5.41-5.4z" fill="currentColor"/>
+    <path fill-rule="evenodd" clip-rule="evenodd"
+      d="M11.03 11.68A5.784 5.784 0 112.85 3.5a5.784 5.784 0 018.18 8.18zm.26 1.12a6.78 6.78 0 11.72-.7l5.4 5.4a.5.5 0 11-.71.7l-5.41-5.4z"
+      fill="currentColor" />
   </symbol>
 
   <symbol id="icon-close" class="icon icon-close" fill="none" viewBox="0 0 18 17">
-    <path d="M.865 15.978a.5.5 0 00.707.707l7.433-7.431 7.579 7.282a.501.501 0 00.846-.37.5.5 0 00-.153-.351L9.712 8.546l7.417-7.416a.5.5 0 10-.707-.708L8.991 7.853 1.413.573a.5.5 0 10-.693.72l7.563 7.268-7.418 7.417z" fill="currentColor">
+    <path
+      d="M.865 15.978a.5.5 0 00.707.707l7.433-7.431 7.579 7.282a.501.501 0 00.846-.37.5.5 0 00-.153-.351L9.712 8.546l7.417-7.416a.5.5 0 10-.707-.708L8.991 7.853 1.413.573a.5.5 0 10-.693.72l7.563 7.268-7.418 7.417z"
+      fill="currentColor">
   </symbol>
 </svg>
 
 <div class="header-wrapper">
-  <header class="header header--{{ section.settings.logo_position }} page-width{% if section.settings.menu != blank %} header--has-menu{% endif %}">
+  <header
+    class="header header--{{ section.settings.logo_position }} page-width{% if section.settings.menu != blank %} header--has-menu{% endif %}">
 
     <div style="flex-direction: row; display: flex;">
 
       <div class="menu-passaro close-menu-passaro" style="grid-area: left-icon;">
         <div class="hamburger">
-          <div id="bar-1" class="hamburger-bar"
-            {% if section.settings.is_dark_background %}
-              style="background-color:{{ section.settings.color_for_dark_background }};"
-            {% else %}
-              style="background-color:{{ section.settings.color_for_light_background }};"
-            {% endif %}>
+          <div id="bar-1" class="hamburger-bar" {% if section.settings.is_dark_background %}
+            style="background-color:{{ section.settings.color_for_dark_background }};" {% else %}
+            style="background-color:{{ section.settings.color_for_light_background }};" {% endif %}>
           </div>
-          <div id="bar-2" class="hamburger-bar bar2" 
-            {% if section.settings.is_dark_background %}
-              style="background-color:{{ section.settings.color_for_dark_background }};"
-            {% else %}
-              style="background-color:{{ section.settings.color_for_light_background }};"
-            {% endif %}>
+          <div id="bar-2" class="hamburger-bar bar2" {% if section.settings.is_dark_background %}
+            style="background-color:{{ section.settings.color_for_dark_background }};" {% else %}
+            style="background-color:{{ section.settings.color_for_light_background }};" {% endif %}>
           </div>
-          <div id="bar-3" class="hamburger-bar bar3" 
-            {% if section.settings.is_dark_background %}
-              style="background-color:{{ section.settings.color_for_dark_background }};"
-            {% else %}
-              style="background-color:{{ section.settings.color_for_light_background }};"
-            {% endif %}>
+          <div id="bar-3" class="hamburger-bar bar3" {% if section.settings.is_dark_background %}
+            style="background-color:{{ section.settings.color_for_dark_background }};" {% else %}
+            style="background-color:{{ section.settings.color_for_light_background }};" {% endif %}>
           </div>
         </div>
-        <span
-          {% if section.settings.is_dark_background %}
-            style="color:{{ section.settings.color_for_dark_background }};"
-          {% else %}
-            style="color:{{ section.settings.color_for_light_background }};"
-          {% endif %}>
+        <span {% if section.settings.is_dark_background %}
+          style="color:{{ section.settings.color_for_dark_background }};" {% else %}
+          style="color:{{ section.settings.color_for_light_background }};" {% endif %}>
           Menú
         </span>
       </div>
 
-      <details-modal class="header__search medium-hide large-up-hide{% if section.settings.hide_search_mobile %} small-hide{% endif %}" style="grid-area: icons;">
+      <details-modal
+        class="header__search medium-hide large-up-hide{% if section.settings.hide_search_mobile %} small-hide{% endif %}"
+        style="grid-area: icons;">
         <details>
           <summary
             class="header__icon header__icon--search header__icon--summary link link--text focus-inset modal__toggle"
             aria-haspopup="dialog" aria-label="{{ 'general.search.search' | t }}"
-            {% if section.settings.is_dark_background %} 
-          	style="color:{{ section.settings.color_for_dark_background }};"
-          	{% else %}
-          	style="color:{{ section.settings.color_for_light_background }};"
-          	{% endif %}>
+            {% if section.settings.is_dark_background %} style="color:{{ section.settings.color_for_dark_background }};"
+            {% else %} style="color:{{ section.settings.color_for_light_background }};" {% endif %}>
             <span>
               <svg class="modal__toggle-open icon icon-search" aria-hidden="true" focusable="false" role="presentation">
                 <use href="#icon-search">
@@ -183,81 +177,78 @@ const color_oscuro = "{{ section.settings.color_for_light_background }}";
           </div>
         </details>
       </details-modal>
-      
+
     </div>
 
     {%- if section.settings.logo_position == 'top-center' or section.settings.menu == blank -%}
-      <details-modal class="header__search small-hide">
-        <details>
-          <summary class="header__icon header__icon--search header__icon--summary link link--text focus-inset modal__toggle" aria-haspopup="dialog" aria-label="{{ 'general.search.search' | t }}"
-            {% if section.settings.is_dark_background %} 
-          	style="color:{{ section.settings.color_for_dark_background }};"
-          	{% else %}
-          	style="color:{{ section.settings.color_for_light_background }};"
-          	{% endif %}>
-            <span>
-              <svg class="modal__toggle-open icon icon-search" aria-hidden="true" focusable="false" role="presentation">
-                <use href="#icon-search">
-              </svg>
-              <svg class="modal__toggle-close icon icon-close" aria-hidden="true" focusable="false" role="presentation">
+    <details-modal class="header__search small-hide">
+      <details>
+        <summary
+          class="header__icon header__icon--search header__icon--summary link link--text focus-inset modal__toggle"
+          aria-haspopup="dialog" aria-label="{{ 'general.search.search' | t }}"
+          {% if section.settings.is_dark_background %} style="color:{{ section.settings.color_for_dark_background }};"
+          {% else %} style="color:{{ section.settings.color_for_light_background }};" {% endif %}>
+          <span>
+            <svg class="modal__toggle-open icon icon-search" aria-hidden="true" focusable="false" role="presentation">
+              <use href="#icon-search">
+            </svg>
+            <svg class="modal__toggle-close icon icon-close" aria-hidden="true" focusable="false" role="presentation">
+              <use href="#icon-close">
+            </svg>
+          </span>
+        </summary>
+        <div class="search-modal modal__content" role="dialog" aria-modal="true"
+          aria-label="{{ 'general.search.search' | t }}">
+          <div class="search-modal__content" tabindex="-1">
+            <form action="{{ routes.search_url }}" method="get" role="search" class="search search-modal__form">
+              <div class="field">
+                <input class="search__input field__input" id="Search-In-Modal" type="search" name="q"
+                  value="{{ search.terms | escape }}" placeholder="{{ 'general.search.search' | t }}">
+                <label class="field__label" for="Search-In-Modal">{{ 'general.search.search' | t }}</label>
+                <input type="hidden" name="options[prefix]" value="last">
+                <button class="search__button field__button" aria-label="{{ 'general.search.search' | t }}">
+                  <svg class="icon icon-search" aria-hidden="true" focusable="false" role="presentation">
+                    <use href="#icon-search">
+                  </svg>
+                </button>
+              </div>
+            </form>
+            <button type="button" class="modal__close-button link link--text focus-inset"
+              aria-label="{{ 'accessibility.close' | t }}">
+              <svg class="icon icon-close" aria-hidden="true" focusable="false" role="presentation">
                 <use href="#icon-close">
               </svg>
-            </span>
-          </summary>
-          <div class="search-modal modal__content" role="dialog" aria-modal="true" aria-label="{{ 'general.search.search' | t }}">
-            <div class="search-modal__content" tabindex="-1">
-              <form action="{{ routes.search_url }}" method="get" role="search" class="search search-modal__form">
-                <div class="field">
-                  <input class="search__input field__input" id="Search-In-Modal" type="search" name="q" value="{{ search.terms | escape }}" placeholder="{{ 'general.search.search' | t }}">
-                  <label class="field__label" for="Search-In-Modal">{{ 'general.search.search' | t }}</label>
-                  <input type="hidden" name="options[prefix]" value="last">
-                  <button class="search__button field__button" aria-label="{{ 'general.search.search' | t }}">
-                    <svg class="icon icon-search" aria-hidden="true" focusable="false" role="presentation">
-                      <use href="#icon-search">
-                    </svg>
-                  </button>
-                </div>
-              </form>
-              <button type="button" class="modal__close-button link link--text focus-inset" aria-label="{{ 'accessibility.close' | t }}">
-                <svg class="icon icon-close" aria-hidden="true" focusable="false" role="presentation">
-                  <use href="#icon-close">
-                </svg>
-              </button>
-            </div>
+            </button>
           </div>
-        </details>
-      </details-modal>
+        </div>
+      </details>
+    </details-modal>
     {%- endif -%}
 
-      <h1 class="header__heading">
-        <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
-          	
-      		<img 
-            	{% if section.settings.is_dark_background %}
-                	src="{{ section.settings.logo_claro | img_url: '200x'  }}"
-                {% else %}
-                	src="{{ section.settings.logo_oscuro | img_url: '200x'  }}"
-                {% endif %}
-                loading="lazy"
-                class="header__heading-logo"
-                height="30px"
-                alt="logo"
-            >          	
-        </a>
-      </h1>
+    <h1 class="header__heading">
+      <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
 
-    
+        <img {% if section.settings.is_dark_background %} src="{{ section.settings.logo_claro | img_url: '200x'  }}"
+          {% else %} src="{{ section.settings.logo_oscuro | img_url: '200x'  }}" {% endif %} loading="lazy"
+          class="header__heading-logo" height="30px" alt="logo">
+      </a>
+    </h1>
+
+
 
     <div class="header__icons">
-	  <div class="transcy-switcher-manual transcy-desktop hidden"></div>
+      <div class="transcy-switcher-manual transcy-desktop hidden"></div>
       <details-modal class="header__search small-hide">
         <details>
-          <summary class="header__icon header__icon--search header__icon--summary link link--text focus-inset modal__toggle" aria-haspopup="dialog" aria-label="{{ 'general.search.search' | t }}"
+          <summary 
+            id="search-icon"
+            class="header__icon header__icon--search header__icon--summary link link--text focus-inset modal__toggle"
+            aria-haspopup="dialog" aria-label="{{ 'general.search.search' | t }}"
             {% if section.settings.is_dark_background %} 
-          	style="color:{{ section.settings.color_for_dark_background }};"
-          	{% else %}
-          	style="color:{{ section.settings.color_for_light_background }};"
-          	{% endif %}>
+            style="color:{{ section.settings.color_for_dark_background }};"
+            {% else %} 
+            style="color:{{ section.settings.color_for_light_background }};" 
+            {% endif %}>
             <span>
               <svg class="modal__toggle-open icon icon-search" aria-hidden="true" focusable="false" role="presentation">
                 <use href="#icon-search">
@@ -267,21 +258,25 @@ const color_oscuro = "{{ section.settings.color_for_light_background }}";
               </svg>
             </span>
           </summary>
-          <div class="search-modal modal__content" role="dialog" aria-modal="true" aria-label="{{ 'general.search.search' | t }}">
+          <div class="search-modal modal__content" role="dialog" aria-modal="true"
+            aria-label="{{ 'general.search.search' | t }}">
             <div class="search-modal__content" tabindex="-1">
               <form action="{{ routes.search_url }}" method="get" role="search" class="search search-modal__form">
                 <div class="field">
-                  <input class="search__input field__input" id="Search-In-Modal" type="search" name="q" value="{{ search.terms | escape }}" placeholder="{{ 'general.search.search' | t }}">
+                  <input class="search__input field__input" id="Search-In-Modal" type="search" name="q"
+                    value="{{ search.terms | escape }}" placeholder="{{ 'general.search.search' | t }}">
                   <label class="field__label" for="Search-In-Modal">{{ 'general.search.search' | t }}</label>
                   <input type="hidden" name="options[prefix]" value="last">
-                  <button class="search__button field__button focus-inset" aria-label="{{ 'general.search.search' | t }}">
+                  <button class="search__button field__button focus-inset"
+                    aria-label="{{ 'general.search.search' | t }}">
                     <svg class="icon icon-search" aria-hidden="true" focusable="false" role="presentation">
                       <use href="#icon-search">
                     </svg>
                   </button>
                 </div>
               </form>
-              <button type="button" class="search-modal__close-button modal__close-button link link--text focus-inset" aria-label="{{ 'accessibility.close' | t }}">
+              <button type="button" class="search-modal__close-button modal__close-button link link--text focus-inset"
+                aria-label="{{ 'accessibility.close' | t }}">
                 <svg class="icon icon-close" aria-hidden="true" focusable="false" role="presentation">
                   <use href="#icon-close">
                 </svg>
@@ -292,32 +287,28 @@ const color_oscuro = "{{ section.settings.color_for_light_background }}";
       </details-modal>
 
       {%- if shop.customer_accounts_enabled -%}
-        <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}"
-          class="header__icon header__icon--account link link--text focus-inset"
-          {% if section.settings.is_dark_background %} 
-          style="color:{{ section.settings.color_for_dark_background }};"
-          {% else %}
-          style="color:{{ section.settings.color_for_light_background }};"
-          {% endif %}>
-          {% render 'icon-account' %}
-          <span class="visually-hidden">
-            {%- liquid
+      <a id="account-icon" href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}"
+        class="header__icon header__icon--account link link--text focus-inset"
+        {% if section.settings.is_dark_background %} style="color:{{ section.settings.color_for_dark_background }};"
+        {% else %} style="color:{{ section.settings.color_for_light_background }};" {% endif %}>
+        {% render 'icon-account' %}
+        <span class="visually-hidden">
+          {%- liquid
               if customer
                 echo 'customer.account_fallback' | t
               else
                 echo 'customer.log_in' | t
               endif
             -%}
-          </span>
-        </a>
+        </span>
+      </a>
       {%- endif -%}
 
-      <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link link--text focus-inset" id="cart-icon-bubble"
+      <a id="cart-icon-bubble" href="{{ routes.cart_url }}"
+        class="header__icon header__icon--cart link link--text focus-inset"
         {% if section.settings.is_dark_background %}
-        style="color:{{ section.settings.color_for_dark_background }};"
-        {% else %}
-        style="color:{{ section.settings.color_for_light_background }};"
-        {% endif %}>
+        style="color:{{ section.settings.color_for_dark_background }};" {% else %}
+        style="color:{{ section.settings.color_for_light_background }};" {% endif %}>
         {%- liquid
           if cart == empty
             render 'icon-cart-empty'
@@ -327,33 +318,29 @@ const color_oscuro = "{{ section.settings.color_for_light_background }}";
         -%}
         <span class="visually-hidden">{{ 'templates.cart.cart' | t }}</span>
         {%- if cart != empty -%}
-          <div class="cart-count-bubble">
-            {%- if cart.item_count < 100 -%}
-              <span aria-hidden="true">{{ cart.item_count }}</span>
-            {%- endif -%}
-            <span class="visually-hidden">{{ 'sections.header.cart_count' | t: count: cart.item_count }}</span>
-          </div>
+        <div class="cart-count-bubble">
+          {%- if cart.item_count < 100 -%}
+          <span aria-hidden="true">{{ cart.item_count }}</span>
+          {%- endif -%}
+          <span class="visually-hidden">{{ 'sections.header.cart_count' | t: count: cart.item_count }}</span>
+        </div>
         {%- endif -%}
       </a>
-              
+
     </div>
 
     <div class="side-nav-menu oculto">
       <ul>
-	    
+
         <li id="side-menu-logo-wrapper">
           <a href="{{ routes.root_url }}" class="hcenter header__heading-link link link--text focus-inset">
-            <img 
-              src="https://cdn.shopify.com/s/files/1/0592/9287/6983/files/logo_passaro.svg?v=1638029440"
-              loading="lazy"
-              class="header__heading-logo"
-              alt="logo"
-            >
+            <img src="https://cdn.shopify.com/s/files/1/0592/9287/6983/files/logo_passaro.svg?v=1638029440"
+              loading="lazy" class="header__heading-logo" alt="logo">
           </a>
-        </li> 
+        </li>
         <li>
           <a href="{{ routes.root_url }}">HOME</a>
-        </li> 
+        </li>
 
         <li>
           <a class="dropdown-trigger-nav" dropdown-target="side-menu-shop-dropdown-content">
@@ -363,12 +350,12 @@ const color_oscuro = "{{ section.settings.color_for_light_background }}";
           <ul class="dropdown-list" id="side-menu-shop-dropdown-content" style="display:none;">
             {% for link in linklists.categorias.links %}
             {% assign collection = link.object %}
-                {% if collection.all_products_count >= 0 %}
-                  <li>
-                    <a href="{{collection.url}}">{{collection.title}}</a>
-                  </li>
-                {% endif %}
-            {% endfor %}   
+            {% if collection.all_products_count >= 0 %}
+            <li>
+              <a href="{{collection.url}}">{{collection.title}}</a>
+            </li>
+            {% endif %}
+            {% endfor %}
           </ul>
         </li>
 
@@ -390,11 +377,13 @@ const color_oscuro = "{{ section.settings.color_for_light_background }}";
         </li>   -->
 
         {%- for link in section.settings.menu.links -%}
-          <li>
-            <a href="{{ link.url }}" class="header__menu-item header__menu-item list-menu__item link link--text focus-inset"{% if link.current %} aria-current="page"{% endif %}>
-              <span {%- if link.current %} class="header__active-menu-item"{% endif %}>{{ link.title | escape }}</span>
-            </a>
-          </li>
+        <li>
+          <a href="{{ link.url }}"
+            class="header__menu-item header__menu-item list-menu__item link link--text focus-inset"
+            {% if link.current %} aria-current="page" {% endif %}>
+            <span {%- if link.current %} class="header__active-menu-item" {% endif %}>{{ link.title | escape }}</span>
+          </a>
+        </li>
         {%- endfor -%}
 
         <div class="transcy-switcher-manual transcy-mobile hidden" style="transform: translateX(-10px);"></div>
@@ -402,13 +391,13 @@ const color_oscuro = "{{ section.settings.color_for_light_background }}";
     </div>
 
     <div class="close-menu-passaro" id="menu-latera-overlay">
-      
+
     </div>
   </header>
 </div>
 
 {%- if request.page_type != 'cart' -%}
-  {%- render 'cart-notification' -%}
+{%- render 'cart-notification' -%}
 {%- endif -%}
 
 
@@ -416,7 +405,7 @@ const color_oscuro = "{{ section.settings.color_for_light_background }}";
 
   <div id="cerrar-notificacion">X</div>
 
-  <div id="titulo-notificacion" >
+  <div id="titulo-notificacion">
     Título
   </div>
 
@@ -432,128 +421,173 @@ const color_oscuro = "{{ section.settings.color_for_light_background }}";
 
 
 {% javascript %}
-  class StickyHeader extends HTMLElement {
-    constructor() {
-      super();
-    }
+class StickyHeader extends HTMLElement {
+constructor() {
+super();
+}
 
-    connectedCallback() {
-      this.header = document.getElementById('shopify-section-header');
-      this.headerBounds = {};
-      this.currentScrollTop = 0;
+connectedCallback() {
+this.header = document.getElementById('shopify-section-header');
+this.headerBounds = {};
+this.currentScrollTop = 0;
 
-      this.onScrollHandler = this.onScroll.bind(this);
+this.onScrollHandler = this.onScroll.bind(this);
 
-      window.addEventListener('scroll', this.onScrollHandler, false);
+window.addEventListener('scroll', this.onScrollHandler, false);
 
-      this.createObserver();
-    }
+this.createObserver();
+}
 
-    disconnectedCallback() {
-      window.removeEventListener('scroll', this.onScrollHandler);
-    }
+disconnectedCallback() {
+window.removeEventListener('scroll', this.onScrollHandler);
+}
 
-    createObserver() {
-      let observer = new IntersectionObserver((entries, observer) => {
-        this.headerBounds = entries[0].intersectionRect;
-        observer.disconnect();
-      });
+createObserver() {
+let observer = new IntersectionObserver((entries, observer) => {
+this.headerBounds = entries[0].intersectionRect;
+observer.disconnect();
+});
 
-      observer.observe(this.header);
-    }
+observer.observe(this.header);
+}
 
-    onScroll() {
-      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+onScroll() {
+const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
-      if (scrollTop > this.currentScrollTop && scrollTop > this.headerBounds.bottom) {
-        requestAnimationFrame(this.hide.bind(this));
-      } else if (scrollTop < this.currentScrollTop && scrollTop > this.headerBounds.bottom) {
-        requestAnimationFrame(this.reveal.bind(this));
-      } else if (scrollTop <= this.headerBounds.top) {
-        requestAnimationFrame(this.reset.bind(this));
-      }
-
-      this.currentScrollTop = scrollTop;
-    }
-
-    hide() {
-      this.header.classList.add('shopify-section-header-hidden', 'shopify-section-header-sticky');
-      this.closeMenuDisclosure();
-      this.closeSearchModal();
-    }
-
-    reveal() {
-      this.header.classList.add('shopify-section-header-sticky', 'animate');
-      this.header.classList.remove('shopify-section-header-hidden');
-    }
-
-    reset() {
-      this.header.classList.remove('shopify-section-header-hidden', 'shopify-section-header-sticky', 'animate');
-    }
-
-    closeMenuDisclosure() {
-      this.disclosures = this.disclosures || this.header.querySelectorAll('details-disclosure');
-      this.disclosures.forEach(disclosure => disclosure.close());
+if (scrollTop > this.currentScrollTop && scrollTop > this.headerBounds.bottom) {
+requestAnimationFrame(this.hide.bind(this));
+} else if (scrollTop < this.currentScrollTop && scrollTop> this.headerBounds.bottom) {
+  requestAnimationFrame(this.reveal.bind(this));
+  } else if (scrollTop <= this.headerBounds.top) { requestAnimationFrame(this.reset.bind(this)); }
+    this.currentScrollTop=scrollTop; } hide() {
+    this.header.classList.add('shopify-section-header-hidden', 'shopify-section-header-sticky' );
+    this.closeMenuDisclosure(); this.closeSearchModal(); } reveal() {
+    this.header.classList.add('shopify-section-header-sticky', 'animate' );
+    this.header.classList.remove('shopify-section-header-hidden'); } reset() {
+    this.header.classList.remove('shopify-section-header-hidden', 'shopify-section-header-sticky' , 'animate' ); }
+    closeMenuDisclosure() { this.disclosures=this.disclosures || this.header.querySelectorAll('details-disclosure');
+    this.disclosures.forEach(disclosure=> disclosure.close());
     }
 
     closeSearchModal() {
-      this.searchModal = this.searchModal || this.header.querySelector('details-modal');
-      this.searchModal.close(false);
+    this.searchModal = this.searchModal || this.header.querySelector('details-modal');
+    this.searchModal.close(false);
     }
-  }
-
-  customElements.define('sticky-header', StickyHeader);
-{% endjavascript %}
-
-<script type="application/ld+json">
-  {
-    "@context": "http://schema.org",
-    "@type": "Organization",
-    "name": {{ shop.name | json }},
-    {% if section.settings.logo_oscuro %}
-      {% assign image_size = section.settings.logo_oscuro.width | append: 'x' %}
-      "logo": {{ section.settings.logo_oscuro | img_url: image_size | prepend: "https:" | json }},
-    {% endif %}
-    "sameAs": [
-      {{ settings.social_twitter_link | json }},
-      {{ settings.social_facebook_link | json }},
-      {{ settings.social_pinterest_link | json }},
-      {{ settings.social_instagram_link | json }},
-      {{ settings.social_tumblr_link | json }},
-      {{ settings.social_snapchat_link | json }},
-      {{ settings.social_youtube_link | json }},
-      {{ settings.social_vimeo_link | json }}
-    ],
-    "url": {{ shop.url | append: page.url | json }}
-  }
-</script>
-
-{%- if request.page_type == 'index' -%}
-  {% assign potential_action_target = shop.url | append: routes.search_url | append: "?q={search_term_string}" %}
-  <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "WebSite",
-      "name": {{ shop.name | json }},
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": {{ potential_action_target | json }},
-        "query-input": "required name=search_term_string"
-      },
-      "url": {{ shop.url | append: page.url | json }}
     }
-  </script>
-{%- endif -%}
 
-{% schema %}
-{
-  "name": "t:sections.header.name",
-  "settings": [
+    customElements.define('sticky-header', StickyHeader);
+    {% endjavascript %}
+
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": {
+          {
+            shop.name | json
+          }
+        },
+        {
+          %
+          if section.settings.logo_oscuro %
+        } {
+          % assign image_size = section.settings.logo_oscuro.width | append: 'x' %
+        }
+        "logo": {
+          {
+            section.settings.logo_oscuro | img_url: image_size | prepend: "https:" | json
+          }
+        },
+        {
+          % endif %
+        }
+        "sameAs": [{
+            {
+              settings.social_twitter_link | json
+            }
+          },
+          {
+            {
+              settings.social_facebook_link | json
+            }
+          },
+          {
+            {
+              settings.social_pinterest_link | json
+            }
+          },
+          {
+            {
+              settings.social_instagram_link | json
+            }
+          },
+          {
+            {
+              settings.social_tumblr_link | json
+            }
+          },
+          {
+            {
+              settings.social_snapchat_link | json
+            }
+          },
+          {
+            {
+              settings.social_youtube_link | json
+            }
+          },
+          {
+            {
+              settings.social_vimeo_link | json
+            }
+          }
+        ],
+        "url": {
+          {
+            shop.url | append: page.url | json
+          }
+        }
+      }
+    </script>
+
+    {%- if request.page_type == 'index' -%}
+    {% assign potential_action_target = shop.url | append: routes.search_url | append: "?q={search_term_string}" %}
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "name": {
+          {
+            shop.name | json
+          }
+        },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": {
+            {
+              potential_action_target | json
+            }
+          },
+          "query-input": "required name=search_term_string"
+        },
+        "url": {
+          {
+            shop.url | append: page.url | json
+          }
+        }
+      }
+    </script>
+    {%- endif -%}
+
+    {% schema %}
     {
-      "type":"checkbox",
-      "id": "hide_search_mobile",
-      "default": true,
-      "label": "Ocultar el botón de búsqueda en celulares?"
+    "name": "t:sections.header.name",
+    "settings": [
+    {
+    "type":"checkbox",
+    "id": "hide_search_mobile",
+    "default": true,
+    "label": "Ocultar el botón de búsqueda en celulares?"
     },
     {
     "type":"checkbox",
@@ -575,9 +609,9 @@ const color_oscuro = "{{ section.settings.color_for_light_background }}";
     "default": "#111111"
     },
     {
-      "type": "image_picker",
-      "id": "logo_oscuro",
-      "label": "Logo fondo claro"
+    "type": "image_picker",
+    "id": "logo_oscuro",
+    "label": "Logo fondo claro"
     },
     {
     "type": "image_picker",
@@ -585,42 +619,41 @@ const color_oscuro = "{{ section.settings.color_for_light_background }}";
     "label": "Logo fondo oscuro"
     },
     {
-      "type": "range",
-      "id": "logo_width",
-      "min": 50,
-      "max": 250,
-      "step": 10,
-      "default": 100,
-      "unit": "t:sections.header.settings.logo_width.unit",
-      "label": "t:sections.header.settings.logo_width.label"
+    "type": "range",
+    "id": "logo_width",
+    "min": 50,
+    "max": 250,
+    "step": 10,
+    "default": 100,
+    "unit": "t:sections.header.settings.logo_width.unit",
+    "label": "t:sections.header.settings.logo_width.label"
     },
     {
-      "type": "select",
-      "id": "logo_position",
-      "options": [
-        {
-          "value": "middle-left",
-          "label": "t:sections.header.settings.logo_position.options__1.label"
-        },
-        {
-          "value": "top-left",
-          "label": "t:sections.header.settings.logo_position.options__2.label"
-        },
-        {
-          "value": "top-center",
-          "label": "t:sections.header.settings.logo_position.options__3.label"
-        }
-      ],
-      "default": "middle-left",
-      "label": "t:sections.header.settings.logo_position.label"
+    "type": "select",
+    "id": "logo_position",
+    "options": [
+    {
+    "value": "middle-left",
+    "label": "t:sections.header.settings.logo_position.options__1.label"
     },
     {
-      "type": "link_list",
-      "id": "menu",
-      "default": "main-menu",
-      "label": "t:sections.header.settings.menu.label"
+    "value": "top-left",
+    "label": "t:sections.header.settings.logo_position.options__2.label"
+    },
+    {
+    "value": "top-center",
+    "label": "t:sections.header.settings.logo_position.options__3.label"
     }
-  ]
-}
-{% endschema %}
-
+    ],
+    "default": "middle-left",
+    "label": "t:sections.header.settings.logo_position.label"
+    },
+    {
+    "type": "link_list",
+    "id": "menu",
+    "default": "main-menu",
+    "label": "t:sections.header.settings.menu.label"
+    }
+    ]
+    }
+    {% endschema %}

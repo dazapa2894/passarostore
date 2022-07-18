@@ -43,7 +43,7 @@ function fixHeaderIconColor(header) {
     console.log(logo_oscuro);
     $("header .header__heading .header__heading-link img").attr("src", logo_oscuro);
     $("#cart-icon-bubble").css("color", color_oscuro);
-    $("#account-icon").css("color", color_oscuro);
+    $("#search-icon").css("color", color_oscuro);
     $("#account-search").css("color", color_oscuro);
     $(".hamburger-bar").css("color", color_oscuro);
     $(".hamburger+span").css("color", color_oscuro);
@@ -52,7 +52,7 @@ function fixHeaderIconColor(header) {
     console.log("fixHeaderIconColor");
     $("header .header__heading .header__heading-link img").attr("src", logo_claro);
     $("#cart-icon-bubble").css("color", color_claro);
-    $("#account-icon").css("color", color_claro);
+    $("#search-icon").css("color", color_claro);
     $("#account-search").css("color", color_claro);
     $(".hamburger-bar").css("color", color_claro);
     $(".hamburger+span").css("color", color_claro);

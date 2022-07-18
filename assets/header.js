@@ -18,8 +18,8 @@ window.addEventListener('DOMContentLoaded', (event) => {
     });
 
     window.onscroll = function () {
+      fixHeaderIconColor();
       fixed_header_toggler(header);
-      fixHeaderIconColor(header, logo_incial, color_inicial_iconos);
     };
 
     
@@ -37,10 +37,9 @@ window.addEventListener('DOMContentLoaded', (event) => {
 });
 
 // para volver a dejar los iconos de color oscuro ya que al hacer scroll sale un fondo blanco
-function fixHeaderIconColor(header) {
+function fixHeaderIconColor() {
   console.log(document.body.scrollTop);
   if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
-    console.log(logo_oscuro);
     $("header .header__heading .header__heading-link img").attr("src", logo_oscuro);
     $("#cart-icon-bubble").css("color", color_oscuro);
     $("#account-icon").css("color", color_oscuro);
@@ -48,8 +47,6 @@ function fixHeaderIconColor(header) {
     $(".hamburger-bar").css("background-color", color_oscuro);
     $(".hamburger+span").css("color", color_oscuro);
   } else {
-    console.log(logo_claro);
-    console.log("fixHeaderIconColor");
     $("header .header__heading .header__heading-link img").attr("src", logo_claro);
     $("#cart-icon-bubble").css("color", color_claro);
     $("#account-icon").css("color", color_claro);

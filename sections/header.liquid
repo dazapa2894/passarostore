@@ -456,8 +456,7 @@
 
     onScroll() {
       const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-	
-      
+
       if (scrollTop > this.currentScrollTop && scrollTop > this.headerBounds.bottom) {
         requestAnimationFrame(this.hide.bind(this));
       } else if (scrollTop < this.currentScrollTop && scrollTop > this.headerBounds.bottom) {
@@ -467,20 +466,6 @@
       }
 
       this.currentScrollTop = scrollTop;
-                                                   
-      console.log("scrollTop = "+scrollTop);
-		
-      console.log(document.body.scrollTop);
-      if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
-        console.log("returnIconColor");
-        $("header .header__heading .header__heading-link img").attr("src", {{ section.settings.logo_oscuro | img_url: '200x'  }});
-      } else {
-        console.log("fixHeaderIconColor");
-        $("header .header__heading .header__heading-link img").attr("src", {{ section.settings.logo_claro | img_url: '200x'  }});
-        	
-                
-                	
-      }
     }
 
     hide() {

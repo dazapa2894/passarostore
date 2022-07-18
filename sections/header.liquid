@@ -97,11 +97,34 @@
 
       <div class="menu-passaro close-menu-passaro" style="grid-area: left-icon;">
         <div class="hamburger">
-          <div id="bar-1" class="hamburger-bar"></div>
-          <div id="bar-2" class="hamburger-bar bar2"></div>
-          <div id="bar-3" class="hamburger-bar bar3"></div>
+          <div id="bar-1" class="hamburger-bar" 
+            {% if section.settings.is_dark_background %}
+              style="background-color:{{ section.settings.color_for_dark_background }}"
+            {% else %}
+              style="background-color:{{ section.settings.color_for_light_background }}"
+            {% endif %}
+          </div>
+          <div id="bar-2" class="hamburger-bar bar2" 
+            {% if section.settings.is_dark_background %}
+              style="background-color:{{ section.settings.color_for_dark_background }}"
+            {% else %}
+              style="background-color:{{ section.settings.color_for_light_background }}"
+            {% endif %}>
+          </div>
+          <div id="bar-3" class="hamburger-bar bar3" 
+            {% if section.settings.is_dark_background %}
+              style="background-color:{{ section.settings.color_for_dark_background }}"
+            {% else %}
+              style="background-color:{{ section.settings.color_for_light_background }}"
+            {% endif %}>
+          </div>
         </div>
-        <span>Menú</span>
+        <span
+          {% if section.settings.is_dark_background %}
+            style="background-color:{{ section.settings.color_for_dark_background }}"
+          {% else %}
+            style="background-color:{{ section.settings.color_for_light_background }}"
+          {% endif %} >Menú</span>
       </div>
 
       <details-modal class="header__search medium-hide large-up-hide{% if section.settings.hide_search_mobile %} small-hide{% endif %}" style="grid-area: icons;">

@@ -45,7 +45,7 @@ function fixHeaderIconColor(header) {
     $("#cart-icon-bubble").css("color", color_oscuro);
     $("#search-icon").css("color", color_oscuro);
     $("#account-search").css("color", color_oscuro);
-    $(".hamburger-bar").css("color", color_oscuro);
+    $(".hamburger-bar").css("background-color", color_oscuro);
     $(".hamburger+span").css("color", color_oscuro);
   } else {
     console.log(logo_claro);
@@ -54,7 +54,7 @@ function fixHeaderIconColor(header) {
     $("#cart-icon-bubble").css("color", color_claro);
     $("#search-icon").css("color", color_claro);
     $("#account-search").css("color", color_claro);
-    $(".hamburger-bar").css("color", color_claro);
+    $(".hamburger-bar").css("background-color", color_claro);
     $(".hamburger+span").css("color", color_claro);
   }
 }

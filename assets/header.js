@@ -6,6 +6,9 @@ window.addEventListener('DOMContentLoaded', (event) => {
     const menu_passaro = document.querySelectorAll(".close-menu-passaro");
     const header = document.querySelector("#shopify-section-header");
 
+    const logo_incial = $("header .header__heading .header__heading-link img").attr("src");
+    const color_inicial_iconos = $(".menu-passaro span").css("color");
+
     menu_passaro.forEach(menu_passaro_element => {
       // console.log(menu_passaro_element);
       menu_passaro_element.addEventListener("click", function () {
@@ -16,7 +19,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
     window.onscroll = function () {
       fixed_header_toggler(header);
-      fixHeaderIconColor(header);
+      fixHeaderIconColor(header, logo_incial, color_inicial_iconos);
     };
 
     
@@ -35,7 +38,15 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
 // para volver a dejar los iconos de color oscuro ya que al hacer scroll sale un fondo blanco
 function fixHeaderIconColor(header) {
-  console.log("fixHeaderIconColor");
+  console.log(document.body.scrollTop);
+  if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+    console.log(logo_oscuro);
+    $("header .header__heading .header__heading-link img").attr("src", logo_oscuro);
+  } else {
+    console.log(logo_claro);
+    console.log("fixHeaderIconColor");
+    $("header .header__heading .header__heading-link img").attr("src", logo_claro);
+  }
 }
 
 function fixed_header_toggler(header) {

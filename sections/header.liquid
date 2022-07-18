@@ -133,7 +133,12 @@
         <details>
           <summary
             class="header__icon header__icon--search header__icon--summary link link--text focus-inset modal__toggle"
-            aria-haspopup="dialog" aria-label="{{ 'general.search.search' | t }}">
+            aria-haspopup="dialog" aria-label="{{ 'general.search.search' | t }}"
+            {% if section.settings.is_dark_background %} 
+          	style="color:{{ section.settings.color_for_dark_background }};"
+          	{% else %}
+          	style="color:{{ section.settings.color_for_light_background }};"
+          	{% endif %}>
             <span>
               <svg class="modal__toggle-open icon icon-search" aria-hidden="true" focusable="false" role="presentation">
                 <use href="#icon-search">

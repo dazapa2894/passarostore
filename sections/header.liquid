@@ -188,13 +188,24 @@
 
       <h1 class="header__heading">
         <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
-          <img 
-              src="{{ section.settings.logo_claro | img_url: '200x'  }}"
-              loading="lazy"
-              class="header__heading-logo"
-              height="30px"
-              alt="logo"
-            >
+          	{% if section.settings.is_dark_background %}
+      			<img 
+                  src="{{ section.settings.logo_claro | img_url: '200x'  }}"
+                  loading="lazy"
+                  class="header__heading-logo"
+                  height="30px"
+                  alt="logo"
+                >
+      		{% else %}
+          		<img 
+                  src="{{ section.settings.logo_oscuro | img_url: '200x'  }}"
+                  loading="lazy"
+                  class="header__heading-logo"
+                  height="30px"
+                  alt="logo"
+                >
+    		{% endif %}
+          	
         </a>
       </h1>
 

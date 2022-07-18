@@ -269,7 +269,13 @@
       </details-modal>
 
       {%- if shop.customer_accounts_enabled -%}
-        <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="header__icon header__icon--account link link--text focus-inset">
+        <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}"
+          class="header__icon header__icon--account link link--text focus-inset"
+          {% if section.settings.is_dark_background %} 
+          style="color:{{ section.settings.color_for_dark_background }};"
+          {% else %}
+          style="color:{{ section.settings.color_for_light_background }};"
+          {% endif %}>
           {% render 'icon-account' %}
           <span class="visually-hidden">
             {%- liquid
@@ -283,7 +289,12 @@
         </a>
       {%- endif -%}
 
-      <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link link--text focus-inset" id="cart-icon-bubble">
+      <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link link--text focus-inset" id="cart-icon-bubble"
+        {% if section.settings.is_dark_background %}
+        style="color:{{ section.settings.color_for_dark_background }};"
+        {% else %}
+        style="color:{{ section.settings.color_for_light_background }};"
+        {% endif %}>
         {%- liquid
           if cart == empty
             render 'icon-cart-empty'
@@ -301,6 +312,7 @@
           </div>
         {%- endif -%}
       </a>
+              
     </div>
 
     <div class="side-nav-menu oculto">

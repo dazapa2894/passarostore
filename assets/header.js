@@ -15,16 +15,10 @@ window.addEventListener('DOMContentLoaded', (event) => {
     });
 
     window.onscroll = function () {
-      fixed_header_toggler()
+      fixed_header_toggler();
+      fixHeaderIconColor();
     };
 
-    function fixed_header_toggler() {
-      if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
-        header.classList.add("fixed");
-      }else{
-        header.classList.remove("fixed");
-      }
-    }
     
     $(".dropdown-trigger-nav").click( function(){
       let target = $(this).attr("dropdown-target");
@@ -32,12 +26,25 @@ window.addEventListener('DOMContentLoaded', (event) => {
       $(this).find(".dropdown-indicator").toggleClass("opened");
     });
 
-});
+    $("#cerrar-notificacion").click( function(){
+      $("#custom-notification").slideUp();
+    });
 
 
-$("#cerrar-notificacion").click( function(){
-  $("#custom-notification").slideUp();
 });
+
+// para volver a dejar los iconos de color oscuro ya que al hacer scroll sale un fondo blanco
+function fixHeaderIconColor(){
+  console.log("fixHeaderIconColor");
+}
+
+function fixed_header_toggler() {
+  if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+    header.classList.add("fixed");
+  } else {
+    header.classList.remove("fixed");
+  }
+}
 
 function custom_notificacion( titulo, mensaje, tipo = 1 ){ 
 

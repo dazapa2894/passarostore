@@ -189,7 +189,7 @@
       <h1 class="header__heading">
         <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
           <img 
-              src="{{ section.settings.logo_blanco | img_url: '200x'  }}"
+              src="{{ section.settings.logo_claro | img_url: '200x'  }}"
               loading="lazy"
               class="header__heading-logo"
               height="30px"
@@ -445,9 +445,9 @@
     "@context": "http://schema.org",
     "@type": "Organization",
     "name": {{ shop.name | json }},
-    {% if section.settings.logo %}
-      {% assign image_size = section.settings.logo.width | append: 'x' %}
-      "logo": {{ section.settings.logo | img_url: image_size | prepend: "https:" | json }},
+    {% if section.settings.logo_oscuro %}
+      {% assign image_size = section.settings.logo_oscuro.width | append: 'x' %}
+      "logo": {{ section.settings.logo_oscuro | img_url: image_size | prepend: "https:" | json }},
     {% endif %}
     "sameAs": [
       {{ settings.social_twitter_link | json }},
@@ -511,12 +511,12 @@
     },
     {
       "type": "image_picker",
-      "id": "logo",
+      "id": "logo_oscuro",
       "label": "Logo fondo claro"
     },
     {
     "type": "image_picker",
-    "id": "logo_blanco",
+    "id": "logo_claro",
     "label": "Logo fondo oscuro"
     },
     {

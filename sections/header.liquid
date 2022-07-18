@@ -91,10 +91,7 @@
 </svg>
 
 <div class="header-wrapper">
-  <header class="header header--{{ section.settings.logo_position }} page-width{% if section.settings.menu != blank %} header--has-menu{% endif %}"
-  	{% if section.settings.use_transparent_background %}
-  	style="background-color:#fff0;"
-  	{% endif %}>
+  <header class="header header--{{ section.settings.logo_position }} page-width{% if section.settings.menu != blank %} header--has-menu{% endif %}">
 
     <div style="flex-direction: row; display: flex;">
 
@@ -556,13 +553,6 @@
     "default": true,
     "label": "Usar iconos oscuros?",
     "info": "Permite cambiar el color de los iconos para mejorar el contraste con el fondo"
-    },
-    {
-    "type":"checkbox",
-    "id": "use_transparent_background",
-    "default": true,
-    "label": "Usar fondo transparente?",
-    "info": "Permite elegir entre fondo a color y fondo transparente"
     },
     {
     "type": "color",

@@ -491,9 +491,32 @@
       "label": "Ocultar el botón de búsqueda en celulares?"
     },
     {
+    "type":"checkbox",
+    "id": "is_dark_background",
+    "default": true,
+    "label": "Cambia el color de los iconos para mejorar el contraste con el fondo"
+    },
+    {
+    "type": "color",
+    "id": "color_for_dark_background",
+    "label": "Color de los iconos en fondo oscuro",
+    "default": "#ffffff"
+    },
+    {
+    "type": "color",
+    "id": "color_for_light_background",
+    "label": "Color de los iconos en fondo claro",
+    "default": "#111111"
+    },
+    {
       "type": "image_picker",
       "id": "logo",
-      "label": "t:sections.header.settings.logo.label"
+      "label": "Logo fondo claro"
+    },
+    {
+    "type": "image_picker",
+    "id": "logo_blanco",
+    "label": "Logo fondo oscuro"
     },
     {
       "type": "range",

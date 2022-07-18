@@ -19,6 +19,10 @@
 <noscript>{{ 'component-menu-drawer.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'component-cart-notification.css' | asset_url | stylesheet_tag }}</noscript>
 
+<script>
+const logo_claro = {{ section.settings.logo_claro | img_url: '200x'  }};
+const logo_oscuro = {{ section.settings.logo_oscuro | img_url: '200x'  }};
+</script> 
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script src="{{ 'header.js' | asset_url }}" defer="defer"></script>
@@ -76,10 +80,6 @@
   }
 </style>
 
-<script>
-const logo_claro = {{ section.settings.logo_claro | img_url: '200x'  }};
-const logo_oscuro = {{ section.settings.logo_oscuro | img_url: '200x'  }};
-</script> 
 
 <script src="{{ 'details-disclosure.js' | asset_url }}" defer="defer"></script>
 <script src="{{ 'details-modal.js' | asset_url }}" defer="defer"></script>

@@ -1,6 +1,6 @@
 window.addEventListener('DOMContentLoaded', (event) => {
   
-  console.log("only home = " + on_home);
+  console.log("home header => " + on_home);
   
   $('#shopify-section-header').addClass('home-page')
 

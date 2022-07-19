@@ -1,5 +1,7 @@
 window.addEventListener('DOMContentLoaded', (event) => {
   
+  console.log("only home = " + on_home);
+  
   $('#shopify-section-header').addClass('home-page')
 
   $("header .header__heading .header__heading-link img").attr("src", logo_oscuro);

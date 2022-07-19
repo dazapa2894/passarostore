@@ -1,6 +1,5 @@
 window.addEventListener('DOMContentLoaded', (event) => {
     console.log('DOM fully loaded and parsed');
-  	console.log("header => " + on_home);	
   
   	$('body').addClass('loaded');
 
@@ -19,7 +18,10 @@ window.addEventListener('DOMContentLoaded', (event) => {
     });
 
     window.onscroll = function () {
-      fixHeaderIconColor();
+      if (typeof on_home !== 'undefined') {
+          fixHeaderIconColor();
+      }
+      
       fixed_header_toggler(header);
     };
 

@@ -1,3 +1,5 @@
+const on_home = true;
+
 window.addEventListener('DOMContentLoaded', (event) => {
     
   $('#shopify-section-header').addClass('home-page')

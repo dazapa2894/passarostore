@@ -63,21 +63,21 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p><strong>LÍNEA ECOLOGICA SALVA<\/strong><\/p>",
+            "heading": "<p><strong>25% DTO COLOR BEIGE<\/strong><\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Somos parte del cambio y estamos felices de lograr este sueño, nuestra linea ecológica nace para quedarse y queremos compartir contigo este pequeño cambio, la linea SALVA, fue elaborada con fibras de poliester de botellas PET recicladas y fibras de algódon ecológico.<\/p><p><strong>SALVA TU MUNDO VÍSTETE DE PÁSSARO.<\/strong><\/p><p><\/p>"
+            "text": "<p>Lunes  Multicolor<\/p><p>Sólo por hoy aprovecha el LUNES MULTICOLOR<\/p><p>*Aplica sólo Lunes 25 de Julio´22<\/p><p>*Aplica en tiendas y online<\/p><p>*No aplica para estampados<\/p><p><\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "VER MÁS",
-            "button_link": "shopify:\/\/collections\/salva-eco"
+            "button_link": "shopify:\/\/collections\/colores-beige"
           }
         }
       },
@@ -88,7 +88,7 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Banner-01.jpg",
+        "image": "shopify:\/\/shop_images\/Lunesmulticolor-14_58c01f1c-9bc9-4dba-8a72-b77dc46a371c.jpg",
         "height": "adapt",
         "layout": "image_first"
       }

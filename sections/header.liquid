@@ -251,9 +251,9 @@
             class="header__icon header__icon--search header__icon--summary link link--text focus-inset modal__toggle"
             aria-haspopup="dialog" aria-label="{{ 'general.search.search' | t }}"
             {% if section.settings.is_dark_background %} 
-            style="color:{{ section.settings.color_for_dark_background }};"
+              style="color:{{ section.settings.color_for_dark_background }};"
             {% else %} 
-            style="color:{{ section.settings.color_for_light_background }};" 
+              style="color:{{ section.settings.color_for_light_background }};" 
             {% endif %}>
             <span>
               <svg class="modal__toggle-open icon icon-search" aria-hidden="true" focusable="false" role="presentation">
@@ -295,8 +295,11 @@
       {%- if shop.customer_accounts_enabled -%}
       <a id="account-icon" href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}"
         class="header__icon header__icon--account link link--text focus-inset"
-        {% if section.settings.is_dark_background %} style="color:{{ section.settings.color_for_dark_background }};"
-        {% else %} style="color:{{ section.settings.color_for_light_background }};" {% endif %}>
+        {% if section.settings.is_dark_background %} 
+          style="color:{{ section.settings.color_for_dark_background }};"
+        {% else %} 
+          style="color:{{ section.settings.color_for_light_background }};" 
+        {% endif %}>
         {% render 'icon-account' %}
         <span class="visually-hidden">
           {%- liquid

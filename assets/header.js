@@ -25,6 +25,8 @@ window.addEventListener('DOMContentLoaded', (event) => {
       $("#cart-icon-bubble").css("color", color_oscuro);
       $("#account-icon").css("color", color_oscuro);
       $("#search-icon").css("color", color_oscuro);
+      $("#search-icon-2").css("color", color_oscuro);
+      $("#search-icon-3").css("color", color_oscuro);
       $(".hamburger-bar").css("background-color", color_oscuro);
       $(".hamburger+span").css("color", color_oscuro);
     }
@@ -37,6 +39,8 @@ window.addEventListener('DOMContentLoaded', (event) => {
     	$("#cart-icon-bubble").css("color", color_oscuro);
     	$("#account-icon").css("color", color_oscuro);
     	$("#search-icon").css("color", color_oscuro);
+        $("#search-icon-2").css("color", color_oscuro);
+        $("#search-icon-3").css("color", color_oscuro);
     	$(".hamburger-bar").css("background-color", color_oscuro);
     	$(".hamburger+span").css("color", color_oscuro);
       }

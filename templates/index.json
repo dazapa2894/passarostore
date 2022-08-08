@@ -42,7 +42,6 @@
     },
     "lunes_multicolor": {
       "type": "lunes-multicolor",
-      "disabled": true,
       "settings": {
         "background_color": "#efefef",
         "text_color": "#001840",
@@ -63,21 +62,21 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p><strong>LÍNEA ECOLOGICA SALVA<\/strong><\/p>",
+            "heading": "<p><strong>BLANCO CON EL 25% DTO<\/strong><\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Somos parte del cambio y estamos felices de lograr este sueño, nuestra linea ecológica nace para quedarse y queremos compartir contigo este pequeño cambio, la linea SALVA, fue elaborada con fibras de poliester de botellas PET recicladas y fibras de algódon ecológico.<\/p><p><strong>SALVA TU MUNDO VÍSTETE DE PÁSSARO.<\/strong><\/p><p><\/p>"
+            "text": "<p>Sólo por hoy aprovecha el LUNES MULTICOLOR<\/p><p>*Aplica sólo lunes 8 de Agosto ´22<\/p><p>*Aplica en tiendas y online<\/p><p>*No aplica para estampados<\/p><p><\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "VER MÁS",
-            "button_link": "shopify:\/\/collections\/salva-eco"
+            "button_link": "shopify:\/\/collections\/colores-blancos"
           }
         }
       },
@@ -88,7 +87,7 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Banner-01.jpg",
+        "image": "shopify:\/\/shop_images\/Lunesmulticolor-14_8a59eb2e-b10a-4ca1-92df-76e17716dab0.jpg",
         "height": "adapt",
         "layout": "image_first"
       }

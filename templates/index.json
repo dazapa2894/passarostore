@@ -62,7 +62,6 @@
       "blocks": {
         "heading": {
           "type": "heading",
-          "disabled": true,
           "settings": {
             "heading": "<p><strong>NEGRO CON EL 25% DTO<\/strong><\/p>",
             "heading_style": "h2"
@@ -70,14 +69,12 @@
         },
         "text": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "<p>Sólo por hoy aprovecha el LUNES MULTICOLOR<\/p><p>*Aplica sólo lunes 22 de Agosto ´22<\/p><p>*Aplica en tiendas y online<\/p><p>*No aplica para estampados<\/p><p><\/p>"
           }
         },
         "button": {
           "type": "button",
-          "disabled": true,
           "settings": {
             "button_label": "VER MÁS",
             "button_link": "shopify:\/\/collections\/colores-negro"

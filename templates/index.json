@@ -59,26 +59,25 @@
     },
     "about_us": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p><strong>AZUL CON EL 25% DTO<\/strong><\/p>",
+            "heading": "<p><strong>DENIM CON EL 25% DTO<\/strong><\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Sólo por hoy aprovecha el LUNES MULTICOLOR<\/p><p>*Aplica sólo lunes 5 de Sep ´22<\/p><p>*Aplica en tiendas y online<\/p><p>*No aplica para estampados<\/p><p><\/p>"
+            "text": "<p>Sólo por hoy aprovecha el LUNES MULTICOLOR<\/p><p>*Aplica sólo lunes 12 de Sep ´22<\/p><p>*Aplica en tiendas y online<\/p><p>*No aplica para estampados<\/p><p><\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "VER MÁS",
-            "button_link": "shopify:\/\/collections\/colores-azul"
+            "button_link": "shopify:\/\/collections\/colores-denim"
           }
         }
       },
@@ -89,7 +88,7 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Lunesmulticolor-04.jpg",
+        "image": "shopify:\/\/shop_images\/Lunesmulticolor-04_deb4f933-5966-40bc-b56f-c71627aacc63.jpg",
         "height": "adapt",
         "layout": "image_first"
       }

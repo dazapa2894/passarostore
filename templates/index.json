@@ -59,11 +59,9 @@
     },
     "about_us": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
-          "disabled": true,
           "settings": {
             "heading": "<p><strong>CELEBRAMOS AMOR Y AMISTAD!<\/strong><\/p>",
             "heading_style": "h2"
@@ -90,7 +88,7 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Nueva-Coleccion-4.jpg",
+        "image": "shopify:\/\/shop_images\/correas.jpg",
         "height": "adapt",
         "layout": "image_first"
       }

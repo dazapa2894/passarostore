@@ -59,9 +59,11 @@
     },
     "about_us": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "<p><strong>DENIM CON EL 25% DTO<\/strong><\/p>",
             "heading_style": "h2"

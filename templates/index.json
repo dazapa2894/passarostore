@@ -59,26 +59,25 @@
     },
     "about_us": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p><strong>NEGRO CON EL 25% DTO<\/strong><\/p>",
+            "heading": "<p><strong>ESTAMPADOS CON EL 25% DTO<\/strong><\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Sólo por hoy aprovecha el LUNES MULTICOLOR<\/p><p>*Aplica sólo lunes 26 de Sep ´22<\/p><p>*Aplica en tiendas y online<\/p><p>*No aplica para estampados<\/p><p><\/p>"
+            "text": "<p>Sólo por hoy aprovecha el LUNES MULTICOLOR<\/p><p>*Aplica sólo lunes 2 de Octubre ´22<\/p><p>*Aplica en tiendas y online<\/p><p><\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "VER MÁS",
-            "button_link": "shopify:\/\/collections\/colores-negro"
+            "button_link": "shopify:\/\/collections\/estampados"
           }
         }
       },
@@ -89,7 +88,7 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Lunesmulticolor-03_9501d54f-ab71-4831-8478-053321412173.jpg",
+        "image": "shopify:\/\/shop_images\/Lunesmulticolor-03_09ed00cc-d515-4f28-ae5b-8603ab3e9b1b.jpg",
         "height": "adapt",
         "layout": "image_first"
       }

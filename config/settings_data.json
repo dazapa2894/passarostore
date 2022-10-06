@@ -36,7 +36,7 @@
           "hide_search_mobile": false,
           "is_dark_background": true,
           "color_for_dark_background": "#001840",
-          "color_for_light_background": "#003081",
+          "color_for_light_background": "#001840",
           "logo_oscuro": "shopify:\/\/shop_images\/logopassaro-180-dark.png",
           "logo_claro": "shopify:\/\/shop_images\/passaro-180-BLANCO.png",
           "logo_width": 230,

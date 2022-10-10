@@ -64,21 +64,21 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p><strong>ESTAMPADOS CON EL 25% DTO<\/strong><\/p>",
+            "heading": "<p><strong>VERDE CON EL 25% DTO<\/strong><\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Sólo por hoy aprovecha el LUNES MULTICOLOR<\/p><p>*Aplica sólo lunes 3 de Octubre ´22<\/p><p>*Aplica en tiendas y online<\/p><p><\/p>"
+            "text": "<p>Sólo por hoy aprovecha el LUNES MULTICOLOR<\/p><p>*Aplica sólo lunes 10 de Octubre ´22<\/p><p>*Aplica en tiendas y online<\/p><p><\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "VER MÁS",
-            "button_link": "shopify:\/\/collections\/estampados"
+            "button_link": "shopify:\/\/collections\/colores-verde"
           }
         }
       },
@@ -89,7 +89,7 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Lunesmulticolor-03_09ed00cc-d515-4f28-ae5b-8603ab3e9b1b.jpg",
+        "image": "shopify:\/\/shop_images\/Lunesmulticolor_10-03.jpg",
         "height": "adapt",
         "layout": "image_first"
       }

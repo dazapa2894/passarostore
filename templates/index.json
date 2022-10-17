@@ -64,14 +64,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p><strong>VERDE CON EL 25% DTO<\/strong><\/p>",
+            "heading": "<p><strong>TERRACOTA CON EL 25% DTO<\/strong><\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Sólo por hoy aprovecha el LUNES MULTICOLOR<\/p><p>*Aplica sólo lunes 10 de Octubre ´22<\/p><p>*Aplica en tiendas y online<\/p><p><\/p>"
+            "text": "<p>Sólo por hoy aprovecha el LUNES MULTICOLOR<\/p><p>*Aplica sólo lunes 17 de Octubre ´22<\/p><p>*Aplica SÓLO ONLINE<\/p><p><\/p>"
           }
         },
         "button": {
@@ -89,7 +89,7 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Lunesmulticolor_10-03.jpg",
+        "image": "shopify:\/\/shop_images\/Terracota-web.jpg",
         "height": "adapt",
         "layout": "image_first"
       }

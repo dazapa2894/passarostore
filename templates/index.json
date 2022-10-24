@@ -59,7 +59,6 @@
     },
     "about_us": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -78,7 +77,7 @@
           "type": "button",
           "settings": {
             "button_label": "VER MÁS",
-            "button_link": "shopify:\/\/collections\/colores-terracota"
+            "button_link": "shopify:\/\/collections\/color-caqui"
           }
         }
       },

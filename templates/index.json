@@ -59,26 +59,25 @@
     },
     "about_us": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p><strong>CAQUI CON EL 25% DTO<\/strong><\/p>",
+            "heading": "<p><strong>ROJO CON EL 25% DTO<\/strong><\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Sólo por hoy aprovecha el LUNES MULTICOLOR<\/p><p>*Aplica sólo lunes 24 de Octubre ´22<\/p><p>*Aplica en Tiendas Físicas y Online<\/p><p>*NO aplica para estampados<\/p><p><\/p>"
+            "text": "<p>Sólo por hoy aprovecha el LUNES MULTICOLOR<\/p><p>*Aplica sólo lunes 31 de Octubre ´22<\/p><p>*Aplica en Tiendas Físicas y Online<\/p><p>*NO aplica para estampados<\/p><p><\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "VER MÁS",
-            "button_link": "shopify:\/\/collections\/color-caqui"
+            "button_link": "shopify:\/\/collections\/colores-rojo"
           }
         }
       },
@@ -89,7 +88,7 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Lunesmulticolor-03_5e755a02-c853-4682-9492-ef75205babfc.jpg",
+        "image": "shopify:\/\/shop_images\/Lunesmulticolor-03_55b5cdc1-ff49-49f1-8c38-3f7bfc8fc2ce.jpg",
         "height": "adapt",
         "layout": "image_first"
       }

@@ -59,7 +59,6 @@
     },
     "about_us": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -71,7 +70,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Sólo por hoy aprovecha el LUNES MULTICOLOR<\/p><p>*Aplica sólo lunes 31 de Octubre ´22<\/p><p>*Aplica en Tiendas Físicas y Online<\/p><p>*NO aplica para estampados<\/p><p><\/p>"
+            "text": "<p>Sólo por hoy aprovecha el LUNES MULTICOLOR<\/p><p>*Aplica sólo lunes 7 Noviembre ´22<\/p><p>*Aplica en Tiendas Físicas y Online<\/p><p>*NO aplica para estampados<\/p><p><\/p>"
           }
         },
         "button": {

@@ -7,7 +7,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "descuentos",
-            "button_link_1": "shopify:\/\/collections\/descuentos-de-temporada",
+            "button_link_1": "shopify:\/\/collections\/nueva-coleccion",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -19,7 +19,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/BANNER-WEEKEND_82c3eed6-084a-4536-8db8-e7348680d26b.jpg",
+        "image": "shopify:\/\/shop_images\/BANNER-CYBER1.jpg",
         "desktop_text_box_position": "center",
         "color_scheme": "no-background",
         "stack_images_on_mobile": true,

@@ -6,7 +6,7 @@
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "descuentos",
+            "button_label_1": "descubre",
             "button_link_1": "shopify:\/\/collections\/nueva-coleccion",
             "button_style_secondary_1": false,
             "button_label_2": "",

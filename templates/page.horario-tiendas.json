@@ -241,6 +241,41 @@
         "color_scheme": "background-1",
         "layout": "image_first"
       }
+    },
+    "53b992e5-7d67-4909-8c30-3b3e7c7df782": {
+      "type": "image-with-text-full-width",
+      "blocks": {
+        "template--15742355177655__53b992e5-7d67-4909-8c30-3b3e7c7df782-16703350044c724645-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Outlet Américas"
+          }
+        },
+        "template--15742355177655__53b992e5-7d67-4909-8c30-3b3e7c7df782-16703350044c724645-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Av. las Américas # 21N - 50<br\/>Tel: 896 57 71<\/p>"
+          }
+        },
+        "template--15742355177655__53b992e5-7d67-4909-8c30-3b3e7c7df782-16703350044c724645-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "HORARIO DICIEMBRE",
+            "button_link": "shopify:\/\/pages\/tienda-americas-cali"
+          }
+        }
+      },
+      "block_order": [
+        "template--15742355177655__53b992e5-7d67-4909-8c30-3b3e7c7df782-16703350044c724645-0",
+        "template--15742355177655__53b992e5-7d67-4909-8c30-3b3e7c7df782-16703350044c724645-1",
+        "template--15742355177655__53b992e5-7d67-4909-8c30-3b3e7c7df782-16703350044c724645-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Banner-Americas.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
     }
   },
   "order": [
@@ -251,6 +286,7 @@
     "37427ae3-7e45-4fa2-86a3-912e59172511",
     "e6a7860f-39ed-4023-b294-e2d97ba8b4fc",
     "12cbe0d8-9a93-4e48-b61b-b26c6046dd29",
-    "afa0bbb9-4410-4a3a-9fb4-747c9064a823"
+    "afa0bbb9-4410-4a3a-9fb4-747c9064a823",
+    "53b992e5-7d67-4909-8c30-3b3e7c7df782"
   ]
 }

@@ -101,12 +101,48 @@
         "color_scheme": "background-1",
         "layout": "image_first"
       }
+    },
+    "37427ae3-7e45-4fa2-86a3-912e59172511": {
+      "type": "image-with-text-full-width",
+      "blocks": {
+        "template--15742355177655__37427ae3-7e45-4fa2-86a3-912e59172511-16703350044c724645-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Tequendama"
+          }
+        },
+        "template--15742355177655__37427ae3-7e45-4fa2-86a3-912e59172511-16703350044c724645-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tequendama Cra 42 # 5E - 21<br\/>Tel: 387 23 74<\/p>"
+          }
+        },
+        "template--15742355177655__37427ae3-7e45-4fa2-86a3-912e59172511-16703350044c724645-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "HORARIO DICIEMBRE",
+            "button_link": "shopify:\/\/pages\/tienda-tequendama"
+          }
+        }
+      },
+      "block_order": [
+        "template--15742355177655__37427ae3-7e45-4fa2-86a3-912e59172511-16703350044c724645-0",
+        "template--15742355177655__37427ae3-7e45-4fa2-86a3-912e59172511-16703350044c724645-1",
+        "template--15742355177655__37427ae3-7e45-4fa2-86a3-912e59172511-16703350044c724645-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Banner-web-Tequendama.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
     }
   },
   "order": [
     "896a8f72-9f45-47dc-a83d-2561b334a7c7",
     "53cdda89-d277-4052-b39d-e87fa913050a",
     "main",
-    "1b7f2683-a7d2-4796-9569-2c4e3831070c"
+    "1b7f2683-a7d2-4796-9569-2c4e3831070c",
+    "37427ae3-7e45-4fa2-86a3-912e59172511"
   ]
 }

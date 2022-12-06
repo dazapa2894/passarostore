@@ -44,7 +44,7 @@
         "template--15742355177655__53cdda89-d277-4052-b39d-e87fa913050a-16703350044c724645-2": {
           "type": "button",
           "settings": {
-            "button_label": "ver horario",
+            "button_label": "Horario DICIEMBRE",
             "button_link": "shopify:\/\/pages\/tienda-pasoancho-cali"
           }
         }
@@ -85,7 +85,7 @@
         "template--15742355177655__1b7f2683-a7d2-4796-9569-2c4e3831070c-16703350044c724645-2": {
           "type": "button",
           "settings": {
-            "button_label": "VER HORARIO",
+            "button_label": "HORARIO DICIEMBRE",
             "button_link": "shopify:\/\/pages\/tienda-templete"
           }
         }

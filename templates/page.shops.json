@@ -4,9 +4,16 @@
       "type": "shops-page",
       "settings": {
       }
+    },
+    "7c38d613-1ae2-4dcc-ac5b-992dc2d74fc8": {
+      "type": "page",
+      "settings": {
+        "page": "tiendas-passaro"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "7c38d613-1ae2-4dcc-ac5b-992dc2d74fc8"
   ]
 }

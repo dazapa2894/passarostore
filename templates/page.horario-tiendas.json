@@ -1,12 +1,110 @@
 {
   "sections": {
+    "896a8f72-9f45-47dc-a83d-2561b334a7c7": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15742355177655__896a8f72-9f45-47dc-a83d-2561b334a7c7-1670335484aede0e48-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "HORARIO TIENDAS PÁSSARO",
+            "heading_size": "h1"
+          }
+        },
+        "template--15742355177655__896a8f72-9f45-47dc-a83d-2561b334a7c7-1670335484aede0e48-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Horario temporada Diciembre 2022<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15742355177655__896a8f72-9f45-47dc-a83d-2561b334a7c7-1670335484aede0e48-0",
+        "template--15742355177655__896a8f72-9f45-47dc-a83d-2561b334a7c7-1670335484aede0e48-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "de471710-9a7f-47eb-90ca-c502f168643f": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15742355177655__de471710-9a7f-47eb-90ca-c502f168643f-1670335484ef779fc0-0": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>1-7 DIC<\/strong><br\/><strong>Lunes a sábado<\/strong><br\/>9:00 am - 7:00 pm<\/p><p><br\/><strong>8 DIC<\/strong><br\/>10:00 am - 3:00 pm<\/p><p><br\/><strong>9-24 DIC<\/strong><br\/><strong>Lunes a sábado<\/strong><br\/>8:00 am - 8:00 pm<\/p><p><\/p>"
+          }
+        },
+        "template--15742355177655__de471710-9a7f-47eb-90ca-c502f168643f-1670335484ef779fc0-1": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>26-30 DIC<br\/>Lunes a Sábado<\/strong><\/p><p><br\/>10:00 am - 7:00 pm<br\/>Domingo 11 y 18 DIC<br\/>10:00 am - 6:00 pm<\/p><p><br\/><strong>Domingo 25 DIC<br\/>NO ABRIMOS<\/strong><\/p><p><br\/><strong>31 DIC<\/strong><br\/>10:00 am - 6:00 pm<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15742355177655__de471710-9a7f-47eb-90ca-c502f168643f-1670335484ef779fc0-0",
+        "template--15742355177655__de471710-9a7f-47eb-90ca-c502f168643f-1670335484ef779fc0-1"
+      ],
+      "settings": {
+        "title": "TIENDA PASOANCHO - Av Paso Ancho # 73 - 116",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "53cdda89-d277-4052-b39d-e87fa913050a": {
+      "type": "image-with-text-full-width",
+      "blocks": {
+        "template--15742355177655__53cdda89-d277-4052-b39d-e87fa913050a-16703350044c724645-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Pasoancho"
+          }
+        },
+        "template--15742355177655__53cdda89-d277-4052-b39d-e87fa913050a-16703350044c724645-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Av. Pasoancho # 73-116  - Cali<\/p><p>Local 103<br\/>Tel: 384 99 54<\/p>"
+          }
+        },
+        "template--15742355177655__53cdda89-d277-4052-b39d-e87fa913050a-16703350044c724645-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "ver horario",
+            "button_link": "shopify:\/\/pages\/tienda-pasoancho-cali"
+          }
+        }
+      },
+      "block_order": [
+        "template--15742355177655__53cdda89-d277-4052-b39d-e87fa913050a-16703350044c724645-0",
+        "template--15742355177655__53cdda89-d277-4052-b39d-e87fa913050a-16703350044c724645-1",
+        "template--15742355177655__53cdda89-d277-4052-b39d-e87fa913050a-16703350044c724645-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Banner-web-pasoancho_eaac1a5f-d174-4b0e-8649-1fb479becf60.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
       }
     }
   },
   "order": [
-    "main"
+    "896a8f72-9f45-47dc-a83d-2561b334a7c7",
+    "de471710-9a7f-47eb-90ca-c502f168643f",
+    "main",
+    "53cdda89-d277-4052-b39d-e87fa913050a"
   ]
 }

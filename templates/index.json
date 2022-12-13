@@ -65,7 +65,7 @@
           "type": "heading",
           "disabled": true,
           "settings": {
-            "heading": "<p><strong>VERDE CON EL 25% DTO<\/strong><\/p>",
+            "heading": "<p><strong>COMPRA LOCAL<\/strong><\/p>",
             "heading_style": "h2"
           }
         },
@@ -90,7 +90,7 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Lunesmulticolor_10-03_2da0cc84-8ac3-4205-a395-8f7c65c835bf.jpg",
+        "image": "shopify:\/\/shop_images\/mujer3.jpg",
         "height": "adapt",
         "layout": "image_first"
       }

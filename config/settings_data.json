@@ -12,6 +12,7 @@
   "current": {
     "accent_icons": "text",
     "checkout_logo_image": "shopify:\/\/shop_images\/LogoPassaro-Azul_44dc5cf3-04d5-4193-a3d0-bd5bbe940ec8.png",
+    "checkout_sidebar_background_color": "#001840",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",

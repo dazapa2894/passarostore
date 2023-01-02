@@ -63,21 +63,21 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p><strong>COMPRA LOCAL<\/strong><\/p>",
+            "heading": "<p><strong>INICIAMOS EL AÑO CON DESCUENTOS<\/strong><\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Somos una empresa creativa de moda colombiana, con más de 30 años de experiencia.<\/p><p>Somos creadores, confeccionistas y comercializadores de moda.<\/p><p><\/p><p><strong>AMAMOS<\/strong><\/p><p>Amamos lo que somos y lo que hacemos.<\/p><p>Amamos satisfacer a nuestros clientes.<\/p><p><strong>VIVIMOS<\/strong><\/p><p>vivimos adaptándonos al cambio.<\/p><p>vivimos a favor de la esencia y no de la selección.<\/p><p><strong>QUEREMOS <\/strong><\/p><p>Queremos democratizar la moda<\/p><p>Queremos Romper paradigmas<\/p><p><em><strong>“Las etiquetas se la dejamos a la ropa, Pássaro esa versión de ti que te gusta.”<\/strong><\/em><\/p>"
+            "text": "<p><strong>Llévate el 50% en la 2DA unidad<\/strong><\/p><p>Aplican términos y condiciones <\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "VER MÁS",
-            "button_link": "shopify:\/\/collections"
+            "button_link": "shopify:\/\/collections\/nueva-coleccion"
           }
         }
       },
@@ -88,7 +88,7 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/mujer2_11b7611d-1533-4f10-878d-0be9d78f6aef.jpg",
+        "image": "shopify:\/\/shop_images\/Banner-web.jpg",
         "height": "adapt",
         "layout": "image_first"
       }

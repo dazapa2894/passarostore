@@ -13,7 +13,7 @@
         "template--15742355177655__896a8f72-9f45-47dc-a83d-2561b334a7c7-1670335484aede0e48-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Horarios 2023<\/p>"
+            "text": "<p>HORARIOS 2023<\/p>"
           }
         }
       },
@@ -85,7 +85,7 @@
         "template--15742355177655__1b7f2683-a7d2-4796-9569-2c4e3831070c-16703350044c724645-2": {
           "type": "button",
           "settings": {
-            "button_label": "HORARIO DICIEMBRE",
+            "button_label": "VER HORARIO",
             "button_link": "shopify:\/\/pages\/tienda-templete"
           }
         }
@@ -120,7 +120,7 @@
         "template--15742355177655__37427ae3-7e45-4fa2-86a3-912e59172511-16703350044c724645-2": {
           "type": "button",
           "settings": {
-            "button_label": "HORARIO DICIEMBRE",
+            "button_label": "VER HORARIO",
             "button_link": "shopify:\/\/pages\/tienda-tequendama"
           }
         }
@@ -155,7 +155,7 @@
         "template--15742355177655__e6a7860f-39ed-4023-b294-e2d97ba8b4fc-16703350044c724645-2": {
           "type": "button",
           "settings": {
-            "button_label": "HORARIO DICIEMBRE",
+            "button_label": "VER HORARIO",
             "button_link": "shopify:\/\/pages\/tienda-estacion-cali"
           }
         }
@@ -190,7 +190,7 @@
         "template--15742355177655__12cbe0d8-9a93-4e48-b61b-b26c6046dd29-16703350044c724645-2": {
           "type": "button",
           "settings": {
-            "button_label": "HORARIO DICIEMBRE",
+            "button_label": "VER HORARIO",
             "button_link": "shopify:\/\/pages\/passaro-sexta"
           }
         }
@@ -225,7 +225,7 @@
         "template--15742355177655__afa0bbb9-4410-4a3a-9fb4-747c9064a823-16703350044c724645-2": {
           "type": "button",
           "settings": {
-            "button_label": "HORARIO DICIEMBRE",
+            "button_label": "VER HORARIO",
             "button_link": "shopify:\/\/pages\/santa-monica-cali"
           }
         }
@@ -260,7 +260,7 @@
         "template--15742355177655__53b992e5-7d67-4909-8c30-3b3e7c7df782-16703350044c724645-2": {
           "type": "button",
           "settings": {
-            "button_label": "HORARIO DICIEMBRE",
+            "button_label": "VER HORARIO",
             "button_link": "shopify:\/\/pages\/tienda-americas-cali"
           }
         }

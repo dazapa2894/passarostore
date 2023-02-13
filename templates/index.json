@@ -59,26 +59,25 @@
     },
     "about_us": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p><strong>VUELVE EL LUNES MULTICOLOR<\/strong><\/p>",
+            "heading": "<p><strong>25% DTO COLOR ROJO<\/strong><\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Llévate el 25% en las Ref. Color BLANCO<\/strong><\/p><p>Aplican términos y condiciones<\/p><p>* Aplica sólo lunes 6 de Febrero ´22<\/p><p>* Aplica en tiendas y online<\/p><p>* No aplica para estampados<\/p>"
+            "text": "<p><strong>HOY LUNES MULTICOLOR<\/strong><\/p><p>Aplican términos y condiciones<\/p><p>* Aplica sólo lunes 13 de Febrero ´23<\/p><p>* Aplica en tiendas y online<\/p><p>* No aplica para estampados<\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "VER MÁS",
-            "button_link": "shopify:\/\/collections\/colores-blancos"
+            "button_link": "shopify:\/\/collections\/colores-rojo"
           }
         }
       },
@@ -89,7 +88,7 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Lunesmulticolor-02.jpg",
+        "image": "shopify:\/\/shop_images\/ROJO.jpg",
         "height": "adapt",
         "layout": "image_first"
       }

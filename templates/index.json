@@ -62,26 +62,25 @@
     },
     "about_us": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p><strong>25% DTO COLOR VERDE<\/strong><\/p>",
+            "heading": "<p><strong>25% DTO COLOR NEGRO<\/strong><\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>HOY LUNES MULTICOLOR<\/strong><\/p><p>Aplican términos y condiciones<\/p><p>* Aplica sólo lunes 27 de Febrero ´23<\/p><p>* Aplica en tiendas y online<\/p><p>* No aplica para estampados<\/p>"
+            "text": "<p><strong>HOY LUNES MULTICOLOR<\/strong><\/p><p>Aplican términos y condiciones<\/p><p>* Aplica sólo lunes 6 de Marzo ´23<\/p><p>* Aplica en tiendas y online<\/p><p>* No aplica para estampados<\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "VER MÁS",
-            "button_link": "shopify:\/\/collections\/colores-verde"
+            "button_link": "shopify:\/\/collections\/colores-negro"
           }
         }
       },
@@ -92,7 +91,7 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Lunesmulticolor_10-03_8d405ecc-5563-42a7-8220-0c387b99bbe4.jpg",
+        "image": "shopify:\/\/shop_images\/Lunesmulticolor-negro.jpg",
         "height": "adapt",
         "layout": "image_first"
       }

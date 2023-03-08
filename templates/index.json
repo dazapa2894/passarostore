@@ -45,19 +45,18 @@
     },
     "lunes_multicolor": {
       "type": "lunes-multicolor",
-      "disabled": true,
       "settings": {
-        "background_color": "#efefef",
-        "text_color": "#001840",
+        "background_color": "#e7e3e3",
+        "text_color": "#bf0e0e",
         "button_body_color": "#001840",
         "button_text_color": "#ffffff",
         "show_section": true,
-        "banner_img": "shopify:\/\/shop_images\/Lino2.jpg",
-        "promo_title": "<p>COLECCIÓN LINO<\/p>",
-        "promo_text": "<p>Nuestra nueva base<\/p>",
+        "banner_img": "shopify:\/\/shop_images\/Dia_mujer_Mesa_de_trabajo_1.png",
+        "promo_title": "<p>FELIZ DÍA DE LA MUJER!<\/p>",
+        "promo_text": "<p>*Descuento aplica al momento de hacer el pago<\/p>",
         "promo_discount_text": "",
-        "button_label": "VER COLECCIÓN",
-        "button_url": "shopify:\/\/collections\/lino"
+        "button_label": "QUIERO MI DESCUENTO",
+        "button_url": "shopify:\/\/collections\/nueva-coleccion"
       }
     },
     "about_us": {

@@ -62,26 +62,25 @@
     },
     "about_us": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p><strong>25% DTO COLOR MOSTAZA<\/strong><\/p>",
+            "heading": "<p><strong>25% DTO COLOR ROSA<\/strong><\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>HOY LUNES MULTICOLOR<\/strong><\/p><p>Aplican términos y condiciones<\/p><p>* Aplica sólo lunes 12 de Marzo ´23<\/p><p>* Aplica en tiendas y online<\/p><p>* No aplica para estampados<\/p>"
+            "text": "<p><strong>HOY LUNES MULTICOLOR<\/strong><\/p><p>Aplican términos y condiciones<\/p><p>* Aplica sólo lunes 20 de Marzo ´23<\/p><p>* Aplica en tiendas y online<\/p><p>* No aplica para estampados<\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "VER MÁS",
-            "button_link": "shopify:\/\/collections\/colores-mostaza"
+            "button_link": "shopify:\/\/collections\/colores-rosa"
           }
         }
       },
@@ -92,7 +91,7 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Mostaza_1ac4fcf4-fd81-419d-b9b1-989d664b3d96.jpg",
+        "image": "shopify:\/\/shop_images\/Rosa-web.jpg",
         "height": "adapt",
         "layout": "image_first"
       }

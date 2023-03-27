@@ -66,7 +66,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p><strong>25% DTO COLOR ROSA<\/strong><\/p>",
+            "heading": "<p><strong>25% DTO COLOR ROJO<\/strong><\/p>",
             "heading_style": "h2"
           }
         },
@@ -80,7 +80,7 @@
           "type": "button",
           "settings": {
             "button_label": "VER MÁS",
-            "button_link": "shopify:\/\/collections\/colores-rosa"
+            "button_link": "shopify:\/\/collections\/colores-rojo"
           }
         }
       },
@@ -91,7 +91,7 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Rosa-web.jpg",
+        "image": "shopify:\/\/shop_images\/Lunesmulticolor-ROJO_518c6c17-66f4-4096-9a38-c3dc1d7d202b.jpg",
         "height": "adapt",
         "layout": "image_first"
       }

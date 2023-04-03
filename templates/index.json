@@ -62,26 +62,25 @@
     },
     "about_us": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p><strong>25% DTO COLOR ROJO<\/strong><\/p>",
+            "heading": "<p><strong>25% DTO COLORES ESTAMPADOS<\/strong><\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>HOY LUNES MULTICOLOR<\/strong><\/p><p>Aplican términos y condiciones<\/p><p>* Aplica sólo lunes 27 de Marzo ´23<\/p><p>* Aplica en tiendas y online<\/p><p>* No aplica para estampados<\/p>"
+            "text": "<p><strong>HOY LUNES MULTICOLOR<\/strong><\/p><p>Aplican términos y condiciones<\/p><p>* Aplica sólo lunes 3 Abril´23<\/p><p>* Aplica en tiendas y online<\/p><p>* No aplica para estampados<\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "VER MÁS",
-            "button_link": "shopify:\/\/collections\/colores-rojo"
+            "button_link": "shopify:\/\/collections\/estampados"
           }
         }
       },
@@ -92,7 +91,7 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Lunesmulticolor-ROJO_518c6c17-66f4-4096-9a38-c3dc1d7d202b.jpg",
+        "image": "shopify:\/\/shop_images\/Estampado.jpg",
         "height": "adapt",
         "layout": "image_first"
       }

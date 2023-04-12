@@ -45,26 +45,25 @@
     },
     "about_us": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p><strong>25% DTO COLOR BEIGE<\/strong><\/p>",
+            "heading": "<p><strong>ANIVERSARIO PASSARO<\/strong><\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>HOY LUNES MULTICOLOR<\/strong><\/p><p>Aplican términos y condiciones<\/p><p>* Aplica sólo lunes 10 de Abril´23<\/p><p>* Aplica en tiendas y online<\/p><p>* No aplica para estampados<\/p>"
+            "text": "<p><strong>DISFRUTA DE NUESTRO MES DE DESCUENTOS<\/strong><\/p><p>Aplican términos y condiciones<\/p><p>* Aplica del 1 al 30 de Abril ´23<\/p><p>* No acomulable con otras promociones<\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "VER MÁS",
-            "button_link": "shopify:\/\/collections\/colores-beige"
+            "button_link": "shopify:\/\/collections\/descuentos-de-temporada"
           }
         }
       },
@@ -75,7 +74,7 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Lunesmulticolor_4-04.jpg",
+        "image": "shopify:\/\/shop_images\/Aniversario.jpg",
         "height": "adapt",
         "layout": "image_first"
       }

@@ -20,9 +20,9 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "heading": "ENVÍOS GRATIS A CALI. COMPRAS SUPERIORES A 150.000 ENVÍOS GRATIS NACIONAL",
+              "heading": "ANIVERSARIO PÁSSARO 50% DESCUENTO REF. SELECCIONADAS",
               "color_scheme": "dark-blue",
-              "link": ""
+              "link": "shopify:\/\/collections\/descuentos-de-temporada"
             }
           }
         },

@@ -49,14 +49,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p><strong>HOY LUNES MULTICOLOR<\/strong><\/p>",
+            "heading": "<p><strong>ANIVERSARIO PÁSSARO<\/strong><\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>COLOR DEL DÍA: LILA<\/strong><\/p><p>Aplican términos y condiciones<\/p><p>* Aplica 17 de Abril ´23<\/p><p>*Válido en tiendas y online<\/p><p>* No acomulable con otras promociones<\/p>"
+            "text": "<p><strong>Todo el mes de Abril DESCUENTOS hasta el 50%.<\/strong><\/p><p><strong>Aplican T&C<\/strong><\/p><p><strong>Las promociones no son acumulables.<\/strong><\/p><p><strong>solo palica para referncias seleccionadas.<\/strong><\/p>"
           }
         },
         "button": {
@@ -74,7 +74,7 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Lila.jpg",
+        "image": "shopify:\/\/shop_images\/Aniversario.jpg",
         "height": "adapt",
         "layout": "image_first"
       }

@@ -37,7 +37,7 @@
     "new_collection": {
       "type": "new-collection",
       "settings": {
-        "title": "Últimas colecciones",
+        "title": "Nueva Colección",
         "max_products": "6",
         "final_button_label": "ver Colección",
         "final_button_url": "shopify:\/\/collections\/nueva-coleccion"

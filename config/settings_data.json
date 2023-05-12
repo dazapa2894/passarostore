@@ -40,10 +40,10 @@
         "settings": {
           "hide_search_mobile": false,
           "is_dark_background": true,
-          "color_for_dark_background": "#ffe700",
-          "color_for_light_background": "#ffe700",
-          "logo_oscuro": "shopify:\/\/shop_images\/LogoPassaro-Amarillo.png",
-          "logo_claro": "shopify:\/\/shop_images\/LogoPassaro-Amarillo.png",
+          "color_for_dark_background": "#001840",
+          "color_for_light_background": "#001840",
+          "logo_oscuro": "shopify:\/\/shop_images\/LogoPassaro-Azul_af4cbbfd-8a0d-4837-bc4c-61c9e6687dc1.png",
+          "logo_claro": "shopify:\/\/shop_images\/LogoPassaro-Azul_af4cbbfd-8a0d-4837-bc4c-61c9e6687dc1.png",
           "logo_width": 230,
           "logo_position": "middle-left",
           "menu": "main-menu"

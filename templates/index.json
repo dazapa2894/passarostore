@@ -45,6 +45,7 @@
     },
     "about_us": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",

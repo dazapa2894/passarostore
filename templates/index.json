@@ -45,26 +45,25 @@
     },
     "about_us": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p><strong>25% COLOR BLANCO<\/strong><\/p>",
+            "heading": "<p><strong>25% COLOR VERDE<\/strong><\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Sólo por hoy aprovecha el LUNES MULTICOLOR<\/p><p>*Aplica sólo lunes 15 de Mayo ´23<\/p><p>*Aplica en tiendas y online<\/p><p>*No aplica para estampados<\/p>"
+            "text": "<p>Sólo por hoy aprovecha el LUNES MULTICOLOR<\/p><p>*Aplica sólo lunes 29 de Mayo ´23<\/p><p>*Aplica en tiendas y online<\/p><p>*No aplica para estampados<\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "VER MÁS",
-            "button_link": "shopify:\/\/collections\/colores-blancos"
+            "button_link": "shopify:\/\/collections\/colores-verde"
           }
         }
       },
@@ -75,7 +74,7 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/blanco.jpg",
+        "image": "shopify:\/\/shop_images\/VERDE.jpg",
         "height": "adapt",
         "layout": "image_first"
       }

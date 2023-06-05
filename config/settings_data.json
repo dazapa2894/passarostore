@@ -23,9 +23,9 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "heading": "ENVÍOS GRATIS A CALI, NACIONAL POR COMPRAS SUPERIORES A $150.000",
+              "heading": "HOY! 25% DTO en color NEGRO con nuestro LUNES MULTICOLOR!",
               "color_scheme": "dark-blue",
-              "link": "shopify:\/\/collections\/nueva-coleccion"
+              "link": "shopify:\/\/collections\/colores-negro"
             }
           }
         },

@@ -50,21 +50,21 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p><strong>25% COLOR NEGRO<\/strong><\/p>",
+            "heading": "<p><strong>25% COLOR MOSTAZA<\/strong><\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Sólo por hoy aprovecha el LUNES MULTICOLOR<\/p><p>*Aplica sólo lunes 5 de Junio´23<\/p><p>*Aplica en tiendas y online<\/p><p>*No aplica para estampados<\/p>"
+            "text": "<p>Sólo por hoy aprovecha el LUNES MULTICOLOR<\/p><p>*Aplica sólo lunes 12 de Junio´23<\/p><p>*Aplica en tiendas y online<\/p><p>*No aplica para estampados<\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "VER MÁS",
-            "button_link": "shopify:\/\/collections\/colores-negro"
+            "button_link": "shopify:\/\/collections\/colores-mostaza"
           }
         }
       },
@@ -75,7 +75,7 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Negro.jpg",
+        "image": "shopify:\/\/shop_images\/Mostaza_1ac4fcf4-fd81-419d-b9b1-989d664b3d96.jpg",
         "height": "adapt",
         "layout": "image_first"
       }

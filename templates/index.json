@@ -56,7 +56,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Términos y condiciones:<\/p><p>*Promoción válida del 15 al 30 de Junio del 2023<br\/>*Descuento se aplica a la prenda de menor valor.<br\/>*Aplica para todos los productos y accesorios en la tienda.<br\/>*No es acumulable con otras promociones.<br\/>*No aplica para cambios o devoluciones.<\/p>"
+            "text": "<p>Términos y condiciones:<\/p><p>*Promoción válida del 15 al 30 de Junio del 2023<br\/>*Descuento se aplica a la prenda de menor valor.<br\/>*Aplica para todos los productos en la tienda online.<br\/>*No es acumulable con otras promociones.<br\/>*No aplica para cambios o devoluciones.<br\/>*Pormoción valida solo en tienda online.<\/p>"
           }
         },
         "button": {

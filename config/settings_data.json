@@ -40,8 +40,8 @@
         "settings": {
           "hide_search_mobile": false,
           "is_dark_background": true,
-          "color_for_dark_background": "#001840",
-          "color_for_light_background": "#001840",
+          "color_for_dark_background": "#9D572C",
+          "color_for_light_background": "#9D572C",
           "logo_oscuro": "shopify:\/\/shop_images\/LogoPassaro-Azul_af4cbbfd-8a0d-4837-bc4c-61c9e6687dc1.png",
           "logo_claro": "shopify:\/\/shop_images\/LogoPassaro-Azul_af4cbbfd-8a0d-4837-bc4c-61c9e6687dc1.png",
           "logo_width": 230,

@@ -50,21 +50,21 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p><strong>20% DTO SEGUNDA UNIDAD<\/strong><\/p>",
+            "heading": "<p><strong>HASTA 60%DTO REF. SELECCIONADAS<\/strong><\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Términos y condiciones:<br\/><br\/>*Promoción válida del 15 al 30 de Junio del 2023<br\/>*Descuento se aplica a la prenda de menor valor.<br\/>*Aplica para todos los productos en la tienda online.<br\/>*No es acumulable con otras promociones.<br\/>*No aplica para cambios o devoluciones.<br\/>*Pormoción valida solo en tienda online.<\/p>"
+            "text": "<p>Términos y condiciones:<br\/><br\/>*Promoción válida por todo el mes de Julio  2023<br\/>* Aplica en Ref. Seleccionadas<br\/>*Aplica tienda online y físicas<br\/>*No es acumulable con otras promociones.<br\/>*No aplica para cambios o devoluciones.<\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "VER MÁS",
-            "button_link": "shopify:\/\/collections\/nueva-coleccion"
+            "button_link": "shopify:\/\/collections\/descuentos-de-temporada"
           }
         }
       },

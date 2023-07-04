@@ -23,9 +23,9 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "heading": "🔥 LUNES MULTICOLOR TODAS LAS PRENDAS BLANCAS CON EL 25% OFF🔥",
+              "heading": "🔥 DESCUENTOS HASTA DEL 60% OFF 🔥",
               "color_scheme": "dark-blue",
-              "link": "shopify:\/\/collections\/colores-blancos"
+              "link": "shopify:\/\/collections\/descuentos-de-temporada"
             }
           }
         },

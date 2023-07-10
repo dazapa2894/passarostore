@@ -49,21 +49,21 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p><strong>HASTA 60%DTO REF. SELECCIONADAS<\/strong><\/p>",
+            "heading": "<p><strong>HOY AZUL CON EL 25%DTO<\/strong><\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Términos y condiciones:<br\/><br\/>*Promoción válida por todo el mes de Julio  2023<br\/>* Aplica en Ref. Seleccionadas<br\/>*Aplica tienda online y físicas<br\/>*No es acumulable con otras promociones.<br\/>*No aplica para cambios o devoluciones.<\/p>"
+            "text": "<p>Términos y condiciones:<br\/><br\/>*Promoción válida sólo por lunes 10 de Julio´23<br\/>*Aplica tienda online y físicas<br\/>*No es acumulable con otras promociones. *No aplica para prendas estampadas<\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "VER MÁS",
-            "button_link": "shopify:\/\/collections\/descuentos-de-temporada"
+            "button_link": "shopify:\/\/collections\/colores-azul"
           }
         }
       },
@@ -74,7 +74,7 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Dtos.png",
+        "image": "shopify:\/\/shop_images\/Azul.jpg",
         "height": "adapt",
         "layout": "image_first"
       }

@@ -23,7 +23,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "heading": "🔥 DESCUENTOS HASTA EL 60% OFF 🔥",
+              "heading": "🔥 DESCUENTOS HASTA CON EL 60% OFF 🔥",
               "color_scheme": "dark-blue",
               "link": "shopify:\/\/collections\/descuentos-de-temporada"
             }

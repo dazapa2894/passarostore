@@ -50,21 +50,21 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p><strong>HOY VERDE CON EL 25%DTO<\/strong><\/p>",
+            "heading": "<p><strong>HOY NEGRO CON EL 25%DTO<\/strong><\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Términos y condiciones:<br\/><br\/>*Promoción válida sólo por lunes 24 de Julio´23<br\/>*Aplica tienda online y físicas<br\/>*No es acumulable con otras promociones. *No aplica para prendas estampadas<\/p>"
+            "text": "<p>Términos y condiciones:<br\/><br\/>*Promoción válida sólo por lunes 31 de Julio´23<br\/>*Aplica tienda online y físicas<br\/>*No es acumulable con otras promociones. *No aplica para prendas estampadas<\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "VER MÁS",
-            "button_link": "shopify:\/\/collections\/colores-verde"
+            "button_link": "shopify:\/\/collections\/colores-negro"
           }
         }
       },
@@ -75,7 +75,7 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/VERDE.jpg",
+        "image": "shopify:\/\/shop_images\/Lunesmulticolor-negro_f1b7edbb-2656-4d11-967f-0211f8a81031.jpg",
         "height": "adapt",
         "layout": "image_first"
       }

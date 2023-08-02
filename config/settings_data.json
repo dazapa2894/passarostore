@@ -14,6 +14,8 @@
     "transparent": "#ffffff",
     "dark_blue": "#001840",
     "accent_icons": "text",
+    "social_facebook_link": "https:\/\/www.facebook.com\/passarostores",
+    "social_instagram_link": "https:\/\/www.instagram.com\/passaro_store\/",
     "checkout_logo_image": "shopify:\/\/shop_images\/LogoPassaro-Azul_44dc5cf3-04d5-4193-a3d0-bd5bbe940ec8.png",
     "checkout_sidebar_background_color": "#001840",
     "sections": {

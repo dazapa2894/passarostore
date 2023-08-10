@@ -409,6 +409,9 @@
         "postal_code_label": "Código postal (opcional)",
         "postcode_label": "Código postal (opcional)",
         "postcode_placeholder": "Código postal (opcional)"
+      },
+      "general": {
+        "complete_purchase_button_label": "Realizar el Pago"
       }
     }
   }

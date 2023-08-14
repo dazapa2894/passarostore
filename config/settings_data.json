@@ -25,9 +25,9 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "heading": "🔥DESCUENTOS HASTA EL 60% 🔥",
+              "heading": "🔥SEMANA DEL ESTAMPADO 20% DTO🔥",
               "color_scheme": "dark-blue",
-              "link": "shopify:\/\/collections\/descuentos-de-temporada"
+              "link": "shopify:\/\/collections\/estampados"
             }
           }
         },

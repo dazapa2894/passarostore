@@ -45,19 +45,18 @@
     },
     "about_us": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p><strong>HOY ESTAMPADOS CON EL 25%DTO<\/strong><\/p>",
+            "heading": "<p><strong>SEMANA DE ESTAMPADOS CON EL 20 % OFF<\/strong><\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>EXCLUSIVO ONLINE<\/p><p>Términos y condiciones:<br\/><br\/>*Promoción válida sólo Lunes 8 de Agosto´23<br\/>*Exclusivo Online<br\/>*No es acumulable con otras promociones. *No aplica para prendas estampadas<\/p>"
+            "text": "<p>Términos y condiciones:<br\/><br\/>- Solo aplica para prendas estampadas, blusas, pantalones, vestidos, faldas y enterizos.<br\/>- No aplica para camisetas \/ T-shirt.<br\/>- Aplica para tiendas físicas, online y redes sociales.<br\/>- No es acumulable con otras promociones.<br\/>- Aplica para pagos en efectivo, tarjeta debito y crédito, sodexo, tarjeta regalo y sistecredito.<br\/>- No aplica para cambios o devoluciones.<\/p>"
           }
         },
         "button": {
@@ -75,7 +74,7 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Lunesmulticolor_14-02.png",
+        "image": "shopify:\/\/shop_images\/1.png",
         "height": "adapt",
         "layout": "image_first"
       }

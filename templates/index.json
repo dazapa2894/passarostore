@@ -49,21 +49,21 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p><strong>SEMANA DE ESTAMPADOS CON EL 20 % OFF<\/strong><\/p>",
+            "heading": "<p><strong>HOY! COLOR AZUL CON EL 25%DTO<\/strong><\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Promoción válida del 14 al 20  de Agosto del 2023.<\/p><p>Términos y condiciones:<br\/><br\/>- Solo aplica para prendas estampadas, blusas, pantalones, vestidos, faldas y enterizos.<br\/>- No aplica para camisetas \/ T-shirt.<br\/>- Aplica para tiendas físicas, online y redes sociales.<br\/>- No es acumulable con otras promociones.<br\/>- Aplica para pagos en efectivo, tarjeta debito y crédito, sodexo, tarjeta regalo y sistecredito.<br\/>- No aplica para cambios o devoluciones.<\/p>"
+            "text": "<p>LUNES MULTICOLOR<\/p><p>EXCLUSIVO ONLINE<\/p><p>Términos y condiciones:<br\/>- Sólo aplica lunes 21 de Agosto´23<br\/>- No aplica en estampados<br\/>- No es acumulable con otras promociones.<\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "VER MÁS",
-            "button_link": "shopify:\/\/collections\/estampados"
+            "button_link": "shopify:\/\/collections\/colores-azul"
           }
         }
       },
@@ -74,7 +74,7 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/1.png",
+        "image": "shopify:\/\/shop_images\/2_f9ac3889-74fe-4769-81b1-9d3b89ffb619.png",
         "height": "adapt",
         "layout": "image_first"
       }

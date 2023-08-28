@@ -29,11 +29,6 @@
         "adapt_height_first_image": false
       }
     },
-    "collection_slider": {
-      "type": "collection-slider",
-      "settings": {
-      }
-    },
     "new_collection": {
       "type": "new-collection",
       "settings": {
@@ -41,6 +36,11 @@
         "max_products": "6",
         "final_button_label": "ver Colección",
         "final_button_url": "shopify:\/\/collections\/nueva-coleccion"
+      }
+    },
+    "collection_slider": {
+      "type": "collection-slider",
+      "settings": {
       }
     },
     "about_us": {
@@ -130,8 +130,8 @@
   },
   "order": [
     "image_banner",
-    "collection_slider",
     "new_collection",
+    "collection_slider",
     "about_us",
     "lunes_multicolor",
     "seasonal_offers",

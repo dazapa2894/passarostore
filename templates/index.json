@@ -49,21 +49,21 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p><strong>HOY! COLOR AZUL CON EL 25%DTO<\/strong><\/p>",
+            "heading": "<p><strong>HOY! COLOR LILA CON EL 25%DTO<\/strong><\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>LUNES MULTICOLOR<\/p><p>EXCLUSIVO ONLINE<\/p><p>Términos y condiciones:<br\/>- Sólo aplica lunes 21 de Agosto´23<br\/>- No aplica en estampados<br\/>- No es acumulable con otras promociones.<\/p>"
+            "text": "<p>LUNES MULTICOLOR<\/p><p>TIENDAS Y ONLINE<\/p><p>Términos y condiciones:<br\/>- Sólo aplica lunes 28 de Agosto´23<br\/>- No aplica en estampados<br\/>- No es acumulable con otras promociones.<\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "VER MÁS",
-            "button_link": "shopify:\/\/collections\/colores-azul"
+            "button_link": "shopify:\/\/collections\/colores-lila"
           }
         }
       },
@@ -75,7 +75,7 @@
       "disabled": true,
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/2_f9ac3889-74fe-4769-81b1-9d3b89ffb619.png",
+        "image": "shopify:\/\/shop_images\/Lila_d09b3fa3-8610-4256-9341-e6951c0d6537.jpg",
         "height": "adapt",
         "layout": "image_first"
       }
@@ -108,7 +108,7 @@
       "type": "apps",
       "blocks": {
         "8c03b00b-933a-4c57-8a06-bbed4bcd05cf": {
-          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
             "heading_size": 20,
             "feed_width": 100,

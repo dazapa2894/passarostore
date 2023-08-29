@@ -72,6 +72,7 @@
         "text",
         "button"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "image": "shopify:\/\/shop_images\/Lila_d09b3fa3-8610-4256-9341-e6951c0d6537.jpg",

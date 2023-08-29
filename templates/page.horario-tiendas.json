@@ -152,7 +152,7 @@
         "template--15742355177655__e6a7860f-39ed-4023-b294-e2d97ba8b4fc-16703350044c724645-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Estación Av. Estación # 3AN - 35<br\/><strong>LUNES - VIERNES<\/strong><\/p><p>8:30 a 6 PM<\/p><p><strong>SÁBADO<\/strong><\/p><p>8:30 a 3:00 PM.<\/p>"
+            "text": "<p>Estación Av. Estación # 3AN - 35<br\/><strong>LUNES - VIERNES<\/strong><\/p><p>9 AM a 6:30 PM<\/p><p><strong>SÁBADO<\/strong><\/p><p>10 AM a 4:30 PM<\/p>"
           }
         },
         "template--15742355177655__e6a7860f-39ed-4023-b294-e2d97ba8b4fc-16703350044c724645-2": {
@@ -188,11 +188,12 @@
         "template--15742355177655__12cbe0d8-9a93-4e48-b61b-b26c6046dd29-16703350044c724645-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Sexta Av. 6 Norte # 13N - 29<br\/>Tel: 379 90 92<\/p>"
+            "text": "<p>Sexta Av. 6 Norte # 13N - 29<br\/><strong>LUNES - VIERNES<\/strong><\/p><p>9 AM a 6:30 PM<\/p><p><strong>SÁBADO<\/strong><\/p><p>10 AM a 4:30 PM<\/p>"
           }
         },
         "template--15742355177655__12cbe0d8-9a93-4e48-b61b-b26c6046dd29-16703350044c724645-2": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "VER HORARIO",
             "button_link": "shopify:\/\/pages\/passaro-sexta"
@@ -223,11 +224,12 @@
         "template--15742355177655__afa0bbb9-4410-4a3a-9fb4-747c9064a823-16703350044c724645-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Avenida 8 norte # 23N-80<\/p><p>Tel: 387 67 51<\/p><p><\/p>"
+            "text": "<p>Avenida 8 norte # 23N-80<\/p><p><strong>LUNES - VIERNES<\/strong><\/p><p>9 AM a 6 PM<\/p><p><strong>SÁBADO<\/strong><\/p><p>9:30 AM a 5 PM.<\/p><p><\/p>"
           }
         },
         "template--15742355177655__afa0bbb9-4410-4a3a-9fb4-747c9064a823-16703350044c724645-2": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "VER HORARIO",
             "button_link": "shopify:\/\/pages\/santa-monica-cali"
@@ -258,11 +260,12 @@
         "template--15742355177655__53b992e5-7d67-4909-8c30-3b3e7c7df782-16703350044c724645-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Av. las Américas # 21N - 50<br\/>Tel: 896 57 71<\/p>"
+            "text": "<p>Av. las Américas # 21N - 50<br\/><strong>LUNES - SÁBADO<\/strong><\/p><p>10 AM a 7 PM<\/p>"
           }
         },
         "template--15742355177655__53b992e5-7d67-4909-8c30-3b3e7c7df782-16703350044c724645-2": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "VER HORARIO",
             "button_link": "shopify:\/\/pages\/tienda-americas-cali"

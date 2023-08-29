@@ -121,6 +121,7 @@
         },
         "template--15742355177655__37427ae3-7e45-4fa2-86a3-912e59172511-16703350044c724645-2": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "VER HORARIO",
             "button_link": "shopify:\/\/pages\/tienda-tequendama"
@@ -151,11 +152,12 @@
         "template--15742355177655__e6a7860f-39ed-4023-b294-e2d97ba8b4fc-16703350044c724645-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Estación Av. Estación # 3AN - 35<br\/>Tel: 387 23 62<\/p>"
+            "text": "<p>Estación Av. Estación # 3AN - 35<br\/><strong>LUNES - VIERNES<\/strong><\/p><p>8:30 a 6 PM<\/p><p><strong>SÁBADO<\/strong><\/p><p>8:30 a 3:00 PM.<\/p>"
           }
         },
         "template--15742355177655__e6a7860f-39ed-4023-b294-e2d97ba8b4fc-16703350044c724645-2": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "VER HORARIO",
             "button_link": "shopify:\/\/pages\/tienda-estacion-cali"

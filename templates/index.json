@@ -49,21 +49,21 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>📣 <strong>¡HOY! COLOR LILA CON EL 25% DTO <\/strong>📣<\/p>",
+            "heading": "<p>📣 <strong>¡HOY! DENIM CON EL 25% DTO <\/strong>📣<\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>LUNES MULTICOLOR<\/p><p><em>DISPONIBLE EN TIENDAS Y ONLINE.<\/em><\/p><p><strong>Términos y condiciones:<\/strong><br\/>- Solo aplica para el lunes 28 de Agosto del 2023.<br\/>- No aplica en estampados.<br\/>- No es acumulable con otras promociones.<\/p>"
+            "text": "<p>LUNES MULTICOLOR<\/p><p><em>DISPONIBLE EN TIENDAS Y ONLINE.<\/em><\/p><p><strong>Términos y condiciones:<\/strong><br\/>- Solo aplica para el lunes 4 de Septiembre del 2023.<br\/>- No aplica en estampados.<br\/>- No es acumulable con otras promociones.<\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "VER MÁS",
-            "button_link": "shopify:\/\/collections\/colores-lila"
+            "button_link": "shopify:\/\/collections\/colores-denim"
           }
         }
       },
@@ -72,10 +72,9 @@
         "text",
         "button"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Lila_d09b3fa3-8610-4256-9341-e6951c0d6537.jpg",
+        "image": "shopify:\/\/shop_images\/Denim.jpg",
         "height": "adapt",
         "layout": "image_first"
       }

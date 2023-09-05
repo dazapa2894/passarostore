@@ -25,9 +25,9 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "heading": "📣 ¡HOY! DENIM CON EL 25% DTO 📣",
+              "heading": "📣 REBAJAS 60% DE DESCUENTO 📣",
               "color_scheme": "dark-blue",
-              "link": "shopify:\/\/collections\/colores-denim"
+              "link": "shopify:\/\/collections\/descuentos-de-temporada"
             }
           }
         },

@@ -73,6 +73,7 @@
         "text",
         "button"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "image": "shopify:\/\/shop_images\/Azul_a291febf-51f4-42c3-a228-f75f39b9630e.jpg",

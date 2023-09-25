@@ -25,9 +25,9 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "heading": "📣 60% OFF EN REF. SELECCIONADAS - ENVÍOS GRATIS POR COMPRAS MAYORES A $100.000 📣",
+              "heading": "📣 ¡HOY! ESTAMPADO CON EL 25% DTO 📣",
               "color_scheme": "dark-blue",
-              "link": "shopify:\/\/collections\/descuentos-de-temporada"
+              "link": "shopify:\/\/collections\/estampados"
             }
           }
         },

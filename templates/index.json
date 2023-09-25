@@ -48,9 +48,8 @@
       "blocks": {
         "heading": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "heading": "<p>📣 <strong>¡HOY! ESTAMPADO CON EL 25% DTO <\/strong>📣<\/p>",
+            "heading": "<p>📣 <strong>ESTAMPADO CON EL 25% DTO <\/strong>📣<\/p>",
             "heading_style": "h2"
           }
         },

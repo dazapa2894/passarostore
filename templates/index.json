@@ -50,21 +50,21 @@
           "type": "heading",
           "disabled": true,
           "settings": {
-            "heading": "<p>📣 <strong>¡HOY! AZUL CON EL 25% DTO <\/strong>📣<\/p>",
+            "heading": "<p>📣 <strong>¡HOY! ESTAMPADO CON EL 25% DTO <\/strong>📣<\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>LUNES MULTICOLOR<\/p><p><em>DISPONIBLE EN TIENDAS Y ONLINE.<\/em><\/p><p><strong>Términos y condiciones:<\/strong><br\/>- Solo aplica para el lunes 18 de Septiembre del 2023.<br\/>- No aplica en estampados.<br\/>- No es acumulable con otras promociones.<\/p>"
+            "text": "<p>LUNES MULTICOLOR<\/p><p><em>DISPONIBLE EN TIENDAS Y ONLINE.<\/em><\/p><p><strong>Términos y condiciones:<\/strong><br\/>- Solo aplica para el lunes 25 de Septiembre del 2023.<br\/>- No aplica en estampados.<br\/>- No es acumulable con otras promociones.<\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "VER MÁS",
-            "button_link": "shopify:\/\/collections\/colores-azul"
+            "button_link": "shopify:\/\/collections\/estampados"
           }
         }
       },
@@ -73,10 +73,9 @@
         "text",
         "button"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Azul_a291febf-51f4-42c3-a228-f75f39b9630e.jpg",
+        "image": "shopify:\/\/shop_images\/Lunesmulticolor_14-02_0ec017dc-3ea1-4de7-843b-4b3f51089b5f.png",
         "height": "adapt",
         "layout": "image_first"
       }

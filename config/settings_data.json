@@ -25,9 +25,9 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "heading": "🚛 ENVÍOS GRATIS POR COMPRAS SUPERIORES A $100.000",
+              "heading": "📣 HASTA 60% OFF EN REF. SELECCIONADAS 📣",
               "color_scheme": "dark-blue",
-              "link": "shopify:\/\/collections\/nueva-coleccion"
+              "link": "shopify:\/\/collections\/descuentos-de-temporada"
             }
           }
         },

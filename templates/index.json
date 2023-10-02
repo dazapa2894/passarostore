@@ -49,21 +49,21 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>📣 <strong>ESTAMPADO CON EL 25% DTO <\/strong>📣<\/p>",
+            "heading": "<p>📣 <strong>COLOR BLANCO CON EL 25% DTO<\/strong>📣<\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>LUNES MULTICOLOR<\/p><p><em>DISPONIBLE EN TIENDAS Y ONLINE.<\/em><\/p><p><strong>Términos y condiciones:<\/strong><br\/>- Solo aplica para el lunes 25 de Septiembre del 2023.<br\/>- No aplica en estampados.<br\/>- No es acumulable con otras promociones.<\/p>"
+            "text": "<p>LUNES MULTICOLOR<\/p><p><em>DISPONIBLE EN TIENDAS Y ONLINE.<\/em><\/p><p><strong>Términos y condiciones:<\/strong><br\/>- Solo aplica para el lunes 2 de Octubre del 2023.<br\/>- No aplica en estampados.<br\/>- No es acumulable con otras promociones.<\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "VER MÁS",
-            "button_link": "shopify:\/\/collections\/estampados"
+            "button_link": "shopify:\/\/collections\/colores-blancos"
           }
         }
       },
@@ -75,7 +75,7 @@
       "disabled": true,
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Lunesmulticolor_14-02_0ec017dc-3ea1-4de7-843b-4b3f51089b5f.png",
+        "image": "shopify:\/\/shop_images\/blanco_40eb3dae-6493-48cb-9a17-ec9b824acb0f.jpg",
         "height": "adapt",
         "layout": "image_first"
       }

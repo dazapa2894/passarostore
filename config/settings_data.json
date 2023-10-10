@@ -25,9 +25,9 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "heading": "📣 25% DE DESCUENTO EN EL COLOR MOSTAZA  📣",
+              "heading": "📣 ENVÍOS GRATIS POR COMPRAS MAYORES A $100.000 PESOS 📣",
               "color_scheme": "dark-blue",
-              "link": "shopify:\/\/collections\/colores-mostaza"
+              "link": "shopify:\/\/collections\/nueva-coleccion"
             }
           }
         },

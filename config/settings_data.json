@@ -40,10 +40,10 @@
       "header": {
         "type": "header",
         "settings": {
-          "hide_search_mobile": false,
+          "hide_search_mobile": true,
           "is_dark_background": true,
-          "color_for_dark_background": "#e67733",
-          "color_for_light_background": "#e67733",
+          "color_for_dark_background": "#001840",
+          "color_for_light_background": "#001840",
           "logo_oscuro": "shopify:\/\/shop_images\/LogoPassaro-Web806x180_Naranja.svg",
           "logo_claro": "shopify:\/\/shop_images\/LogoPassaro-Web806x180_Naranja.svg",
           "logo_width": 230,

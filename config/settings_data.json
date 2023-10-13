@@ -16,6 +16,7 @@
     "accent_icons": "text",
     "social_facebook_link": "https:\/\/www.facebook.com\/passarostores",
     "social_instagram_link": "https:\/\/www.instagram.com\/passaro_store\/",
+    "favicon": "shopify:\/\/shop_images\/Logo_sin_R-1.png",
     "checkout_logo_image": "shopify:\/\/shop_images\/LogoPassaro-Azul_44dc5cf3-04d5-4193-a3d0-bd5bbe940ec8.png",
     "checkout_sidebar_background_color": "#001840",
     "sections": {
@@ -42,7 +43,7 @@
         "settings": {
           "hide_search_mobile": false,
           "is_dark_background": true,
-          "color_for_dark_background": "#FFFFFF",
+          "color_for_dark_background": "#ffffff",
           "color_for_light_background": "#001840",
           "logo_oscuro": "shopify:\/\/shop_images\/LogoPassaro-Azul_1b48838c-e645-4209-a087-b26aea944d25.png",
           "logo_claro": "shopify:\/\/shop_images\/LogoPassaro_Blanco_81e16fdc-8933-46f4-97ad-a5003e313374.png",

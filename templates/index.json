@@ -49,21 +49,21 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>📣 <strong>COLOR LILA CON EL 25% DTO<\/strong>📣<\/p>",
+            "heading": "<p>📣 <strong>HOT SALE HASTA CON EL 50% OFF <\/strong>📣<br\/><br\/>🔥 DESCUENTOS FLASH ⚡ ¡Precios irresistibles! 🔥<br\/><\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>LUNES MULTICOLOR<\/p><p><em>EXCLUSIVO ONLINE.<\/em><\/p><p><strong>Términos y condiciones:<\/strong><br\/>- Solo aplica para el lunes 16 de Octubre del 2023.<br\/>- No aplica en estampados.<br\/>- No es acumulable con otras promociones.<\/p>"
+            "text": "<p>Encuentra tus outfits favoritos para renovar tu closet. <br\/><\/p><p><strong>Términos y condiciones:<\/strong><br\/>👉 Del 20 al 24 de octubre del 2023. <br\/>👉 Válido en punto de venta físicos y online. <br\/>👉 En referencias seleccionadas. <br\/>👉 Envío GRATIS por compras mayores a $100.000 pesos en compras online.<br\/>👉 Pago 100% seguro<\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "VER MÁS",
-            "button_link": "shopify:\/\/collections\/colores-lila"
+            "button_link": "shopify:\/\/collections\/descuentos-de-temporada"
           }
         }
       },
@@ -72,10 +72,9 @@
         "text",
         "button"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Lila_d09b3fa3-8610-4256-9341-e6951c0d6537.jpg",
+        "image": "shopify:\/\/shop_images\/Hot-Sale-web.jpg",
         "height": "adapt",
         "layout": "image_first"
       }

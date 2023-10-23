@@ -88,12 +88,12 @@
         "button_body_color": "#001840",
         "button_text_color": "#ffffff",
         "show_section": true,
-        "banner_img": "shopify:\/\/shop_images\/Convocatoria.jpg",
-        "promo_title": "<p>CONVOCATORIA ARTISTAS<\/p>",
-        "promo_text": "<p>Eres artista y alguna vez has soñado colaborar con una marca, esta es tu oportunidad! Queremos hacer una colección de camisetas en colaboración con uno de ustedes!!<\/p>",
-        "promo_discount_text": "<h4>Únete a la familia Passaro!<\/h4>",
-        "button_label": "Ver más información",
-        "button_url": "https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScy2eXTdKfFYbSd61qX_sj-NbeVlWfYduluYw9WTz3qcwKpoQ\/viewform"
+        "banner_img": "shopify:\/\/shop_images\/Hot-Sale-web.jpg",
+        "promo_title": "<p>📣<strong>HOT SALE HASTA CON EL 50% OFF<\/strong>📣<\/p>",
+        "promo_text": "<p>Encuentra tus outfits favoritos para renovar tu closet. <\/p><p><strong>Términos y condiciones:<\/strong><\/p><p>👉 Del 20 al 24 de octubre del 2023.<\/p><p>👉 Válido en punto de venta físicos y online.<\/p><p>👉 En referencias seleccionadas.<\/p><p>👉 Envío GRATIS por compras mayores a $100.000 pesos en compras online.<br\/><br\/>👉 Pago 100% seguro<br\/><\/p><p><\/p><p><br\/><\/p>",
+        "promo_discount_text": "<p><strong>🔥 DESCUENTOS FLASH ⚡ ¡Precios irresistibles! 🔥<\/strong><\/p>",
+        "button_label": "Ver Descuentos",
+        "button_url": "shopify:\/\/collections\/descuentos-de-temporada"
       }
     },
     "seasonal_offers": {

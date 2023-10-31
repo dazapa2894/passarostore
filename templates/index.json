@@ -72,6 +72,7 @@
         "text",
         "button"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "image": "shopify:\/\/shop_images\/Lunesmulticolor-negro_e56cf9aa-5eda-4950-b164-36ab647cb23d.jpg",
@@ -109,8 +110,6 @@
         "8c03b00b-933a-4c57-8a06-bbed4bcd05cf": {
           "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
-            "heading_size": 20,
-            "feed_width": 100,
             "html_area": ""
           }
         }

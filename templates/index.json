@@ -38,40 +38,19 @@
         "final_button_url": "shopify:\/\/collections\/nueva-coleccion"
       }
     },
-    "3e4ddbe5-76db-4d93-b6d7-bc432c1ccd5a": {
-      "type": "collection-list",
-      "blocks": {
-        "template--15119185084599__3e4ddbe5-76db-4d93-b6d7-bc432c1ccd5a-featured_collection-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "accesorios"
-          }
-        },
-        "template--15119185084599__3e4ddbe5-76db-4d93-b6d7-bc432c1ccd5a-featured_collection-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "template--15119185084599__3e4ddbe5-76db-4d93-b6d7-bc432c1ccd5a-featured_collection-3": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15119185084599__3e4ddbe5-76db-4d93-b6d7-bc432c1ccd5a-featured_collection-1",
-        "template--15119185084599__3e4ddbe5-76db-4d93-b6d7-bc432c1ccd5a-featured_collection-2",
-        "template--15119185084599__3e4ddbe5-76db-4d93-b6d7-bc432c1ccd5a-featured_collection-3"
-      ],
+    "f4eb4ff5-0fef-4137-9cde-6493e4d01f72": {
+      "type": "featured-collection",
       "settings": {
-        "title": "Collections",
-        "image_ratio": "adapt",
-        "color_scheme": "background-1",
+        "title": "Accesorios",
+        "collection": "accesorios",
+        "products_to_show": 4,
+        "show_view_all": true,
         "swipe_on_mobile": false,
-        "image_padding": false,
-        "show_view_all": false
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false
       }
     },
     "collection_slider": {
@@ -161,33 +140,17 @@
       "type": "home-header-fixer",
       "settings": {
       }
-    },
-    "f4eb4ff5-0fef-4137-9cde-6493e4d01f72": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Accesorios",
-        "collection": "accesorios",
-        "products_to_show": 4,
-        "show_view_all": true,
-        "swipe_on_mobile": false,
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": false
-      }
     }
   },
   "order": [
     "image_banner",
     "new_collection",
-    "3e4ddbe5-76db-4d93-b6d7-bc432c1ccd5a",
+    "f4eb4ff5-0fef-4137-9cde-6493e4d01f72",
     "collection_slider",
     "about_us",
     "lunes_multicolor",
     "seasonal_offers",
     "16390641501879d813",
-    "home_header_fixer",
-    "f4eb4ff5-0fef-4137-9cde-6493e4d01f72"
+    "home_header_fixer"
   ]
 }

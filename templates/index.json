@@ -64,21 +64,21 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>📣 <strong>SÓLO POR HOY! COLOR NEGRO CON EL 25% OFF <\/strong>📣<br\/><br\/>🔥 LUNES MULTICOLOR 🔥<\/p><p><\/p><p><br\/><\/p>",
+            "heading": "<p>📣<strong> HOY, EXCLUSIVO ONLINE!  DENIM CON EL 25% OFF <\/strong>📣<br\/><br\/>🔥 LUNES MULTICOLOR 🔥<\/p><p><\/p><p><br\/><\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>⚡ ¡Precios irresistibles! <\/p><p><strong>Términos y condiciones:<\/strong><br\/>👉 Aplica sólo 30 octubre del 2023. <br\/>👉 Válido en punto de venta físicos y online. <br\/>👉 No aplica para estampados.<br\/>👉 Envío GRATIS por compras mayores a $100.000 pesos en compras online.<br\/>👉 Pago 100% seguro<\/p>"
+            "text": "<p>⚡ ¡Precios irresistibles! <\/p><p><strong>Términos y condiciones:<\/strong><br\/>👉 Aplica sólo 6 Noviembre del 2023. <br\/>👉 Válido en punto online. <br\/>👉 No aplica para estampados.<br\/>👉 Envío GRATIS por compras mayores a $100.000 pesos en compras online.<br\/>👉 Pago 100% seguro<\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "VER MÁS",
-            "button_link": "shopify:\/\/collections\/colores-negro"
+            "button_link": "shopify:\/\/collections\/colores-denim"
           }
         }
       },
@@ -87,10 +87,9 @@
         "text",
         "button"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Lunesmulticolor-negro_e56cf9aa-5eda-4950-b164-36ab647cb23d.jpg",
+        "image": "shopify:\/\/shop_images\/Denim_c462e125-8ac1-478c-8a14-5dfd0cbd590c.jpg",
         "height": "adapt",
         "layout": "image_first"
       }

@@ -87,6 +87,7 @@
         "text",
         "button"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "image": "shopify:\/\/shop_images\/Denim_c462e125-8ac1-478c-8a14-5dfd0cbd590c.jpg",

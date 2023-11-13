@@ -63,6 +63,7 @@
       "blocks": {
         "heading": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "<p>📣<strong> HOY, EXCLUSIVO ONLINE!  BLANCO CON EL 25% OFF <\/strong>📣<br\/><br\/>🔥 LUNES MULTICOLOR 🔥<\/p><p><\/p><p><br\/><\/p>",
             "heading_style": "h2"
@@ -87,7 +88,6 @@
         "text",
         "button"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
         "image": "shopify:\/\/shop_images\/blanco_9e2154c9-d9a5-44d2-9f86-3d6fafadd998.jpg",

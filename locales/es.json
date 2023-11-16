@@ -413,6 +413,9 @@
       "general": {
         "complete_purchase_button_label": "PAGAR CONTRA ENTREGRA",
         "pay_now_button_label": "REALIZAR PAGO"
+      },
+      "order_summary": {
+        "apply_discount_button_label": "Cupón"
       }
     }
   }

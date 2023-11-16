@@ -411,8 +411,8 @@
         "postcode_placeholder": "Código postal (opcional)"
       },
       "general": {
-        "complete_purchase_button_label": "Realizar pago",
-        "pay_now_button_label": "Pagar Contra Entrega"
+        "complete_purchase_button_label": "Pagar Contra Entrega",
+        "pay_now_button_label": "Realizar pago"
       }
     }
   }

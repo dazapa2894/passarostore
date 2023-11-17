@@ -23,7 +23,7 @@
     "checkout_logo_image": "shopify:\/\/shop_images\/LogoPassaro-Azul_44dc5cf3-04d5-4193-a3d0-bd5bbe940ec8.png",
     "checkout_body_background_color": "#ffffff",
     "checkout_input_background_color_mode": "transparent",
-    "checkout_sidebar_background_color": "#ffffff",
+    "checkout_sidebar_background_color": "#001840",
     "checkout_accent_color": "#1773b0",
     "checkout_button_color": "#001840",
     "sections": {

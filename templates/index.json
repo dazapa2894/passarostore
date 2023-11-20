@@ -65,21 +65,21 @@
           "type": "heading",
           "disabled": true,
           "settings": {
-            "heading": "<p>📣<strong> HOY, EXCLUSIVO ONLINE!  BLANCO CON EL 25% OFF <\/strong>📣<br\/><br\/>🔥 LUNES MULTICOLOR 🔥<\/p><p><\/p><p><br\/><\/p>",
+            "heading": "<p>📣<strong> HOY, COLOR CAQUI CON EL 25% OFF <\/strong>📣<br\/><br\/>🔥 LUNES MULTICOLOR 🔥<\/p><p><\/p><p><br\/><\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>⚡ ¡Precios irresistibles! <\/p><p><strong>Términos y condiciones:<\/strong><br\/>👉 Aplica sólo 13 Noviembre del 2023. <br\/>👉 Válido en punto online. <br\/>👉 No aplica para estampados.<br\/>👉 Envío GRATIS por compras mayores a $100.000 pesos en compras online.<br\/>👉 Pago 100% seguro<\/p>"
+            "text": "<p>⚡ ¡Precios irresistibles! <\/p><p><strong>Términos y condiciones:<\/strong><\/p><p>👉 Aplica sólo lunes 20 Noviembre 2023<\/p><p>👉 Aplica en tiendas y online<\/p><p>👉 En referencias seleccionadas.<\/p><p>👉 No aplica para estampados<br\/><br\/>👉 Pago 100% seguro<\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "VER MÁS",
-            "button_link": "shopify:\/\/collections\/colores-blancos"
+            "button_link": "shopify:\/\/collections\/color-caqui"
           }
         }
       },
@@ -88,10 +88,9 @@
         "text",
         "button"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/blanco_9e2154c9-d9a5-44d2-9f86-3d6fafadd998.jpg",
+        "image": "shopify:\/\/shop_images\/Caqui-02.png",
         "height": "adapt",
         "layout": "image_first"
       }

@@ -6,7 +6,7 @@
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "¡APROVÉCHALOS!",
+            "button_label_1": "COMPRA AQUÍ",
             "button_link_1": "shopify:\/\/collections\/descuentos-de-temporada",
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -36,6 +36,13 @@
         "max_products": "6",
         "final_button_label": "ver Colección",
         "final_button_url": "shopify:\/\/collections\/nueva-coleccion"
+      }
+    },
+    "seasonal_offers": {
+      "type": "seasonal-offers",
+      "settings": {
+        "title": "OFERTAS",
+        "show_compare_price": false
       }
     },
     "f4eb4ff5-0fef-4137-9cde-6493e4d01f72": {
@@ -113,13 +120,6 @@
         "button_url": "shopify:\/\/collections\/descuentos-de-temporada"
       }
     },
-    "seasonal_offers": {
-      "type": "seasonal-offers",
-      "settings": {
-        "title": "OFERTAS",
-        "show_compare_price": false
-      }
-    },
     "16390641501879d813": {
       "type": "apps",
       "blocks": {
@@ -146,11 +146,11 @@
   "order": [
     "image_banner",
     "new_collection",
+    "seasonal_offers",
     "f4eb4ff5-0fef-4137-9cde-6493e4d01f72",
     "collection_slider",
     "about_us",
     "lunes_multicolor",
-    "seasonal_offers",
     "16390641501879d813",
     "home_header_fixer"
   ]

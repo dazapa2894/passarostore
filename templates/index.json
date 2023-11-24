@@ -112,9 +112,9 @@
         "button_body_color": "#7048b5",
         "button_text_color": "#ffffff",
         "show_section": true,
-        "banner_img": "shopify:\/\/shop_images\/Hot-Sale-web.jpg",
-        "promo_title": "<p>📣<strong>HOT SALE HASTA CON EL 50% OFF<\/strong>📣<\/p>",
-        "promo_text": "<p>Encuentra tus outfits favoritos para renovar tu closet. <\/p><p><strong>Términos y condiciones:<\/strong><\/p><p>👉 Del 20 al 24 de octubre del 2023.<\/p><p>👉 Válido en punto de venta físicos y online.<\/p><p>👉 En referencias seleccionadas.<\/p><p>👉 Envío GRATIS por compras mayores a $100.000 pesos en compras online.<br\/><br\/>👉 Pago 100% seguro<br\/><\/p><p><\/p><p><br\/><\/p>",
+        "banner_img": "shopify:\/\/shop_images\/Banner-pq.png",
+        "promo_title": "<p><strong>SÓLO POR DÍAS! <\/strong>📣 <strong>BLACK WEEKEND <\/strong>📣<strong> TODA LA TIENDA CON EL 15% OFF<\/strong><\/p><p><strong>+ 60%OFF REF.SELECCIONADAS<\/strong><\/p>",
+        "promo_text": "<p><strong>Términos y condiciones:<\/strong><br\/><br\/>📦 PAGO CONTRAENTREGA \/ 💳 Pago por PSE<br\/>👉 Promociones válidas hasta el 26 de noviembre del 2023.<br\/>👉 Envío GRATIS por compras mayores a $100.000 pesos.<br\/>👉 Unidades limitadas<br\/><\/p><p><\/p><p><br\/><\/p>",
         "promo_discount_text": "<p><strong>🔥 DESCUENTOS FLASH ⚡ ¡Precios irresistibles! 🔥<\/strong><\/p>",
         "button_label": "Ver Descuentos",
         "button_url": "shopify:\/\/collections\/descuentos-de-temporada"

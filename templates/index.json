@@ -34,7 +34,7 @@
       "settings": {
         "title": "Nueva Colección",
         "max_products": "6",
-        "final_button_label": "ver Colección",
+        "final_button_label": "VER TODO",
         "final_button_url": "shopify:\/\/collections\/nueva-coleccion"
       }
     },
@@ -79,7 +79,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>⚡ ¡Precios irresistibles! <\/p><p><strong>Términos y condiciones:<\/strong><br\/><br\/>📦 PAGO CONTRAENTREGA \/ 💳 Pago por PSE<br\/>👉 Promociones válidas hasta el 26 de noviembre del 2023.<br\/>👉 Envío GRATIS por compras mayores a $100.000 pesos.<br\/>👉 Unidades limitadas<\/p>"
+            "text": "<p>📣 ¡Adelanta tus regalos de Navidad! <\/p><p><strong>Términos y condiciones:<\/strong><br\/><br\/>📦 PAGO CONTRAENTREGA \/ 💳 Pago por PSE<br\/>👉 Promociones válidas hasta el 26 de noviembre del 2023.<br\/>👉 Envío GRATIS por compras mayores a $100.000 pesos.<br\/>👉 Unidades limitadas<\/p>"
           }
         },
         "button": {

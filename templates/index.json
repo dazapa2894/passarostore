@@ -72,14 +72,14 @@
           "type": "heading",
           "disabled": true,
           "settings": {
-            "heading": "<p>📣<strong> HOY, COLOR CAQUI CON EL 25% OFF <\/strong>📣<br\/><br\/>🔥 LUNES MULTICOLOR 🔥<\/p><p><\/p><p><br\/><\/p>",
+            "heading": "<p><strong>SÓLO POR DÍAS! BLACK WEEKEND <\/strong><\/p><p>📣<strong> TODA LA TIENDA CON EL 15% OFF <\/strong>📣<\/p><p>🔥<strong>+ 60%OFF REF.SELECCIONADAS<\/strong>🔥 <br\/><br\/><\/p><p><\/p><p><br\/><\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>⚡ ¡Precios irresistibles! <\/p><p><strong>Términos y condiciones:<\/strong><\/p><p>👉 Aplica sólo lunes 20 Noviembre 2023<\/p><p>👉 Aplica en tiendas y online<\/p><p>👉 En referencias seleccionadas.<\/p><p>👉 No aplica para estampados<br\/><br\/>👉 Pago 100% seguro<\/p>"
+            "text": "<p>⚡ ¡Precios irresistibles! <\/p><p><strong>Términos y condiciones:<\/strong><br\/><br\/>📦 PAGO CONTRAENTREGA \/ 💳 Pago por PSE<br\/>👉 Promociones válidas hasta el 26 de noviembre del 2023.<br\/>👉 Envío GRATIS por compras mayores a $100.000 pesos.<br\/>👉 Unidades limitadas<\/p>"
           }
         },
         "button": {
@@ -95,10 +95,9 @@
         "text",
         "button"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Caqui-02.png",
+        "image": "shopify:\/\/shop_images\/Banner-pq.png",
         "height": "adapt",
         "layout": "image_first"
       }

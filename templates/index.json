@@ -72,14 +72,14 @@
           "type": "heading",
           "disabled": true,
           "settings": {
-            "heading": "<p><strong>SÓLO POR DÍAS! BLACK WEEKEND <\/strong><\/p><p>📣<strong> TODA LA TIENDA CON EL 15% OFF <\/strong>📣<\/p><p>🔥<strong>+ 60%OFF REF.SELECCIONADAS<\/strong>🔥 <br\/><br\/><\/p><p><\/p><p><br\/><\/p>",
+            "heading": "<p>ÚLTIMOS DESCUENTOS DEL AÑO <\/p><p>📣<strong> <\/strong>LLÉVATE 25% OFF EN LA 2DA UNIDAD 📣<\/p><p>🔥EXCLUSIVO ONLINE🔥 <br\/><br\/><\/p><p><\/p><p><br\/><\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>📣 ¡Adelanta tus regalos de Navidad! <\/p><p><strong>Términos y condiciones:<\/strong><br\/><br\/>📦 PAGO CONTRAENTREGA \/ 💳 Pago por PSE<br\/>👉 Promociones válidas hasta el 26 de noviembre del 2023.<br\/>👉 Envío GRATIS por compras mayores a $100.000 pesos.<br\/>👉 Unidades limitadas<\/p>"
+            "text": "<p>📣 ¡Adelanta tus regalos de Navidad! <\/p><p><strong>Términos y condiciones:<\/strong><br\/><br\/>📦 PAGO CONTRAENTREGA \/ 💳 Pago por PSE<\/p><p>👉 Exclusivo tienda online<br\/>👉 Promoción válida SÓLO 27 de noviembre del 2023.<br\/>👉 Envío GRATIS por compras mayores a $100.000 pesos.<br\/>👉 Unidades limitadas<\/p>"
           }
         },
         "button": {
@@ -97,7 +97,7 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Banner-pq.png",
+        "image": "shopify:\/\/shop_images\/IMG_6888.jpg",
         "height": "adapt",
         "layout": "image_first"
       }

@@ -13,7 +13,7 @@
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#001840",
     "transparent": "#ffffff",
-    "dark_blue": "#4061ff",
+    "dark_blue": "#001840",
     "white": "#ffffff",
     "colors_background_1": "#ffffff",
     "accent_icons": "text",
@@ -33,7 +33,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "heading": "🔥 CYBER MONDAY 🔥  ¡ÚLTIMOS DESCUENTOS DEL AÑO! 📣 25% OFF EN LA 2DA UNIDAD",
+              "heading": "🔥  ¡ÚLTIMOS DESCUENTOS DEL AÑO! 📣",
               "color_scheme": "dark-blue",
               "link": "shopify:\/\/collections\/nueva-coleccion"
             }

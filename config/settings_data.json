@@ -33,7 +33,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "heading": "🔥  ¡ÚLTIMOS DESCUENTOS DEL AÑO! 📣",
+              "heading": "🔥  ¡ÚLTIMOS DESCUENTOS DEL AÑO! 🔥",
               "color_scheme": "dark-blue",
               "link": "shopify:\/\/collections\/descuentos-de-temporada"
             }

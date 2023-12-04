@@ -38,13 +38,6 @@
         "final_button_url": "shopify:\/\/collections\/nueva-coleccion"
       }
     },
-    "seasonal_offers": {
-      "type": "seasonal-offers",
-      "settings": {
-        "title": "OFERTAS",
-        "show_compare_price": false
-      }
-    },
     "f4eb4ff5-0fef-4137-9cde-6493e4d01f72": {
       "type": "featured-collection",
       "settings": {
@@ -63,6 +56,13 @@
     "collection_slider": {
       "type": "collection-slider",
       "settings": {
+      }
+    },
+    "seasonal_offers": {
+      "type": "seasonal-offers",
+      "settings": {
+        "title": "OFERTAS",
+        "show_compare_price": false
       }
     },
     "about_us": {
@@ -146,9 +146,9 @@
   "order": [
     "image_banner",
     "new_collection",
-    "seasonal_offers",
     "f4eb4ff5-0fef-4137-9cde-6493e4d01f72",
     "collection_slider",
+    "seasonal_offers",
     "about_us",
     "lunes_multicolor",
     "16390641501879d813",

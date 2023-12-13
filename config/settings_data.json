@@ -24,7 +24,7 @@
     "favicon": "shopify:\/\/shop_images\/logo_1.png",
     "checkout_logo_image": "shopify:\/\/shop_images\/LogoPassaro-Web806x180_Verde.svg",
     "checkout_logo_position": "left",
-    "checkout_logo_size": "large",
+    "checkout_logo_size": "medium",
     "checkout_body_background_color": "#ffffff",
     "checkout_input_background_color_mode": "white",
     "checkout_sidebar_background_color": "#12483f",

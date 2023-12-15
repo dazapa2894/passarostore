@@ -22,7 +22,7 @@
 
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/B5.jpg",
+        "image": "shopify:\/\/shop_images\/B4.jpg",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "no-background",
         "stack_images_on_mobile": true,
@@ -126,6 +126,7 @@
         "8c03b00b-933a-4c57-8a06-bbed4bcd05cf": {
           "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
+            "title": "",
             "title_color": "",
             "alignment": "center",
             "html_area": ""

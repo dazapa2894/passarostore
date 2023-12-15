@@ -93,6 +93,12 @@
           "using_translated_handles": false,
           "custom_script_and_style": "<script><\/script>\n<style><\/style>"
         }
+      },
+      "3636041076704339800": {
+        "type": "shopify:\/\/apps\/onvoard-aov-progress-bar\/blocks\/initialize\/73a9be24-355c-420e-90ba-44b9c69509c0",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   }

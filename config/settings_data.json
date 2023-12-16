@@ -37,7 +37,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "heading": "📣ENVÍOS GRATIS en Cali y a nivel nacional por compras mayores a $100.000 pesos📣",
+              "heading": "📣ENVÍOS GRATIS en Cali y a nivel nacional por compras mayores a $100.000 📣",
               "color_scheme": "dark-blue",
               "link": "shopify:\/\/collections\/all"
             }

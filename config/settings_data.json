@@ -37,7 +37,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "heading": "📣ENVÍOS GRATIS por compras mayores a $100.000 pesos📣",
+              "heading": "📣ENVÍOS GRATIS en Cali y a nivel nacional por compras mayores a $100.000 pesos📣",
               "color_scheme": "dark-blue",
               "link": "shopify:\/\/collections\/all"
             }
@@ -96,12 +96,6 @@
       },
       "3636041076704339800": {
         "type": "shopify:\/\/apps\/onvoard-aov-progress-bar\/blocks\/initialize\/73a9be24-355c-420e-90ba-44b9c69509c0",
-        "disabled": true,
-        "settings": {
-        }
-      },
-      "15079184273603081885": {
-        "type": "shopify:\/\/apps\/essential-shipping-bar\/blocks\/app_embed\/4125375e-37c8-4137-949d-c4e1a3aac572",
         "disabled": true,
         "settings": {
         }

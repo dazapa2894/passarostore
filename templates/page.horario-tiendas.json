@@ -38,7 +38,7 @@
         "template--15742355177655__53cdda89-d277-4052-b39d-e87fa913050a-16703350044c724645-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Calle 13 No. 73 - 116 Local 103 <\/p><p><strong>MARTES - SÁBADO <br\/><\/strong>10 AM a 7 PM<\/p><p><strong>DOMINGO 31 DIC<\/strong><\/p><p>9 AM a 4 PM<\/p>"
+            "text": "<p>Av. Paso Ancho # 73 - 116<\/p><p><strong>LUNES | SÁBADO<\/strong><\/p><p>10 AM a 7 PM<\/p><p><strong>DOMINGO 7 ENERO<\/strong><\/p><p>CERRADO<\/p><p><strong>DOMINGO 14 ENERO<\/strong><\/p><p>10 AM a 3 PM<\/p>"
           }
         },
         "template--15742355177655__53cdda89-d277-4052-b39d-e87fa913050a-16703350044c724645-2": {
@@ -80,7 +80,7 @@
         "template--15742355177655__1b7f2683-a7d2-4796-9569-2c4e3831070c-16703350044c724645-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Av. Roosevelt # 38 - 15<br\/><strong>MARTES - SÁBADO <br\/><\/strong>10 AM a 7 PM<\/p><p><strong>DOMINGO 31 DIC<\/strong><\/p><p>9 AM a 4 PM<br\/><\/p><p><\/p>"
+            "text": "<p>Av. Roosevelt # 38 - 15<br\/><strong>LUNES | SÁBADO<\/strong><\/p><p>10 AM a 7 PM<\/p><p><strong>DOMINGO<\/strong><\/p><p>10 AM a 3 PM<br\/><\/p><p><\/p>"
           }
         },
         "template--15742355177655__1b7f2683-a7d2-4796-9569-2c4e3831070c-16703350044c724645-2": {
@@ -116,7 +116,7 @@
         "template--15742355177655__37427ae3-7e45-4fa2-86a3-912e59172511-16703350044c724645-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Tequendama Cra 42 # 5E - 21<br\/><strong>MARTES - SÁBADO<\/strong><\/p><p>9 AM a 6 PM<\/p><p><strong>DOMINGO 31 DIC<\/strong><\/p><p>9 AM a 3 PM<\/p>"
+            "text": "<p>Cra 42 # 5E - 21<br\/><strong>LUNES | VIERNES<\/strong><\/p><p>8:30 AM a 6 PM<\/p><p><strong>SÁBADO<\/strong><\/p><p>8:30 AM a 3 PM<\/p><p><strong>DOMINGO<\/strong><\/p><p>CERRADO<\/p>"
           }
         },
         "template--15742355177655__37427ae3-7e45-4fa2-86a3-912e59172511-16703350044c724645-2": {
@@ -152,7 +152,7 @@
         "template--15742355177655__e6a7860f-39ed-4023-b294-e2d97ba8b4fc-16703350044c724645-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Estación Av. Estación # 3AN - 35<br\/><strong>MARTES - SÁBADO<\/strong><\/p><p>10 AM a 7 PM<\/p><p><strong>DOMINGO 31 DIC<\/strong><\/p><p>9 AM a 3 PM<\/p>"
+            "text": "<p>Av. Estación # 3AN - 35<br\/><strong>LUNES | VIERNES<\/strong><\/p><p>9 AM a 6:30 PM<\/p><p><strong>SÁBADO<\/strong><\/p><p>10 AM a 4:30 PM<\/p><p><strong>DOMINGO<\/strong><\/p><p>CERRADO<\/p>"
           }
         },
         "template--15742355177655__e6a7860f-39ed-4023-b294-e2d97ba8b4fc-16703350044c724645-2": {
@@ -188,7 +188,7 @@
         "template--15742355177655__12cbe0d8-9a93-4e48-b61b-b26c6046dd29-16703350044c724645-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Sexta Av. 6 Norte # 13N - 29<br\/><strong>MARTES - SÁBADO<\/strong><\/p><p>10 AM a  7 PM<\/p><p><strong>DOMINGO 31 DIC<\/strong><\/p><p>9 AM a 3 PM<\/p>"
+            "text": "<p>Av. 6 Norte # 13N - 29<br\/><strong>LUNES | VIERNES<\/strong><\/p><p>9 AM a 6:30 PM<\/p><p><strong>SÁBADO<\/strong><\/p><p>10 AM a 4:30 PM<\/p><p><strong>DOMINGO<\/strong><\/p><p>CERRADO<\/p>"
           }
         },
         "template--15742355177655__12cbe0d8-9a93-4e48-b61b-b26c6046dd29-16703350044c724645-2": {
@@ -224,7 +224,7 @@
         "template--15742355177655__afa0bbb9-4410-4a3a-9fb4-747c9064a823-16703350044c724645-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Avenida 8 norte # 23N-80<\/p><p><strong>MARTES - SÁBADO<\/strong><\/p><p>9 AM a 6 PM<\/p><p><strong>DOMINGO 31 DIC<\/strong><\/p><p>9 AM a 3 PM<\/p><p><\/p>"
+            "text": "<p>Av. 8 NORTE # 23N-80<\/p><p><strong>LUNES | VIERNES<\/strong><\/p><p>9 AM a 6 PM<\/p><p><strong>SÁBADO<\/strong><\/p><p>9:30 AM a 5 PM<\/p><p><strong>DOMINGO<\/strong><\/p><p>CERRADO<\/p>"
           }
         },
         "template--15742355177655__afa0bbb9-4410-4a3a-9fb4-747c9064a823-16703350044c724645-2": {
@@ -260,7 +260,7 @@
         "template--15742355177655__53b992e5-7d67-4909-8c30-3b3e7c7df782-16703350044c724645-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Av. las Américas # 21N - 50<br\/><strong>MARTES - SÁBADO<\/strong><\/p><p>10 AM a 7 PM<\/p><p><strong>DOMINGO 31 DIC<\/strong><\/p><p>9 AM a 4 PM<\/p>"
+            "text": "<p>Av. Las Américas # 21N - 50<br\/><strong>LUNES | SÁBADO<\/strong><\/p><p>10 AM a 7 PM<\/p><p><strong>DOMINGO<\/strong><\/p><p>CERRADO<\/p>"
           }
         },
         "template--15742355177655__53b992e5-7d67-4909-8c30-3b3e7c7df782-16703350044c724645-2": {

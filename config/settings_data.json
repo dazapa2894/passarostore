@@ -11,10 +11,11 @@
   "black": "#111111",
   "current": {
     "colors_solid_button_labels": "#ffffff",
-    "colors_accent_1": "#067a48",
+    "colors_accent_1": "#d5513a",
+    "colors_accent_2": "#d5513a",
     "transparent": "#ffffff",
-    "dark_blue": "#12483f",
-    "pink": "#12483f",
+    "dark_blue": "#d5513a",
+    "pink": "#d5513a",
     "pink_dark": "#1d1d1d",
     "white": "#ffffff",
     "colors_background_1": "#ffffff",
@@ -37,7 +38,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "heading": "📣ENVÍOS GRATIS en Cali y resto del país por compras mayores a $100.000 📣",
+              "heading": "📣Temporada de REBAJAS! 50% OFF en 2DA UNIDAD 📣",
               "color_scheme": "dark-blue",
               "link": "shopify:\/\/collections\/all"
             }

@@ -11,11 +11,11 @@
   "black": "#111111",
   "current": {
     "colors_solid_button_labels": "#ffffff",
-    "colors_accent_1": "#001840",
-    "colors_accent_2": "#001840",
+    "colors_accent_1": "#929e06",
+    "colors_accent_2": "#929e06",
     "transparent": "#ffffff",
     "dark_blue": "#929e06",
-    "pink": "#001840",
+    "pink": "#929e06",
     "pink_dark": "#1d1d1d",
     "green": "#3eaf40",
     "white": "#ffffff",
@@ -29,7 +29,7 @@
     "checkout_logo_size": "medium",
     "checkout_body_background_color": "#ffffff",
     "checkout_input_background_color_mode": "white",
-    "checkout_sidebar_background_color": "#001840",
+    "checkout_sidebar_background_color": "#929e06",
     "checkout_accent_color": "#003353",
     "checkout_button_color": "#003353",
     "sections": {

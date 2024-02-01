@@ -31,7 +31,7 @@
     "checkout_input_background_color_mode": "white",
     "checkout_sidebar_background_color": "#001840",
     "checkout_accent_color": "#003353",
-    "checkout_button_color": "#12483f",
+    "checkout_button_color": "#003353",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",

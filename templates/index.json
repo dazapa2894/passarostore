@@ -70,23 +70,22 @@
       "blocks": {
         "heading": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "heading": "<p>ÚLTIMOS DESCUENTOS DEL AÑO <\/p><p>📣<strong> <\/strong>LLÉVATE 25% OFF EN LA 2DA UNIDAD 📣<\/p><p>🔥EXCLUSIVO ONLINE🔥 <br\/><br\/><\/p><p><\/p><p><br\/><\/p>",
+            "heading": "<p>REGRESA EL LUNES MULTICOLOR<\/p><p>📣<strong> <\/strong>LLÉVATE 25% OFF EN LAS REF. COLOR BLANCO 📣<\/p><p>🔥SÓLO PPR HOY🔥 <br\/><br\/><\/p><p><\/p><p><br\/><\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>📣 ¡Adelanta tus regalos de Navidad! <\/p><p><strong>Términos y condiciones:<\/strong><br\/><br\/>📦 PAGO CONTRAENTREGA \/ 💳 Pago por PSE<\/p><p>👉 Exclusivo tienda online<br\/>👉 Promoción válida SÓLO 27 de noviembre del 2023.<br\/>👉 Envío GRATIS por compras mayores a $100.000 pesos.<br\/>👉 Unidades limitadas<\/p>"
+            "text": "<p>📣 ¡Tiendas y Online! <\/p><p><strong>Términos y condiciones:<\/strong><br\/><br\/>📦 PAGO CONTRAENTREGA \/ 💳 Pago por PSE<\/p><p>👉 No aplica para estampados<br\/>👉 Promoción válida SÓLO 5 de Febrero del 2024<br\/>👉 Envío GRATIS por compras mayores a $100.000 pesos.<br\/>👉 No es acumulable con otras promociones<\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "VER MÁS",
-            "button_link": "shopify:\/\/collections\/nueva-coleccion"
+            "button_link": "shopify:\/\/collections\/colores-blancos"
           }
         }
       },
@@ -95,10 +94,9 @@
         "text",
         "button"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/IMG_6888.jpg",
+        "image": "shopify:\/\/shop_images\/F0CE33F6-607E-4D8F-915E-DD89E61730A3.png",
         "height": "adapt",
         "layout": "image_first"
       }

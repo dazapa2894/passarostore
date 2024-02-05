@@ -38,33 +38,6 @@
         "final_button_url": "shopify:\/\/collections\/nueva-coleccion"
       }
     },
-    "seasonal_offers": {
-      "type": "seasonal-offers",
-      "settings": {
-        "title": "OFERTAS",
-        "show_compare_price": false
-      }
-    },
-    "f4eb4ff5-0fef-4137-9cde-6493e4d01f72": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Accesorios",
-        "collection": "accesorios",
-        "products_to_show": 4,
-        "show_view_all": true,
-        "swipe_on_mobile": false,
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": false
-      }
-    },
-    "collection_slider": {
-      "type": "collection-slider",
-      "settings": {
-      }
-    },
     "about_us": {
       "type": "image-with-text",
       "blocks": {
@@ -99,6 +72,33 @@
         "image": "shopify:\/\/shop_images\/F0CE33F6-607E-4D8F-915E-DD89E61730A3.png",
         "height": "adapt",
         "layout": "image_first"
+      }
+    },
+    "seasonal_offers": {
+      "type": "seasonal-offers",
+      "settings": {
+        "title": "OFERTAS",
+        "show_compare_price": false
+      }
+    },
+    "f4eb4ff5-0fef-4137-9cde-6493e4d01f72": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Accesorios",
+        "collection": "accesorios",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false
+      }
+    },
+    "collection_slider": {
+      "type": "collection-slider",
+      "settings": {
       }
     },
     "lunes_multicolor": {
@@ -147,10 +147,10 @@
   "order": [
     "image_banner",
     "new_collection",
+    "about_us",
     "seasonal_offers",
     "f4eb4ff5-0fef-4137-9cde-6493e4d01f72",
     "collection_slider",
-    "about_us",
     "lunes_multicolor",
     "16390641501879d813",
     "home_header_fixer"

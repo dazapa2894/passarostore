@@ -71,14 +71,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>REGRESA EL LUNES MULTICOLOR<\/p><p>📣<strong> <\/strong>LLÉVATE 25% OFF EN LAS REF. COLOR BLANCO 📣<\/p><p>🔥SÓLO PPR HOY🔥 <br\/><br\/><\/p><p><\/p><p><br\/><\/p>",
+            "heading": "<p>¡REGRESA EL LUNES MULTICOLOR!<\/p><p><strong>LLÉVATE 25% OFF EN EL COLOR BLANCO <\/strong><\/p><p>🔥SOLO POR HOY🔥 <br\/><br\/><\/p><p><\/p><p><br\/><\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>📣 ¡Tiendas y Online! <\/p><p><strong>Términos y condiciones:<\/strong><br\/><br\/>📦 PAGO CONTRAENTREGA \/ 💳 Pago por PSE<\/p><p>👉 No aplica para estampados<br\/>👉 Promoción válida SÓLO 5 de Febrero del 2024<br\/>👉 Envío GRATIS por compras mayores a $100.000 pesos.<br\/>👉 No es acumulable con otras promociones<\/p>"
+            "text": "<p>📣 ¡Aplica para tiendas y online! <\/p><p><strong>Términos y condiciones:<\/strong><br\/><br\/>👉 No aplica para estampados.<br\/>👉 Promoción válida <strong>SOLO<\/strong> para el 5 de febrero del 2024.<br\/>👉 Envío GRATIS por compras mayores a $100.000 pesos.<br\/>👉 No es acumulable con otras promociones.<\/p>"
           }
         },
         "button": {

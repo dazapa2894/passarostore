@@ -56,7 +56,7 @@
         "settings": {
           "hide_search_mobile": false,
           "is_dark_background": true,
-          "color_for_dark_background": "#003353",
+          "color_for_dark_background": "#001840",
           "color_for_light_background": "#001840",
           "logo_oscuro": "shopify:\/\/shop_images\/LogoPassaro-Web806x180_Azul.svg",
           "logo_claro": "shopify:\/\/shop_images\/LogoPassaro-Web806x180_Blanco_be01a8bd-13b0-41f5-a69d-96d64c36b38c.svg",

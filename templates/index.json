@@ -67,6 +67,7 @@
         "text",
         "button"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "image": "shopify:\/\/shop_images\/Lunesmulticolor-ROJO_cb5179c1-e0e8-471f-a47f-9aedd86198d6.jpg",

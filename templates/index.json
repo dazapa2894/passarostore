@@ -44,21 +44,21 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>¡HOY LUNES MULTICOLOR!<\/p><p><strong>LLÉVATE 25% OFF EN EL COLOR ROJO<\/strong><\/p><p>🔥SOLO POR HOY🔥 <br\/><br\/><\/p><p><\/p><p><br\/><\/p>",
+            "heading": "<p>¡HOY LUNES MULTICOLOR!<\/p><p><strong>LLÉVATE 25% OFF EN EL COLORES LILA - MORADO<\/strong><\/p><p>🔥SOLO POR HOY🔥 <br\/><br\/><\/p><p><\/p><p><br\/><\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>📣 ¡Aplica para tiendas y online! <\/p><p><strong>Términos y condiciones:<\/strong><br\/><br\/>👉 No aplica para estampados.<br\/>👉 Promoción válida <strong>SOLO<\/strong> para el 12 de febrero del 2024.<br\/>👉 Envío GRATIS por compras mayores a $100.000 pesos.<br\/>👉 No es acumulable con otras promociones.<\/p>"
+            "text": "<p>📣 ¡Aplica para tiendas y online! <\/p><p><strong>Términos y condiciones:<\/strong><br\/><br\/>👉 No aplica para estampados.<br\/>👉 Promoción válida <strong>SOLO<\/strong> para el 17 de febrero del 2024.<br\/>👉 Envío GRATIS por compras mayores a $100.000 pesos.<br\/>👉 No es acumulable con otras promociones.<\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "VER MÁS",
-            "button_link": "shopify:\/\/collections\/colores-rojo"
+            "button_link": "shopify:\/\/collections\/colores-lila"
           }
         }
       },
@@ -70,7 +70,7 @@
       "disabled": true,
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Lunesmulticolor-ROJO_cb5179c1-e0e8-471f-a47f-9aedd86198d6.jpg",
+        "image": "shopify:\/\/shop_images\/7214A65B-833B-434C-AA6C-4A846585F51F.png",
         "height": "adapt",
         "layout": "image_first"
       }

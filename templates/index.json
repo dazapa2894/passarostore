@@ -74,13 +74,6 @@
         "layout": "image_first"
       }
     },
-    "seasonal_offers": {
-      "type": "seasonal-offers",
-      "settings": {
-        "title": "OFERTAS",
-        "show_compare_price": false
-      }
-    },
     "f4eb4ff5-0fef-4137-9cde-6493e4d01f72": {
       "type": "featured-collection",
       "settings": {
@@ -94,6 +87,13 @@
         "add_image_padding": false,
         "show_image_outline": true,
         "show_vendor": false
+      }
+    },
+    "seasonal_offers": {
+      "type": "seasonal-offers",
+      "settings": {
+        "title": "OFERTAS",
+        "show_compare_price": false
       }
     },
     "collection_slider": {
@@ -148,8 +148,8 @@
     "image_banner",
     "new_collection",
     "about_us",
-    "seasonal_offers",
     "f4eb4ff5-0fef-4137-9cde-6493e4d01f72",
+    "seasonal_offers",
     "collection_slider",
     "lunes_multicolor",
     "16390641501879d813",

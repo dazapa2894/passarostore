@@ -11,11 +11,11 @@
   "black": "#111111",
   "current": {
     "colors_solid_button_labels": "#ffffff",
-    "colors_accent_1": "#929e06",
-    "colors_accent_2": "#929e06",
+    "colors_accent_1": "#001840",
+    "colors_accent_2": "#001840",
     "transparent": "#ffffff",
-    "dark_blue": "#929e06",
-    "pink": "#929e06",
+    "dark_blue": "#001840",
+    "pink": "#001840",
     "pink_dark": "#1d1d1d",
     "green": "#379633",
     "white": "#ffffff",
@@ -39,7 +39,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "heading": "👖 Vive la Semana del JEAN | 30% OFF en todos los jeans 📣",
+              "heading": "📣 Vive la Semana del JEAN | 30% OFF en todos los jeans 📣",
               "color_scheme": "dark-blue",
               "link": "shopify:\/\/collections\/jeans"
             }
@@ -56,10 +56,10 @@
         "settings": {
           "hide_search_mobile": false,
           "is_dark_background": true,
-          "color_for_dark_background": "#001840",
+          "color_for_dark_background": "#ffffff",
           "color_for_light_background": "#001840",
           "logo_oscuro": "shopify:\/\/shop_images\/LogoPassaro-Web806x180_Azul.svg",
-          "logo_claro": "shopify:\/\/shop_images\/LogoPassaro-Web806x180_Azul_5af0679f-9637-4f82-a432-69f7ebff8611.svg",
+          "logo_claro": "shopify:\/\/shop_images\/LogoPassaro-Web806x180_Blanco_f2c973c4-2030-4117-ac0b-1166d3e024f3.svg",
           "logo_width": 230,
           "logo_position": "middle-left",
           "menu": "main-menu"

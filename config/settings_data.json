@@ -39,9 +39,9 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "heading": "🔥 SALE DAYS  | Hasta 50% OFF en ref. seleccionadas 🔥",
+              "heading": "👖 Vive la Semana del JEAN | 30% OFF en todos los jeans 📣",
               "color_scheme": "dark-blue",
-              "link": "shopify:\/\/collections\/descuentos-de-temporada"
+              "link": "shopify:\/\/collections\/jeans"
             }
           }
         },

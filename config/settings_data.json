@@ -39,7 +39,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "heading": "📣 Vive la Semana del JEAN | 30% OFF en todos los jeans 📣",
+              "heading": "📣 Vive la semana del JEAN | 30% OFF en todos los jeans 📣",
               "color_scheme": "dark-blue",
               "link": "shopify:\/\/collections\/jeans"
             }

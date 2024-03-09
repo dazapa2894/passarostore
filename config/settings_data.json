@@ -14,7 +14,7 @@
     "colors_accent_1": "#001840",
     "colors_accent_2": "#001840",
     "transparent": "#ffffff",
-    "dark_blue": "#7a4a49",
+    "dark_blue": "#8bb317",
     "pink": "#001840",
     "pink_dark": "#1d1d1d",
     "green": "#379633",
@@ -39,9 +39,9 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "heading": "¡HOY! 10% OFF en TODA LA TIENDA ¡Todo el día! 🔥",
+              "heading": "📣 Vive la semana del JEAN | 30% OFF en todos los jeans 📣",
               "color_scheme": "dark-blue",
-              "link": "shopify:\/\/collections"
+              "link": "shopify:\/\/collections\/jeans"
             }
           }
         },

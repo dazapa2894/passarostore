@@ -22,11 +22,20 @@
 
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/BANNER3.jpg",
+        "image": "shopify:\/\/shop_images\/BANNER4_f679485d-012a-4859-b33b-44c99cf6c9fc.jpg",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "no-background",
         "stack_images_on_mobile": true,
         "adapt_height_first_image": false
+      }
+    },
+    "new_collection": {
+      "type": "new-collection",
+      "settings": {
+        "title": "Nueva Colección",
+        "max_products": "6",
+        "final_button_label": "QUIERO VER MÁS",
+        "final_button_url": "shopify:\/\/collections\/nueva-coleccion"
       }
     },
     "about_us": {
@@ -63,15 +72,6 @@
         "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_9cbe1ae3-dc3f-4666-bfac-0487d75c80c1.png",
         "height": "adapt",
         "layout": "image_first"
-      }
-    },
-    "new_collection": {
-      "type": "new-collection",
-      "settings": {
-        "title": "Nueva Colección",
-        "max_products": "6",
-        "final_button_label": "QUIERO VER MÁS",
-        "final_button_url": "shopify:\/\/collections\/nueva-coleccion"
       }
     },
     "f4eb4ff5-0fef-4137-9cde-6493e4d01f72": {
@@ -146,8 +146,8 @@
   },
   "order": [
     "image_banner",
-    "about_us",
     "new_collection",
+    "about_us",
     "f4eb4ff5-0fef-4137-9cde-6493e4d01f72",
     "seasonal_offers",
     "collection_slider",

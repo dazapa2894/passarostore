@@ -44,7 +44,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>📣 HOY! COLOR BEIGE CON EL 25% EN EL LUNES MULTICOLOR 🌈<\/p>",
+            "heading": "<p>📣 HOY! COLOR CAQUI CON EL 25% EN EL LUNES MULTICOLOR 🌈<\/p>",
             "heading_style": "h2"
           }
         },
@@ -58,7 +58,7 @@
           "type": "button",
           "settings": {
             "button_label": "VER MÁS",
-            "button_link": "shopify:\/\/collections\/colores-beige"
+            "button_link": "shopify:\/\/collections\/color-caqui"
           }
         }
       },

@@ -44,21 +44,21 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>📣 TODOS los enterizos y vestidos con 20% OFF <\/p>",
+            "heading": "<p>📣 HOY! COLOR BEIGE CON EL 25% EN EL LUNES MULTICOLOR 🌈<\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p> ¡Aplica para tiendas y online! ☝️<\/p><p><strong>Términos y condiciones:<\/strong><\/p><p>👉 Promoción válida del 11 al 17 de Marzo del 2024.<\/p><p>👉 Accede al pago Contra entrega por whatsapp.<\/p><p>👉 Envío GRATIS por compras mayores a $100.000 pesos.<\/p><p>👉 No es acumulable con otras promociones.<\/p>"
+            "text": "<p> ¡Aplica para tiendas y online! ☝️<\/p><p><strong>Términos y condiciones:<\/strong><\/p><p>👉 Promoción válida 18 de Marzo del 2024.<\/p><p>👉 Accede al pago Contra entrega por whatsapp.<\/p><p>👉 Envío GRATIS por compras mayores a $100.000 pesos.<\/p><p>👉 No es acumulable con otras promociones.<\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "VER MÁS",
-            "button_link": "shopify:\/\/collections\/vestidos-enterizos"
+            "button_link": "shopify:\/\/collections\/colores-beige"
           }
         }
       },
@@ -69,7 +69,7 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_9cbe1ae3-dc3f-4666-bfac-0487d75c80c1.png",
+        "image": "shopify:\/\/shop_images\/F9771EF0-96F6-4AE6-9A01-C99A50F025DB.png",
         "height": "adapt",
         "layout": "image_first"
       }

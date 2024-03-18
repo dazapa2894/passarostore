@@ -39,9 +39,9 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "heading": "📣 Descubre tus prendas favoritas | 20% OFF Semana de Enterizos y Vestidos 📣",
+              "heading": "☝️ TODOS nuestros estampados con el 20% OFF aquí 📣",
               "color_scheme": "dark-blue",
-              "link": "shopify:\/\/collections\/vestidos-enterizos"
+              "link": "shopify:\/\/collections\/estampados"
             }
           }
         },

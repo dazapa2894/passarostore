@@ -29,36 +29,27 @@
         "adapt_height_first_image": false
       }
     },
-    "new_collection": {
-      "type": "new-collection",
-      "settings": {
-        "title": "Nueva Colección",
-        "max_products": "6",
-        "final_button_label": "QUIERO VER MÁS",
-        "final_button_url": "shopify:\/\/collections\/nueva-coleccion"
-      }
-    },
     "about_us": {
       "type": "image-with-text",
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>📣 HOY! COLOR CAQUI CON EL 25% EN EL LUNES MULTICOLOR 🌈<\/p>",
+            "heading": "<p>🔥 Estampados con el 20% OFF 🔥<\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p> ¡Aplica para tiendas y online! ☝️<\/p><p><strong>Términos y condiciones:<\/strong><\/p><p>👉 Promoción válida 18 de Marzo del 2024.<\/p><p>👉 Accede al pago Contra entrega por whatsapp.<\/p><p>👉 Envío GRATIS por compras mayores a $100.000 pesos.<\/p><p>👉 No es acumulable con otras promociones.<\/p>"
+            "text": "<p> ¡Aplica para tiendas y online! <\/p><p><strong>Términos y condiciones:<\/strong><\/p><p>👉 Promoción válida del 18 hasta el 24 de Marzo del 2024.<\/p><p>👉 Accede al pago Contra entrega por whatsapp.<\/p><p>👉 Envío GRATIS por compras mayores a $100.000 pesos.<\/p><p>👉 No es acumulable con otras promociones.<\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "VER MÁS",
-            "button_link": "shopify:\/\/collections\/color-caqui"
+            "button_link": "shopify:\/\/collections\/estampados"
           }
         }
       },
@@ -67,12 +58,20 @@
         "text",
         "button"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/F9771EF0-96F6-4AE6-9A01-C99A50F025DB.png",
+        "image": "shopify:\/\/shop_images\/banner_secundario.png",
         "height": "adapt",
         "layout": "image_first"
+      }
+    },
+    "new_collection": {
+      "type": "new-collection",
+      "settings": {
+        "title": "Nueva Colección",
+        "max_products": "6",
+        "final_button_label": "QUIERO VER MÁS",
+        "final_button_url": "shopify:\/\/collections\/nueva-coleccion"
       }
     },
     "f4eb4ff5-0fef-4137-9cde-6493e4d01f72": {
@@ -147,8 +146,8 @@
   },
   "order": [
     "image_banner",
-    "new_collection",
     "about_us",
+    "new_collection",
     "f4eb4ff5-0fef-4137-9cde-6493e4d01f72",
     "seasonal_offers",
     "collection_slider",

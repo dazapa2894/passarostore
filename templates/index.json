@@ -7,7 +7,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "DESCUBRE",
-            "button_link_1": "shopify:\/\/collections\/nueva-coleccion",
+            "button_link_1": "shopify:\/\/collections",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -22,7 +22,7 @@
 
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/BANNER4_f679485d-012a-4859-b33b-44c99cf6c9fc.jpg",
+        "image": "shopify:\/\/shop_images\/BANNER1_fa83d7e4-3a4c-4cf9-bc96-ef61d43ea74d.jpg",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "no-background",
         "stack_images_on_mobile": true,

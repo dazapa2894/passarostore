@@ -5,6 +5,7 @@
       "blocks": {
         "text_M7xiJQ": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<h6>PRENDAS EN DESCUENTO NO TIENEN CAMBIO<\/h6>"
           }

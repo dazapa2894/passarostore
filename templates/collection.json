@@ -1,5 +1,23 @@
 {
   "sections": {
+    "rich_text_pBpQRT": {
+      "type": "rich-text",
+      "blocks": {
+        "text_M7xiJQ": {
+          "type": "text",
+          "settings": {
+            "text": "<h6>PRENDA EN DESCUENTO NO TIENEN CAMBIO<\/h6>"
+          }
+        }
+      },
+      "block_order": [
+        "text_M7xiJQ"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
     "breadcrumb": {
       "type": "collection-breadcrumb",
       "settings": {
@@ -21,6 +39,7 @@
     }
   },
   "order": [
+    "rich_text_pBpQRT",
     "breadcrumb",
     "product-grid"
   ]

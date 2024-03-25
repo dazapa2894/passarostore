@@ -39,9 +39,9 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "heading": "☝️ TODOS nuestros estampados con el 20% OFF aquí 📣",
+              "heading": "Season Sale 🔥 50% OFF en Ref. Seleccionadas",
               "color_scheme": "dark-blue",
-              "link": "shopify:\/\/collections\/estampados"
+              "link": "shopify:\/\/collections\/descuentos-de-temporada"
             }
           }
         },

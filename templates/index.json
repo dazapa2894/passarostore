@@ -40,6 +40,7 @@
     },
     "seasonal_offers": {
       "type": "seasonal-offers",
+      "disabled": true,
       "settings": {
         "title": "OFERTAS",
         "show_compare_price": false
@@ -51,14 +52,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>🔥HOY 25% DTO COLOR VERDE 🔥<\/p>",
+            "heading": "<p>🔥 HOY 25% OFF COLOR VERDE 🔥<\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p> Lunes Multicolor<\/p><p>¡Aplica para tiendas y online! <\/p><p><strong>Términos y condiciones:<\/strong><\/p><p>👉 Promoción válida SÓLO 1 Abril 2024 <\/p><p>👉 Accede al pago Contra entrega por whatsapp.<\/p><p>👉 Envío GRATIS por compras mayores a $100.000 pesos.<\/p><p>👉 No es acumulable con otras promociones.<\/p>"
+            "text": "<p> Lunes Multicolor<\/p><p>¡Aplica para tiendas y online! <\/p><p><strong>Términos y condiciones:<\/strong><\/p><p>👉 Promoción válida SOLO 1 de Abril 2024 <\/p><p>👉 Accede al pago Contra entrega por whatsapp.<\/p><p>👉 Envío GRATIS por compras mayores a $100.000 pesos.<\/p><p>👉 No es acumulable con otras promociones.<\/p>"
           }
         },
         "button": {
@@ -74,7 +75,6 @@
         "text",
         "button"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
         "image": "shopify:\/\/shop_images\/Lunes_Multicolor_web_7b6f5de9-276c-4abe-837a-2ab7aabde394.png",

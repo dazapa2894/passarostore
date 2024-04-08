@@ -35,7 +35,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>🔥 HOY 25% OFF COLOR VERDE 🔥<\/p>",
+            "heading": "<p>🔥 HOY 25% OFF COLOR ESTAMPADOS 🔥<\/p>",
             "heading_style": "h2"
           }
         },
@@ -61,7 +61,7 @@
       "disabled": true,
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Lunes_Multicolor_web_7b6f5de9-276c-4abe-837a-2ab7aabde394.png",
+        "image": "shopify:\/\/shop_images\/IMG_8424.png",
         "height": "adapt",
         "layout": "image_first"
       }

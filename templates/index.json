@@ -35,14 +35,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>🔥 HOY 25% OFF COLOR AZUL🔥<\/p>",
+            "heading": "<p>🔥 HOY 25% OFF COLOR NARANJA🔥<\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p> Lunes Multicolor<\/p><p>¡Aplica para tiendas y online! <\/p><p><strong>Términos y condiciones:<\/strong><\/p><p>👉 Promoción válida SOLO para el 28 de Abril del 2024.<\/p><p>👉 Accede al pago Contra entrega por whatsapp.<\/p><p>👉 Envío GRATIS por compras mayores a $100.000 pesos.<\/p><p>👉 No es acumulable con otras promociones.<\/p>"
+            "text": "<p> Lunes Multicolor<\/p><p>¡Aplica para tiendas y online! <\/p><p><strong>Términos y condiciones:<\/strong><\/p><p>👉 Promoción válida SOLO para el 6 de Mayo del 2024.<\/p><p>👉 Accede al pago Contra entrega por whatsapp.<\/p><p>👉 Envío GRATIS por compras mayores a $100.000 pesos.<\/p><p>👉 No es acumulable con otras promociones.<\/p>"
           }
         },
         "button": {
@@ -61,7 +61,7 @@
       "disabled": true,
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Lunes_Multicolor_web_3.png",
+        "image": "shopify:\/\/shop_images\/9EEF1F6D-2B82-4081-9F1F-304C5FCE80BC.png",
         "height": "adapt",
         "layout": "image_first"
       }

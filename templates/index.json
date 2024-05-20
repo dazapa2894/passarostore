@@ -35,21 +35,21 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>🔥 HOY 25% OFF COLOR NARANJA🔥<\/p>",
+            "heading": "<p>🔥 HOY 25% OFF COLOR NEGRO🔥<\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p> Lunes Multicolor<\/p><p>¡Exclusivo online! <\/p><p><strong>Términos y condiciones:<\/strong><\/p><p>👉 Promoción válida SOLO para el 13 de Mayo del 2024.<\/p><p>👉 Accede al pago Contra entrega por whatsapp.<\/p><p>👉 Envío GRATIS por compras mayores a $100.000 pesos.<\/p><p>👉 No es acumulable con otras promociones.<\/p>"
+            "text": "<p> Lunes Multicolor<\/p><p>Aplica en tiendas físicas y online <\/p><p><strong>Términos y condiciones:<\/strong><\/p><p>👉 Promoción válida SOLO para el 20 de Mayo del 2024.<\/p><p>👉 Accede al pago Contra entrega por whatsapp.<\/p><p>👉 Envío GRATIS por compras mayores a $100.000 pesos.<\/p><p>👉 No es acumulable con otras promociones.<\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "VER MÁS",
-            "button_link": "shopify:\/\/collections\/colores-naranja"
+            "button_link": "shopify:\/\/collections\/colores-negro"
           }
         }
       },
@@ -61,7 +61,7 @@
       "disabled": true,
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/9EEF1F6D-2B82-4081-9F1F-304C5FCE80BC.png",
+        "image": "shopify:\/\/shop_images\/4FF995B8-C736-4948-8A44-B082F98C5EDC.png",
         "height": "adapt",
         "layout": "image_first"
       }

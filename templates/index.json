@@ -58,6 +58,7 @@
         "text",
         "button"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "image": "shopify:\/\/shop_images\/E5B45758-F691-4807-A7C5-B83AAAD6A160.png",

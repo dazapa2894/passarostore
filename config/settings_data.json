@@ -11,10 +11,10 @@
   "black": "#111111",
   "current": {
     "colors_solid_button_labels": "#ffffff",
-    "colors_accent_1": "#ea8c1f",
+    "colors_accent_1": "#001840",
     "colors_accent_2": "#001840",
     "transparent": "#ffffff",
-    "dark_blue": "#001840",
+    "dark_blue": "#ea8c1f",
     "pink": "#001840",
     "pink_light": "#001840",
     "pink_dark": "#001840",

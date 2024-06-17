@@ -22,7 +22,7 @@
 
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/banner_junio_12.png",
+        "image": "shopify:\/\/shop_images\/IMG_2723.jpg",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "no-background",
         "stack_images_on_mobile": true,
@@ -58,7 +58,6 @@
         "text",
         "button"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
         "image": "shopify:\/\/shop_images\/Lunes_Multicolor_web_fc08e95c-a054-4586-bebe-2c37c0277104.png",

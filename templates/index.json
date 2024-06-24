@@ -56,7 +56,6 @@
         },
         "button": {
           "type": "button",
-          "disabled": true,
           "settings": {
             "button_label": "VER MÁS",
             "button_link": "shopify:\/\/collections\/colores-blancos"
@@ -68,7 +67,6 @@
         "text",
         "button"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
         "image": "shopify:\/\/shop_images\/Lunes_Multicolor_web_9c845e82-2ef1-426c-8a9f-7bc502252688.png",

@@ -44,21 +44,21 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>🔥 HOY 25% OFF EN BLANCO🔥<\/p>",
+            "heading": "<p>🔥 HOY 25% OFF EN AZUL🔥<\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p> Lunes Multicolor<\/p><p>Aplica en tienda online y físicas<\/p><p><strong>Términos y condiciones:<\/strong><\/p><p>👉 Promoción válida SOLO para el 24 de Junio del 2024.<\/p><p>👉 Accede al pago Contra entrega por whatsapp.<\/p><p>👉 Envío GRATIS por compras mayores a $100.000 pesos.<\/p><p>👉 No es acumulable con otras promociones.<\/p>"
+            "text": "<p> Lunes Multicolor<\/p><p>EXCLUSIVO tienda online<\/p><p><strong>Términos y condiciones:<\/strong><\/p><p>👉 Promoción válida SOLO para el 1 de Julio del 2024.<\/p><p>👉 Accede al pago Contra entrega por whatsapp.<\/p><p>👉 Envío GRATIS por compras mayores a $100.000 pesos.<\/p><p>👉 No es acumulable con otras promociones.<\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "VER MÁS",
-            "button_link": "shopify:\/\/collections\/colores-blancos"
+            "button_link": "shopify:\/\/collections\/colores-azul"
           }
         }
       },
@@ -67,10 +67,9 @@
         "text",
         "button"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Lunes_Multicolor_web_9c845e82-2ef1-426c-8a9f-7bc502252688.png",
+        "image": "shopify:\/\/shop_images\/Lunes_Multicolor_web_-_1_a9eac043-27d4-4fb9-8f7a-01d421165f81.png",
         "height": "adapt",
         "layout": "image_first"
       }

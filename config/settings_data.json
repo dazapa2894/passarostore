@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "transparent": "#ffffff00",
   "dark_blue": "#001840",
@@ -41,9 +50,9 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "heading": "Envíos GRATIS por compras mayores a $100.000 pesos 📣",
+              "heading": "🔥 ÚLTIMAS referencias con 70% OFF 🔥 ¡Descúbrelas!",
               "color_scheme": "dark-blue",
-              "link": "shopify:\/\/collections\/all"
+              "link": "shopify:\/\/collections\/descuentos-de-temporada"
             }
           }
         },

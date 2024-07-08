@@ -50,7 +50,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "heading": "🔥 ÚLTIMAS referencias con 70% OFF 🔥 ¡Descúbrelas!",
+              "heading": "🔥 ÚLTIMAS referencias con 70% OFF 🔥",
               "color_scheme": "dark-blue",
               "link": "shopify:\/\/collections\/descuentos-de-temporada"
             }

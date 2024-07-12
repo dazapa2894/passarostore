@@ -78,7 +78,7 @@
     "new_collection": {
       "type": "new-collection",
       "settings": {
-        "title": "Nueva Colección",
+        "title": "NUEVA COLECCIÓN",
         "max_products": "6",
         "final_button_label": "QUIERO VER MÁS",
         "final_button_url": "shopify:\/\/collections\/nueva-coleccion"
@@ -95,7 +95,7 @@
     "f4eb4ff5-0fef-4137-9cde-6493e4d01f72": {
       "type": "featured-collection",
       "settings": {
-        "title": "Accesorios",
+        "title": "ACCESORIOS",
         "collection": "accesorios",
         "products_to_show": 4,
         "show_view_all": true,

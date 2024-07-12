@@ -50,9 +50,9 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "heading": "🔥 ÚLTIMAS referencias con 70% OFF 🔥",
+              "heading": "Envíos GRATIS a todo el país por compras mayores a $100.000 📣",
               "color_scheme": "dark-blue",
-              "link": "shopify:\/\/collections\/descuentos-de-temporada"
+              "link": "shopify:\/\/collections\/productos"
             }
           }
         },

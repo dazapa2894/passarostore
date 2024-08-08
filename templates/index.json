@@ -31,7 +31,7 @@
 
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/IMG_3559_4433ad71-2b58-44ab-a4b0-dc342a91ae2f.jpg",
+        "image": "shopify:\/\/shop_images\/IMG_3835_7f160a9f-7bbc-42ff-9822-98d0b87cd0af.jpg",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "no-background",
         "stack_images_on_mobile": true,
@@ -138,6 +138,7 @@
             "title": "",
             "title_color": "",
             "alignment": "center",
+            "background_color": "",
             "html_area": ""
           }
         }

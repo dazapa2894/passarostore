@@ -31,11 +31,11 @@
 
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/IMG_3842_62c0fec5-7010-4f79-bb73-d55f2478fcb3.jpg",
-        "desktop_text_box_position": "center",
+        "image": "shopify:\/\/shop_images\/BANNER_WEB_22766256-f0f4-40e8-b901-a8ed320e9341.png",
+        "desktop_text_box_position": "flex-end",
         "color_scheme": "no-background",
         "stack_images_on_mobile": true,
-        "adapt_height_first_image": true
+        "adapt_height_first_image": false
       }
     },
     "about_us": {

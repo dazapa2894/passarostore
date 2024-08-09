@@ -34,7 +34,7 @@
         "image": "shopify:\/\/shop_images\/IMG_3842_62c0fec5-7010-4f79-bb73-d55f2478fcb3.jpg",
         "desktop_text_box_position": "center",
         "color_scheme": "no-background",
-        "stack_images_on_mobile": false,
+        "stack_images_on_mobile": true,
         "adapt_height_first_image": true
       }
     },

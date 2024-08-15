@@ -31,7 +31,7 @@
 
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/BANNER_WEB_22766256-f0f4-40e8-b901-a8ed320e9341.png",
+        "image": "shopify:\/\/shop_images\/IMG_3812.jpg",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "no-background",
         "stack_images_on_mobile": true,
@@ -67,6 +67,7 @@
         "text",
         "button"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "image": "shopify:\/\/shop_images\/Lunes_Multicolor_web_-_1.png",

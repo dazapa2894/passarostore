@@ -23,7 +23,7 @@
     "colors_accent_1": "#001840",
     "colors_accent_2": "#001840",
     "transparent": "#ffffff",
-    "dark_blue": "#c78639",
+    "dark_blue": "#001840",
     "pink": "#001840",
     "pink_light": "#001840",
     "pink_dark": "#001840",
@@ -50,9 +50,9 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "heading": "🪘¡ENCUENTRA TU MEJOR OUTFIT PARA PETRONIO AQUÍ! 🥁",
+              "heading": "📣 Envíos GRATIS por compras mayores a $100.000 pesos 📣",
               "color_scheme": "dark-blue",
-              "link": "shopify:\/\/collections\/colores"
+              "link": "shopify:\/\/collections\/productos"
             }
           }
         },

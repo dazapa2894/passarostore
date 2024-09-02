@@ -44,21 +44,21 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>🔥 HOY 25% OFF COLOR MORADO 🔥<\/p>",
+            "heading": "<p>🔥 HOY 25% OFF COLOR MARFIL 🔥<\/p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p> Lunes Multicolor<\/p><p>Aplica Online y Tiendas Físicas<\/p><p><strong>Términos y condiciones:<\/strong><\/p><p>👉 Promoción válida SOLO para el 26 de Agosto del 2024.<\/p><p>👉 Accede al pago Contra entrega por whatsapp.<\/p><p>👉 Envío GRATIS por compras mayores a $100.000 pesos.<\/p><p>👉 No es acumulable con otras promociones.<\/p>"
+            "text": "<p> Lunes Multicolor<\/p><p>Aplica Online y Tiendas Físicas<\/p><p><strong>Términos y condiciones:<\/strong><\/p><p>👉 Promoción válida SOLO para el 2 de Septiembre del 2024.<\/p><p>👉 Accede al pago Contra entrega por whatsapp.<\/p><p>👉 Envío GRATIS por compras mayores a $100.000 pesos.<\/p><p>👉 No es acumulable con otras promociones.<\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "VER MÁS",
-            "button_link": "shopify:\/\/collections\/colores-morado"
+            "button_link": "shopify:\/\/collections\/colores-marfil"
           }
         }
       },
@@ -67,10 +67,9 @@
         "text",
         "button"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Lunes_Multicolor_web_2e25ae72-9c29-405d-ac7e-0c56d8dc6ec1.png",
+        "image": "shopify:\/\/shop_images\/Lunes_Multicolor_web_f714356a-f8f6-437c-a3f9-ad1a86d980f0.png",
         "height": "adapt",
         "layout": "image_first"
       }

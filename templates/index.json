@@ -16,7 +16,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "DESCUBRE",
-            "button_link_1": "https:\/\/www.passaro.com.co\/collections\/descubre",
+            "button_link_1": "https://www.passaro.com.co/collections/descubre",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -31,7 +31,7 @@
 
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/BANNER_WEB_1_caf90c7c-7cfc-499a-ae84-b30c6fc8dc9f.png",
+        "image": "shopify://shop_images/BANNER_WEB_1_caf90c7c-7cfc-499a-ae84-b30c6fc8dc9f.png",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "no-background",
         "stack_images_on_mobile": true,
@@ -44,21 +44,21 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>🔥 HOY 25% OFF COLOR CAMEL 🔥<\/p>",
+            "heading": "<p>🔥 HOY 25% OFF COLOR BLANCO 🔥</p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p> Lunes Multicolor<\/p><p>Aplica Online y Tiendas Físicas<\/p><p><strong>Términos y condiciones:<\/strong><\/p><p>👉 Promoción válida SOLO para el 16 de Septiembre del 2024.<\/p><p>👉 Accede al pago Contra entrega por whatsapp.<\/p><p>👉 Envío GRATIS por compras mayores a $100.000 pesos.<\/p><p>👉 No es acumulable con otras promociones.<\/p>"
+            "text": "<p> Lunes Multicolor</p><p>Aplica Online y Tiendas Físicas</p><p><strong>Términos y condiciones:</strong></p><p>👉 Promoción válida SOLO para el 23 de Septiembre del 2024.</p><p>👉 Accede al pago Contra entrega por whatsapp.</p><p>👉 Envío GRATIS por compras mayores a $100.000 pesos.</p><p>👉 No es acumulable con otras promociones.</p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "VER MÁS",
-            "button_link": "shopify:\/\/collections\/colores-camel"
+            "button_link": "shopify://collections/colores-blancos"
           }
         }
       },
@@ -67,10 +67,9 @@
         "text",
         "button"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Lunes_Multicolor_web_a9cd264d-4e88-49c9-a393-ba5a9f3153c2.png",
+        "image": "shopify://shop_images/Lunes_Multicolor_web_a8690105-0409-4e94-ac44-132ad2ea37b6.png",
         "height": "adapt",
         "layout": "image_first"
       }
@@ -81,7 +80,7 @@
         "title": "NUEVA COLECCIÓN",
         "max_products": "6",
         "final_button_label": "QUIERO VER MÁS",
-        "final_button_url": "shopify:\/\/collections\/nueva-coleccion"
+        "final_button_url": "shopify://collections/nueva-coleccion"
       }
     },
     "seasonal_offers": {
@@ -121,19 +120,19 @@
         "button_body_color": "#7048b5",
         "button_text_color": "#ffffff",
         "show_section": true,
-        "banner_img": "shopify:\/\/shop_images\/Banner-pq.png",
-        "promo_title": "<p><strong>SÓLO POR DÍAS! <\/strong>📣 <strong>BLACK WEEKEND <\/strong>📣<strong> TODA LA TIENDA CON EL 15% OFF<\/strong><\/p><p><strong>+ 60%OFF REF.SELECCIONADAS<\/strong><\/p>",
-        "promo_text": "<p><strong>Términos y condiciones:<\/strong><br\/><br\/>📦 PAGO CONTRAENTREGA \/ 💳 Pago por PSE<br\/>👉 Promociones válidas hasta el 26 de noviembre del 2023.<br\/>👉 Envío GRATIS por compras mayores a $100.000 pesos.<br\/>👉 Unidades limitadas<br\/><\/p><p><\/p><p><br\/><\/p>",
-        "promo_discount_text": "<p><strong>🔥 DESCUENTOS FLASH ⚡ ¡Precios irresistibles! 🔥<\/strong><\/p>",
+        "banner_img": "shopify://shop_images/Banner-pq.png",
+        "promo_title": "<p><strong>SÓLO POR DÍAS! </strong>📣 <strong>BLACK WEEKEND </strong>📣<strong> TODA LA TIENDA CON EL 15% OFF</strong></p><p><strong>+ 60%OFF REF.SELECCIONADAS</strong></p>",
+        "promo_text": "<p><strong>Términos y condiciones:</strong><br/><br/>📦 PAGO CONTRAENTREGA / 💳 Pago por PSE<br/>👉 Promociones válidas hasta el 26 de noviembre del 2023.<br/>👉 Envío GRATIS por compras mayores a $100.000 pesos.<br/>👉 Unidades limitadas<br/></p><p></p><p><br/></p>",
+        "promo_discount_text": "<p><strong>🔥 DESCUENTOS FLASH ⚡ ¡Precios irresistibles! 🔥</strong></p>",
         "button_label": "Ver Descuentos",
-        "button_url": "shopify:\/\/collections\/descuentos-de-temporada"
+        "button_url": "shopify://collections/descuentos-de-temporada"
       }
     },
     "16390641501879d813": {
       "type": "apps",
       "blocks": {
         "8c03b00b-933a-4c57-8a06-bbed4bcd05cf": {
-          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
             "title": "",
             "title_color": "",

@@ -29,7 +29,7 @@
       ],
       "custom_css": [],
       "settings": {
-        "image": "shopify://shop_images/solo_por_dias_20_dcto.png",
+        "image": "shopify://shop_images/solo_por_dias_20_dcto_728fc56a-c59a-4f62-adc1-e163231d626e.png",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "no-background",
         "stack_images_on_mobile": true,
@@ -42,21 +42,21 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>🔥 HOY 25% OFF EN COLOR MARFIL🔥</p>",
+            "heading": "<p>🔥 HOY 25% OFF EN COLOR NARANJA🔥</p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p> Lunes Multicolor</p><p>Aplica Online</p><p><strong>Términos y condiciones:</strong></p><p>👉 Promoción válida SOLO para el 4 DE NOVIEMBRE del 2024.</p><p>👉 Accede al pago Contra entrega por whatsapp.</p><p>👉 Envío GRATIS por compras mayores a $100.000 pesos.</p><p>👉 No es acumulable con otras promociones.</p>"
+            "text": "<p> Lunes Multicolor</p><p>Aplica Online y Tiendas</p><p><strong>Términos y condiciones:</strong></p><p>👉 Promoción válida SOLO para el 17 DE NOVIEMBRE del 2024.</p><p>👉 Accede al pago Contra entrega por whatsapp.</p><p>👉 Envío GRATIS por compras mayores a $100.000 pesos.</p><p>👉 No es acumulable con otras promociones.</p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "VER MÁS",
-            "button_link": "shopify://collections/colores-marfil"
+            "button_link": "shopify://collections/colores-naranja"
           }
         }
       },
@@ -68,7 +68,7 @@
       "disabled": true,
       "settings": {
         "full_width": true,
-        "image": "shopify://shop_images/Lunes_Multicolor_web_f714356a-f8f6-437c-a3f9-ad1a86d980f0.png",
+        "image": "shopify://shop_images/Lunes_Multicolor_web-2.png",
         "height": "adapt",
         "layout": "image_first"
       }

@@ -59,9 +59,9 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "heading": "📣 Envíos GRATIS por compras mayores a $100.000 pesos 📣",
+              "heading": "🔥 BLACK DAYS 🔥 ¡Adelanta tus regalos de esta temporada!",
               "color_scheme": "dark-blue",
-              "link": "shopify://collections/productos"
+              "link": "shopify://collections/descuentos-de-temporada"
             }
           }
         },

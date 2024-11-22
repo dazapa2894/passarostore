@@ -16,7 +16,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "DESCUBRE",
-            "button_link_1": "shopify://collections/estampados",
+            "button_link_1": "shopify://collections/descuentos-de-temporada",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -73,13 +73,6 @@
         "layout": "image_first"
       }
     },
-    "seasonal_offers": {
-      "type": "seasonal-offers",
-      "settings": {
-        "title": "OFERTAS",
-        "show_compare_price": false
-      }
-    },
     "new_collection": {
       "type": "new-collection",
       "settings": {
@@ -87,6 +80,13 @@
         "max_products": "6",
         "final_button_label": "QUIERO VER MÁS",
         "final_button_url": "shopify://collections/nueva-coleccion"
+      }
+    },
+    "seasonal_offers": {
+      "type": "seasonal-offers",
+      "settings": {
+        "title": "OFERTAS",
+        "show_compare_price": false
       }
     },
     "f4eb4ff5-0fef-4137-9cde-6493e4d01f72": {

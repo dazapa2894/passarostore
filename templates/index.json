@@ -42,21 +42,21 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>🔥 HOY 25% OFF EN COLOR NEGRO🔥</p>",
+            "heading": "<p>SALE 🔥LOS ÚLTIMOS DESCUENTOS DEL AÑO</p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p> Lunes Multicolor</p><p>Aplica Online y Tiendas</p><p><strong>Términos y condiciones:</strong></p><p>👉 Promoción válida SOLO para el 25 DE NOVIEMBRE del 2024.</p><p>👉 Accede al pago Contra entrega por whatsapp.</p><p>👉 Envío GRATIS por compras mayores a $100.000 pesos.</p><p>👉 No es acumulable con otras promociones.</p>"
+            "text": "<p>¡Tus compras de temporada están aquí! </p><p>Aplica online y tiendas físicas. </p><p><strong>Términos y condiciones:</strong></p><p>👉 Promoción válida del 29 de noviembre al 1 de diciembre. </p><p>👉 Accede al pago CONTRA ENTREGA por whatsapp.</p><p>👉 Envío GRATIS por compras mayores a $100.000 pesos.</p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "VER MÁS",
-            "button_link": "shopify://collections/colores-negro"
+            "button_link": "shopify://collections/all"
           }
         }
       },
@@ -65,10 +65,9 @@
         "text",
         "button"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
-        "image": "shopify://shop_images/Lunes_Multicolor_web_cf8a1791-8f86-4478-9647-5e13b2edced8.png",
+        "image": "shopify://shop_images/b230f59911b8d228791f36d23900d5ce.png",
         "height": "adapt",
         "layout": "image_first"
       }

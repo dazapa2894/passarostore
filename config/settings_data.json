@@ -23,7 +23,7 @@
     "colors_accent_1": "#001840",
     "colors_accent_2": "#001840",
     "transparent": "#ffffff",
-    "dark_blue": "#111111",
+    "dark_blue": "#d647ff",
     "pink": "#001840",
     "pink_light": "#001840",
     "pink_dark": "#001840",
@@ -59,7 +59,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "heading": "🔥 BLACK DAYS 🔥 ¡Adelanta tus compras de temporada!",
+              "heading": "🔥 CYBER MONDAY 🔥 ¡El último descuento del año!",
               "color_scheme": "dark-blue",
               "link": "shopify://collections/descuentos-de-temporada"
             }

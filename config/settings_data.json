@@ -59,9 +59,9 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "heading": "🔥 CYBER MONDAY 🔥 ¡El último descuento del año!",
+              "heading": "📣 Envío GRATIS por compras mayores a $100.000 pesos 📣",
               "color_scheme": "dark-blue",
-              "link": "shopify://collections/descuentos-de-temporada"
+              "link": "shopify://collections/all"
             }
           }
         },

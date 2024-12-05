@@ -59,9 +59,9 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "heading": "📣 Envío GRATIS por compras mayores a $100.000 pesos 📣",
+              "heading": "🎄¡Llegó la Navidad! | Edición limitada de camisetas navideñas",
               "color_scheme": "dark-blue",
-              "link": "shopify://collections/all"
+              "link": "shopify://collections/camisetas-de-navidad"
             }
           }
         },

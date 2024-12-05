@@ -51,21 +51,21 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>SALE 🔥LOS ÚLTIMOS DESCUENTOS DEL AÑO</p>",
+            "heading": "<p>🎄¡Llegó Navidad!  🎄</p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>¡Tus compras de temporada están aquí! </p><p>Aplica online y tiendas físicas. </p><p><strong>Términos y condiciones:</strong></p><p>👉 Promoción válida del 29 de noviembre al 1 de diciembre. </p><p>👉 Accede al pago CONTRA ENTREGA por whatsapp.</p><p>👉 Envío GRATIS por compras mayores a $100.000 pesos.</p>"
+            "text": "<p>EDICIÓN LIMITADA</p><p>Las encuentras online y en  tiendas físicas. </p><p>👉 4 motivos de bordados</p><p>👉 100% algodón</p><p>👉 Estilo, comodidad y frescura. </p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "VER MÁS",
-            "button_link": "shopify://collections/all"
+            "button_link": "shopify://collections/camisetas-de-navidad"
           }
         }
       },

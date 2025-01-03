@@ -59,7 +59,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "heading": "Tu pedido será enviado a partir del 3 de enero",
+              "heading": "📣Envíos GRATIS por compras mayores a $100.000 📣",
               "color_scheme": "dark-blue",
               "link": "shopify://collections/all"
             }

@@ -36,15 +36,6 @@
         "adapt_height_first_image": false
       }
     },
-    "new_collection": {
-      "type": "new-collection",
-      "settings": {
-        "title": "NUEVA COLECCIÓN",
-        "max_products": "6",
-        "final_button_label": "QUIERO VER MÁS",
-        "final_button_url": "shopify://collections/nueva-coleccion"
-      }
-    },
     "about_us": {
       "type": "image-with-text",
       "blocks": {
@@ -59,14 +50,14 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Edición limitada de camisetas navideñas. </p><p>Las encuentras online y en  tiendas físicas. </p><p>👉 4 motivos de bordado.</p><p>👉 100% algodón.</p><p>👉 Estilo, comodidad y frescura. </p>"
+            "text": "<p>COLOR DEL DÍA: ROJO🍓<br/><br/><strong>¡25% OFF EN TODAS NUESTRAS PRENDAS ROJAS! </strong></p><p>- Válido para tiendas físicas y online. </p><p>- Solo por 3 de febrero del 2025. </p><p>- Aplican TYC. </p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "VER MÁS",
-            "button_link": "shopify://collections/camisetas-de-navidad"
+            "button_link": "shopify://collections/colores-rojo"
           }
         }
       },
@@ -75,12 +66,20 @@
         "text",
         "button"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
-        "image": "shopify://shop_images/banner_pequeno_web_2.png",
+        "image": "shopify://shop_images/IMG_1893.png",
         "height": "adapt",
         "layout": "image_first"
+      }
+    },
+    "new_collection": {
+      "type": "new-collection",
+      "settings": {
+        "title": "NUEVA COLECCIÓN",
+        "max_products": "6",
+        "final_button_label": "QUIERO VER MÁS",
+        "final_button_url": "shopify://collections/nueva-coleccion"
       }
     },
     "seasonal_offers": {
@@ -163,8 +162,8 @@
   },
   "order": [
     "image_banner",
-    "new_collection",
     "about_us",
+    "new_collection",
     "seasonal_offers",
     "f4eb4ff5-0fef-4137-9cde-6493e4d01f72",
     "collection_slider",

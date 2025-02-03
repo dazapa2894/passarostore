@@ -50,7 +50,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>COLOR DEL DÍA: ROJO🍓<br/><br/><strong>¡25% OFF EN TODAS NUESTRAS PRENDAS ROJAS! </strong></p><p>- Válido para tiendas físicas y online. </p><p>- Solo por 3 de febrero del 2025. </p><p>- Aplican TYC. </p>"
+            "text": "<h2>COLOR DEL DÍA: ROJO🍓<br/><br/><strong>¡25% OFF EN TODAS NUESTRAS PRENDAS ROJAS! </strong></h2><p>- Válido para tiendas físicas y online. </p><p>- Solo por 3 de febrero del 2025. </p><p>- Aplican TYC. </p>"
           }
         },
         "button": {

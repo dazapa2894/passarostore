@@ -36,23 +36,6 @@
         "adapt_height_first_image": false
       }
     },
-    "lunes_multicolor": {
-      "type": "lunes-multicolor",
-      "disabled": true,
-      "settings": {
-        "background_color": "#e7e3e3",
-        "text_color": "#001840",
-        "button_body_color": "#7048b5",
-        "button_text_color": "#ffffff",
-        "show_section": true,
-        "banner_img": "shopify://shop_images/banner_pequeno_web_5f9d20ae-6e85-433d-9101-f656bca115f3.png",
-        "promo_title": "<p><strong>SÓLO POR DÍAS! </strong>📣 <strong>BLACK WEEKEND </strong>📣<strong> TODA LA TIENDA CON EL 15% OFF</strong></p><p><strong>+ 60%OFF REF.SELECCIONADAS</strong></p>",
-        "promo_text": "<p><strong>Términos y condiciones:</strong><br/><br/>📦 PAGO CONTRAENTREGA / 💳 Pago por PSE<br/>👉 Promociones válidas hasta el 26 de noviembre del 2023.<br/>👉 Envío GRATIS por compras mayores a $100.000 pesos.<br/>👉 Unidades limitadas<br/></p><p></p><p><br/></p>",
-        "promo_discount_text": "<p><strong>🔥 DESCUENTOS FLASH ⚡ ¡Precios irresistibles! 🔥</strong></p>",
-        "button_label": "Ver Descuentos",
-        "button_url": "shopify://collections/descuentos-de-temporada"
-      }
-    },
     "about_us": {
       "type": "image-with-text",
       "blocks": {
@@ -97,6 +80,23 @@
         "max_products": "6",
         "final_button_label": "QUIERO VER MÁS",
         "final_button_url": "shopify://collections/nueva-coleccion"
+      }
+    },
+    "lunes_multicolor": {
+      "type": "lunes-multicolor",
+      "disabled": true,
+      "settings": {
+        "background_color": "#e7e3e3",
+        "text_color": "#001840",
+        "button_body_color": "#7048b5",
+        "button_text_color": "#ffffff",
+        "show_section": true,
+        "banner_img": "shopify://shop_images/banner_pequeno_web_5f9d20ae-6e85-433d-9101-f656bca115f3.png",
+        "promo_title": "<p><strong>SÓLO POR DÍAS! </strong>📣 <strong>BLACK WEEKEND </strong>📣<strong> TODA LA TIENDA CON EL 15% OFF</strong></p><p><strong>+ 60%OFF REF.SELECCIONADAS</strong></p>",
+        "promo_text": "<p><strong>Términos y condiciones:</strong><br/><br/>📦 PAGO CONTRAENTREGA / 💳 Pago por PSE<br/>👉 Promociones válidas hasta el 26 de noviembre del 2023.<br/>👉 Envío GRATIS por compras mayores a $100.000 pesos.<br/>👉 Unidades limitadas<br/></p><p></p><p><br/></p>",
+        "promo_discount_text": "<p><strong>🔥 DESCUENTOS FLASH ⚡ ¡Precios irresistibles! 🔥</strong></p>",
+        "button_label": "Ver Descuentos",
+        "button_url": "shopify://collections/descuentos-de-temporada"
       }
     },
     "seasonal_offers": {
@@ -162,9 +162,9 @@
   },
   "order": [
     "image_banner",
-    "lunes_multicolor",
-    "about_us",
     "new_collection",
+    "about_us",
+    "lunes_multicolor",
     "seasonal_offers",
     "f4eb4ff5-0fef-4137-9cde-6493e4d01f72",
     "collection_slider",

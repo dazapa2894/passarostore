@@ -29,11 +29,20 @@
       ],
       "custom_css": [],
       "settings": {
-        "image": "shopify://shop_images/Portadas_8fca07be-0303-493c-aad8-334742aae241.png",
+        "image": "shopify://shop_images/IMG_4137.jpg",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "no-background",
         "stack_images_on_mobile": true,
         "adapt_height_first_image": false
+      }
+    },
+    "new_collection": {
+      "type": "new-collection",
+      "settings": {
+        "title": "NUEVA COLECCIÓN",
+        "max_products": "6",
+        "final_button_label": "QUIERO VER MÁS",
+        "final_button_url": "shopify://collections/nueva-coleccion"
       }
     },
     "about_us": {
@@ -71,15 +80,6 @@
         "image": "shopify://shop_images/banner_pequeno_web_5f9d20ae-6e85-433d-9101-f656bca115f3.png",
         "height": "adapt",
         "layout": "image_first"
-      }
-    },
-    "new_collection": {
-      "type": "new-collection",
-      "settings": {
-        "title": "NUEVA COLECCIÓN",
-        "max_products": "6",
-        "final_button_label": "QUIERO VER MÁS",
-        "final_button_url": "shopify://collections/nueva-coleccion"
       }
     },
     "lunes_multicolor": {

@@ -36,15 +36,6 @@
         "adapt_height_first_image": false
       }
     },
-    "new_collection": {
-      "type": "new-collection",
-      "settings": {
-        "title": "NUEVA COLECCIÓN",
-        "max_products": "6",
-        "final_button_label": "QUIERO VER MÁS",
-        "final_button_url": "shopify://collections/nueva-coleccion"
-      }
-    },
     "about_us": {
       "type": "image-with-text",
       "blocks": {
@@ -80,6 +71,15 @@
         "image": "shopify://shop_images/Lunes_Multicolor_web_1_d5f25bc3-3d2a-4fcc-8345-76ad2dff7890.png",
         "height": "adapt",
         "layout": "image_first"
+      }
+    },
+    "new_collection": {
+      "type": "new-collection",
+      "settings": {
+        "title": "NUEVA COLECCIÓN",
+        "max_products": "6",
+        "final_button_label": "QUIERO VER MÁS",
+        "final_button_url": "shopify://collections/nueva-coleccion"
       }
     },
     "lunes_multicolor": {
@@ -162,8 +162,8 @@
   },
   "order": [
     "image_banner",
-    "new_collection",
     "about_us",
+    "new_collection",
     "lunes_multicolor",
     "seasonal_offers",
     "f4eb4ff5-0fef-4137-9cde-6493e4d01f72",

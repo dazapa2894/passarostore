@@ -59,14 +59,14 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<h2>3 CAMISETAS POR EL PRECIO DE 2<br/>¡Solo por febrero! ⏰ </h2><h3></h3><p>- Válido para tiendas físicas y online.</p><p>- Aplican TYC. </p>"
+            "text": "<h2>COLOR DEL DÍA: AZUL 🫐 </h2><h2>¡25% OFF EN TODO EL COLOR AZUL!</h2><p>- Válido solo por el 10 de febrero del 2025..</p><p>- Aplican online y tiendas físicas. </p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "VER MÁS",
-            "button_link": "shopify://collections/camisetas"
+            "button_link": "shopify://collections/colores-azul"
           }
         }
       },
@@ -77,7 +77,7 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify://shop_images/banner_pequeno_web_5f9d20ae-6e85-433d-9101-f656bca115f3.png",
+        "image": "shopify://shop_images/Lunes_Multicolor_web_1_d5f25bc3-3d2a-4fcc-8345-76ad2dff7890.png",
         "height": "adapt",
         "layout": "image_first"
       }

@@ -50,7 +50,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<h2>COLOR DEL DÍA: AZUL 🫐 </h2><h2>¡25% OFF EN TODO EL COLOR AZUL!</h2><p>- Válido solo por el 10 de febrero del 2025..</p><p>- Aplican online y tiendas físicas. </p>"
+            "text": "<h2>COLOR DEL DÍA: VERDE🌿 </h2><h2>¡25% OFF EN TODO EL COLOR VERDE!</h2><p>- Válido solo por el 17 de febrero del 2025..</p><p>- Aplican online y tiendas físicas. </p>"
           }
         },
         "button": {
@@ -66,10 +66,9 @@
         "text",
         "button"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
-        "image": "shopify://shop_images/Lunes_Multicolor_web_1_d5f25bc3-3d2a-4fcc-8345-76ad2dff7890.png",
+        "image": "shopify://shop_images/IMG_1969.png",
         "height": "adapt",
         "layout": "image_first"
       }

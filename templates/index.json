@@ -50,14 +50,14 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<h2>COLOR DEL DÍA: VERDE🌿 </h2><h2>¡25% OFF EN TODO EL COLOR VERDE!</h2><p>- Válido solo por el 17 de febrero del 2025..</p><p>- Aplican online y tiendas físicas. </p>"
+            "text": "<h2>COLOR DEL DÍA: VINOTINTO🍷 </h2><h2>¡25% OFF EN TODO EL COLOR VINOTINTO!</h2><p>- Válido solo por el<strong> 24 de febrero del 2025.</strong></p><p>- Aplican online y tiendas físicas. </p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "VER MÁS",
-            "button_link": "shopify://collections/colores-verde"
+            "button_link": "https://www.passaro.com.co/collections/colores-vinotinto"
           }
         }
       },
@@ -66,10 +66,9 @@
         "text",
         "button"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
-        "image": "shopify://shop_images/IMG_1969.png",
+        "image": "shopify://shop_images/WhatsApp_Image_2025-02-24_at_8.38.23_AM.jpg",
         "height": "adapt",
         "layout": "image_first"
       }

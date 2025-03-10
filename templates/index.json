@@ -50,7 +50,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<h2>COLOR DEL DÍA: ESTAMPADO🎨</h2><h2>¡25% OFF EN TODAS LAS PRENDAS ESTAMPADAS!</h2><p>- Válido solo por el<strong> 03 de marzo del 2025.</strong></p><p>- Aplican online y tiendas físicas. </p>"
+            "text": "<h2>COLOR DEL DÍA: MARFIL🍦</h2><h2>¡25% OFF EN TODAS LAS PRENDAS MARFIL!</h2><p>- Válido solo por el<strong> 10 de marzo del 2025.</strong></p><p>- Aplican online y tiendas físicas. </p>"
           }
         },
         "button": {
@@ -66,10 +66,9 @@
         "text",
         "button"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
-        "image": "shopify://shop_images/WhatsApp_Image_2025-03-03_at_9.01.32_AM.jpg",
+        "image": "shopify://shop_images/Lunes_Multicolor_web_1_1.png",
         "height": "adapt",
         "layout": "image_first"
       }

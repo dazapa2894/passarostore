@@ -112,11 +112,6 @@
         "type": "shopify://apps/transcy/blocks/switcher_embed_block/bce4f1c0-c18c-43b0-b0b2-a1aefaa44573",
         "disabled": true,
         "settings": {}
-      },
-      "3782161271425840822": {
-        "type": "shopify://apps/ns-color-swatch-variant-images/blocks/nestscale_product_variant/53eb5ed4-3892-414c-808b-3ea84516b10d",
-        "disabled": false,
-        "settings": {}
       }
     }
   }

@@ -49,7 +49,6 @@
         "blocks": {
           "announcement_zPieAC": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
               "heading": "📣Envíos GRATIS por compras mayores a $100.000 📣",
               "color_scheme": "dark-blue",

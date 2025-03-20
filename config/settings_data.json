@@ -51,13 +51,14 @@
             "type": "announcement",
             "disabled": true,
             "settings": {
-              "heading": "Envíos gratis en Cali | Envíos Nacionales gratis a partir de compras superiores a $100.000 | Envíos por REEXPEDICIÓN Gratis por compras superiores a $300.000.",
+              "heading": "📣Envíos GRATIS por compras mayores a $100.000 📣",
               "color_scheme": "dark-blue",
-              "link": ""
+              "link": "shopify://collections/all"
             }
           },
           "announcement-bar-0": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "heading": "📣Envíos GRATIS por compras mayores a $100.000 📣",
               "color_scheme": "dark-blue",

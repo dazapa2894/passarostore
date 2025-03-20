@@ -47,13 +47,12 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "blocks": {
-          "announcement_zPieAC": {
+          "announcement_aXKHNg": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "heading": "📣Envíos GRATIS por compras mayores a $100.000 📣",
+              "heading": "Envíos GRATIS por compras mayores a $100.000 pesos",
               "color_scheme": "dark-blue",
-              "link": "shopify://collections/all"
+              "link": ""
             }
           },
           "announcement-bar-0": {
@@ -67,7 +66,7 @@
           }
         },
         "block_order": [
-          "announcement_zPieAC",
+          "announcement_aXKHNg",
           "announcement-bar-0"
         ],
         "settings": {}

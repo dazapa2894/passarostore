@@ -9,17 +9,17 @@
  */
 {
   "sections": {
-    "rich_text_FKcBeN": {
+    "rich_text_eTEeJQ": {
       "type": "rich-text",
       "blocks": {
-        "heading_fYNR4q": {
+        "heading_nQBWGj": {
           "type": "heading",
           "settings": {
-            "heading": "",
+            "heading": "Descuentos de temporada",
             "heading_size": "h1"
           }
         },
-        "text_93bWDM": {
+        "text_xQgwJK": {
           "type": "text",
           "settings": {
             "text": "<p>Recuerda que las prendas en descuento no tienen cambio</p>"
@@ -27,11 +27,11 @@
         }
       },
       "block_order": [
-        "heading_fYNR4q",
-        "text_93bWDM"
+        "heading_nQBWGj",
+        "text_xQgwJK"
       ],
       "settings": {
-        "color_scheme": "background-1",
+        "color_scheme": "background-2",
         "full_width": true
       }
     },
@@ -55,7 +55,7 @@
     }
   },
   "order": [
-    "rich_text_FKcBeN",
+    "rich_text_eTEeJQ",
     "breadcrumb",
     "product-grid"
   ]

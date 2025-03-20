@@ -9,20 +9,27 @@
  */
 {
   "sections": {
-    "rich_text_pBpQRT": {
+    "rich_text_FKcBeN": {
       "type": "rich-text",
       "blocks": {
-        "text_M7xiJQ": {
+        "heading_fYNR4q": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_93bWDM": {
           "type": "text",
           "settings": {
-            "text": "<h6>PRENDAS EN DESCUENTO NO TIENEN CAMBIO</h6>"
+            "text": "<p>Recuerda que las prendas en descuento no tienen cambio</p>"
           }
         }
       },
       "block_order": [
-        "text_M7xiJQ"
+        "heading_fYNR4q",
+        "text_93bWDM"
       ],
-      "disabled": true,
       "settings": {
         "color_scheme": "background-1",
         "full_width": true
@@ -48,7 +55,7 @@
     }
   },
   "order": [
-    "rich_text_pBpQRT",
+    "rich_text_FKcBeN",
     "breadcrumb",
     "product-grid"
   ]

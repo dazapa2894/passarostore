@@ -31,6 +31,8 @@
     "green": "#0f9426",
     "white": "#ffffff",
     "colors_background_1": "#ffffff",
+    "type_header_font": "sans-serif",
+    "sold_out_badge_color_scheme": "inverse",
     "accent_icons": "text",
     "social_facebook_link": "https://www.facebook.com/passarostores",
     "social_instagram_link": "https://www.instagram.com/passaro_store/",

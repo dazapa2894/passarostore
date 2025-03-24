@@ -43,21 +43,21 @@
           "type": "heading",
           "disabled": true,
           "settings": {
-            "heading": "<p>🎄¡Llegó Navidad!  🎄</p>",
+            "heading": "<p>HOY LUNES MULTICOLOR 🌈<br/>Exclusivo Online</p>",
             "heading_style": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<h2>COLOR DEL DÍA: CAMEL 🤎</h2><h2>¡25% OFF EN TODAS LAS PRENDAS CAMEL!</h2><p>- Válido solo por el<strong> 17 de marzo del 2025.</strong></p><p>- Aplican online y tiendas físicas. </p>"
+            "text": "<h2>COLOR DEL DÍA: LILA 💜</h2><h2>¡25% OFF EN TODAS LAS PRENDAS LILA!</h2><p>- Válido solo por el<strong> 24 de marzo del 2025.</strong></p><p>- Exclusivo Online </p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "VER MÁS",
-            "button_link": "shopify://collections/colores-camel"
+            "button_link": "shopify://collections/colores-lila"
           }
         }
       },
@@ -66,10 +66,9 @@
         "text",
         "button"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
-        "image": "shopify://shop_images/IMG_2217.png",
+        "image": "shopify://shop_images/Lunes_Multicolor_web_cde8a00f-1334-42fd-98f9-1cf5c4510daa.png",
         "height": "adapt",
         "layout": "image_first"
       }

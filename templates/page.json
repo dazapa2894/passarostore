@@ -37,7 +37,7 @@
           "settings": {
             "image": "shopify://shop_images/Banner-web-Tequendama_d8819000-3912-4963-9411-0e8b162cd225.jpg",
             "title": "",
-            "text": "<p><strong>TEQUENDAMA - SUR</strong></p><p>Cra 42 No. 5E - 21</p><ul><li><strong>Lunes a Sábado:  </strong>8:30 AM a 6:30 PM</li><li><strong>Domingo: </strong>8:30 AM a 3 PM</li></ul>"
+            "text": "<p><strong>TEQUENDAMA - SUR</strong></p><p>Cra 42 No. 5E - 21</p><ul><li><strong>Lunes a Viernes:  </strong>8:30 AM a 6:30 PM</li><li><strong>Sábado: </strong>8:30 AM a 3 PM</li></ul>"
           }
         },
         "column_cMKpPw": {
@@ -45,7 +45,31 @@
           "settings": {
             "image": "shopify://shop_images/Banner-web-Estacion.jpg",
             "title": "",
-            "text": "<p><strong>ESTACIÓN - NORTE</strong></p><p>Av. Estación 3AN - 35</p><ul><li><strong>Lunes a Sábado:  </strong>9 AM a 6:30PM</li><li><strong>Domingo: </strong>10 AM a 4:30 PM</li></ul>"
+            "text": "<p><strong>ESTACIÓN - NORTE</strong></p><p>Av. Estación 3AN - 35</p><ul><li><strong>Lunes a Viernes:  </strong>9 AM a 6:30PM</li><li><strong>Sábado: </strong>10 AM a 4:30 PM</li></ul>"
+          }
+        },
+        "column_nRzpJP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Banner-web-Estacion.jpg",
+            "title": "",
+            "text": "<p><strong>AMÉRICAS - NORTE</strong></p><p>Av. 3N No. 21 - 50</p><ul><li><strong>Lunes a Sábado: </strong>10 AM a 7 PM</li></ul>"
+          }
+        },
+        "column_CRKL3i": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Banner-web-Estacion.jpg",
+            "title": "",
+            "text": "<p><strong>SEXTA - NORTE</strong></p><p>Av. 6 No. 13N - 29</p><ul><li><strong>Lunes a Viernes: </strong>9 AM a 6:30PM</li><li><strong>Sábado: </strong>10 AM a 4:30 PM</li></ul>"
+          }
+        },
+        "column_idVU3H": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Banner-web-Estacion.jpg",
+            "title": "",
+            "text": "<p><strong>SANTA MÓNICA - NORTE</strong></p><p>Av. 8N No. 23N - 80</p><ul><li><strong>Lunes a Viernes:</strong> 9 AM a 6 PM</li><li><strong>Sábado: </strong>9:30 AM a 5 PM</li></ul>"
           }
         }
       },
@@ -53,7 +77,10 @@
         "column_UQ6tHG",
         "column_7Qkkxq",
         "column_DTdnFT",
-        "column_cMKpPw"
+        "column_cMKpPw",
+        "column_nRzpJP",
+        "column_CRKL3i",
+        "column_idVU3H"
       ],
       "settings": {
         "title": "",

@@ -51,7 +51,7 @@
         "column_nRzpJP": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Banner-web-Estacion.jpg",
+            "image": "shopify://shop_images/Banner-Americas.jpg",
             "title": "",
             "text": "<p><strong>AMÉRICAS - NORTE</strong></p><p>Av. 3N No. 21 - 50</p><ul><li><strong>Lunes a Sábado: </strong>10 AM a 7 PM</li></ul>"
           }
@@ -59,7 +59,7 @@
         "column_CRKL3i": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Banner-web-Estacion.jpg",
+            "image": "shopify://shop_images/Banner-web-Sexta.jpg",
             "title": "",
             "text": "<p><strong>SEXTA - NORTE</strong></p><p>Av. 6 No. 13N - 29</p><ul><li><strong>Lunes a Viernes: </strong>9 AM a 6:30PM</li><li><strong>Sábado: </strong>10 AM a 4:30 PM</li></ul>"
           }
@@ -67,7 +67,7 @@
         "column_idVU3H": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Banner-web-Estacion.jpg",
+            "image": "shopify://shop_images/Banner-Santa-Monica.jpg",
             "title": "",
             "text": "<p><strong>SANTA MÓNICA - NORTE</strong></p><p>Av. 8N No. 23N - 80</p><ul><li><strong>Lunes a Viernes:</strong> 9 AM a 6 PM</li><li><strong>Sábado: </strong>9:30 AM a 5 PM</li></ul>"
           }

@@ -39,12 +39,21 @@
             "title": "",
             "text": "<p><strong>TEQUENDAMA - SUR</strong></p><p>Cra 42 No. 5E - 21</p><ul><li><strong>Lunes a Sábado:  </strong>8:30 AM a 6:30 PM</li><li><strong>Domingo: </strong>8:30 AM a 3 PM</li></ul>"
           }
+        },
+        "column_cMKpPw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Banner-web-Estacion.jpg",
+            "title": "",
+            "text": "<p><strong>ESTACIÓN - NORTE</strong></p><p>Av. Estación 3AN - 35</p><ul><li><strong>Lunes a Sábado:  </strong>9 AM a 6:30PM</li><li><strong>Domingo: </strong>10 AM a 4:30 PM</li></ul>"
+          }
         }
       },
       "block_order": [
         "column_UQ6tHG",
         "column_7Qkkxq",
-        "column_DTdnFT"
+        "column_DTdnFT",
+        "column_cMKpPw"
       ],
       "settings": {
         "title": "",

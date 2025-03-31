@@ -50,14 +50,14 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<h2>COLOR DEL DÍA: LILA 💜</h2><h2>¡25% OFF EN TODAS LAS PRENDAS LILA!</h2><p>- Válido solo por el<strong> 24 de marzo del 2025.</strong></p><p>- Exclusivo Online </p>"
+            "text": "<h2>COLOR DEL DÍA: NEGRO🏴</h2><h2>¡25% OFF EN TODAS LAS PRENDAS NEGRAS!</h2><p>- Válido solo por el<strong> 31 de marzo del 2025.</strong></p><p>- Tiendas físicas y online.</p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "VER MÁS",
-            "button_link": "shopify://collections/colores-lila"
+            "button_link": "shopify://collections/colores-negro"
           }
         }
       },
@@ -69,7 +69,7 @@
       "disabled": true,
       "settings": {
         "full_width": true,
-        "image": "shopify://shop_images/Lunes_Multicolor_web_cde8a00f-1334-42fd-98f9-1cf5c4510daa.png",
+        "image": "shopify://shop_images/Lunes_Multicolor_web_2_88532182-d577-40c5-b6c1-fc7584bb414b.png",
         "height": "adapt",
         "layout": "image_first"
       }

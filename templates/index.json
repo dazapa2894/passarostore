@@ -39,14 +39,6 @@
     "about_us": {
       "type": "image-with-text",
       "blocks": {
-        "heading": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "<p>HOY LUNES MULTICOLOR 🌈<br/>Exclusivo Online</p>",
-            "heading_style": "h2"
-          }
-        },
         "text": {
           "type": "text",
           "settings": {
@@ -62,10 +54,10 @@
         }
       },
       "block_order": [
-        "heading",
         "text",
         "button"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "image": "shopify://shop_images/Lunes_Multicolor_web_2_88532182-d577-40c5-b6c1-fc7584bb414b.png",

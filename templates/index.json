@@ -42,14 +42,14 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<h2>COLOR DEL DÍA: NEGRO🏴</h2><h2>¡25% OFF EN TODAS LAS PRENDAS NEGRAS!</h2><p>- Válido solo por el<strong> 31 de marzo del 2025.</strong></p><p>- Tiendas físicas y online.</p>"
+            "text": "<h2>COLOR DEL DÍA: CAFÉ🟤<br/></h2><h2>¡25% OFF EN TODAS LAS PRENDAS CAFÉS!</h2><p>- Válido solo por el<strong> 7 DE ABRIL DEL 2025.</strong></p><p>- Tiendas físicas y online.</p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "VER MÁS",
-            "button_link": "shopify://collections/colores-negro"
+            "button_link": "shopify://collections/colores-cafe"
           }
         }
       },
@@ -57,10 +57,9 @@
         "text",
         "button"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
-        "image": "shopify://shop_images/Lunes_Multicolor_web_2_88532182-d577-40c5-b6c1-fc7584bb414b.png",
+        "image": "shopify://shop_images/IMG_2476.png",
         "height": "adapt",
         "layout": "image_first"
       }

@@ -29,7 +29,7 @@
       ],
       "custom_css": [],
       "settings": {
-        "image": "shopify://shop_images/Amazonica_6.png",
+        "image": "shopify://shop_images/Amazonica_7.png",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "no-background",
         "stack_images_on_mobile": true,
@@ -74,6 +74,10 @@
         "final_button_url": "shopify://collections/nueva-coleccion"
       }
     },
+    "collection_slider": {
+      "type": "collection-slider",
+      "settings": {}
+    },
     "lunes_multicolor": {
       "type": "lunes-multicolor",
       "disabled": true,
@@ -113,10 +117,6 @@
         "show_image_outline": true,
         "show_vendor": false
       }
-    },
-    "collection_slider": {
-      "type": "collection-slider",
-      "settings": {}
     },
     "16390641501879d813": {
       "type": "apps",

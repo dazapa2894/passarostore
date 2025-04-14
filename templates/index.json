@@ -42,14 +42,14 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<h2>COLOR DEL DÍA: CAFÉ🟤<br/></h2><h2>¡25% OFF EN TODAS LAS PRENDAS CAFÉS!</h2><p>- Válido solo por el<strong> 7 DE ABRIL DEL 2025.</strong></p><p>- Tiendas físicas y online.</p>"
+            "text": "<h2>COLOR DEL DÍA: MORADO🪻<br/></h2><h2>¡25% OFF EN TODAS LAS PRENDAS MORADAS</h2><p>- Válido solo por el<strong> 14 DE ABRIL DEL 2025.</strong></p><p>- Tiendas físicas y online.</p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "VER MÁS",
-            "button_link": "shopify://collections/colores-camel"
+            "button_link": "shopify://collections/colores-morado"
           }
         }
       },
@@ -57,10 +57,9 @@
         "text",
         "button"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
-        "image": "shopify://shop_images/IMG_2476.png",
+        "image": "shopify://shop_images/IMG_2536.png",
         "height": "adapt",
         "layout": "image_first"
       }
@@ -126,7 +125,7 @@
           "settings": {
             "title": "",
             "title_color": "",
-            "title_size": 0,
+            "title_size_v2": 0,
             "alignment": "center",
             "margin_top": 0,
             "margin_bottom": 0,

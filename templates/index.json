@@ -42,14 +42,14 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<h2>COLOR DEL DÍA: MORADO🪻<br/></h2><h2>¡25% OFF EN TODAS LAS PRENDAS MORADAS</h2><p>- Válido solo por el<strong> 14 DE ABRIL DEL 2025.</strong></p><p>- Tiendas físicas y online.</p>"
+            "text": "<h2>COLOR DEL DÍA: BLANCO🍦<br/></h2><h2>¡25% OFF EN TODAS LAS PRENDAS BLANCAS!</h2><p>- Válido solo por el<strong> 21 DE ABRIL DEL 2025.</strong></p><p>- Tiendas físicas y online.</p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "VER MÁS",
-            "button_link": "shopify://collections/colores-morado"
+            "button_link": "shopify://collections/colores-blancos"
           }
         }
       },
@@ -57,10 +57,9 @@
         "text",
         "button"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
-        "image": "shopify://shop_images/IMG_2536.png",
+        "image": "shopify://shop_images/Lunes_Multicolor_web_3_b9ff7d80-0717-4fd1-938b-bad17ba42ba3.png",
         "height": "adapt",
         "layout": "image_first"
       }
@@ -128,9 +127,9 @@
             "title_color": "",
             "title_size_v2": 0,
             "alignment": "center",
-            "margin_top": 0,
-            "margin_bottom": 0,
-            "margin_sides": 0,
+            "instafeed_margin_top": 0,
+            "instafeed_margin_bottom": 0,
+            "instafeed_margin_sides": 0,
             "show_instagram_link": false,
             "link_alignment": "left",
             "link_color": "#000000",

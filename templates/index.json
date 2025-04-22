@@ -57,6 +57,7 @@
         "text",
         "button"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "image": "shopify://shop_images/Lunes_Multicolor_web_3_b9ff7d80-0717-4fd1-938b-bad17ba42ba3.png",

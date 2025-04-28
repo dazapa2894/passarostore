@@ -41,14 +41,14 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<h2>COLOR DEL DÍA: BLANCO🍦<br/></h2><h2>¡25% OFF EN TODAS LAS PRENDAS BLANCAS!</h2><p>- Válido solo por el<strong> 21 DE ABRIL DEL 2025.</strong></p><p>- Tiendas físicas y online.</p>"
+            "text": "<h2>COLOR DEL DÍA: TERRACOTA🏮<br/><br/>¡25% OFF EN PRENDAS TERRACOTA!</h2><p>- Válido solo por el<strong> 28 DE ABRIL DEL 2025.</strong></p><p>- Tiendas físicas y online.</p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "VER MÁS",
-            "button_link": "shopify://collections/colores-blancos"
+            "button_link": "shopify://collections/colores-terracota"
           }
         }
       },
@@ -56,10 +56,9 @@
         "text",
         "button"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
-        "image": "shopify://shop_images/Lunes_Multicolor_web_3_b9ff7d80-0717-4fd1-938b-bad17ba42ba3.png",
+        "image": "shopify://shop_images/WhatsApp_Image_2025-04-28_at_9.23.22_AM.jpg",
         "height": "adapt",
         "layout": "image_first"
       }

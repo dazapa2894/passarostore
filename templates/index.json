@@ -41,14 +41,14 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<h2>COLOR DEL DÍA: TERRACOTA🏮<br/><br/>¡25% OFF EN PRENDAS TERRACOTA!</h2><p>- Válido solo por el<strong> 28 DE ABRIL DEL 2025.</strong></p><p>- Tiendas físicas y online.</p>"
+            "text": "<h2>COLOR DEL DÍA: ESTAMPADO🎨<br/><br/>¡25% OFF EN PRENDAS ESTAMPADAS!</h2><p>- Válido solo por el<strong> 28 DE ABRIL DEL 2025.</strong></p><p>- Tiendas físicas y online.</p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "VER MÁS",
-            "button_link": "shopify://collections/colores-terracota"
+            "button_link": "shopify://collections/estampados"
           }
         }
       },
@@ -58,7 +58,7 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify://shop_images/WhatsApp_Image_2025-04-28_at_9.23.22_AM.jpg",
+        "image": "shopify://shop_images/WhatsApp_Image_2025-03-03_at_9.01.32_AM.jpg",
         "height": "adapt",
         "layout": "image_first"
       }

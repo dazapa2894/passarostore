@@ -41,14 +41,14 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<h2>COLOR DEL DÍA: ESTAMPADO🎨<br/><br/>¡25% OFF EN PRENDAS ESTAMPADAS!</h2><p>- Válido solo por el<strong> 28 DE ABRIL DEL 2025.</strong></p><p>- Tiendas físicas y online.</p>"
+            "text": "<h2>COLOR DEL DÍA: AZUL🧿<br/><br/>¡25% de DCTO EN PRENDAS AZULES!</h2><p>- Válido solo por el<strong> 5 DE MAYO DEL 2025.</strong></p><p>- Tiendas físicas y online.</p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "VER MÁS",
-            "button_link": "shopify://collections/estampados"
+            "button_link": "shopify://collections/colores-azul"
           }
         }
       },
@@ -56,10 +56,9 @@
         "text",
         "button"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
-        "image": "shopify://shop_images/WhatsApp_Image_2025-03-03_at_9.01.32_AM.jpg",
+        "image": "shopify://shop_images/WhatsApp_Image_2025-05-05_at_7.50.52_AM.jpg",
         "height": "adapt",
         "layout": "image_first"
       }

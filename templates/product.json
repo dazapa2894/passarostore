@@ -44,17 +44,14 @@
           "type": "quantity_selector",
           "settings": {}
         },
+        "selleasy_lb_upsell_addon_block_Um3CAr": {
+          "type": "shopify://apps/selleasy/blocks/lb-upsell-addon-block/790c1a03-a71f-4bc1-9869-00dad526d3c2",
+          "settings": {}
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": true
-          }
-        },
-        "79b8595d-cec1-4d8b-9ec7-61c07465678e": {
-          "type": "shopify://apps/dealeasy/blocks/app-block/e47a8634-0496-480d-9e46-6f7fafd34b30",
-          "settings": {
-            "lb-product-handle": "",
-            "lb-product-id": ""
           }
         },
         "description": {
@@ -73,8 +70,8 @@
         "price",
         "variant_picker",
         "quantity_selector",
+        "selleasy_lb_upsell_addon_block_Um3CAr",
         "buy_buttons",
-        "79b8595d-cec1-4d8b-9ec7-61c07465678e",
         "description",
         "share"
       ],

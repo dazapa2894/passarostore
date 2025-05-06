@@ -56,6 +56,7 @@
         "text",
         "button"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "image": "shopify://shop_images/WhatsApp_Image_2025-05-05_at_7.50.52_AM.jpg",

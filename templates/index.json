@@ -41,7 +41,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<h2>COLOR DEL DÍA: AZUL🧿<br/><br/>¡25% de DCTO EN PRENDAS AZULES!</h2><p>- Válido solo por el<strong> 5 DE MAYO DEL 2025.</strong></p><p>- Tiendas físicas y online.</p>"
+            "text": "<h2>COLOR DEL DÍA: VERDE🌱<br/><br/>¡25% de DCTO EN PRENDAS VERDES!</h2><p>- Válido solo por el<strong> 12 DE MAYO DEL 2025.</strong></p><p>- Tiendas físicas y online.</p>"
           }
         },
         "button": {
@@ -56,10 +56,9 @@
         "text",
         "button"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
-        "image": "shopify://shop_images/WhatsApp_Image_2025-05-05_at_7.50.52_AM.jpg",
+        "image": "shopify://shop_images/Lunes_Multicolor_web_-_1.png",
         "height": "adapt",
         "layout": "image_first"
       }

@@ -19,6 +19,10 @@
             "text_style": "uppercase"
           }
         },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
         "title": {
           "type": "title",
           "settings": {}
@@ -54,10 +58,6 @@
             "show_dynamic_checkout": true
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {}
-        },
         "share": {
           "type": "share",
           "settings": {}
@@ -65,6 +65,7 @@
       },
       "block_order": [
         "vendor",
+        "description",
         "title",
         "subtitle",
         "price",
@@ -72,7 +73,6 @@
         "quantity_selector",
         "selleasy_lb_upsell_addon_block_Um3CAr",
         "buy_buttons",
-        "description",
         "share"
       ],
       "settings": {

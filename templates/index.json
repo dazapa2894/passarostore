@@ -48,7 +48,7 @@
           "type": "button",
           "settings": {
             "button_label": "VER MÁS",
-            "button_link": "shopify://collections/colores-arena"
+            "button_link": "shopify://collections/estampados"
           }
         }
       },
@@ -56,10 +56,9 @@
         "text",
         "button"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
-        "image": "shopify://shop_images/WhatsApp_Image_2025-05-26_at_7.18.36_AM.jpg",
+        "image": "shopify://shop_images/IMG_2965.png",
         "height": "adapt",
         "layout": "image_first"
       }

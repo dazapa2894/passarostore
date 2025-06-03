@@ -1,0 +1,101 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {}
+    },
+    "multicolumn_QwdYjr": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_UQ6tHG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Banner-web-pasoancho_eaac1a5f-d174-4b0e-8649-1fb479becf60.jpg",
+            "title": "",
+            "text": "<p><strong>PASOANCHO - SUR</strong></p><p>Calle 13 No. 73 - 116 </p><p>Local 103</p><ul><li><strong>Lunes a Sábado:  </strong>10 AM a 7 PM</li><li><strong>Domingo: </strong>10 AM a 3 PM</li></ul>"
+          }
+        },
+        "column_7Qkkxq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Banner-web-Templete.jpg",
+            "title": "",
+            "text": "<p><strong>TEMPLETE - SUR</strong></p><p>Calle 6 No. 38 - 15</p><ul><li><strong>Lunes a Sábado:  </strong>10 AM a 7 PM</li><li><strong>Domingo: </strong>10 AM a 3 PM</li></ul>"
+          }
+        },
+        "column_DTdnFT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Banner-web-Tequendama_d8819000-3912-4963-9411-0e8b162cd225.jpg",
+            "title": "",
+            "text": "<p><strong>TEQUENDAMA - SUR</strong></p><p>Cra 42 No. 5E - 21</p><ul><li><strong>Lunes a Viernes:  </strong>8:30 AM a 6:30 PM</li><li><strong>Sábado: </strong>8:30 AM a 3 PM</li></ul>"
+          }
+        },
+        "column_cMKpPw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Banner-web-Estacion.jpg",
+            "title": "",
+            "text": "<p><strong>ESTACIÓN - NORTE</strong></p><p>Av. Estación 3AN - 35</p><ul><li><strong>Lunes a Viernes:  </strong>9 AM a 6:30PM</li><li><strong>Sábado: </strong>10 AM a 4:30 PM</li></ul>"
+          }
+        },
+        "column_nRzpJP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Banner-Americas.jpg",
+            "title": "",
+            "text": "<p><strong>AMÉRICAS - NORTE</strong></p><p>Av. 3N No. 21 - 50</p><ul><li><strong>Lunes a Sábado: </strong>10 AM a 7 PM</li></ul>"
+          }
+        },
+        "column_CRKL3i": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Banner-web-Sexta.jpg",
+            "title": "",
+            "text": "<p><strong>SEXTA - NORTE</strong></p><p>Av. 6 No. 13N - 29</p><ul><li><strong>Lunes a Viernes: </strong>9 AM a 6:30PM</li><li><strong>Sábado: </strong>10 AM a 4:30 PM</li></ul>"
+          }
+        },
+        "column_idVU3H": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Banner-Santa-Monica.jpg",
+            "title": "",
+            "text": "<p><strong>SANTA MÓNICA - NORTE</strong></p><p>Av. 8N No. 23N - 80</p><ul><li><strong>Lunes a Viernes:</strong> 9 AM a 6 PM</li><li><strong>Sábado: </strong>9:30 AM a 5 PM</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "column_UQ6tHG",
+        "column_7Qkkxq",
+        "column_DTdnFT",
+        "column_cMKpPw",
+        "column_nRzpJP",
+        "column_CRKL3i",
+        "column_idVU3H"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "multicolumn_QwdYjr"
+  ]
+}

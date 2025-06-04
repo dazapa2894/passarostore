@@ -420,8 +420,8 @@
         "postcode_placeholder": "Código postal (opcional)"
       },
       "general": {
-        "complete_purchase_button_label": "CONFIRMAR COMPRA",
-        "pay_now_button_label": "CONFIRMAR COMPRA"
+        "complete_purchase_button_label": "FINALIZAR COMPRA",
+        "pay_now_button_label": "FINALIZAR COMPRA"
       },
       "order_summary": {
         "apply_discount_button_label": "Aplicar"

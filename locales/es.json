@@ -428,6 +428,11 @@
       },
       "shop_policies": {
         "refund_policy": "Política de cambios y devoluciones"
+      },
+      "shipping_errors": {
+        "shipping_method_not_available_generic": {
+          "one": "¡Lo sentimos! El envío no está disponible para esta zona."
+        }
       }
     }
   }
